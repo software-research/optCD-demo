@@ -16,7 +16,8 @@ yaml_file = sys.argv[1]
 
 # open(f"modified/{yaml_file}", "w").write(f)
 
-inotify_log = open("jsql-parser-inotify-logs.csv", "r").read()
+inotify_log = open("jsql-parser-inotify-logs-with-disable.csv", "r").read()
+print("bruh")
 unused_files, used_files = classifier.utils.classify_files(inotify_log)
 
 print("unused_files:")
