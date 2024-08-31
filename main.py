@@ -17,7 +17,7 @@ def main():
     # run modified yaml file
     # get inotify-logs.csv
 
-    inotify_log = open("inotify_logs.csv", "r").read()
+    inotify_log = open("inotify-logs.csv", "r").read()
     unused_files, used_files = classifier.utils.classify_files(inotify_log)
 
     print("unused_files:")

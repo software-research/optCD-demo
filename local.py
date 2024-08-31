@@ -16,7 +16,7 @@ yaml_file = sys.argv[1]
 
 # open(f"modified/{yaml_file}", "w").write(f)
 
-inotify_log = open("inotify_logs.csv", "r").read()
+inotify_log = open("jsql-parser-inotify-logs.csv", "r").read()
 unused_files, used_files = classifier.utils.classify_files(inotify_log)
 
 print("unused_files:")
@@ -26,4 +26,8 @@ print("used_files:")
 for x in used_files:
     print(x)
 
-clusterer.utils.cluster_files(list(unused_files), list(used_files))
+unused_dirs = clusterer.utils.cluster_files(list(unused_files), list(used_files))
+
+print("unused dirs:")
+for unused_dir in unused_dirs:
+    print(unused_dir)
