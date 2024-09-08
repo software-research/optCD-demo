@@ -1,0 +1,27 @@
+without -DdisableXmlReport=true -Djacoco.skip=true -Dpmd.skip=true
+unused dirs:
+/home/runner/work/JSqlParser/JSqlParser/gradle/wrapper/
+/home/runner/work/JSqlParser/JSqlParser/config/checkstyle/
+/home/runner/work/JSqlParser/JSqlParser/target/classes/rr/
+/home/runner/work/JSqlParser/JSqlParser/target/classes/META-INF/
+/home/runner/work/JSqlParser/JSqlParser/target/site/
+/home/runner/work/JSqlParser/JSqlParser/target/test-classes/META-INF/
+/home/runner/work/JSqlParser/JSqlParser/target/maven-status/maven-compiler-plugin/compile/
+/home/runner/work/JSqlParser/JSqlParser/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/
+/home/runner/work/JSqlParser/JSqlParser/target/surefire-reports/
+/home/runner/work/JSqlParser/JSqlParser/src/site/sphinx/_images/
+/home/runner/work/JSqlParser/JSqlParser/src/site/sphinx/_static/
+
+
+with -DdisableXmlReport=true -Djacoco.skip=true -Dpmd.skip=true
+unused dirs:
+/home/runner/work/JSqlParser/JSqlParser/gradle/wrapper/
+/home/runner/work/JSqlParser/JSqlParser/config/checkstyle/
+/home/runner/work/JSqlParser/JSqlParser/target/classes/rr/
+/home/runner/work/JSqlParser/JSqlParser/target/classes/META-INF/
+/home/runner/work/JSqlParser/JSqlParser/target/test-classes/META-INF/
+/home/runner/work/JSqlParser/JSqlParser/target/maven-status/maven-compiler-plugin/compile/
+/home/runner/work/JSqlParser/JSqlParser/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/
+/home/runner/work/JSqlParser/JSqlParser/target/surefire-reports/
+/home/runner/work/JSqlParser/JSqlParser/src/site/sphinx/_images/
+/home/runner/work/JSqlParser/JSqlParser/src/site/sphinx/_static/

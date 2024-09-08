@@ -34,7 +34,7 @@ def add_set_up_python_and_dependencies(modified_file: str, indent: int, python_v
     modified_file += " " * indent + "- run: sudo apt update\n"
     modified_file += " " * indent + "- run: sudo apt install inotify-tools\n"
     modified_file += " " * indent + "- run: touch /home/runner/inotify-logs.csv\n"
-    modified_file += " " * indent + f"- run: inotifywait -dmr /home/runner/work/{repo}/{repo}/ --format '%T;%w;%f;%e' --timefmt '%T' -o /home/runner/inotify-logs.csv\n"
+    modified_file += " " * indent + f"- run: inotifywait -dmr /home/runner/work/{repo}/{repo}/ --format '%T;%w;%f;%e' --timefmt '%FT%TZ' -o /home/runner/inotify-logs.csv"
     return modified_file
 
 

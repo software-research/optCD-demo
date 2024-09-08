@@ -2,6 +2,7 @@
 import sys
 import classifier.utils
 import clusterer.utils
+import mapper.utils
 
 if len(sys.argv) < 2:
     print("Usage: python local.py <filename>")
@@ -16,9 +17,9 @@ yaml_file = sys.argv[1]
 
 # open(f"modified/{yaml_file}", "w").write(f)
 
-inotify_log = open("jsql-parser-inotify-logs-with-disable.csv", "r").read()
-print("bruh")
-unused_files, used_files = classifier.utils.classify_files(inotify_log)
+inotify_log = open("logs/jsql-parser-inotify-logs.csv", "r").read()
+
+unused_files, used_files, timestamps = classifier.utils.classify_files(inotify_log)
 
 print("unused_files:")
 for x in unused_files:
@@ -32,3 +33,13 @@ unused_dirs = clusterer.utils.cluster_files(list(unused_files), list(used_files)
 print("unused dirs:")
 for unused_dir in unused_dirs:
     print(unused_dir)
+
+# workflow_log = mapper.utils.get_raw_logs(workflow_run_id)
+
+workflow_log = open("logs/jsql-workflow-log.txt", "r").read()
+
+responsible_plugins = mapper.utils.get_responsible_plugins(workflow_log, unused_dirs, timestamps)
+
+print("responsible_plugins:")
+for a, b in responsible_plugins:
+    print(a, b)
