@@ -16,7 +16,6 @@ def classify_files(inotify_log: str) -> tuple[set[str], set[str], defaultdict[st
         if 'IN_ISDIR' in event and filename != '':
             full_path += os.sep
 
-        # when a directory gets created, inotifywait logs that it gets accessed, but it is still unused regardless
         if 'IN_CREATE' in event:
             used_files.discard(full_path)
             unused_files.add(full_path)
