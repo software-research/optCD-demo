@@ -4,6 +4,7 @@ Demo tool for OptCD
 ## Usage
 
 ```
+gh auth login # if you are not already logged in to gh cli
 ./run.sh <path/to/input/yaml/file> <path/to/output/yaml/file> <owner> <repo> <github-api-token>
 
 <path/to/input/yaml/file> must point to {local_repo_root}/.github/workflows/{your_workflow}.yml
