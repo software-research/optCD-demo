@@ -62,7 +62,7 @@ jobs:
         - name: Run base action
           uses: ogul1/base-action@main
           with:
-          yaml-file: .github/workflows/example.yml
+           yaml-file: .github/workflows/example.yml
 
         -     name: My first step
               if: |
