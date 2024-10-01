@@ -60,13 +60,23 @@ def modify_file_content(repo: str, loaded_yaml: dict) -> str:
     loaded_yaml.pop(True, None)
 
     for job in loaded_yaml["jobs"]:
-        name = loaded_yaml["jobs"][job]["name"] if "name" in loaded_yaml["jobs"][job] else job
-        setup = [set_up_python, install_dependencies, run_inotifywait(name, repo)]
+        # modify the name based on strategy matrix
+        job_name = "OptCD " + job
+        if "strategy" in loaded_yaml["jobs"][job] and "matrix" in loaded_yaml["jobs"][job]["strategy"]:
+            job_name += " ("
+            matrix_variable_names = []
+            for key in loaded_yaml["jobs"][job]["strategy"]["matrix"].keys():
+                matrix_variable_names.append("${{ matrix." + key + " }}")
+            job_name += ', '.join(matrix_variable_names)
+            job_name += ")"
+
+        loaded_yaml["jobs"][job]["name"] = job_name
+        setup = [set_up_python, install_dependencies, run_inotifywait(job_name, repo)]
 
         # add setup to beginning of each job
         loaded_yaml["jobs"][job]["steps"] = setup + loaded_yaml["jobs"][job]["steps"]
         # upload artifacts at the end of each job
-        loaded_yaml["jobs"][job]["steps"].append(upload_inotifywait_artifact(name))
+        loaded_yaml["jobs"][job]["steps"].append(upload_inotifywait_artifact(job_name))
 
         # remove all if's
         loaded_yaml["jobs"][job].pop("if", None)

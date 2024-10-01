@@ -18,13 +18,10 @@ def get_responsible_plugins(log: str, unused_dirs: list[str], timestamps: defaul
 
     for unused_dir in unused_dirs:
         if unused_dir not in timestamps:
-            responsible_plugins.append((unused_dir, "Not responsible by any plugin"))
             continue
         timestamp = parser.isoparse(timestamps[unused_dir])
         i = bisect_right(plugin_timestamps, timestamp)
-        if i == 0:
-            responsible_plugins.append((unused_dir, "Not responsible by any plugin"))
-        else:
+        if i > 0:
             responsible_plugins.append((unused_dir, plugin_names[i - 1]))
 
     return responsible_plugins
