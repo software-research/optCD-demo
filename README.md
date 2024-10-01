@@ -59,17 +59,7 @@ Unused directories and their responsible plugins in Java 11 building ...
 ╒══════════════════════════════════════════════════════════════════╤════════════════════════════════════════════════════════════════╕
 │ Unused directory                                                 │ Responsible plugin                                             │
 ╞══════════════════════════════════════════════════════════════════╪════════════════════════════════════════════════════════════════╡
-│ /home/runner/work/JSqlParser/JSqlParser/.github/workflows/       │ Not responsible by any plugin                                  │
-├──────────────────────────────────────────────────────────────────┼────────────────────────────────────────────────────────────────┤
-│ /home/runner/work/JSqlParser/JSqlParser/.github/ISSUE_TEMPLATE/  │ Not responsible by any plugin                                  │
-├──────────────────────────────────────────────────────────────────┼────────────────────────────────────────────────────────────────┤
-│ /home/runner/work/JSqlParser/JSqlParser/.git/hooks/              │ Not responsible by any plugin                                  │
-├──────────────────────────────────────────────────────────────────┼────────────────────────────────────────────────────────────────┤
-│ /home/runner/work/JSqlParser/JSqlParser/src/site/sphinx/_static/ │ Not responsible by any plugin                                  │
-├──────────────────────────────────────────────────────────────────┼────────────────────────────────────────────────────────────────┤
 │ /home/runner/work/JSqlParser/JSqlParser/target/classes/META-INF/ │ maven-bundle-plugin:5.1.8:bundle (default-bundle) @ jsqlparser │
-├──────────────────────────────────────────────────────────────────┼────────────────────────────────────────────────────────────────┤
-│ /home/runner/work/JSqlParser/JSqlParser/target/classes/rr/       │ Not responsible by any plugin                                  │
 ├──────────────────────────────────────────────────────────────────┼────────────────────────────────────────────────────────────────┤
 │ /home/runner/work/JSqlParser/JSqlParser/target/site/             │ maven-pmd-plugin:3.21.2:pmd (pmd) @ jsqlparser                 │
 ├──────────────────────────────────────────────────────────────────┼────────────────────────────────────────────────────────────────┤
