@@ -55,7 +55,7 @@ Or, if an output file name is not provided, the output will be written to standa
 An example output of those commands would be like the following:
 
 ```
-Unused directories and their responsible plugins in Java 11 building ...
+Unused directories and their responsible plugins in OptCD package (11)
 ╒══════════════════════════════════════════════════════════════════╤════════════════════════════════════════════════════════════════╕
 │ Unused directory                                                 │ Responsible plugin                                             │
 ╞══════════════════════════════════════════════════════════════════╪════════════════════════════════════════════════════════════════╡
