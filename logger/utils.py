@@ -58,6 +58,8 @@ def modify_file_content(repo: str, loaded_yaml: dict) -> str:
 
     loaded_yaml["on"] = ["push", "workflow_dispatch"]
     loaded_yaml.pop(True, None)
+    loaded_yaml.pop("concurrency", None)
+    loaded_yaml["name"] = "Modified " + loaded_yaml["name"]
 
     for job in loaded_yaml["jobs"]:
         # modify the name based on strategy matrix
@@ -66,6 +68,8 @@ def modify_file_content(repo: str, loaded_yaml: dict) -> str:
             job_name += " ("
             matrix_variable_names = []
             for key in loaded_yaml["jobs"][job]["strategy"]["matrix"].keys():
+                if key == "include" or key == "exclude":
+                    continue
                 matrix_variable_names.append("${{ matrix." + key + " }}")
             job_name += ', '.join(matrix_variable_names)
             job_name += ")"
