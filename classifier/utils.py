@@ -1,11 +1,10 @@
 import os
-from collections import defaultdict
 
 
-def classify_files(inotify_log: str) -> tuple[set[str], set[str], defaultdict[str, str]]:
+def classify_files(inotify_log: str) -> tuple[set[str], set[str], dict[str, str]]:
     unused_files = set()
     used_files = set()
-    timestamps = defaultdict(str)
+    timestamps = dict()
 
     for line in inotify_log.splitlines():
         timestamp, directory, filename, event = line.split(';')

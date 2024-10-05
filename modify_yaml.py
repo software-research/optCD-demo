@@ -19,10 +19,20 @@ def main():
 
     with open(input_yaml_filename, "r") as f:
         loaded_yaml = yaml.safe_load(f)
+        f.seek(0)
+        comments = []
+        for line in f:
+            line = line.strip()
+            if line.startswith("#"):
+                comments.append(line)
+
         modified_file = logger.utils.modify_file_content(repo, loaded_yaml)
         print(modified_file)
 
-        with open(output_yaml_filename, "w+") as output:
+        with open(output_yaml_filename, "w") as output:
+            for comment in comments:
+                output.write(comment + "\n")
+            output.write("\n")
             output.write(modified_file)
 
 

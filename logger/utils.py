@@ -19,6 +19,7 @@ def run_inotifywait(log_name: str, repo: str) -> dict:
         "run": "python3 -c \"\n"
                "import inotify.adapters\n"
                "import inotify.constants\n"
+               "import os\n"
                "from datetime import datetime, timezone\n"
                f"with open('/home/runner/inotifywait-log-{log_name}.csv', 'w') as log_file:\n"
                f"  i = inotify.adapters.InotifyTree('/home/runner/work/{repo}/{repo}', inotify.constants.IN_CREATE | inotify.constants.IN_ACCESS)\n"
@@ -27,6 +28,8 @@ def run_inotifywait(log_name: str, repo: str) -> dict:
                 "    now = datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%S.%f') + 'Z'\n"
                 "    events = ','.join(type_names)\n"
                 "    log_file.write(f'{now};{path};{filename};{events}\\n')\n"
+                "    log_file.flush()\n"
+                "    os.fsync(log_file.fileno())\n"
                 "\" &\n"
     }
 
@@ -62,8 +65,10 @@ def modify_file_content(repo: str, loaded_yaml: dict) -> str:
     loaded_yaml["name"] = "Modified " + loaded_yaml["name"]
 
     for job in loaded_yaml["jobs"]:
+        if "steps" not in loaded_yaml["jobs"][job]:
+            continue
         # modify the name based on strategy matrix
-        job_name = "OptCD " + job
+        job_name = job
         if "strategy" in loaded_yaml["jobs"][job] and "matrix" in loaded_yaml["jobs"][job]["strategy"]:
             job_name += " ("
             matrix_variable_names = []
@@ -87,5 +92,15 @@ def modify_file_content(repo: str, loaded_yaml: dict) -> str:
 
         for step in loaded_yaml["jobs"][job]["steps"]:
             step.pop("if", None)
+
+        n = len(loaded_yaml["jobs"][job]["steps"])
+        new_steps = []
+        for i in range(n):
+            new_steps.append(loaded_yaml["jobs"][job]["steps"][i])
+            if 3 <= i < n - 1:
+                new_steps.append({
+                    "run": f"touch optcd-{i}.txt"
+                })
+        loaded_yaml["jobs"][job]["steps"] = new_steps
 
     return yaml.safe_dump(loaded_yaml, sort_keys=False)

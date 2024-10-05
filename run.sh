@@ -1,5 +1,10 @@
 #!/bin/bash
 
+if [ "$#" -le 4 ]; then
+  echo "Usage: run.sh <input_yaml_filename> <output_yaml_filename> <owner> <repo> <github_api_token> [output_file]"
+  exit 1
+fi
+
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
@@ -19,10 +24,14 @@ echo "[INFO] $(date +"%Y-%m-%d %H:%M:%S") | Finished modifying the original YAML
 
 path_to_yaml_file=$(echo "$output_yaml_filename" | rev | cut -d'/' -f1-3 | rev)
 path_to_local_repo=$(echo "$output_yaml_filename" | rev | cut -d'/' -f4- | rev)
+workflow_file=$(echo "$output_yaml_filename" | rev | cut -d'/' -f1 | rev | cut -d'.' -f1)
 
 run_id=$(gh run list --repo "$owner"/"$repo" --workflow "$path_to_yaml_file" --limit 1 --json databaseId --jq '.[0].databaseId')
 
-
+branch=$(git -C "$path_to_local_repo" rev-parse --abbrev-ref HEAD)
+git -C "$path_to_local_repo" fetch
+git -C "$path_to_local_repo" rebase origin/"$branch"
+git -C "$path_to_local_repo" push origin "$branch":"$branch"
 git -C "$path_to_local_repo" add "$path_to_yaml_file"
 git -C "$path_to_local_repo" commit -m "add modified YAML file"
 git -C "$path_to_local_repo" push
@@ -56,31 +65,33 @@ done
 job_ids=$(gh run view "$run_id" --repo "$owner"/"$repo" --json jobs --jq '.jobs.[] | (.databaseId | tostring) + " " + .name')
 
 while IFS=' ' read -r job_id name; do
-  rm -rf inotifywait-"$name"
+  rm -rf "$repo"/inotifywait-"$name"
 done <<< "$job_ids"
 
 rm -rf "$output_file"
 
-# download inotifywait log to inotifywait-${{ job_name }}/inotifywait-log-${{ job_name }}.txt
-gh run download "$run_id" --repo "$owner"/"$repo"
+mkdir -p "$repo"-"$workflow_file"
+mkdir -p "$repo"
+# download inotifywait log to "$repo"/inotifywait-${{ job_name }}/inotifywait-log-${{ job_name }}.csv
+gh run download "$run_id" --repo "$owner"/"$repo" -D "$repo"-"$workflow_file"
 
 echo "[INFO] $(date +"%Y-%m-%d %H:%M:%S") | Downloaded the inotifywait log artifacts."
 echo "[INFO] $(date +"%Y-%m-%d %H:%M:%S") | Finding unused directories and their responsible plugins."
 
 while IFS=' ' read -r job_id name; do
-  # fetch workflow run logs to workflow-run-log.txt
+  # fetch workflow run logs to "$repo"/workflow-run-log.txt
   curl -s -H "Accept: application/vnd.github+json" \
        -H "Authorization: Bearer $github_api_token" \
        -H "X-GitHub-Api-Version: 2022-11-28" \
        -L "https://api.github.com/repos/$owner/$repo/actions/jobs/$job_id/logs" \
-       -o workflow-run-log.txt
+       -o "$repo"/workflow-run-log-"$name"-"$workflow_file".txt
 
   if [ "$output_file" != "" ]; then
-    echo "Unused directories and their responsible plugins in $name" >> "$output_file"
+    echo "Unused directories and their responsible plugins in $name:" >> "$output_file"
   else
     echo "Unused directories and their responsible plugins in $name:"
   fi
-  python find_plugins.py inotifywait-"$name"/inotifywait-log-"$name".csv workflow-run-log.txt "$output_file"
+  python find_plugins.py "$repo"-"$workflow_file"/inotifywait-"$name"/inotifywait-log-"$name".csv "$repo"/workflow-run-log-"$name"-"$workflow_file".txt "$output_file" "$input_yaml_filename" "$name" "$repo"
 done <<< "$job_ids"
 
 if [ "$output_file" != "" ]; then
