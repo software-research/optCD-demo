@@ -1,0 +1,32 @@
+[
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-plugins/notebookrepo/s3/target/lib/",
+    "Responsible plugin": "maven-dependency-plugin:3.1.2:copy-dependencies (copy-dependencies) @ notebookrepo-s3",
+    "Responsible command": "./mvnw install -DskipTests -am -pl flink/flink-scala-2.12,flink-cmd,zeppelin-interpreter-integration -Pflink-${{ matrix.flink }} -Pintegration ${MAVEN_ARGS}\n./mvnw clean package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment for flink"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-plugins/notebookrepo/oss/target/lib/",
+    "Responsible plugin": "maven-dependency-plugin:3.1.2:copy-dependencies (copy-dependencies) @ notebookrepo-oss",
+    "Responsible command": "./mvnw install -DskipTests -am -pl flink/flink-scala-2.12,flink-cmd,zeppelin-interpreter-integration -Pflink-${{ matrix.flink }} -Pintegration ${MAVEN_ARGS}\n./mvnw clean package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment for flink"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-plugins/notebookrepo/gcs/target/lib/",
+    "Responsible plugin": "maven-dependency-plugin:3.1.2:copy-dependencies (copy-dependencies) @ notebookrepo-gcs",
+    "Responsible command": "./mvnw install -DskipTests -am -pl flink/flink-scala-2.12,flink-cmd,zeppelin-interpreter-integration -Pflink-${{ matrix.flink }} -Pintegration ${MAVEN_ARGS}\n./mvnw clean package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment for flink"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-plugins/notebookrepo/github/target/maven-status/",
+    "Responsible plugin": "maven-compiler-plugin:3.10.1:compile (default-compile) @ notebookrepo-github",
+    "Responsible command": "./mvnw install -DskipTests -am -pl flink/flink-scala-2.12,flink-cmd,zeppelin-interpreter-integration -Pflink-${{ matrix.flink }} -Pintegration ${MAVEN_ARGS}\n./mvnw clean package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment for flink"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-plugins/notebookrepo/gcs/target/maven-status/",
+    "Responsible plugin": "maven-compiler-plugin:3.10.1:compile (default-compile) @ notebookrepo-gcs",
+    "Responsible command": "./mvnw install -DskipTests -am -pl flink/flink-scala-2.12,flink-cmd,zeppelin-interpreter-integration -Pflink-${{ matrix.flink }} -Pintegration ${MAVEN_ARGS}\n./mvnw clean package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment for flink"
+  }
+]

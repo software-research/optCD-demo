@@ -1,0 +1,8 @@
+[
+  {
+    "Unused directory": "/home/runner/work/sofa-jraft/sofa-jraft/jraft-extension/rpc-grpc-impl/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:2.12.4:test (default-test) @ rpc-grpc-impl",
+    "Responsible command": "mvn clean install -DskipTests=true -Dmaven.javadoc.skip=true -B -V && (mvn --projects jraft-extension/rpc-grpc-impl test || mvn --projects jraft-extension/rpc-grpc-impl test || mvn --projects jraft-extension/rpc-grpc-impl test)",
+    "Name of the step": "Maven Test"
+  }
+]

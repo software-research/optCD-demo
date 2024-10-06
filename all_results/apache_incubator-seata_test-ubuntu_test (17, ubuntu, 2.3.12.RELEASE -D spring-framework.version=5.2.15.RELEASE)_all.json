@@ -1,0 +1,146 @@
+[
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/metrics/seata-metrics-registry-compact/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.0.0-M5:test (default-test) @ seata-saga-statelang",
+    "Responsible command": "./mvnw -T 4C clean test -P args-for-client-test -Dspring-boot.version=${{ matrix.springboot }} -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn;\n",
+    "Name of the step": "Test with Maven on '${{ matrix.os }}' OS"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/sqlparser/seata-sqlparser-core/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.0.0-M5:test (default-test) @ seata-saga-statelang",
+    "Responsible command": "./mvnw -T 4C clean test -P args-for-client-test -Dspring-boot.version=${{ matrix.springboot }} -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn;\n",
+    "Name of the step": "Test with Maven on '${{ matrix.os }}' OS"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/namingserver/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.0.0-M5:test (default-test) @ seata-discovery-raft",
+    "Responsible command": "./mvnw -T 4C clean test -P args-for-client-test -Dspring-boot.version=${{ matrix.springboot }} -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn;\n",
+    "Name of the step": "Test with Maven on '${{ matrix.os }}' OS"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/common/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.0.0-M5:test (default-test) @ seata-common",
+    "Responsible command": "./mvnw -T 4C clean test -P args-for-client-test -Dspring-boot.version=${{ matrix.springboot }} -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn;\n",
+    "Name of the step": "Test with Maven on '${{ matrix.os }}' OS"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/discovery/seata-discovery-eureka/target/generated-sources/",
+    "Responsible plugin": "maven-resources-plugin:3.2.0:resources (default-resources) @ seata-discovery-eureka",
+    "Responsible command": "./mvnw -T 4C clean test -P args-for-client-test -Dspring-boot.version=${{ matrix.springboot }} -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn;\n",
+    "Name of the step": "Test with Maven on '${{ matrix.os }}' OS"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/config/seata-config-core/target/surefire-reports/",
+    "Responsible plugin": "maven-remote-resources-plugin:1.5:process (process-resource-bundles) @ seata-sqlparser-druid",
+    "Responsible command": "./mvnw -T 4C clean test -P args-for-client-test -Dspring-boot.version=${{ matrix.springboot }} -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn;\n",
+    "Name of the step": "Test with Maven on '${{ matrix.os }}' OS"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-processctrl/target/surefire-reports/",
+    "Responsible plugin": "maven-remote-resources-plugin:1.5:process (process-resource-bundles) @ seata-sqlparser-druid",
+    "Responsible command": "./mvnw -T 4C clean test -P args-for-client-test -Dspring-boot.version=${{ matrix.springboot }} -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn;\n",
+    "Name of the step": "Test with Maven on '${{ matrix.os }}' OS"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statelang/target/surefire-reports/",
+    "Responsible plugin": "maven-remote-resources-plugin:1.5:process (process-resource-bundles) @ seata-sqlparser-antlr",
+    "Responsible command": "./mvnw -T 4C clean test -P args-for-client-test -Dspring-boot.version=${{ matrix.springboot }} -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn;\n",
+    "Name of the step": "Test with Maven on '${{ matrix.os }}' OS"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/target/",
+    "Responsible plugin": "maven-remote-resources-plugin:1.5:process (process-resource-bundles) @ seata-parent",
+    "Responsible command": "./mvnw -T 4C clean test -P args-for-client-test -Dspring-boot.version=${{ matrix.springboot }} -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn;\n",
+    "Name of the step": "Test with Maven on '${{ matrix.os }}' OS"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/integration/dubbo/target/",
+    "Responsible plugin": "maven-remote-resources-plugin:1.5:process (process-resource-bundles) @ seata-dubbo",
+    "Responsible command": "./mvnw -T 4C clean test -P args-for-client-test -Dspring-boot.version=${{ matrix.springboot }} -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn;\n",
+    "Name of the step": "Test with Maven on '${{ matrix.os }}' OS"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/core/target/surefire-reports/",
+    "Responsible plugin": "maven-remote-resources-plugin:1.5:process (process-resource-bundles) @ seata-discovery-all",
+    "Responsible command": "./mvnw -T 4C clean test -P args-for-client-test -Dspring-boot.version=${{ matrix.springboot }} -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn;\n",
+    "Name of the step": "Test with Maven on '${{ matrix.os }}' OS"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/config/seata-config-nacos/target/surefire-reports/",
+    "Responsible plugin": "maven-pmd-plugin:3.8:pmd (pmd) @ seata-discovery-namingserver",
+    "Responsible command": "./mvnw -T 4C clean test -P args-for-client-test -Dspring-boot.version=${{ matrix.springboot }} -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn;\n",
+    "Name of the step": "Test with Maven on '${{ matrix.os }}' OS"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/metrics/seata-metrics-api/target/surefire-reports/",
+    "Responsible plugin": "maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ seata-common",
+    "Responsible command": "./mvnw -T 4C clean test -P args-for-client-test -Dspring-boot.version=${{ matrix.springboot }} -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn;\n",
+    "Name of the step": "Test with Maven on '${{ matrix.os }}' OS"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/console/target/",
+    "Responsible plugin": "license-maven-plugin:4.0:remove (default) @ seata-saga-engine-store",
+    "Responsible command": "./mvnw -T 4C clean test -P args-for-client-test -Dspring-boot.version=${{ matrix.springboot }} -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn;\n",
+    "Name of the step": "Test with Maven on '${{ matrix.os }}' OS"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/discovery/seata-discovery-zk/target/surefire-reports/",
+    "Responsible plugin": "jacoco-maven-plugin:0.8.7:report (report) @ seata-discovery-nacos",
+    "Responsible command": "./mvnw -T 4C clean test -P args-for-client-test -Dspring-boot.version=${{ matrix.springboot }} -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn;\n",
+    "Name of the step": "Test with Maven on '${{ matrix.os }}' OS"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/discovery/seata-discovery-core/target/surefire-reports/",
+    "Responsible plugin": "jacoco-maven-plugin:0.8.7:report (report) @ seata-config-custom",
+    "Responsible command": "./mvnw -T 4C clean test -P args-for-client-test -Dspring-boot.version=${{ matrix.springboot }} -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn;\n",
+    "Name of the step": "Test with Maven on '${{ matrix.os }}' OS"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/fast-json-stable-stringify/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "./mvnw -T 4C clean test -P args-for-client-test -Dspring-boot.version=${{ matrix.springboot }} -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn;\n",
+    "Name of the step": "Test with Maven on '${{ matrix.os }}' OS"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/fast-deep-equal/es6/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "./mvnw -T 4C clean test -P args-for-client-test -Dspring-boot.version=${{ matrix.springboot }} -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn;\n",
+    "Name of the step": "Test with Maven on '${{ matrix.os }}' OS"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/terser/dist/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "./mvnw -T 4C clean test -P args-for-client-test -Dspring-boot.version=${{ matrix.springboot }} -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn;\n",
+    "Name of the step": "Test with Maven on '${{ matrix.os }}' OS"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/webpack-dev-server/lib/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "./mvnw -T 4C clean test -P args-for-client-test -Dspring-boot.version=${{ matrix.springboot }} -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn;\n",
+    "Name of the step": "Test with Maven on '${{ matrix.os }}' OS"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/gensync/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "./mvnw -T 4C clean test -P args-for-client-test -Dspring-boot.version=${{ matrix.springboot }} -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn;\n",
+    "Name of the step": "Test with Maven on '${{ matrix.os }}' OS"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/json5/dist/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "./mvnw -T 4C clean test -P args-for-client-test -Dspring-boot.version=${{ matrix.springboot }} -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn;\n",
+    "Name of the step": "Test with Maven on '${{ matrix.os }}' OS"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/lodash/fp/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "./mvnw -T 4C clean test -P args-for-client-test -Dspring-boot.version=${{ matrix.springboot }} -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn;\n",
+    "Name of the step": "Test with Maven on '${{ matrix.os }}' OS"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/resolve/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "./mvnw -T 4C clean test -P args-for-client-test -Dspring-boot.version=${{ matrix.springboot }} -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn;\n",
+    "Name of the step": "Test with Maven on '${{ matrix.os }}' OS"
+  }
+]

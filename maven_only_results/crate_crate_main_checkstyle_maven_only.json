@@ -1,0 +1,128 @@
+[
+  {
+    "Unused directory": "/home/runner/work/crate/crate/extensions/jmx-monitoring/target/reports/",
+    "Responsible plugin": "maven-checkstyle-plugin:3.5.0:checkstyle (default-cli) @ repository-gcs",
+    "Responsible command": "mvn compile checkstyle:checkstyle",
+    "Name of the step": "Run checkstyle"
+  },
+  {
+    "Unused directory": "/home/runner/work/crate/crate/plugins/repository-gcs/target/reports/",
+    "Responsible plugin": "maven-checkstyle-plugin:3.5.0:checkstyle (default-cli) @ repository-gcs",
+    "Responsible command": "mvn compile checkstyle:checkstyle",
+    "Name of the step": "Run checkstyle"
+  },
+  {
+    "Unused directory": "/home/runner/work/crate/crate/plugins/es-repository-s3/target/reports/",
+    "Responsible plugin": "maven-checkstyle-plugin:3.5.0:checkstyle (default-cli) @ es-repository-s3",
+    "Responsible command": "mvn compile checkstyle:checkstyle",
+    "Name of the step": "Run checkstyle"
+  },
+  {
+    "Unused directory": "/home/runner/work/crate/crate/plugins/es-repository-azure/target/reports/",
+    "Responsible plugin": "maven-checkstyle-plugin:3.5.0:checkstyle (default-cli) @ es-repository-azure",
+    "Responsible command": "mvn compile checkstyle:checkstyle",
+    "Name of the step": "Run checkstyle"
+  },
+  {
+    "Unused directory": "/home/runner/work/crate/crate/plugins/es-discovery-ec2/target/reports/",
+    "Responsible plugin": "maven-checkstyle-plugin:3.5.0:checkstyle (default-cli) @ es-discovery-ec2",
+    "Responsible command": "mvn compile checkstyle:checkstyle",
+    "Name of the step": "Run checkstyle"
+  },
+  {
+    "Unused directory": "/home/runner/work/crate/crate/plugins/es-analysis-phonetic/target/reports/",
+    "Responsible plugin": "maven-checkstyle-plugin:3.5.0:checkstyle (default-cli) @ es-analysis-phonetic",
+    "Responsible command": "mvn compile checkstyle:checkstyle",
+    "Name of the step": "Run checkstyle"
+  },
+  {
+    "Unused directory": "/home/runner/work/crate/crate/plugins/es-analysis-common/target/reports/",
+    "Responsible plugin": "maven-checkstyle-plugin:3.5.0:checkstyle (default-cli) @ es-analysis-common",
+    "Responsible command": "mvn compile checkstyle:checkstyle",
+    "Name of the step": "Run checkstyle"
+  },
+  {
+    "Unused directory": "/home/runner/work/crate/crate/plugins/dns-discovery/target/reports/",
+    "Responsible plugin": "maven-checkstyle-plugin:3.5.0:checkstyle (default-cli) @ dns-discovery",
+    "Responsible command": "mvn compile checkstyle:checkstyle",
+    "Name of the step": "Run checkstyle"
+  },
+  {
+    "Unused directory": "/home/runner/work/crate/crate/server/target/reports/",
+    "Responsible plugin": "maven-checkstyle-plugin:3.5.0:checkstyle (default-cli) @ crate-server",
+    "Responsible command": "mvn compile checkstyle:checkstyle",
+    "Name of the step": "Run checkstyle"
+  },
+  {
+    "Unused directory": "/home/runner/work/crate/crate/libs/sql-parser/target/reports/",
+    "Responsible plugin": "maven-checkstyle-plugin:3.5.0:checkstyle (default-cli) @ crate-libs-sql-parser",
+    "Responsible command": "mvn compile checkstyle:checkstyle",
+    "Name of the step": "Run checkstyle"
+  },
+  {
+    "Unused directory": "/home/runner/work/crate/crate/libs/shared/target/reports/",
+    "Responsible plugin": "maven-checkstyle-plugin:3.5.0:checkstyle (default-cli) @ crate-libs-shared",
+    "Responsible command": "mvn compile checkstyle:checkstyle",
+    "Name of the step": "Run checkstyle"
+  },
+  {
+    "Unused directory": "/home/runner/work/crate/crate/libs/pgwire/target/reports/",
+    "Responsible plugin": "maven-checkstyle-plugin:3.5.0:checkstyle (default-cli) @ crate-libs-pgwire",
+    "Responsible command": "mvn compile checkstyle:checkstyle",
+    "Name of the step": "Run checkstyle"
+  },
+  {
+    "Unused directory": "/home/runner/work/crate/crate/libs/guice/target/reports/",
+    "Responsible plugin": "maven-checkstyle-plugin:3.5.0:checkstyle (default-cli) @ crate-libs-guice",
+    "Responsible command": "mvn compile checkstyle:checkstyle",
+    "Name of the step": "Run checkstyle"
+  },
+  {
+    "Unused directory": "/home/runner/work/crate/crate/libs/es-x-content/target/reports/",
+    "Responsible plugin": "maven-checkstyle-plugin:3.5.0:checkstyle (default-cli) @ crate-libs-es-x-content",
+    "Responsible command": "mvn compile checkstyle:checkstyle",
+    "Name of the step": "Run checkstyle"
+  },
+  {
+    "Unused directory": "/home/runner/work/crate/crate/libs/dex/target/reports/",
+    "Responsible plugin": "maven-checkstyle-plugin:3.5.0:checkstyle (default-cli) @ crate-libs-dex",
+    "Responsible command": "mvn compile checkstyle:checkstyle",
+    "Name of the step": "Run checkstyle"
+  },
+  {
+    "Unused directory": "/home/runner/work/crate/crate/extensions/lang-js/target/reports/",
+    "Responsible plugin": "maven-checkstyle-plugin:3.5.0:checkstyle (default-cli) @ crate-lang-js",
+    "Responsible command": "mvn compile checkstyle:checkstyle",
+    "Name of the step": "Run checkstyle"
+  },
+  {
+    "Unused directory": "/home/runner/work/crate/crate/benchmarks/target/reports/",
+    "Responsible plugin": "maven-checkstyle-plugin:3.5.0:checkstyle (default-cli) @ crate-benchmarks",
+    "Responsible command": "mvn compile checkstyle:checkstyle",
+    "Name of the step": "Run checkstyle"
+  },
+  {
+    "Unused directory": "/home/runner/work/crate/crate/app/target/reports/",
+    "Responsible plugin": "maven-checkstyle-plugin:3.5.0:checkstyle (default-cli) @ crate-app",
+    "Responsible command": "mvn compile checkstyle:checkstyle",
+    "Name of the step": "Run checkstyle"
+  },
+  {
+    "Unused directory": "/home/runner/work/crate/crate/libs/sql-parser/target/maven-status/",
+    "Responsible plugin": "jacoco-maven-plugin:0.8.12:prepare-agent (default-prepare-agent) @ crate-libs-sql-parser",
+    "Responsible command": "mvn compile checkstyle:checkstyle",
+    "Name of the step": "Run checkstyle"
+  },
+  {
+    "Unused directory": "/home/runner/work/crate/crate/server/target/maven-status/",
+    "Responsible plugin": "antlr4-maven-plugin:4.13.2:antlr4 (antlr) @ crate-server",
+    "Responsible command": "mvn compile checkstyle:checkstyle",
+    "Name of the step": "Run checkstyle"
+  },
+  {
+    "Unused directory": "/home/runner/work/crate/crate/libs/pgwire/target/maven-status/",
+    "Responsible plugin": "antlr4-maven-plugin:4.13.2:antlr4 (antlr) @ crate-libs-pgwire",
+    "Responsible command": "mvn compile checkstyle:checkstyle",
+    "Name of the step": "Run checkstyle"
+  }
+]

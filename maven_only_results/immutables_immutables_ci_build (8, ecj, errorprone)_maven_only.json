@@ -1,0 +1,116 @@
+[
+  {
+    "Unused directory": "/home/runner/work/immutables/immutables/value-processor/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:2.22.2:test (default-test) @ value-processor",
+    "Responsible command": "mvn --batch-mode --no-transfer-progress clean test -P${{ matrix.compiler }} -Dextra=${{ matrix.extra }}",
+    "Name of the step": "Run tests"
+  },
+  {
+    "Unused directory": "/home/runner/work/immutables/immutables/value-fixture/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:2.22.2:test (default-test) @ value-fixture",
+    "Responsible command": "mvn --batch-mode --no-transfer-progress clean test -P${{ matrix.compiler }} -Dextra=${{ matrix.extra }}",
+    "Name of the step": "Run tests"
+  },
+  {
+    "Unused directory": "/home/runner/work/immutables/immutables/serial/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:2.22.2:test (default-test) @ serial",
+    "Responsible command": "mvn --batch-mode --no-transfer-progress clean test -P${{ matrix.compiler }} -Dextra=${{ matrix.extra }}",
+    "Name of the step": "Run tests"
+  },
+  {
+    "Unused directory": "/home/runner/work/immutables/immutables/processor-testlib/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:2.22.2:test (default-test) @ processor-testlib",
+    "Responsible command": "mvn --batch-mode --no-transfer-progress clean test -P${{ matrix.compiler }} -Dextra=${{ matrix.extra }}",
+    "Name of the step": "Run tests"
+  },
+  {
+    "Unused directory": "/home/runner/work/immutables/immutables/ordinal/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:2.22.2:test (default-test) @ ordinal",
+    "Responsible command": "mvn --batch-mode --no-transfer-progress clean test -P${{ matrix.compiler }} -Dextra=${{ matrix.extra }}",
+    "Name of the step": "Run tests"
+  },
+  {
+    "Unused directory": "/home/runner/work/immutables/immutables/mongo/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:2.22.2:test (default-test) @ mongo",
+    "Responsible command": "mvn --batch-mode --no-transfer-progress clean test -P${{ matrix.compiler }} -Dextra=${{ matrix.extra }}",
+    "Name of the step": "Run tests"
+  },
+  {
+    "Unused directory": "/home/runner/work/immutables/immutables/gson/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:2.22.2:test (default-test) @ gson",
+    "Responsible command": "mvn --batch-mode --no-transfer-progress clean test -P${{ matrix.compiler }} -Dextra=${{ matrix.extra }}",
+    "Name of the step": "Run tests"
+  },
+  {
+    "Unused directory": "/home/runner/work/immutables/immutables/data/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:2.22.2:test (default-test) @ data",
+    "Responsible command": "mvn --batch-mode --no-transfer-progress clean test -P${{ matrix.compiler }} -Dextra=${{ matrix.extra }}",
+    "Name of the step": "Run tests"
+  },
+  {
+    "Unused directory": "/home/runner/work/immutables/immutables/criteria/rxjava2/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:2.22.2:test (default-test) @ criteria-rxjava2",
+    "Responsible command": "mvn --batch-mode --no-transfer-progress clean test -P${{ matrix.compiler }} -Dextra=${{ matrix.extra }}",
+    "Name of the step": "Run tests"
+  },
+  {
+    "Unused directory": "/home/runner/work/immutables/immutables/criteria/reactor/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:2.22.2:test (default-test) @ criteria-reactor",
+    "Responsible command": "mvn --batch-mode --no-transfer-progress clean test -P${{ matrix.compiler }} -Dextra=${{ matrix.extra }}",
+    "Name of the step": "Run tests"
+  },
+  {
+    "Unused directory": "/home/runner/work/immutables/immutables/criteria/mongo/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:2.22.2:test (default-test) @ criteria-mongo",
+    "Responsible command": "mvn --batch-mode --no-transfer-progress clean test -P${{ matrix.compiler }} -Dextra=${{ matrix.extra }}",
+    "Name of the step": "Run tests"
+  },
+  {
+    "Unused directory": "/home/runner/work/immutables/immutables/criteria/inmemory/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:2.22.2:test (default-test) @ criteria-inmemory",
+    "Responsible command": "mvn --batch-mode --no-transfer-progress clean test -P${{ matrix.compiler }} -Dextra=${{ matrix.extra }}",
+    "Name of the step": "Run tests"
+  },
+  {
+    "Unused directory": "/home/runner/work/immutables/immutables/criteria/geode/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:2.22.2:test (default-test) @ criteria-geode",
+    "Responsible command": "mvn --batch-mode --no-transfer-progress clean test -P${{ matrix.compiler }} -Dextra=${{ matrix.extra }}",
+    "Name of the step": "Run tests"
+  },
+  {
+    "Unused directory": "/home/runner/work/immutables/immutables/builder/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:2.22.2:test (default-test) @ builder",
+    "Responsible command": "mvn --batch-mode --no-transfer-progress clean test -P${{ matrix.compiler }} -Dextra=${{ matrix.extra }}",
+    "Name of the step": "Run tests"
+  },
+  {
+    "Unused directory": "/home/runner/work/immutables/immutables/annotate/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:2.22.2:test (default-test) @ annotate",
+    "Responsible command": "mvn --batch-mode --no-transfer-progress clean test -P${{ matrix.compiler }} -Dextra=${{ matrix.extra }}",
+    "Name of the step": "Run tests"
+  },
+  {
+    "Unused directory": "/home/runner/work/immutables/immutables/value-fixture/target/classes/nonimmutables/imprt/",
+    "Responsible plugin": "maven-compiler-plugin:3.11.0:compile (default-compile) @ value-fixture",
+    "Responsible command": "mvn --batch-mode --no-transfer-progress clean test -P${{ matrix.compiler }} -Dextra=${{ matrix.extra }}",
+    "Name of the step": "Run tests"
+  },
+  {
+    "Unused directory": "/home/runner/work/immutables/immutables/value-fixture/target/classes/nonimmutables/Uppercase/",
+    "Responsible plugin": "maven-compiler-plugin:3.11.0:compile (default-compile) @ value-fixture",
+    "Responsible command": "mvn --batch-mode --no-transfer-progress clean test -P${{ matrix.compiler }} -Dextra=${{ matrix.extra }}",
+    "Name of the step": "Run tests"
+  },
+  {
+    "Unused directory": "/home/runner/work/immutables/immutables/value-fixture/target/classes/nonimmutables/bravo/",
+    "Responsible plugin": "maven-compiler-plugin:3.11.0:compile (default-compile) @ value-fixture",
+    "Responsible command": "mvn --batch-mode --no-transfer-progress clean test -P${{ matrix.compiler }} -Dextra=${{ matrix.extra }}",
+    "Name of the step": "Run tests"
+  },
+  {
+    "Unused directory": "/home/runner/work/immutables/immutables/value-fixture/target/classes/nonimmutables/recurs/",
+    "Responsible plugin": "maven-compiler-plugin:3.11.0:compile (default-compile) @ value-fixture",
+    "Responsible command": "mvn --batch-mode --no-transfer-progress clean test -P${{ matrix.compiler }} -Dextra=${{ matrix.extra }}",
+    "Name of the step": "Run tests"
+  }
+]

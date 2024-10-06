@@ -1,0 +1,176 @@
+[
+  {
+    "Unused directory": "/home/runner/work/pdfsam/pdfsam/pdfsam-ui-components/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.5.0:test (default-test) @ pdfsam-ui-components",
+    "Responsible command": "xvfb-run mvn -Djava.awt.headless=true -Dtestfx.robot=glass -Dtestfx.headless=true -Dprism.order=sw --batch-mode --update-snapshots verify",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/pdfsam/pdfsam/pdfsam-tools/pdfsam-split-by-size/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.5.0:test (default-test) @ pdfsam-split-by-size",
+    "Responsible command": "xvfb-run mvn -Djava.awt.headless=true -Dtestfx.robot=glass -Dtestfx.headless=true -Dprism.order=sw --batch-mode --update-snapshots verify",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/pdfsam/pdfsam/pdfsam-tools/pdfsam-split-by-bookmarks/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.5.0:test (default-test) @ pdfsam-split-by-bookmarks",
+    "Responsible command": "xvfb-run mvn -Djava.awt.headless=true -Dtestfx.robot=glass -Dtestfx.headless=true -Dprism.order=sw --batch-mode --update-snapshots verify",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/pdfsam/pdfsam/pdfsam-tools/pdfsam-simple-split/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.5.0:test (default-test) @ pdfsam-simple-split",
+    "Responsible command": "xvfb-run mvn -Djava.awt.headless=true -Dtestfx.robot=glass -Dtestfx.headless=true -Dprism.order=sw --batch-mode --update-snapshots verify",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/pdfsam/pdfsam/pdfsam-service/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.5.0:test (default-test) @ pdfsam-service",
+    "Responsible command": "xvfb-run mvn -Djava.awt.headless=true -Dtestfx.robot=glass -Dtestfx.headless=true -Dprism.order=sw --batch-mode --update-snapshots verify",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/pdfsam/pdfsam/pdfsam-tools/pdfsam-rotate/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.5.0:test (default-test) @ pdfsam-rotate",
+    "Responsible command": "xvfb-run mvn -Djava.awt.headless=true -Dtestfx.robot=glass -Dtestfx.headless=true -Dprism.order=sw --batch-mode --update-snapshots verify",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/pdfsam/pdfsam/pdfsam-persistence/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.5.0:test (default-test) @ pdfsam-persistence",
+    "Responsible command": "xvfb-run mvn -Djava.awt.headless=true -Dtestfx.robot=glass -Dtestfx.headless=true -Dprism.order=sw --batch-mode --update-snapshots verify",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/pdfsam/pdfsam/pdfsam-model/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.5.0:test (default-test) @ pdfsam-model",
+    "Responsible command": "xvfb-run mvn -Djava.awt.headless=true -Dtestfx.robot=glass -Dtestfx.headless=true -Dprism.order=sw --batch-mode --update-snapshots verify",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/pdfsam/pdfsam/pdfsam-tools/pdfsam-merge/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.5.0:test (default-test) @ pdfsam-merge",
+    "Responsible command": "xvfb-run mvn -Djava.awt.headless=true -Dtestfx.robot=glass -Dtestfx.headless=true -Dprism.order=sw --batch-mode --update-snapshots verify",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/pdfsam/pdfsam/pdfsam-i18n/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.5.0:test (default-test) @ pdfsam-i18n",
+    "Responsible command": "xvfb-run mvn -Djava.awt.headless=true -Dtestfx.robot=glass -Dtestfx.headless=true -Dprism.order=sw --batch-mode --update-snapshots verify",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/pdfsam/pdfsam/pdfsam-gui/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.5.0:test (default-test) @ pdfsam-gui",
+    "Responsible command": "xvfb-run mvn -Djava.awt.headless=true -Dtestfx.robot=glass -Dtestfx.headless=true -Dprism.order=sw --batch-mode --update-snapshots verify",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/pdfsam/pdfsam/pdfsam-tools/pdfsam-extract/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.5.0:test (default-test) @ pdfsam-extract",
+    "Responsible command": "xvfb-run mvn -Djava.awt.headless=true -Dtestfx.robot=glass -Dtestfx.headless=true -Dprism.order=sw --batch-mode --update-snapshots verify",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/pdfsam/pdfsam/pdfsam-core/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.5.0:test (default-test) @ pdfsam-core",
+    "Responsible command": "xvfb-run mvn -Djava.awt.headless=true -Dtestfx.robot=glass -Dtestfx.headless=true -Dprism.order=sw --batch-mode --update-snapshots verify",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/pdfsam/pdfsam/pdfsam-basic/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.5.0:test (default-test) @ pdfsam-basic",
+    "Responsible command": "xvfb-run mvn -Djava.awt.headless=true -Dtestfx.robot=glass -Dtestfx.headless=true -Dprism.order=sw --batch-mode --update-snapshots verify",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/pdfsam/pdfsam/pdfsam-tools/pdfsam-backpages/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.5.0:test (default-test) @ pdfsam-backpages",
+    "Responsible command": "xvfb-run mvn -Djava.awt.headless=true -Dtestfx.robot=glass -Dtestfx.headless=true -Dprism.order=sw --batch-mode --update-snapshots verify",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/pdfsam/pdfsam/pdfsam-ui-components/target/generated-test-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.13.0:testCompile (default-testCompile) @ pdfsam-ui-components",
+    "Responsible command": "xvfb-run mvn -Djava.awt.headless=true -Dtestfx.robot=glass -Dtestfx.headless=true -Dprism.order=sw --batch-mode --update-snapshots verify",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/pdfsam/pdfsam/pdfsam-tools/pdfsam-split-by-size/target/generated-test-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.13.0:testCompile (default-testCompile) @ pdfsam-split-by-size",
+    "Responsible command": "xvfb-run mvn -Djava.awt.headless=true -Dtestfx.robot=glass -Dtestfx.headless=true -Dprism.order=sw --batch-mode --update-snapshots verify",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/pdfsam/pdfsam/pdfsam-tools/pdfsam-split-by-bookmarks/target/generated-test-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.13.0:testCompile (default-testCompile) @ pdfsam-split-by-bookmarks",
+    "Responsible command": "xvfb-run mvn -Djava.awt.headless=true -Dtestfx.robot=glass -Dtestfx.headless=true -Dprism.order=sw --batch-mode --update-snapshots verify",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/pdfsam/pdfsam/pdfsam-tools/pdfsam-simple-split/target/generated-test-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.13.0:testCompile (default-testCompile) @ pdfsam-simple-split",
+    "Responsible command": "xvfb-run mvn -Djava.awt.headless=true -Dtestfx.robot=glass -Dtestfx.headless=true -Dprism.order=sw --batch-mode --update-snapshots verify",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/pdfsam/pdfsam/pdfsam-service/target/generated-test-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.13.0:testCompile (default-testCompile) @ pdfsam-service",
+    "Responsible command": "xvfb-run mvn -Djava.awt.headless=true -Dtestfx.robot=glass -Dtestfx.headless=true -Dprism.order=sw --batch-mode --update-snapshots verify",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/pdfsam/pdfsam/pdfsam-tools/pdfsam-rotate/target/generated-test-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.13.0:testCompile (default-testCompile) @ pdfsam-rotate",
+    "Responsible command": "xvfb-run mvn -Djava.awt.headless=true -Dtestfx.robot=glass -Dtestfx.headless=true -Dprism.order=sw --batch-mode --update-snapshots verify",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/pdfsam/pdfsam/pdfsam-persistence/target/generated-test-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.13.0:testCompile (default-testCompile) @ pdfsam-persistence",
+    "Responsible command": "xvfb-run mvn -Djava.awt.headless=true -Dtestfx.robot=glass -Dtestfx.headless=true -Dprism.order=sw --batch-mode --update-snapshots verify",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/pdfsam/pdfsam/pdfsam-model/target/generated-test-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.13.0:testCompile (default-testCompile) @ pdfsam-model",
+    "Responsible command": "xvfb-run mvn -Djava.awt.headless=true -Dtestfx.robot=glass -Dtestfx.headless=true -Dprism.order=sw --batch-mode --update-snapshots verify",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/pdfsam/pdfsam/pdfsam-tools/pdfsam-merge/target/generated-test-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.13.0:testCompile (default-testCompile) @ pdfsam-merge",
+    "Responsible command": "xvfb-run mvn -Djava.awt.headless=true -Dtestfx.robot=glass -Dtestfx.headless=true -Dprism.order=sw --batch-mode --update-snapshots verify",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/pdfsam/pdfsam/pdfsam-i18n/target/generated-test-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.13.0:testCompile (default-testCompile) @ pdfsam-i18n",
+    "Responsible command": "xvfb-run mvn -Djava.awt.headless=true -Dtestfx.robot=glass -Dtestfx.headless=true -Dprism.order=sw --batch-mode --update-snapshots verify",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/pdfsam/pdfsam/pdfsam-gui/target/generated-test-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.13.0:testCompile (default-testCompile) @ pdfsam-gui",
+    "Responsible command": "xvfb-run mvn -Djava.awt.headless=true -Dtestfx.robot=glass -Dtestfx.headless=true -Dprism.order=sw --batch-mode --update-snapshots verify",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/pdfsam/pdfsam/pdfsam-tools/pdfsam-extract/target/generated-test-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.13.0:testCompile (default-testCompile) @ pdfsam-extract",
+    "Responsible command": "xvfb-run mvn -Djava.awt.headless=true -Dtestfx.robot=glass -Dtestfx.headless=true -Dprism.order=sw --batch-mode --update-snapshots verify",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/pdfsam/pdfsam/pdfsam-basic/target/generated-test-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.13.0:testCompile (default-testCompile) @ pdfsam-basic",
+    "Responsible command": "xvfb-run mvn -Djava.awt.headless=true -Dtestfx.robot=glass -Dtestfx.headless=true -Dprism.order=sw --batch-mode --update-snapshots verify",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/pdfsam/pdfsam/pdfsam-tools/pdfsam-backpages/target/generated-test-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.13.0:testCompile (default-testCompile) @ pdfsam-backpages",
+    "Responsible command": "xvfb-run mvn -Djava.awt.headless=true -Dtestfx.robot=glass -Dtestfx.headless=true -Dprism.order=sw --batch-mode --update-snapshots verify",
+    "Name of the step": "Build with Maven"
+  }
+]

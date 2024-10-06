@@ -1,0 +1,24 @@
+Unused directories and their responsible plugins in build (8, windows-latest):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (8, macos-latest):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (8, ubuntu-latest):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (17, windows-latest):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (17, macos-latest):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (17, ubuntu-latest):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (21, windows-latest):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (21, macos-latest):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (21, ubuntu-latest):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (22, windows-latest):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (22, macos-latest):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (22, ubuntu-latest):
+Inotify log does not exist, because the job runs on Windows or MacOS.

@@ -1,0 +1,9 @@
+Unused directories and their responsible plugins in build:
+╒═════════════════════════════════════════════════════════════╤══════════════════════════════════╤═══════════════════════╤═════════════════════╕
+│ Unused directory                                            │ Responsible plugin               │ Responsible command   │ Name of the step    │
+╞═════════════════════════════════════════════════════════════╪══════════════════════════════════╪═══════════════════════╪═════════════════════╡
+│ /home/runner/work/Java-WebSocket/Java-WebSocket/.git/logs/  │ Not responsible by maven plugins │ actions/checkout@v3   │ actions/checkout@v3 │
+├─────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────┼─────────────────────┤
+│ /home/runner/work/Java-WebSocket/Java-WebSocket/.git/hooks/ │ Not responsible by maven plugins │ actions/checkout@v3   │ actions/checkout@v3 │
+╘═════════════════════════════════════════════════════════════╧══════════════════════════════════╧═══════════════════════╧═════════════════════╛
+

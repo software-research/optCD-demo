@@ -1,0 +1,26 @@
+[
+  {
+    "Unused directory": "/home/runner/work/zookeeper/zookeeper/logs/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "tools/ci/test-connectivity.py --server . --client apache-zookeeper-${{ matrix.zk }}-bin",
+    "Name of the step": "Test ZooKeeper nightly server and ${{ matrix.zk }} client"
+  },
+  {
+    "Unused directory": "/home/runner/work/zookeeper/zookeeper/zookeeper-jute/target/classes/META-INF/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "mvn -B -V -e -ntp \"-Dstyle.color=always\" package -DskipTests",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/zookeeper/zookeeper/apache-zookeeper-3.5.9-bin/logs/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "tools/ci/test-connectivity.py --server apache-zookeeper-${{ matrix.zk }}-bin --client .",
+    "Name of the step": "Test ZooKeeper ${{ matrix.zk }} server and nightly client"
+  },
+  {
+    "Unused directory": "/home/runner/work/zookeeper/zookeeper/zookeeper-server/target/classes/META-INF/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "mvn -B -V -e -ntp \"-Dstyle.color=always\" package -DskipTests",
+    "Name of the step": "Build with Maven"
+  }
+]

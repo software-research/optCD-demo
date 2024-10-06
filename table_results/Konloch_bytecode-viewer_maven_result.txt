@@ -1,0 +1,13 @@
+Unused directories and their responsible plugins in build (8):
+╒═════════════════════════════════════════════════════════════════════════════╤══════════════════════════════════════════════════════════════════════════╤═══════════════════════════════╤════════════════════╕
+│ Unused directory                                                            │ Responsible plugin                                                       │ Responsible command           │ Name of the step   │
+╞═════════════════════════════════════════════════════════════════════════════╪══════════════════════════════════════════════════════════════════════════╪═══════════════════════════════╪════════════════════╡
+│ /home/runner/work/bytecode-viewer/bytecode-viewer/target/generated-sources/ │ maven-compiler-plugin:3.13.0:compile (default-compile) @ Bytecode-Viewer │ mvn -B package --file pom.xml │ Build with Maven   │
+╘═════════════════════════════════════════════════════════════════════════════╧══════════════════════════════════════════════════════════════════════════╧═══════════════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in build (11):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (17):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (21):
+Inotify log does not exist, because the job runs on Windows or MacOS.

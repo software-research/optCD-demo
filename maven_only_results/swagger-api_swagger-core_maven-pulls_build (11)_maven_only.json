@@ -1,0 +1,20 @@
+[
+  {
+    "Unused directory": "/home/runner/work/swagger-core/swagger-core/modules/swagger-gradle-plugin/.gradle/vcs-1/",
+    "Responsible plugin": "install:3.1.1:install (default-install) @ swagger-maven-plugin-jakarta",
+    "Responsible command": "./mvnw --no-transfer-progress -B install --file pom.xml\ncd ./modules/swagger-gradle-plugin\n./gradlew build --info\ncd ../..\n",
+    "Name of the step": "Build with Maven and Gradle"
+  },
+  {
+    "Unused directory": "/home/runner/work/swagger-core/swagger-core/modules/swagger-gradle-plugin/build/reports/",
+    "Responsible plugin": "install:3.1.1:install (default-install) @ swagger-maven-plugin-jakarta",
+    "Responsible command": "./mvnw --no-transfer-progress -B install --file pom.xml\ncd ./modules/swagger-gradle-plugin\n./gradlew build --info\ncd ../..\n",
+    "Name of the step": "Build with Maven and Gradle"
+  },
+  {
+    "Unused directory": "/home/runner/work/swagger-core/swagger-core/modules/swagger-project-jakarta/modules/swagger-maven-plugin-jakarta/target/lib/",
+    "Responsible plugin": "dependency:3.6.0:copy-dependencies (copy-deps) @ swagger-maven-plugin-jakarta",
+    "Responsible command": "./mvnw --no-transfer-progress -B install --file pom.xml\ncd ./modules/swagger-gradle-plugin\n./gradlew build --info\ncd ../..\n",
+    "Name of the step": "Build with Maven and Gradle"
+  }
+]

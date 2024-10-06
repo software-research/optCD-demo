@@ -1,0 +1,40 @@
+Unused directories and their responsible plugins in Test (ubuntu-latest, 8):
+╒═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╤══════════════════════════════════╤════════════════════════╤════════════════════╕
+│ Unused directory                                                                                                          │ Responsible plugin               │ Responsible command    │ Name of the step   │
+╞═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╪══════════════════════════════════╪════════════════════════╪════════════════════╡
+│ /home/runner/work/vertx-examples/vertx-examples/jpms-examples/                                                            │ Not responsible by maven plugins │ actions/checkout@v2    │ Checkout           │
+├───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼────────────────────────┼────────────────────┤
+│ /home/runner/work/vertx-examples/vertx-examples/http2-showcase/                                                           │ Not responsible by maven plugins │ actions/checkout@v2    │ Checkout           │
+├───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼────────────────────────┼────────────────────┤
+│ /home/runner/work/vertx-examples/vertx-examples/unit-examples/target/surefire-reports/                                    │ Not responsible by maven plugins │ mvn -q clean verify -B │ Run tests          │
+├───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼────────────────────────┼────────────────────┤
+│ /home/runner/work/vertx-examples/vertx-examples/virtual-threads-examples/                                                 │ Not responsible by maven plugins │ actions/checkout@v2    │ Checkout           │
+├───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼────────────────────────┼────────────────────┤
+│ /home/runner/work/vertx-examples/vertx-examples/camel-bridge-examples/target/generated-sources/                           │ Not responsible by maven plugins │ mvn -q clean verify -B │ Run tests          │
+├───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼────────────────────────┼────────────────────┤
+│ /home/runner/work/vertx-examples/vertx-examples/opentracing-examples/target/maven-status/                                 │ Not responsible by maven plugins │ mvn -q clean verify -B │ Run tests          │
+├───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼────────────────────────┼────────────────────┤
+│ /home/runner/work/vertx-examples/vertx-examples/.git/logs/                                                                │ Not responsible by maven plugins │ actions/checkout@v2    │ Checkout           │
+├───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼────────────────────────┼────────────────────┤
+│ /home/runner/work/vertx-examples/vertx-examples/.git/hooks/                                                               │ Not responsible by maven plugins │ actions/checkout@v2    │ Checkout           │
+├───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼────────────────────────┼────────────────────┤
+│ /home/runner/work/vertx-examples/vertx-examples/grpc-examples/target/generated-sources/                                   │ Not responsible by maven plugins │ mvn -q clean verify -B │ Run tests          │
+├───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼────────────────────────┼────────────────────┤
+│ /home/runner/work/vertx-examples/vertx-examples/web-examples/target/protoc-dependencies/1f05528d9a26f2f20688b1569d8610e2/ │ Not responsible by maven plugins │ mvn -q clean verify -B │ Run tests          │
+├───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼────────────────────────┼────────────────────┤
+│ /home/runner/work/vertx-examples/vertx-examples/web-examples/target/protoc-dependencies/be270a52e7404e6cc25b5cd165eb5252/ │ Not responsible by maven plugins │ mvn -q clean verify -B │ Run tests          │
+╘═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╧══════════════════════════════════╧════════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in Test (windows-latest, 8):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in Test (ubuntu-latest, 21):
+╒═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╤══════════════════════════════════╤════════════════════════╤════════════════════╕
+│ Unused directory                                                                                                          │ Responsible plugin               │ Responsible command    │ Name of the step   │
+╞═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╪══════════════════════════════════╪════════════════════════╪════════════════════╡
+│ /home/runner/work/vertx-examples/vertx-examples/web-examples/target/protoc-dependencies/1f05528d9a26f2f20688b1569d8610e2/ │ Not responsible by maven plugins │ mvn -q clean verify -B │ Run tests          │
+├───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼────────────────────────┼────────────────────┤
+│ /home/runner/work/vertx-examples/vertx-examples/grpc-examples/target/generated-sources/                                   │ Not responsible by maven plugins │ mvn -q clean verify -B │ Run tests          │
+├───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼────────────────────────┼────────────────────┤
+│ /home/runner/work/vertx-examples/vertx-examples/unit-examples/target/surefire-reports/                                    │ Not responsible by maven plugins │ mvn -q clean verify -B │ Run tests          │
+╘═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╧══════════════════════════════════╧════════════════════════╧════════════════════╛
+

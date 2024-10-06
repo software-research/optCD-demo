@@ -1,0 +1,10 @@
+Unused directories and their responsible plugins in build (samples/client/echo_api/java/apache-httpclient):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (samples/client/echo_api/java/feign-gson):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (samples/client/echo_api/java/okhttp-gson):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (samples/client/echo_api/java/resttemplate):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (samples/client/echo_api/java/resteasy):
+Inotify log does not exist, because the job runs on Windows or MacOS.

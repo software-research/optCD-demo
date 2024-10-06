@@ -1,0 +1,8 @@
+[
+  {
+    "Unused directory": "/home/runner/work/spring-cloud-tencent/spring-cloud-tencent/spring-cloud-tencent-plugin-starters/spring-cloud-starter-tencent-threadlocal-plugin/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:2.22.2:test (default-test) @ spring-cloud-starter-tencent-threadlocal-plugin",
+    "Responsible command": "mvn clean test -f pom.xml -B -P sonatype -U",
+    "Name of the step": "Test with Maven"
+  }
+]

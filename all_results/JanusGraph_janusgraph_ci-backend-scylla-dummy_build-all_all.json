@@ -1,0 +1,140 @@
+[
+  {
+    "Unused directory": "/home/runner/work/janusgraph/janusgraph/janusgraph-grpc/target/generated-sources/",
+    "Responsible plugin": "protobuf-maven-plugin:0.6.1:compile (default) @ janusgraph-grpc",
+    "Responsible command": "mvn clean install --projects janusgraph-all -Pjanusgraph-cache -Dmaven.javadoc.skip=true ${{ env.BUILD_MAVEN_OPTS }}",
+    "Name of the step": "mvn clean install --projects janusgraph-all -Pjanusgraph-cache -Dmaven.javadoc.skip=true ${{ env.BUILD_MAVEN_OPTS }}"
+  },
+  {
+    "Unused directory": "/home/runner/work/janusgraph/janusgraph/janusgraph-all/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.3.1:test (default-test) @ janusgraph-all",
+    "Responsible command": "mvn verify --projects janusgraph-all -Pjanusgraph-cache ${{ env.VERIFY_MAVEN_OPTS }}",
+    "Name of the step": "mvn verify --projects janusgraph-all -Pjanusgraph-cache ${{ env.VERIFY_MAVEN_OPTS }}"
+  },
+  {
+    "Unused directory": "/home/runner/work/janusgraph/janusgraph/janusgraph-all/target/dependency-maven-plugin-markers/",
+    "Responsible plugin": "maven-dependency-plugin:3.8.0:unpack-dependencies (unpack-dependency-classes) @ janusgraph-all",
+    "Responsible command": "mvn verify --projects janusgraph-all -Pjanusgraph-cache ${{ env.VERIFY_MAVEN_OPTS }}",
+    "Name of the step": "mvn verify --projects janusgraph-all -Pjanusgraph-cache ${{ env.VERIFY_MAVEN_OPTS }}"
+  },
+  {
+    "Unused directory": "/home/runner/work/janusgraph/janusgraph/janusgraph-solr/target/dependency/",
+    "Responsible plugin": "maven-dependency-plugin:3.8.0:copy (copy-jts) @ janusgraph-solr",
+    "Responsible command": "mvn clean install --projects janusgraph-all -Pjanusgraph-cache -Dmaven.javadoc.skip=true ${{ env.BUILD_MAVEN_OPTS }}",
+    "Name of the step": "mvn clean install --projects janusgraph-all -Pjanusgraph-cache -Dmaven.javadoc.skip=true ${{ env.BUILD_MAVEN_OPTS }}"
+  },
+  {
+    "Unused directory": "/home/runner/work/janusgraph/janusgraph/janusgraph-server/target/generated-test-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.13.0:testCompile (default-testCompile) @ janusgraph-server",
+    "Responsible command": "mvn clean install --projects janusgraph-all -Pjanusgraph-cache -Dmaven.javadoc.skip=true ${{ env.BUILD_MAVEN_OPTS }}",
+    "Name of the step": "mvn clean install --projects janusgraph-all -Pjanusgraph-cache -Dmaven.javadoc.skip=true ${{ env.BUILD_MAVEN_OPTS }}"
+  },
+  {
+    "Unused directory": "/home/runner/work/janusgraph/janusgraph/janusgraph-inmemory/target/generated-test-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.13.0:testCompile (default-testCompile) @ janusgraph-inmemory",
+    "Responsible command": "mvn clean install --projects janusgraph-all -Pjanusgraph-cache -Dmaven.javadoc.skip=true ${{ env.BUILD_MAVEN_OPTS }}",
+    "Name of the step": "mvn clean install --projects janusgraph-all -Pjanusgraph-cache -Dmaven.javadoc.skip=true ${{ env.BUILD_MAVEN_OPTS }}"
+  },
+  {
+    "Unused directory": "/home/runner/work/janusgraph/janusgraph/janusgraph-hadoop/target/generated-test-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.13.0:testCompile (default-testCompile) @ janusgraph-hadoop",
+    "Responsible command": "mvn clean install --projects janusgraph-all -Pjanusgraph-cache -Dmaven.javadoc.skip=true ${{ env.BUILD_MAVEN_OPTS }}",
+    "Name of the step": "mvn clean install --projects janusgraph-all -Pjanusgraph-cache -Dmaven.javadoc.skip=true ${{ env.BUILD_MAVEN_OPTS }}"
+  },
+  {
+    "Unused directory": "/home/runner/work/janusgraph/janusgraph/janusgraph-solr/target/generated-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.13.0:compile (default-compile) @ janusgraph-solr",
+    "Responsible command": "mvn clean install --projects janusgraph-all -Pjanusgraph-cache -Dmaven.javadoc.skip=true ${{ env.BUILD_MAVEN_OPTS }}",
+    "Name of the step": "mvn clean install --projects janusgraph-all -Pjanusgraph-cache -Dmaven.javadoc.skip=true ${{ env.BUILD_MAVEN_OPTS }}"
+  },
+  {
+    "Unused directory": "/home/runner/work/janusgraph/janusgraph/janusgraph-server/target/generated-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.13.0:compile (default-compile) @ janusgraph-server",
+    "Responsible command": "mvn clean install --projects janusgraph-all -Pjanusgraph-cache -Dmaven.javadoc.skip=true ${{ env.BUILD_MAVEN_OPTS }}",
+    "Name of the step": "mvn clean install --projects janusgraph-all -Pjanusgraph-cache -Dmaven.javadoc.skip=true ${{ env.BUILD_MAVEN_OPTS }}"
+  },
+  {
+    "Unused directory": "/home/runner/work/janusgraph/janusgraph/janusgraph-mixed-index-utils/target/generated-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.13.0:compile (default-compile) @ janusgraph-mixed-index-utils",
+    "Responsible command": "mvn clean install --projects janusgraph-all -Pjanusgraph-cache -Dmaven.javadoc.skip=true ${{ env.BUILD_MAVEN_OPTS }}",
+    "Name of the step": "mvn clean install --projects janusgraph-all -Pjanusgraph-cache -Dmaven.javadoc.skip=true ${{ env.BUILD_MAVEN_OPTS }}"
+  },
+  {
+    "Unused directory": "/home/runner/work/janusgraph/janusgraph/janusgraph-lucene/target/generated-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.13.0:compile (default-compile) @ janusgraph-lucene",
+    "Responsible command": "mvn clean install --projects janusgraph-all -Pjanusgraph-cache -Dmaven.javadoc.skip=true ${{ env.BUILD_MAVEN_OPTS }}",
+    "Name of the step": "mvn clean install --projects janusgraph-all -Pjanusgraph-cache -Dmaven.javadoc.skip=true ${{ env.BUILD_MAVEN_OPTS }}"
+  },
+  {
+    "Unused directory": "/home/runner/work/janusgraph/janusgraph/janusgraph-inmemory/target/generated-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.13.0:compile (default-compile) @ janusgraph-inmemory",
+    "Responsible command": "mvn clean install --projects janusgraph-all -Pjanusgraph-cache -Dmaven.javadoc.skip=true ${{ env.BUILD_MAVEN_OPTS }}",
+    "Name of the step": "mvn clean install --projects janusgraph-all -Pjanusgraph-cache -Dmaven.javadoc.skip=true ${{ env.BUILD_MAVEN_OPTS }}"
+  },
+  {
+    "Unused directory": "/home/runner/work/janusgraph/janusgraph/janusgraph-hbase/target/generated-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.13.0:compile (default-compile) @ janusgraph-hbase",
+    "Responsible command": "mvn clean install --projects janusgraph-all -Pjanusgraph-cache -Dmaven.javadoc.skip=true ${{ env.BUILD_MAVEN_OPTS }}",
+    "Name of the step": "mvn clean install --projects janusgraph-all -Pjanusgraph-cache -Dmaven.javadoc.skip=true ${{ env.BUILD_MAVEN_OPTS }}"
+  },
+  {
+    "Unused directory": "/home/runner/work/janusgraph/janusgraph/janusgraph-hadoop/target/generated-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.13.0:compile (default-compile) @ janusgraph-hadoop",
+    "Responsible command": "mvn clean install --projects janusgraph-all -Pjanusgraph-cache -Dmaven.javadoc.skip=true ${{ env.BUILD_MAVEN_OPTS }}",
+    "Name of the step": "mvn clean install --projects janusgraph-all -Pjanusgraph-cache -Dmaven.javadoc.skip=true ${{ env.BUILD_MAVEN_OPTS }}"
+  },
+  {
+    "Unused directory": "/home/runner/work/janusgraph/janusgraph/janusgraph-es/target/generated-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.13.0:compile (default-compile) @ janusgraph-es",
+    "Responsible command": "mvn clean install --projects janusgraph-all -Pjanusgraph-cache -Dmaven.javadoc.skip=true ${{ env.BUILD_MAVEN_OPTS }}",
+    "Name of the step": "mvn clean install --projects janusgraph-all -Pjanusgraph-cache -Dmaven.javadoc.skip=true ${{ env.BUILD_MAVEN_OPTS }}"
+  },
+  {
+    "Unused directory": "/home/runner/work/janusgraph/janusgraph/janusgraph-driver/target/generated-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.13.0:compile (default-compile) @ janusgraph-driver",
+    "Responsible command": "mvn clean install --projects janusgraph-all -Pjanusgraph-cache -Dmaven.javadoc.skip=true ${{ env.BUILD_MAVEN_OPTS }}",
+    "Name of the step": "mvn clean install --projects janusgraph-all -Pjanusgraph-cache -Dmaven.javadoc.skip=true ${{ env.BUILD_MAVEN_OPTS }}"
+  },
+  {
+    "Unused directory": "/home/runner/work/janusgraph/janusgraph/janusgraph-cql/target/generated-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.13.0:compile (default-compile) @ janusgraph-cql",
+    "Responsible command": "mvn clean install --projects janusgraph-all -Pjanusgraph-cache -Dmaven.javadoc.skip=true ${{ env.BUILD_MAVEN_OPTS }}",
+    "Name of the step": "mvn clean install --projects janusgraph-all -Pjanusgraph-cache -Dmaven.javadoc.skip=true ${{ env.BUILD_MAVEN_OPTS }}"
+  },
+  {
+    "Unused directory": "/home/runner/work/janusgraph/janusgraph/janusgraph-core/target/generated-test-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.13.0:compile (default-compile) @ janusgraph-core",
+    "Responsible command": "mvn clean install --projects janusgraph-all -Pjanusgraph-cache -Dmaven.javadoc.skip=true ${{ env.BUILD_MAVEN_OPTS }}",
+    "Name of the step": "mvn clean install --projects janusgraph-all -Pjanusgraph-cache -Dmaven.javadoc.skip=true ${{ env.BUILD_MAVEN_OPTS }}"
+  },
+  {
+    "Unused directory": "/home/runner/work/janusgraph/janusgraph/janusgraph-core/target/generated-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.13.0:compile (default-compile) @ janusgraph-core",
+    "Responsible command": "mvn clean install --projects janusgraph-all -Pjanusgraph-cache -Dmaven.javadoc.skip=true ${{ env.BUILD_MAVEN_OPTS }}",
+    "Name of the step": "mvn clean install --projects janusgraph-all -Pjanusgraph-cache -Dmaven.javadoc.skip=true ${{ env.BUILD_MAVEN_OPTS }}"
+  },
+  {
+    "Unused directory": "/home/runner/work/janusgraph/janusgraph/janusgraph-berkeleyje/target/generated-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.13.0:compile (default-compile) @ janusgraph-berkeleyje",
+    "Responsible command": "mvn clean install --projects janusgraph-all -Pjanusgraph-cache -Dmaven.javadoc.skip=true ${{ env.BUILD_MAVEN_OPTS }}",
+    "Name of the step": "mvn clean install --projects janusgraph-all -Pjanusgraph-cache -Dmaven.javadoc.skip=true ${{ env.BUILD_MAVEN_OPTS }}"
+  },
+  {
+    "Unused directory": "/home/runner/work/janusgraph/janusgraph/janusgraph-backend-testutils/target/generated-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.13.0:compile (default-compile) @ janusgraph-backend-testutils",
+    "Responsible command": "mvn clean install --projects janusgraph-all -Pjanusgraph-cache -Dmaven.javadoc.skip=true ${{ env.BUILD_MAVEN_OPTS }}",
+    "Name of the step": "mvn clean install --projects janusgraph-all -Pjanusgraph-cache -Dmaven.javadoc.skip=true ${{ env.BUILD_MAVEN_OPTS }}"
+  },
+  {
+    "Unused directory": "/home/runner/work/janusgraph/janusgraph/cassandra-hadoop-util/target/generated-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.13.0:compile (default-compile) @ cassandra-hadoop-util",
+    "Responsible command": "mvn clean install --projects janusgraph-all -Pjanusgraph-cache -Dmaven.javadoc.skip=true ${{ env.BUILD_MAVEN_OPTS }}",
+    "Name of the step": "mvn clean install --projects janusgraph-all -Pjanusgraph-cache -Dmaven.javadoc.skip=true ${{ env.BUILD_MAVEN_OPTS }}"
+  },
+  {
+    "Unused directory": "/home/runner/work/janusgraph/janusgraph/janusgraph-all/target/jacoco-report/",
+    "Responsible plugin": "maven-antrun-plugin:3.1.0:run (default-cli) @ janusgraph-all",
+    "Responsible command": "mvn verify --projects janusgraph-all -Pjanusgraph-cache ${{ env.VERIFY_MAVEN_OPTS }}",
+    "Name of the step": "mvn verify --projects janusgraph-all -Pjanusgraph-cache ${{ env.VERIFY_MAVEN_OPTS }}"
+  }
+]

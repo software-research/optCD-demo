@@ -1,0 +1,10 @@
+Unused directories and their responsible plugins in build (ubuntu-latest, 17):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in build (macOS-latest, 17):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (windows-latest, 17):
+Inotify log does not exist, because the job runs on Windows or MacOS.

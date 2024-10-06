@@ -1,0 +1,26 @@
+Unused directories and their responsible plugins in build (ubuntu-latest, 11.0.3):
+╒═════════════════════════════════════════════════════════════════╤══════════════════════════════════════════════════════════════╤═══════════════════════════════╤════════════════════╕
+│ Unused directory                                                │ Responsible plugin                                           │ Responsible command           │ Name of the step   │
+╞═════════════════════════════════════════════════════════════════╪══════════════════════════════════════════════════════════════╪═══════════════════════════════╪════════════════════╡
+│ /home/runner/work/javassist/javassist/target/surefire-reports/  │ maven-surefire-plugin:2.18.1:test (default-test) @ javassist │ mvn -B package --file pom.xml │ Build with Maven   │
+├─────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────────────┼───────────────────────────────┼────────────────────┤
+│ /home/runner/work/javassist/javassist/target/runtest/testproxy/ │ maven-surefire-plugin:2.18.1:test (default-test) @ javassist │ mvn -B package --file pom.xml │ Build with Maven   │
+├─────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────────────┼───────────────────────────────┼────────────────────┤
+│ /home/runner/work/javassist/javassist/target/runtest/proxy/     │ maven-surefire-plugin:2.18.1:test (default-test) @ javassist │ mvn -B package --file pom.xml │ Build with Maven   │
+├─────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────────────┼───────────────────────────────┼────────────────────┤
+│ /home/runner/work/javassist/javassist/target/runtest/javassist/ │ maven-surefire-plugin:2.18.1:test (default-test) @ javassist │ mvn -B package --file pom.xml │ Build with Maven   │
+╘═════════════════════════════════════════════════════════════════╧══════════════════════════════════════════════════════════════╧═══════════════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in build (ubuntu-latest, 11):
+╒═════════════════════════════════════════════════════════════════╤══════════════════════════════════════════════════════════════╤═══════════════════════════════╤════════════════════╕
+│ Unused directory                                                │ Responsible plugin                                           │ Responsible command           │ Name of the step   │
+╞═════════════════════════════════════════════════════════════════╪══════════════════════════════════════════════════════════════╪═══════════════════════════════╪════════════════════╡
+│ /home/runner/work/javassist/javassist/target/surefire-reports/  │ maven-surefire-plugin:2.18.1:test (default-test) @ javassist │ mvn -B package --file pom.xml │ Build with Maven   │
+├─────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────────────┼───────────────────────────────┼────────────────────┤
+│ /home/runner/work/javassist/javassist/target/runtest/proxy/     │ maven-surefire-plugin:2.18.1:test (default-test) @ javassist │ mvn -B package --file pom.xml │ Build with Maven   │
+├─────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────────────┼───────────────────────────────┼────────────────────┤
+│ /home/runner/work/javassist/javassist/target/runtest/javassist/ │ maven-surefire-plugin:2.18.1:test (default-test) @ javassist │ mvn -B package --file pom.xml │ Build with Maven   │
+├─────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────────────┼───────────────────────────────┼────────────────────┤
+│ /home/runner/work/javassist/javassist/target/runtest/testproxy/ │ maven-surefire-plugin:2.18.1:test (default-test) @ javassist │ mvn -B package --file pom.xml │ Build with Maven   │
+╘═════════════════════════════════════════════════════════════════╧══════════════════════════════════════════════════════════════╧═══════════════════════════════╧════════════════════╛
+

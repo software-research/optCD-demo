@@ -1,0 +1,74 @@
+Unused directories and their responsible plugins in dead-link:
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in img-check:
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in paths-filter:
+╒═════════════════════════════════════════════════════════════════════════════════════════╤══════════════════════════════════╤═══════════════════════╤═════════════════════╕
+│ Unused directory                                                                        │ Responsible plugin               │ Responsible command   │ Name of the step    │
+╞═════════════════════════════════════════════════════════════════════════════════════════╪══════════════════════════════════╪═══════════════════════╪═════════════════════╡
+│ /home/runner/work/dolphinscheduler/dolphinscheduler/dolphinscheduler-dist/              │ Not responsible by maven plugins │ actions/checkout@v4   │ actions/checkout@v4 │
+├─────────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────┼─────────────────────┤
+│ /home/runner/work/dolphinscheduler/dolphinscheduler/dolphinscheduler-scheduler-plugin/  │ Not responsible by maven plugins │ actions/checkout@v4   │ actions/checkout@v4 │
+├─────────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────┼─────────────────────┤
+│ /home/runner/work/dolphinscheduler/dolphinscheduler/dolphinscheduler-authentication/    │ Not responsible by maven plugins │ actions/checkout@v4   │ actions/checkout@v4 │
+├─────────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────┼─────────────────────┤
+│ /home/runner/work/dolphinscheduler/dolphinscheduler/dolphinscheduler-spi/               │ Not responsible by maven plugins │ actions/checkout@v4   │ actions/checkout@v4 │
+├─────────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────┼─────────────────────┤
+│ /home/runner/work/dolphinscheduler/dolphinscheduler/images/                             │ Not responsible by maven plugins │ actions/checkout@v4   │ actions/checkout@v4 │
+├─────────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────┼─────────────────────┤
+│ /home/runner/work/dolphinscheduler/dolphinscheduler/dolphinscheduler-microbench/        │ Not responsible by maven plugins │ actions/checkout@v4   │ actions/checkout@v4 │
+├─────────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────┼─────────────────────┤
+│ /home/runner/work/dolphinscheduler/dolphinscheduler/dolphinscheduler-yarn-aop/          │ Not responsible by maven plugins │ actions/checkout@v4   │ actions/checkout@v4 │
+├─────────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────┼─────────────────────┤
+│ /home/runner/work/dolphinscheduler/dolphinscheduler/dolphinscheduler-api-test/          │ Not responsible by maven plugins │ actions/checkout@v4   │ actions/checkout@v4 │
+├─────────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────┼─────────────────────┤
+│ /home/runner/work/dolphinscheduler/dolphinscheduler/dolphinscheduler-extract/           │ Not responsible by maven plugins │ actions/checkout@v4   │ actions/checkout@v4 │
+├─────────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────┼─────────────────────┤
+│ /home/runner/work/dolphinscheduler/dolphinscheduler/dolphinscheduler-alert/             │ Not responsible by maven plugins │ actions/checkout@v4   │ actions/checkout@v4 │
+├─────────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────┼─────────────────────┤
+│ /home/runner/work/dolphinscheduler/dolphinscheduler/dolphinscheduler-storage-plugin/    │ Not responsible by maven plugins │ actions/checkout@v4   │ actions/checkout@v4 │
+├─────────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────┼─────────────────────┤
+│ /home/runner/work/dolphinscheduler/dolphinscheduler/.git/logs/                          │ Not responsible by maven plugins │ actions/checkout@v4   │ actions/checkout@v4 │
+├─────────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────┼─────────────────────┤
+│ /home/runner/work/dolphinscheduler/dolphinscheduler/.git/hooks/                         │ Not responsible by maven plugins │ actions/checkout@v4   │ actions/checkout@v4 │
+├─────────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────┼─────────────────────┤
+│ /home/runner/work/dolphinscheduler/dolphinscheduler/dolphinscheduler-task-plugin/       │ Not responsible by maven plugins │ actions/checkout@v4   │ actions/checkout@v4 │
+├─────────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────┼─────────────────────┤
+│ /home/runner/work/dolphinscheduler/dolphinscheduler/dolphinscheduler-e2e/               │ Not responsible by maven plugins │ actions/checkout@v4   │ actions/checkout@v4 │
+├─────────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────┼─────────────────────┤
+│ /home/runner/work/dolphinscheduler/dolphinscheduler/dolphinscheduler-dao-plugin/        │ Not responsible by maven plugins │ actions/checkout@v4   │ actions/checkout@v4 │
+├─────────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────┼─────────────────────┤
+│ /home/runner/work/dolphinscheduler/dolphinscheduler/dolphinscheduler-registry/          │ Not responsible by maven plugins │ actions/checkout@v4   │ actions/checkout@v4 │
+├─────────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────┼─────────────────────┤
+│ /home/runner/work/dolphinscheduler/dolphinscheduler/dolphinscheduler-datasource-plugin/ │ Not responsible by maven plugins │ actions/checkout@v4   │ actions/checkout@v4 │
+├─────────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────┼─────────────────────┤
+│ /home/runner/work/dolphinscheduler/dolphinscheduler/docs/                               │ Not responsible by maven plugins │ actions/checkout@v4   │ actions/checkout@v4 │
+├─────────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────┼─────────────────────┤
+│ /home/runner/work/dolphinscheduler/dolphinscheduler/dolphinscheduler-ui/                │ Not responsible by maven plugins │ actions/checkout@v4   │ actions/checkout@v4 │
+╘═════════════════════════════════════════════════════════════════════════════════════════╧══════════════════════════════════╧═══════════════════════╧═════════════════════╛
+
+Unused directories and their responsible plugins in style:
+╒═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╤══════════════════════════════════╤═══════════════════════╤═════════════════════╕
+│ Unused directory                                                                                                                      │ Responsible plugin               │ Responsible command   │ Name of the step    │
+╞═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╪══════════════════════════════════╪═══════════════════════╪═════════════════════╡
+│ /home/runner/work/dolphinscheduler/dolphinscheduler/dolphinscheduler-alert/dolphinscheduler-alert-server/src/test/resources/          │ Not responsible by maven plugins │ actions/checkout@v4   │ actions/checkout@v4 │
+├───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────┼─────────────────────┤
+│ /home/runner/work/dolphinscheduler/dolphinscheduler/dolphinscheduler-storage-plugin/dolphinscheduler-storage-hdfs/src/test/resources/ │ Not responsible by maven plugins │ actions/checkout@v4   │ actions/checkout@v4 │
+├───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────┼─────────────────────┤
+│ /home/runner/work/dolphinscheduler/dolphinscheduler/dolphinscheduler-storage-plugin/dolphinscheduler-storage-s3/src/test/resources/   │ Not responsible by maven plugins │ actions/checkout@v4   │ actions/checkout@v4 │
+├───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────┼─────────────────────┤
+│ /home/runner/work/dolphinscheduler/dolphinscheduler/dolphinscheduler-task-plugin/dolphinscheduler-task-kubeflow/src/test/resources/   │ Not responsible by maven plugins │ actions/checkout@v4   │ actions/checkout@v4 │
+╘═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╧══════════════════════════════════╧═══════════════════════╧═════════════════════╛
+
+Unused directories and their responsible plugins in helm-doc:
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in result:
+Inotify log does not exist, because the job runs on Windows or MacOS.

@@ -1,0 +1,14 @@
+[
+  {
+    "Unused directory": "/home/runner/work/async-http-client/async-http-client/client/target/surefire-reports/",
+    "Responsible plugin": "surefire:3.5.0:test (default-test) @ async-http-client",
+    "Responsible command": "./mvnw -B -ntp clean test",
+    "Name of the step": "Run Tests"
+  },
+  {
+    "Unused directory": "/home/runner/work/async-http-client/async-http-client/client/target/generated-test-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ async-http-client",
+    "Responsible command": "./mvnw -B -ntp clean test",
+    "Name of the step": "Run Tests"
+  }
+]

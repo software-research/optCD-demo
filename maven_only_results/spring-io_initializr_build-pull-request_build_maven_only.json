@@ -1,0 +1,62 @@
+[
+  {
+    "Unused directory": "/home/runner/work/initializr/initializr/initializr-web/target/surefire-reports/",
+    "Responsible plugin": "surefire:3.2.5:test (default-test) @ initializr-web",
+    "Responsible command": "./mvnw --batch-mode --update-snapshots verify",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/initializr/initializr/initializr-web/target/snippets/",
+    "Responsible plugin": "surefire:3.2.5:test (default-test) @ initializr-web",
+    "Responsible command": "./mvnw --batch-mode --update-snapshots verify",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/initializr/initializr/initializr-version-resolver/target/surefire-reports/",
+    "Responsible plugin": "surefire:3.2.5:test (default-test) @ initializr-version-resolver",
+    "Responsible command": "./mvnw --batch-mode --update-snapshots verify",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/initializr/initializr/initializr-metadata/target/surefire-reports/",
+    "Responsible plugin": "surefire:3.2.5:test (default-test) @ initializr-metadata",
+    "Responsible command": "./mvnw --batch-mode --update-snapshots verify",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/initializr/initializr/initializr-generator-test/target/surefire-reports/",
+    "Responsible plugin": "surefire:3.2.5:test (default-test) @ initializr-generator-test",
+    "Responsible command": "./mvnw --batch-mode --update-snapshots verify",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/initializr/initializr/initializr-generator-spring/target/surefire-reports/",
+    "Responsible plugin": "surefire:3.2.5:test (default-test) @ initializr-generator-spring",
+    "Responsible command": "./mvnw --batch-mode --update-snapshots verify",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/initializr/initializr/initializr-generator/target/surefire-reports/",
+    "Responsible plugin": "surefire:3.2.5:test (default-test) @ initializr-generator",
+    "Responsible command": "./mvnw --batch-mode --update-snapshots verify",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/initializr/initializr/initializr-actuator/target/surefire-reports/",
+    "Responsible plugin": "surefire:3.2.5:test (default-test) @ initializr-actuator",
+    "Responsible command": "./mvnw --batch-mode --update-snapshots verify",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/initializr/initializr/initializr-generator-spring/target/generated-test-sources/",
+    "Responsible plugin": "compiler:3.13.0:testCompile (default-testCompile) @ initializr-generator-spring",
+    "Responsible command": "./mvnw --batch-mode --update-snapshots verify",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/initializr/initializr/initializr-generator/target/generated-test-sources/",
+    "Responsible plugin": "compiler:3.13.0:testCompile (default-testCompile) @ initializr-generator",
+    "Responsible command": "./mvnw --batch-mode --update-snapshots verify",
+    "Name of the step": "Build with Maven"
+  }
+]

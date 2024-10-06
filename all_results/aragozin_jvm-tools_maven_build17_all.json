@@ -1,0 +1,20 @@
+[
+  {
+    "Unused directory": "/home/runner/work/jvm-tools/jvm-tools/sjk-stacktrace/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.0.0-M5:test (default-test) @ sjk-stacktrace",
+    "Responsible command": "mvn -B help:active-profiles && mvn -B package --file pom.xml -DdisableToolchain",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/jvm-tools/jvm-tools/sjk-hflame/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.0.0-M5:test (default-test) @ sjk-hflame",
+    "Responsible command": "mvn -B help:active-profiles && mvn -B package --file pom.xml -DdisableToolchain",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/jvm-tools/jvm-tools/sjk-core/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.0.0-M5:test (default-test) @ sjk-core",
+    "Responsible command": "mvn -B help:active-profiles && mvn -B package --file pom.xml -DdisableToolchain",
+    "Name of the step": "Build with Maven"
+  }
+]

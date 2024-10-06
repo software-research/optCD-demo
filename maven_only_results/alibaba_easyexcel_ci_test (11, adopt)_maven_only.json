@@ -1,0 +1,8 @@
+[
+  {
+    "Unused directory": "/home/runner/work/easyexcel/easyexcel/easyexcel-test/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.3.0:test (default-test) @ easyexcel-test",
+    "Responsible command": "./mvnw test -B -Dmaven.test.skip=false",
+    "Name of the step": "Test with Maven"
+  }
+]

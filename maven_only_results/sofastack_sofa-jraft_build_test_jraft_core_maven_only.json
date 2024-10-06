@@ -1,0 +1,8 @@
+[
+  {
+    "Unused directory": "/home/runner/work/sofa-jraft/sofa-jraft/jraft-core/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:2.12.4:test (default-test) @ jraft-core",
+    "Responsible command": "mvn clean install -DskipTests=true -Dmaven.javadoc.skip=true -B -V && (mvn --projects jraft-core test || mvn --projects jraft-core test || mvn --projects jraft-core test)",
+    "Name of the step": "Maven Test"
+  }
+]

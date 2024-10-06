@@ -1,0 +1,8 @@
+[
+  {
+    "Unused directory": "/home/runner/work/chunjun/chunjun/output/",
+    "Responsible plugin": "maven-assembly-plugin:3.0.0:single (dist) @ chunjun-assembly",
+    "Responsible command": "./mvnw clean package -Dmaven.test.skip --no-snapshot-updates\n",
+    "Name of the step": "build project"
+  }
+]

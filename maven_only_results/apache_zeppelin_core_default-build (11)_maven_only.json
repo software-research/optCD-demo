@@ -1,0 +1,812 @@
+[
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/interpreter/bigquery/",
+    "Responsible plugin": "maven-shade-plugin:3.4.1:shade (default) @ zeppelin-bigquery",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/target/test-classes/",
+    "Responsible plugin": "maven-resources-plugin:3.3.0:testResources (default-testResources) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/interpreter/flink-cmd/",
+    "Responsible plugin": "maven-resources-plugin:3.3.0:resources (copy-interpreter-setting) @ zeppelin-flink-cmd",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/interpreter/flink/",
+    "Responsible plugin": "maven-resources-plugin:3.3.0:resources (copy-interpreter-setting) @ flink-scala-2.12",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-distribution/target/",
+    "Responsible plugin": "maven-remote-resources-plugin:1.7.0:process (process-resource-bundles) @ zeppelin-distribution",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-plugins/target/",
+    "Responsible plugin": "maven-remote-resources-plugin:1.7.0:process (process-resource-bundles) @ zengine-plugins-parent",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/plugins/",
+    "Responsible plugin": "maven-enforcer-plugin:3.0.0-M3:enforce (enforce-dependency-convergence) @ notebookrepo-github",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-server/target/lib/",
+    "Responsible plugin": "maven-dependency-plugin:3.1.2:copy-dependencies (copy-dependencies) @ zeppelin-server",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-plugins/notebookrepo/s3/target/lib/",
+    "Responsible plugin": "maven-dependency-plugin:3.1.2:copy-dependencies (copy-dependencies) @ notebookrepo-s3",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-plugins/notebookrepo/oss/target/lib/",
+    "Responsible plugin": "maven-dependency-plugin:3.1.2:copy-dependencies (copy-dependencies) @ notebookrepo-oss",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-plugins/notebookrepo/gcs/target/lib/",
+    "Responsible plugin": "maven-dependency-plugin:3.1.2:copy-dependencies (copy-dependencies) @ notebookrepo-gcs",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/json5/dist/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/topojson-client/src/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/iconv-lite/encodings/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/stream-http/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/tinycolor2/esm/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/unique-filename/coverage/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/webpack-subresource-integrity/examples/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/serve-index/public/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/object-inspect/example/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/object-inspect/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/webpack/hot/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/zone.js/lib/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/terser/tools/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/resolve/example/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/resolve/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/node-forge/dist/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/protractor/example/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/protractor/built/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/protractor/exampleTypescript/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/webdriver-manager/built/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/sax/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/sax/examples/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/monaco-editor/min/vs/language/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/monaco-editor/min/vs/basic-languages/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/typescript/lib/zh-tw/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/typescript/lib/zh-cn/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/uglify-js/lib/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/less/lib/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/less/dist/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/less/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/.bin/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/universal-analytics/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/JSONStream/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/karma/lib/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/highlight.js/scss/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/core-js/core/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/core-js/client/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/core-js/web/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/core-js/stage/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/core-js/build/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/core-js/library/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/core-js/es6/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/core-js/fn/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/@ant-design/icons-angular/fesm2015/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/@ant-design/icons-angular/bundles/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/@ant-design/icons-angular/esm2015/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/@ant-design/icons-angular/esm5/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/codepage/bits/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/@antv/g2/dist/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/@antv/g2/lib/theme/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/@antv/g2/lib/component/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/@antv/g2/bundler/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/@antv/g2/src/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/tape/lib/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/tape/example/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/tape/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/d3-geo-projection/img/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/d3-geo-projection/src/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/tslint/lib/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/@types/lodash/fp/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/@types/lodash/ts3.1/fp/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/rxjs/internal-compatibility/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/rxjs/bundles/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/rxjs/testing/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/rxjs/symbol/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/rxjs/_esm2015/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/rxjs/ajax/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/rxjs/fetch/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/rxjs/migrations/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/rxjs/scheduler/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/rxjs/observable/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/rxjs/util/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/rxjs/_esm5/internal-compatibility/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/rxjs/_esm5/fetch/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/rxjs/_esm5/ajax/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/rxjs/_esm5/testing/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/rxjs/add/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/rxjs/internal/testing/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/rxjs/src/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/rxjs/operator/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/@angular/core/esm5/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/@angular/core/bundles/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/@angular/core/esm2015/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/@angular/compiler/esm5/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/@angular/compiler/esm2015/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/@angular/cli/tasks/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/@angular/cdk/table/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/@angular/cdk/tree/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/@angular/cdk/accordion/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/@angular/cdk/text-field/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/@angular/cdk/esm2015/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/@angular/cdk/bundles/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/@angular/cdk/schematics/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/@angular/cdk/stepper/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/@angular/cdk/testing/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/@angular/cdk/typings/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/@angular/common/upgrade/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/@angular/common/esm2015/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/@angular/common/fesm2015/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/@angular/common/bundles/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/@angular/common/esm5/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/@angular/common/testing/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/@angular/common/locales/extra/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/lodash/fp/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/webpack-dev-server/client/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/ng-zorro-antd/src/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/ng-zorro-antd/icon/testing/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/ng-zorro-antd/i18n/languages/pagination/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/ng-zorro-antd/i18n/languages/date-picker/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/ng-zorro-antd/i18n/languages/calendar/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/ng-zorro-antd/i18n/languages/time-picker/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/ng-zorro-antd/core/environments/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/ng-zorro-antd/esm5/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/ng-zorro-antd/bundles/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/ng-zorro-antd/fesm2015/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/ng-zorro-antd/esm2015/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/ng-zorro-antd/schematics/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web-angular/node_modules/.cache/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm build) @ zeppelin-web-angular",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/rlang/target/spark-3.5.3-bin-without-hadoop/data/",
+    "Responsible plugin": "download-maven-plugin:1.6.0:wget (download-sparkr-files) @ r",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/rlang/target/spark-3.5.3-bin-without-hadoop/examples/",
+    "Responsible plugin": "download-maven-plugin:1.6.0:wget (download-sparkr-files) @ r",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/rlang/target/spark-3.5.3-bin-without-hadoop/bin/",
+    "Responsible plugin": "download-maven-plugin:1.6.0:wget (download-sparkr-files) @ r",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/rlang/target/spark-3.5.3-bin-without-hadoop/licenses/",
+    "Responsible plugin": "download-maven-plugin:1.6.0:wget (download-sparkr-files) @ r",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/rlang/target/spark-3.5.3-bin-without-hadoop/python/",
+    "Responsible plugin": "download-maven-plugin:1.6.0:wget (download-sparkr-files) @ r",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/rlang/target/spark-3.5.3-bin-without-hadoop/jars/",
+    "Responsible plugin": "download-maven-plugin:1.6.0:wget (download-sparkr-files) @ r",
+    "Responsible command": "./mvnw clean verify -DskipTests ${MAVEN_ARGS}",
+    "Name of the step": "build without any profiles"
+  }
+]

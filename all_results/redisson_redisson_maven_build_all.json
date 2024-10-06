@@ -1,0 +1,26 @@
+[
+  {
+    "Unused directory": "/home/runner/work/redisson/redisson/redisson/target/reports/",
+    "Responsible plugin": "maven-pmd-plugin:3.25.0:pmd (default) @ redisson",
+    "Responsible command": "mvn -B verify --file pom.xml",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/redisson/redisson/redisson-quarkus/redisson-quarkus-30/cdi/integration-tests/target/generated-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.13.0:compile (default-compile) @ redisson-quarkus-30-integration-tests",
+    "Responsible command": "mvn -B verify --file pom.xml",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/redisson/redisson/redisson-quarkus/redisson-quarkus-20/integration-tests/target/generated-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.13.0:compile (default-compile) @ redisson-quarkus-20-integration-tests",
+    "Responsible command": "mvn -B verify --file pom.xml",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/redisson/redisson/redisson/target/site/",
+    "Responsible plugin": "license-maven-plugin:4.5:check (default) @ redisson",
+    "Responsible command": "mvn -B verify --file pom.xml",
+    "Name of the step": "Build with Maven"
+  }
+]

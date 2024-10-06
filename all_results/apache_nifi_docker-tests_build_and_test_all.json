@@ -1,0 +1,80 @@
+[
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/minifi/minifi-commons/minifi-commons-framework/target/generated-sources/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_BUILD_PROJECTS }}\n",
+    "Name of the step": "Build Assemblies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-framework-bundle/nifi-server-nar-bom/target/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_BUILD_PROJECTS }}\n",
+    "Name of the step": "Build Assemblies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-framework-bundle/nifi-framework-nar-bom/target/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_BUILD_PROJECTS }}\n",
+    "Name of the step": "Build Assemblies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-framework-bundle/nifi-framework/nifi-framework-components/target/generated-test-sources/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_BUILD_PROJECTS }}\n",
+    "Name of the step": "Build Assemblies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-framework-bundle/nifi-framework/nifi-framework-cluster/target/generated-sources/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_BUILD_PROJECTS }}\n",
+    "Name of the step": "Build Assemblies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-framework-bundle/nifi-framework/nifi-framework-core/target/generated-sources/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_BUILD_PROJECTS }}\n",
+    "Name of the step": "Build Assemblies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-extension-bundles/nifi-smb-bundle/nifi-smb-processors/target/generated-sources/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_BUILD_PROJECTS }}\n",
+    "Name of the step": "Build Assemblies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-extension-bundles/nifi-zendesk-bundle/nifi-zendesk-services/target/generated-test-sources/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_BUILD_PROJECTS }}\n",
+    "Name of the step": "Build Assemblies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-extension-bundles/nifi-standard-bundle/nifi-standard-parameter-providers/target/generated-test-sources/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_BUILD_PROJECTS }}\n",
+    "Name of the step": "Build Assemblies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-extension-bundles/nifi-aws-bundle/nifi-aws-processors/target/generated-sources/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_BUILD_PROJECTS }}\n",
+    "Name of the step": "Build Assemblies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-extension-bundles/nifi-enrich-bundle/nifi-enrich-processors/target/generated-sources/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_BUILD_PROJECTS }}\n",
+    "Name of the step": "Build Assemblies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-extension-bundles/nifi-dropbox-bundle/nifi-dropbox-processors/target/generated-sources/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_BUILD_PROJECTS }}\n",
+    "Name of the step": "Build Assemblies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-extension-bundles/nifi-azure-bundle/nifi-azure-processors/target/generated-test-sources/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_BUILD_PROJECTS }}\n",
+    "Name of the step": "Build Assemblies"
+  }
+]

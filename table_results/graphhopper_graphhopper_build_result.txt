@@ -1,0 +1,18 @@
+Unused directories and their responsible plugins in build (21):
+╒════════════════════════════════════════════════════════════════════════════╤════════════════════════════════════════════════════════════════════════╤═══════════════════════╤══════════════════════════════════╕
+│ Unused directory                                                           │ Responsible plugin                                                     │ Responsible command   │ Name of the step                 │
+╞════════════════════════════════════════════════════════════════════════════╪════════════════════════════════════════════════════════════════════════╪═══════════════════════╪══════════════════════════════════╡
+│ /home/runner/work/graphhopper/graphhopper/web-api/target/surefire-reports/ │ maven-surefire-plugin:2.22.2:test (default-test) @ graphhopper-web-api │ mvn -B clean test     │ Build ${{ matrix.java-version }} │
+├────────────────────────────────────────────────────────────────────────────┼────────────────────────────────────────────────────────────────────────┼───────────────────────┼──────────────────────────────────┤
+│ /home/runner/work/graphhopper/graphhopper/core/target/surefire-reports/    │ maven-surefire-plugin:2.22.2:test (default-test) @ graphhopper-core    │ mvn -B clean test     │ Build ${{ matrix.java-version }} │
+╘════════════════════════════════════════════════════════════════════════════╧════════════════════════════════════════════════════════════════════════╧═══════════════════════╧══════════════════════════════════╛
+
+Unused directories and their responsible plugins in build (22-ea):
+╒════════════════════════════════════════════════════════════════════════════╤════════════════════════════════════════════════════════════════════════╤═══════════════════════╤══════════════════════════════════╕
+│ Unused directory                                                           │ Responsible plugin                                                     │ Responsible command   │ Name of the step                 │
+╞════════════════════════════════════════════════════════════════════════════╪════════════════════════════════════════════════════════════════════════╪═══════════════════════╪══════════════════════════════════╡
+│ /home/runner/work/graphhopper/graphhopper/web-api/target/surefire-reports/ │ maven-surefire-plugin:2.22.2:test (default-test) @ graphhopper-web-api │ mvn -B clean test     │ Build ${{ matrix.java-version }} │
+├────────────────────────────────────────────────────────────────────────────┼────────────────────────────────────────────────────────────────────────┼───────────────────────┼──────────────────────────────────┤
+│ /home/runner/work/graphhopper/graphhopper/core/target/surefire-reports/    │ maven-surefire-plugin:2.22.2:test (default-test) @ graphhopper-core    │ mvn -B clean test     │ Build ${{ matrix.java-version }} │
+╘════════════════════════════════════════════════════════════════════════════╧════════════════════════════════════════════════════════════════════════╧═══════════════════════╧══════════════════════════════════╛
+

@@ -1,0 +1,38 @@
+[
+  {
+    "Unused directory": "/home/runner/work/Java/Java/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.5.0:test (default-test) @ Java",
+    "Responsible command": "mvn clean\ninfer --fail-on-issue  --print-logs --no-progress-bar -- mvn test\n",
+    "Name of the step": "Run infer"
+  },
+  {
+    "Unused directory": "/home/runner/work/Java/Java/infer/annotations/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "cd ..\ngit clone https://github.com/facebook/infer.git\ncd infer\n./build-infer.sh java\ncp -r infer ../Java\n",
+    "Name of the step": "Build infer"
+  },
+  {
+    "Unused directory": "/home/runner/work/Java/Java/infer/models/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "cd ..\ngit clone https://github.com/facebook/infer.git\ncd infer\n./build-infer.sh java\ncp -r infer ../Java\n",
+    "Name of the step": "Build infer"
+  },
+  {
+    "Unused directory": "/home/runner/work/Java/Java/infer/tests/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "cd ..\ngit clone https://github.com/facebook/infer.git\ncd infer\n./build-infer.sh java\ncp -r infer ../Java\n",
+    "Name of the step": "Build infer"
+  },
+  {
+    "Unused directory": "/home/runner/work/Java/Java/infer/src/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "cd ..\ngit clone https://github.com/facebook/infer.git\ncd infer\n./build-infer.sh java\ncp -r infer ../Java\n",
+    "Name of the step": "Build infer"
+  },
+  {
+    "Unused directory": "/home/runner/work/Java/Java/infer/_build/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "cd ..\ngit clone https://github.com/facebook/infer.git\ncd infer\n./build-infer.sh java\ncp -r infer ../Java\n",
+    "Name of the step": "Build infer"
+  }
+]

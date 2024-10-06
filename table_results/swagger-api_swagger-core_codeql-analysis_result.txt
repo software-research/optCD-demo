@@ -1,0 +1,2 @@
+Unused directories and their responsible plugins in CodeQL-Build:
+Inotify log does not exist, because the job runs on Windows or MacOS.

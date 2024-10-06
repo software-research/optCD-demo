@@ -1,0 +1,193 @@
+Unused directories and their responsible plugins in Litemall-admin (10.x):
+╒══════════════════════════════════════════════════════════════════╤══════════════════════════════════╤═════════════════════════════════════╤═════════════════════════════════════╕
+│ Unused directory                                                 │ Responsible plugin               │ Responsible command                 │ Name of the step                    │
+╞══════════════════════════════════════════════════════════════════╪══════════════════════════════════╪═════════════════════════════════════╪═════════════════════════════════════╡
+│ /home/runner/work/litemall/litemall/litemall-admin/node_modules/ │ Not responsible by maven plugins │ npm --prefix litemall-admin install │ npm --prefix litemall-admin install │
+╘══════════════════════════════════════════════════════════════════╧══════════════════════════════════╧═════════════════════════════════════╧═════════════════════════════════════╛
+
+Unused directories and their responsible plugins in Litemall-admin (12.x):
+╒══════════════════════════════════════════════════════════════════════════════════════════════════════════════╤══════════════════════════════════╤═════════════════════════════════════╤═════════════════════════════════════╕
+│ Unused directory                                                                                             │ Responsible plugin               │ Responsible command                 │ Name of the step                    │
+╞══════════════════════════════════════════════════════════════════════════════════════════════════════════════╪══════════════════════════════════╪═════════════════════════════════════╪═════════════════════════════════════╡
+│ /home/runner/work/litemall/litemall/litemall-admin/node_modules/@vue/                                        │ Not responsible by maven plugins │ npm --prefix litemall-admin install │ npm --prefix litemall-admin install │
+├──────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼─────────────────────────────────────┼─────────────────────────────────────┤
+│ /home/runner/work/litemall/litemall/litemall-admin/node_modules/@jest/                                       │ Not responsible by maven plugins │ npm --prefix litemall-admin install │ npm --prefix litemall-admin install │
+├──────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼─────────────────────────────────────┼─────────────────────────────────────┤
+│ /home/runner/work/litemall/litemall/litemall-admin/node_modules/@babel/helper-define-polyfill-provider/      │ Not responsible by maven plugins │ npm --prefix litemall-admin install │ npm --prefix litemall-admin install │
+├──────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼─────────────────────────────────────┼─────────────────────────────────────┤
+│ /home/runner/work/litemall/litemall/litemall-admin/node_modules/@babel/helper-create-regexp-features-plugin/ │ Not responsible by maven plugins │ npm --prefix litemall-admin install │ npm --prefix litemall-admin install │
+├──────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼─────────────────────────────────────┼─────────────────────────────────────┤
+│ /home/runner/work/litemall/litemall/litemall-admin/node_modules/@babel/preset-env/                           │ Not responsible by maven plugins │ npm --prefix litemall-admin install │ npm --prefix litemall-admin install │
+├──────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼─────────────────────────────────────┼─────────────────────────────────────┤
+│ /home/runner/work/litemall/litemall/litemall-admin/node_modules/@babel/register/                             │ Not responsible by maven plugins │ npm --prefix litemall-admin install │ npm --prefix litemall-admin install │
+├──────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼─────────────────────────────────────┼─────────────────────────────────────┤
+│ /home/runner/work/litemall/litemall/litemall-admin/node_modules/@babel/helper-compilation-targets/           │ Not responsible by maven plugins │ npm --prefix litemall-admin install │ npm --prefix litemall-admin install │
+├──────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼─────────────────────────────────────┼─────────────────────────────────────┤
+│ /home/runner/work/litemall/litemall/litemall-admin/node_modules/@babel/helper-create-class-features-plugin/  │ Not responsible by maven plugins │ npm --prefix litemall-admin install │ npm --prefix litemall-admin install │
+├──────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼─────────────────────────────────────┼─────────────────────────────────────┤
+│ /home/runner/work/litemall/litemall/litemall-admin/node_modules/.staging/                                    │ Not responsible by maven plugins │ npm --prefix litemall-admin install │ npm --prefix litemall-admin install │
+╘══════════════════════════════════════════════════════════════════════════════════════════════════════════════╧══════════════════════════════════╧═════════════════════════════════════╧═════════════════════════════════════╛
+
+Unused directories and their responsible plugins in Litemall-admin (14.x):
+╒══════════════════════════════════════════════════════════════════════════════════════════════════════════════╤══════════════════════════════════╤═════════════════════════════════════╤═════════════════════════════════════╕
+│ Unused directory                                                                                             │ Responsible plugin               │ Responsible command                 │ Name of the step                    │
+╞══════════════════════════════════════════════════════════════════════════════════════════════════════════════╪══════════════════════════════════╪═════════════════════════════════════╪═════════════════════════════════════╡
+│ /home/runner/work/litemall/litemall/litemall-admin/node_modules/@babel/preset-env/                           │ Not responsible by maven plugins │ npm --prefix litemall-admin install │ npm --prefix litemall-admin install │
+├──────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼─────────────────────────────────────┼─────────────────────────────────────┤
+│ /home/runner/work/litemall/litemall/litemall-admin/node_modules/@babel/helper-define-polyfill-provider/      │ Not responsible by maven plugins │ npm --prefix litemall-admin install │ npm --prefix litemall-admin install │
+├──────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼─────────────────────────────────────┼─────────────────────────────────────┤
+│ /home/runner/work/litemall/litemall/litemall-admin/node_modules/@babel/helper-create-regexp-features-plugin/ │ Not responsible by maven plugins │ npm --prefix litemall-admin install │ npm --prefix litemall-admin install │
+├──────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼─────────────────────────────────────┼─────────────────────────────────────┤
+│ /home/runner/work/litemall/litemall/litemall-admin/node_modules/@vue/                                        │ Not responsible by maven plugins │ npm --prefix litemall-admin install │ npm --prefix litemall-admin install │
+├──────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼─────────────────────────────────────┼─────────────────────────────────────┤
+│ /home/runner/work/litemall/litemall/litemall-admin/node_modules/@jest/                                       │ Not responsible by maven plugins │ npm --prefix litemall-admin install │ npm --prefix litemall-admin install │
+├──────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼─────────────────────────────────────┼─────────────────────────────────────┤
+│ /home/runner/work/litemall/litemall/litemall-admin/node_modules/.staging/                                    │ Not responsible by maven plugins │ npm --prefix litemall-admin install │ npm --prefix litemall-admin install │
+╘══════════════════════════════════════════════════════════════════════════════════════════════════════════════╧══════════════════════════════════╧═════════════════════════════════════╧═════════════════════════════════════╛
+
+Unused directories and their responsible plugins in Litemall-all (8):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in Litemall-vue (10.x):
+╒══════════════════════════════════════════════════════════════════════════════╤══════════════════════════════════╤═══════════════════════════════════╤═══════════════════════════════════╕
+│ Unused directory                                                             │ Responsible plugin               │ Responsible command               │ Name of the step                  │
+╞══════════════════════════════════════════════════════════════════════════════╪══════════════════════════════════╪═══════════════════════════════════╪═══════════════════════════════════╡
+│ /home/runner/work/litemall/litemall/litemall-vue/node_modules/bonjour/       │ Not responsible by maven plugins │ npm --prefix litemall-vue install │ npm --prefix litemall-vue install │
+├──────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────────────────┼───────────────────────────────────┤
+│ /home/runner/work/litemall/litemall/litemall-vue/node_modules/@babel/        │ Not responsible by maven plugins │ npm --prefix litemall-vue install │ npm --prefix litemall-vue install │
+├──────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────────────────┼───────────────────────────────────┤
+│ /home/runner/work/litemall/litemall/litemall-vue/node_modules/@intervolga/   │ Not responsible by maven plugins │ npm --prefix litemall-vue install │ npm --prefix litemall-vue install │
+├──────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────────────────┼───────────────────────────────────┤
+│ /home/runner/work/litemall/litemall/litemall-vue/node_modules/assert/        │ Not responsible by maven plugins │ npm --prefix litemall-vue install │ npm --prefix litemall-vue install │
+├──────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────────────────┼───────────────────────────────────┤
+│ /home/runner/work/litemall/litemall/litemall-vue/node_modules/globby/        │ Not responsible by maven plugins │ npm --prefix litemall-vue install │ npm --prefix litemall-vue install │
+├──────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────────────────┼───────────────────────────────────┤
+│ /home/runner/work/litemall/litemall/litemall-vue/node_modules/fill-range/    │ Not responsible by maven plugins │ npm --prefix litemall-vue install │ npm --prefix litemall-vue install │
+├──────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────────────────┼───────────────────────────────────┤
+│ /home/runner/work/litemall/litemall/litemall-vue/node_modules/cross-spawn/   │ Not responsible by maven plugins │ npm --prefix litemall-vue install │ npm --prefix litemall-vue install │
+├──────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────────────────┼───────────────────────────────────┤
+│ /home/runner/work/litemall/litemall/litemall-vue/node_modules/cssnano/       │ Not responsible by maven plugins │ npm --prefix litemall-vue install │ npm --prefix litemall-vue install │
+├──────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────────────────┼───────────────────────────────────┤
+│ /home/runner/work/litemall/litemall/litemall-vue/node_modules/@vue/          │ Not responsible by maven plugins │ npm --prefix litemall-vue install │ npm --prefix litemall-vue install │
+├──────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────────────────┼───────────────────────────────────┤
+│ /home/runner/work/litemall/litemall/litemall-vue/node_modules/cli-highlight/ │ Not responsible by maven plugins │ npm --prefix litemall-vue install │ npm --prefix litemall-vue install │
+╘══════════════════════════════════════════════════════════════════════════════╧══════════════════════════════════╧═══════════════════════════════════╧═══════════════════════════════════╛
+
+Unused directories and their responsible plugins in Litemall-all (8.0.192):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in Litemall-vue (12.x):
+╒═══════════════════════════════════════════════════════════════════════════════════════╤══════════════════════════════════╤═══════════════════════════════════╤═══════════════════════════════════╕
+│ Unused directory                                                                      │ Responsible plugin               │ Responsible command               │ Name of the step                  │
+╞═══════════════════════════════════════════════════════════════════════════════════════╪══════════════════════════════════╪═══════════════════════════════════╪═══════════════════════════════════╡
+│ /home/runner/work/litemall/litemall/litemall-vue/node_modules/globby/                 │ Not responsible by maven plugins │ npm --prefix litemall-vue install │ npm --prefix litemall-vue install │
+├───────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────────────────┼───────────────────────────────────┤
+│ /home/runner/work/litemall/litemall/litemall-vue/node_modules/clipboardy/             │ Not responsible by maven plugins │ npm --prefix litemall-vue install │ npm --prefix litemall-vue install │
+├───────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────────────────┼───────────────────────────────────┤
+│ /home/runner/work/litemall/litemall/litemall-vue/node_modules/default-gateway/        │ Not responsible by maven plugins │ npm --prefix litemall-vue install │ npm --prefix litemall-vue install │
+├───────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────────────────┼───────────────────────────────────┤
+│ /home/runner/work/litemall/litemall/litemall-vue/node_modules/finalhandler/           │ Not responsible by maven plugins │ npm --prefix litemall-vue install │ npm --prefix litemall-vue install │
+├───────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────────────────┼───────────────────────────────────┤
+│ /home/runner/work/litemall/litemall/litemall-vue/node_modules/cliui/                  │ Not responsible by maven plugins │ npm --prefix litemall-vue install │ npm --prefix litemall-vue install │
+├───────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────────────────┼───────────────────────────────────┤
+│ /home/runner/work/litemall/litemall/litemall-vue/node_modules/chokidar/               │ Not responsible by maven plugins │ npm --prefix litemall-vue install │ npm --prefix litemall-vue install │
+├───────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────────────────┼───────────────────────────────────┤
+│ /home/runner/work/litemall/litemall/litemall-vue/node_modules/html-minifier/          │ Not responsible by maven plugins │ npm --prefix litemall-vue install │ npm --prefix litemall-vue install │
+├───────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────────────────┼───────────────────────────────────┤
+│ /home/runner/work/litemall/litemall/litemall-vue/node_modules/fast-glob/              │ Not responsible by maven plugins │ npm --prefix litemall-vue install │ npm --prefix litemall-vue install │
+├───────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────────────────┼───────────────────────────────────┤
+│ /home/runner/work/litemall/litemall/litemall-vue/node_modules/csso/                   │ Not responsible by maven plugins │ npm --prefix litemall-vue install │ npm --prefix litemall-vue install │
+├───────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────────────────┼───────────────────────────────────┤
+│ /home/runner/work/litemall/litemall/litemall-vue/node_modules/css-loader/             │ Not responsible by maven plugins │ npm --prefix litemall-vue install │ npm --prefix litemall-vue install │
+├───────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────────────────┼───────────────────────────────────┤
+│ /home/runner/work/litemall/litemall/litemall-vue/node_modules/diffie-hellman/         │ Not responsible by maven plugins │ npm --prefix litemall-vue install │ npm --prefix litemall-vue install │
+├───────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────────────────┼───────────────────────────────────┤
+│ /home/runner/work/litemall/litemall/litemall-vue/node_modules/cssnano-util-raw-cache/ │ Not responsible by maven plugins │ npm --prefix litemall-vue install │ npm --prefix litemall-vue install │
+├───────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────────────────┼───────────────────────────────────┤
+│ /home/runner/work/litemall/litemall/litemall-vue/node_modules/express/                │ Not responsible by maven plugins │ npm --prefix litemall-vue install │ npm --prefix litemall-vue install │
+├───────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────────────────┼───────────────────────────────────┤
+│ /home/runner/work/litemall/litemall/litemall-vue/node_modules/create-ecdh/            │ Not responsible by maven plugins │ npm --prefix litemall-vue install │ npm --prefix litemall-vue install │
+├───────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────────────────┼───────────────────────────────────┤
+│ /home/runner/work/litemall/litemall/litemall-vue/node_modules/base/                   │ Not responsible by maven plugins │ npm --prefix litemall-vue install │ npm --prefix litemall-vue install │
+├───────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────────────────┼───────────────────────────────────┤
+│ /home/runner/work/litemall/litemall/litemall-vue/node_modules/expand-brackets/        │ Not responsible by maven plugins │ npm --prefix litemall-vue install │ npm --prefix litemall-vue install │
+├───────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────────────────┼───────────────────────────────────┤
+│ /home/runner/work/litemall/litemall/litemall-vue/node_modules/del/                    │ Not responsible by maven plugins │ npm --prefix litemall-vue install │ npm --prefix litemall-vue install │
+├───────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────────────────┼───────────────────────────────────┤
+│ /home/runner/work/litemall/litemall/litemall-vue/node_modules/import-local/           │ Not responsible by maven plugins │ npm --prefix litemall-vue install │ npm --prefix litemall-vue install │
+├───────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────────────────┼───────────────────────────────────┤
+│ /home/runner/work/litemall/litemall/litemall-vue/node_modules/cssnano-preset-default/ │ Not responsible by maven plugins │ npm --prefix litemall-vue install │ npm --prefix litemall-vue install │
+├───────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────────────────┼───────────────────────────────────┤
+│ /home/runner/work/litemall/litemall/litemall-vue/node_modules/cssnano/                │ Not responsible by maven plugins │ npm --prefix litemall-vue install │ npm --prefix litemall-vue install │
+├───────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────────────────┼───────────────────────────────────┤
+│ /home/runner/work/litemall/litemall/litemall-vue/node_modules/braces/                 │ Not responsible by maven plugins │ npm --prefix litemall-vue install │ npm --prefix litemall-vue install │
+├───────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────────────────┼───────────────────────────────────┤
+│ /home/runner/work/litemall/litemall/litemall-vue/node_modules/autoprefixer/           │ Not responsible by maven plugins │ npm --prefix litemall-vue install │ npm --prefix litemall-vue install │
+├───────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────────────────┼───────────────────────────────────┤
+│ /home/runner/work/litemall/litemall/litemall-vue/node_modules/eslint/                 │ Not responsible by maven plugins │ npm --prefix litemall-vue install │ npm --prefix litemall-vue install │
+├───────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────────────────┼───────────────────────────────────┤
+│ /home/runner/work/litemall/litemall/litemall-vue/node_modules/inquirer/               │ Not responsible by maven plugins │ npm --prefix litemall-vue install │ npm --prefix litemall-vue install │
+├───────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────────────────┼───────────────────────────────────┤
+│ /home/runner/work/litemall/litemall/litemall-vue/node_modules/asn1.js/                │ Not responsible by maven plugins │ npm --prefix litemall-vue install │ npm --prefix litemall-vue install │
+├───────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────────────────┼───────────────────────────────────┤
+│ /home/runner/work/litemall/litemall/litemall-vue/node_modules/@vue/                   │ Not responsible by maven plugins │ npm --prefix litemall-vue install │ npm --prefix litemall-vue install │
+├───────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────────────────┼───────────────────────────────────┤
+│ /home/runner/work/litemall/litemall/litemall-vue/node_modules/@babel/                 │ Not responsible by maven plugins │ npm --prefix litemall-vue install │ npm --prefix litemall-vue install │
+├───────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────────────────┼───────────────────────────────────┤
+│ /home/runner/work/litemall/litemall/litemall-vue/node_modules/html-webpack-plugin/    │ Not responsible by maven plugins │ npm --prefix litemall-vue install │ npm --prefix litemall-vue install │
+├───────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────────────────┼───────────────────────────────────┤
+│ /home/runner/work/litemall/litemall/litemall-vue/node_modules/fill-range/             │ Not responsible by maven plugins │ npm --prefix litemall-vue install │ npm --prefix litemall-vue install │
+╘═══════════════════════════════════════════════════════════════════════════════════════╧══════════════════════════════════╧═══════════════════════════════════╧═══════════════════════════════════╛
+
+Unused directories and their responsible plugins in Litemall-all (11):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in Litemall-all (11.0.3):
+╒══════════════════════════════════════════════════════════════════════════╤═══════════════════════════════════════════════════════════════════════╤════════════════════════════════════════════╤════════════════════╕
+│ Unused directory                                                         │ Responsible plugin                                                    │ Responsible command                        │ Name of the step   │
+╞══════════════════════════════════════════════════════════════════════════╪═══════════════════════════════════════════════════════════════════════╪════════════════════════════════════════════╪════════════════════╡
+│ /home/runner/work/litemall/litemall/litemall-wx-api/target/maven-status/ │ maven-compiler-plugin:3.1:compile (default-compile) @ litemall-wx-api │ mvn --batch-mode --update-snapshots verify │ Build with Maven   │
+╘══════════════════════════════════════════════════════════════════════════╧═══════════════════════════════════════════════════════════════════════╧════════════════════════════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in Litemall-vue (14.x):
+╒═════════════════════════════════════════════════════════════════════════════════╤══════════════════════════════════╤═══════════════════════════════════╤═══════════════════════════════════╕
+│ Unused directory                                                                │ Responsible plugin               │ Responsible command               │ Name of the step                  │
+╞═════════════════════════════════════════════════════════════════════════════════╪══════════════════════════════════╪═══════════════════════════════════╪═══════════════════════════════════╡
+│ /home/runner/work/litemall/litemall/litemall-vue/node_modules/@babel/           │ Not responsible by maven plugins │ npm --prefix litemall-vue install │ npm --prefix litemall-vue install │
+├─────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────────────────┼───────────────────────────────────┤
+│ /home/runner/work/litemall/litemall/litemall-vue/node_modules/cli-highlight/    │ Not responsible by maven plugins │ npm --prefix litemall-vue install │ npm --prefix litemall-vue install │
+├─────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────────────────┼───────────────────────────────────┤
+│ /home/runner/work/litemall/litemall/litemall-vue/node_modules/assert/           │ Not responsible by maven plugins │ npm --prefix litemall-vue install │ npm --prefix litemall-vue install │
+├─────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────────────────┼───────────────────────────────────┤
+│ /home/runner/work/litemall/litemall/litemall-vue/node_modules/body-parser/      │ Not responsible by maven plugins │ npm --prefix litemall-vue install │ npm --prefix litemall-vue install │
+├─────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────────────────┼───────────────────────────────────┤
+│ /home/runner/work/litemall/litemall/litemall-vue/node_modules/elliptic/         │ Not responsible by maven plugins │ npm --prefix litemall-vue install │ npm --prefix litemall-vue install │
+├─────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────────────────┼───────────────────────────────────┤
+│ /home/runner/work/litemall/litemall/litemall-vue/node_modules/cliui/            │ Not responsible by maven plugins │ npm --prefix litemall-vue install │ npm --prefix litemall-vue install │
+├─────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────────────────┼───────────────────────────────────┤
+│ /home/runner/work/litemall/litemall/litemall-vue/node_modules/@vue/             │ Not responsible by maven plugins │ npm --prefix litemall-vue install │ npm --prefix litemall-vue install │
+├─────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────────────────┼───────────────────────────────────┤
+│ /home/runner/work/litemall/litemall/litemall-vue/node_modules/asn1.js/          │ Not responsible by maven plugins │ npm --prefix litemall-vue install │ npm --prefix litemall-vue install │
+├─────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────────────────┼───────────────────────────────────┤
+│ /home/runner/work/litemall/litemall/litemall-vue/node_modules/babel-code-frame/ │ Not responsible by maven plugins │ npm --prefix litemall-vue install │ npm --prefix litemall-vue install │
+├─────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────────────────┼───────────────────────────────────┤
+│ /home/runner/work/litemall/litemall/litemall-vue/node_modules/@intervolga/      │ Not responsible by maven plugins │ npm --prefix litemall-vue install │ npm --prefix litemall-vue install │
+├─────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────────────────┼───────────────────────────────────┤
+│ /home/runner/work/litemall/litemall/litemall-vue/node_modules/cssnano/          │ Not responsible by maven plugins │ npm --prefix litemall-vue install │ npm --prefix litemall-vue install │
+├─────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────────────────┼───────────────────────────────────┤
+│ /home/runner/work/litemall/litemall/litemall-vue/node_modules/del/              │ Not responsible by maven plugins │ npm --prefix litemall-vue install │ npm --prefix litemall-vue install │
+├─────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────────────────┼───────────────────────────────────┤
+│ /home/runner/work/litemall/litemall/litemall-vue/node_modules/buffer/           │ Not responsible by maven plugins │ npm --prefix litemall-vue install │ npm --prefix litemall-vue install │
+├─────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────────────────┼───────────────────────────────────┤
+│ /home/runner/work/litemall/litemall/litemall-vue/node_modules/diffie-hellman/   │ Not responsible by maven plugins │ npm --prefix litemall-vue install │ npm --prefix litemall-vue install │
+╘═════════════════════════════════════════════════════════════════════════════════╧══════════════════════════════════╧═══════════════════════════════════╧═══════════════════════════════════╛
+

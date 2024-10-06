@@ -1,0 +1,3218 @@
+[
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-vmtool/target/lib/",
+    "Responsible plugin": "native-maven-plugin:1.0-alpha-11:link (compile-and-link) @ arthas-vmtool",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-vmtool/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:2.12.4:test (default-test) @ arthas-vmtool",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/tunnel-server/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:2.12.4:test (default-test) @ arthas-tunnel-server",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/tunnel-common/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:2.12.4:test (default-test) @ arthas-tunnel-common",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/memorycompiler/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:2.12.4:test (default-test) @ arthas-memorycompiler",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:2.12.4:test (default-test) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/core/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:2.12.4:test (default-test) @ arthas-core",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/boot/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:2.12.4:test (default-test) @ arthas-boot",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/web-ui/target/static/",
+    "Responsible plugin": "maven-resources-plugin:3.1.0:copy-resources (copy dist) @ web-ui",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-spring-boot-starter/target/invoker/",
+    "Responsible plugin": "maven-javadoc-plugin:3.2.0:jar (release) @ arthas-spring-boot-starter",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-spring-boot-starter/target/invoker-reports/",
+    "Responsible plugin": "maven-invoker-plugin:3.0.0:run (integration-test) @ arthas-spring-boot-starter",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-spring-boot-starter/target/local-repo/asm/",
+    "Responsible plugin": "maven-invoker-plugin:3.0.0:run (integration-test) @ arthas-spring-boot-starter",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-spring-boot-starter/target/local-repo/jakarta/",
+    "Responsible plugin": "maven-invoker-plugin:3.0.0:run (integration-test) @ arthas-spring-boot-starter",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-spring-boot-starter/target/local-repo/javax/",
+    "Responsible plugin": "maven-invoker-plugin:3.0.0:run (integration-test) @ arthas-spring-boot-starter",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-spring-boot-starter/target/local-repo/com/jayway/",
+    "Responsible plugin": "maven-invoker-plugin:3.0.0:run (integration-test) @ arthas-spring-boot-starter",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-spring-boot-starter/target/local-repo/com/fasterxml/",
+    "Responsible plugin": "maven-invoker-plugin:3.0.0:run (integration-test) @ arthas-spring-boot-starter",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-spring-boot-starter/target/local-repo/io/",
+    "Responsible plugin": "maven-invoker-plugin:3.0.0:run (integration-test) @ arthas-spring-boot-starter",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-spring-boot-starter/target/local-repo/org/ow2/",
+    "Responsible plugin": "maven-invoker-plugin:3.0.0:run (integration-test) @ arthas-spring-boot-starter",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-spring-boot-starter/target/local-repo/org/xmlunit/",
+    "Responsible plugin": "maven-invoker-plugin:3.0.0:run (integration-test) @ arthas-spring-boot-starter",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-spring-boot-starter/target/local-repo/org/antlr/",
+    "Responsible plugin": "maven-invoker-plugin:3.0.0:run (integration-test) @ arthas-spring-boot-starter",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-spring-boot-starter/target/local-repo/org/infinispan/",
+    "Responsible plugin": "maven-invoker-plugin:3.0.0:run (integration-test) @ arthas-spring-boot-starter",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-spring-boot-starter/target/local-repo/org/mockito/",
+    "Responsible plugin": "maven-invoker-plugin:3.0.0:run (integration-test) @ arthas-spring-boot-starter",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-spring-boot-starter/target/local-repo/org/jboss/",
+    "Responsible plugin": "maven-invoker-plugin:3.0.0:run (integration-test) @ arthas-spring-boot-starter",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-spring-boot-starter/target/local-repo/org/assertj/",
+    "Responsible plugin": "maven-invoker-plugin:3.0.0:run (integration-test) @ arthas-spring-boot-starter",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-spring-boot-starter/target/local-repo/org/objenesis/",
+    "Responsible plugin": "maven-invoker-plugin:3.0.0:run (integration-test) @ arthas-spring-boot-starter",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-spring-boot-starter/target/local-repo/org/eclipse/",
+    "Responsible plugin": "maven-invoker-plugin:3.0.0:run (integration-test) @ arthas-spring-boot-starter",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-spring-boot-starter/target/local-repo/org/sonatype/plexus/",
+    "Responsible plugin": "maven-invoker-plugin:3.0.0:run (integration-test) @ arthas-spring-boot-starter",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-spring-boot-starter/target/local-repo/org/sonatype/sisu/inject/",
+    "Responsible plugin": "maven-invoker-plugin:3.0.0:run (integration-test) @ arthas-spring-boot-starter",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-spring-boot-starter/target/local-repo/org/sonatype/aether/",
+    "Responsible plugin": "maven-invoker-plugin:3.0.0:run (integration-test) @ arthas-spring-boot-starter",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-spring-boot-starter/target/local-repo/org/junit/",
+    "Responsible plugin": "maven-invoker-plugin:3.0.0:run (integration-test) @ arthas-spring-boot-starter",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-spring-boot-starter/target/local-repo/org/codehaus/plexus/plexus-containers/",
+    "Responsible plugin": "maven-invoker-plugin:3.0.0:run (integration-test) @ arthas-spring-boot-starter",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-spring-boot-starter/target/local-repo/org/jetbrains/",
+    "Responsible plugin": "maven-invoker-plugin:3.0.0:run (integration-test) @ arthas-spring-boot-starter",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-spring-boot-starter/target/local-repo/org/apache/httpcomponents/",
+    "Responsible plugin": "maven-invoker-plugin:3.0.0:run (integration-test) @ arthas-spring-boot-starter",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-spring-boot-starter/target/local-repo/org/apache/maven/maven/",
+    "Responsible plugin": "maven-invoker-plugin:3.0.0:run (integration-test) @ arthas-spring-boot-starter",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-spring-boot-starter/target/local-repo/net/",
+    "Responsible plugin": "maven-invoker-plugin:3.0.0:install (integration-test) @ arthas-spring-boot-starter",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-spring-boot-starter/target/local-repo/org/springframework/",
+    "Responsible plugin": "maven-invoker-plugin:3.0.0:install (integration-test) @ arthas-spring-boot-starter",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/common/target/maven-status/",
+    "Responsible plugin": "maven-compiler-plugin:3.8.0:compile (default-compile) @ arthas-common",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/site/node_modules/chokidar/types/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-site",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/site/node_modules/bl/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-site",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/site/node_modules/base64-js/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-site",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/site/node_modules/markdown-it/dist/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-site",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/site/node_modules/markdown-it/bin/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-site",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/site/node_modules/path-parse/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-site",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/site/node_modules/ieee754/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-site",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/site/node_modules/buffer/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-site",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/site/node_modules/which/bin/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-site",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/site/node_modules/reusify/benchmarks/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-site",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/site/node_modules/has/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-site",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/site/node_modules/esprima/bin/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-site",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/site/node_modules/js-yaml/dist/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-site",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/site/node_modules/js-yaml/bin/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-site",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/site/node_modules/vue-count-to/demo/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-site",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/site/node_modules/vue-count-to/dist/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-site",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/site/node_modules/data-uri-to-buffer/src/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-site",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/site/node_modules/data-uri-to-buffer/dist/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-site",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/site/node_modules/data-uri-to-buffer/dist/src/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-site",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/site/node_modules/source-map/dist/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-site",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/site/node_modules/xml-js/bin/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-site",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/site/node_modules/xml-js/dist/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-site",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/site/node_modules/xml-js/types/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-site",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/site/node_modules/markdown-it-container/dist/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-site",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/site/node_modules/cac/deno/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-site",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/site/node_modules/argparse/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-site",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/site/node_modules/balloon-css/src/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-site",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/site/node_modules/node-fetch/@types/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-site",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/site/node_modules/vuepress-plugin-redirect/lib/cli/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-site",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/site/node_modules/vuepress-plugin-redirect/src/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-site",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/site/node_modules/supports-preserve-symlinks-flag/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-site",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/site/node_modules/wcwidth/docs/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-site",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/site/node_modules/wcwidth/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-site",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/site/node_modules/escalade/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-site",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/site/node_modules/is-core-module/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-site",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/site/node_modules/autoprefixer/bin/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-site",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/site/node_modules/markdown-it-emoji/dist/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-site",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/site/node_modules/prettier/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-site",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/site/node_modules/entities/lib/generated/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-site",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/site/node_modules/markdown-it-anchor/types/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-site",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/site/node_modules/fast-glob/out/types/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-site",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/site/node_modules/algoliasearch/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-site",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/site/node_modules/vuepress-plugin-copy-code2/src/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-site",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/site/node_modules/isexe/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-site",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/site/node_modules/update-browserslist-db/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-site",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/site/node_modules/safe-buffer/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-site",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/site/node_modules/vuepress-shared/src/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-site",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/site/node_modules/sourcemap-codec/dist/types/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-site",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/site/node_modules/sprintf-js/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-site",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/site/node_modules/function-bind/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-site",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/site/node_modules/vite/bin/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-site",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/site/node_modules/vite/src/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-site",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/site/node_modules/vite/types/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-site",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/site/node_modules/vite/dist/client/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-site",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/site/node_modules/vite/dist/node-cjs/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-site",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/site/node_modules/vuepress-plugin-sass-palette/src/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-site",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/site/node_modules/node-domexception/.history/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-site",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/site/node_modules/string_decoder/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-site",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/site/node_modules/fastq/.github/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-site",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/site/node_modules/fastq/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-site",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/site/node_modules/resolve/.github/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-site",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/site/node_modules/resolve/bin/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-site",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/site/node_modules/resolve/example/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-site",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/site/node_modules/resolve/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-site",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/site/node_modules/estree-walker/dist/esm/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-site",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/site/node_modules/estree-walker/src/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-site",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/site/node_modules/estree-walker/types/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-site",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/site/node_modules/sass/types/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-site",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/site/node_modules/nanoid/bin/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-site",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/site/node_modules/nanoid/async/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-site",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/site/node_modules/nanoid/url-alphabet/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-site",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/site/node_modules/csstype/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-site",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/site/node_modules/caniuse-lite/data/regions/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-site",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/site/node_modules/preact/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-site",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/site/node_modules/web-streams-polyfill/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-site",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/site/node_modules/vue-router/vetur/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-site",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/site/node_modules/rollup/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-site",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/site/node_modules/prismjs/themes/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-site",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/site/node_modules/prismjs/plugins/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-site",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/site/node_modules/dayjs/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-site",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/follow-redirects/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/lodash.escape/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/launch-editor-middleware/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/minipass/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/cookie/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/color-convert/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/array-flatten/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/strip-final-newline/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/send/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/path-parse/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/on-finished/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/postcss-colormin/types/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/destroy/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/is-plain-obj/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/parseurl/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/csstype/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/regenerator-runtime/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/jsesc/bin/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/jsesc/man/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/ieee754/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/fast-levenshtein/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/balanced-match/.github/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/buffer-from/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/range-parser/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/merge-source-map/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/webidl-conversions/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/v8-compile-cache/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/json-schema-traverse/spec/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/handle-thing/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/cssnano-preset-default/types/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/base64-js/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/isexe/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/finalhandler/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/proxy-addr/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/p-retry/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/source-map-support/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/on-headers/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/postcss-normalize-display-values/types/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/utils-merge/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/webpack-chain/types/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/lodash.mapvalues/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/cliui/build/lib/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/vary/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/cssesc/man/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/cssesc/bin/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/detect-node/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/dns-equal/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/lodash.throttle/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/ms/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/accepts/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/vue-hot-reload-api/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/lodash.flatten/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/emoji-regex/es2015/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/has-proto/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/postcss-reduce-initial/types/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/semver/bin/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/raw-body/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/merge-descriptors/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/update-browserslist-db/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/fresh/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/readdirp/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/call-bind/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/node-fetch/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/html-entities/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/eventemitter3/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/postcss-minify-params/types/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/toidentifier/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/core-util-is/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/lodash.kebabcase/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/whatwg-fetch/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/depd/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/pseudomap/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/ansi-html-community/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/thenify/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/require-directory/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/cookie-signature/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/restore-cursor/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/function-bind/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/gopd/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/google-protobuf/google/protobuf/compiler/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/ssri/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/isarray/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/consolidate/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/concat-map/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/concat-map/example/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/mkdirp/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/media-typer/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/etag/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/utila/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/css-minimizer-webpack-plugin/types/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/sirv/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/is-binary-path/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/cross-spawn/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/lodash.pullall/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/postcss-convert-values/types/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/reusify/benchmarks/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/postcss-normalize-unicode/types/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/postcss-normalize-timing-functions/types/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/dotenv/types/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/has/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/postcss-normalize-url/types/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/fastq/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/fastq/.github/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/postcss-merge-rules/types/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/http-parser-js/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/error-stack-parser/dist/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/acorn-walk/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/postcss-minify-gradients/types/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/cli-cursor/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/content-disposition/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/postcss-discard-empty/types/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/esprima/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/postcss-reduce-transforms/types/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/fast-deep-equal/es6/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/terser-webpack-plugin/types/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/select/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/parse5-htmlparser2-tree-adapter/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/safe-buffer/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/thenify-all/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/lodash.uniqby/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/lru-cache/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/setprototypeof/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/require-from-string/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/postcss-discard-duplicates/types/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/postcss-unique-selectors/types/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/postcss-normalize-repeat-style/types/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/spdy-transport/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/lodash.invokemap/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/duplexer/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/define-data-property/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/compressible/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/mime/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/cssnano-utils/types/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/retry/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/escape-html/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/mrmime/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/spdy/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/gensync/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/which/bin/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/tinycolor2/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/postcss-discard-comments/types/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/define-properties/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/module-alias/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/ansi-escapes/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/babel-plugin-polyfill-corejs2/esm/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/side-channel/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/fast-json-stable-stringify/benchmark/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/fast-json-stable-stringify/.github/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/fast-json-stable-stringify/example/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/fast-json-stable-stringify/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/tr46/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/selfsigned/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/binary-extensions/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/has-property-descriptors/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/hpack.js/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/postcss-normalize-whitespace/types/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/obuf/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/encodeurl/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/webpack-virtual-modules/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/methods/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/progress/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/v-click-outside-x/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/bl/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/he/bin/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/he/man/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/string_decoder/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/is-plain-object/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/buffer/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/thunky/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/html-tags/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/hash-sum/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/batch-processor/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/acorn-import-assertions/src/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/nth-check/lib/esm/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/type-is/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/default-gateway/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/fs-monkey/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/pascal-case/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/anymatch/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/deep-is/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/object-assign/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/connect-history-api-fallback/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/unpipe/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/svgo/bin/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/svgo/dist/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/ee-first/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/easy-stack/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/content-type/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/babel-plugin-dynamic-import-node/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/yargs-parser/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/joi/dist/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/clipboardy/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/dns-packet/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/chrome-trace-event/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/http-errors/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/loader-utils/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/vue-template-es2015-compiler/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/path-to-regexp/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/select-hose/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/babel-plugin-polyfill-regenerator/esm/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/forwarded/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/eslint-webpack-plugin/types/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/whatwg-url/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/klona/lite/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/klona/dist/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/klona/json/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/y18n/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/process-nextick-args/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/param-case/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/commondir/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/commondir/example/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/log-update/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/js-calendar/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/http-deceiver/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/object.assign/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/arch/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/sockjs/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/ajv-keywords/keywords/dot/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/regjsparser/bin/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/async-validator/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/gzip-size/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/vue-router/vetur/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/ansi-colors/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/websocket-driver/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/css-declaration-sorter/orders/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/css-declaration-sorter/src/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/webpack-bundle-analyzer/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/css-what/lib/es/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/countup.js/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/statuses/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/ipaddr.js/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/chokidar/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/parse5/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/get-caller-file/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/json-buffer/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/json-stable-stringify-without-jsonify/example/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/json-stable-stringify-without-jsonify/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/compression/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/batch/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/schema-utils/declarations/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/stackframe/dist/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/tslib/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/postcss-minify-font-values/types/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/csso/dist/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/color-name/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/bytes/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/camel-case/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/address/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/dom-serializer/lib/esm/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/postcss-ordered-values/types/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/minimist/.github/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/minimist/example/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/minimist/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/wcwidth/docs/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/wcwidth/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/lodash.truncate/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/camelcase/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/minimalistic-assert/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/source-map/dist/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/dom-converter/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/popper.js/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/cli-highlight/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/progress-webpack-plugin/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/postcss-calc/types/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/postcss-calc/src/__tests__/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/slice-ansi/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/big.js/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/body-parser/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/postcss-normalize-charset/types/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/postcss-normalize-positions/types/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/supports-preserve-symlinks-flag/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/bonjour-service/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/functional-red-black-tree/bench/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/functional-red-black-tree/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/object-keys/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/qs/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/vue-style-loader/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/argparse/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/type-fest/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/es-module-lexer/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/json5/dist/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/astral-regex/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/nanoid/bin/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/nanoid/url-alphabet/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/nanoid/async/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/stylehacks/types/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/wbuf/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/sprintf-js/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/colorette/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/flat/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/enquirer/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/css-tree/dist/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/postcss-normalize-string/types/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/ws/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/portfinder/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/htmlparser2/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/babel-plugin-polyfill-corejs3/esm/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/is-file-esm/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/optionator/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/uuid/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/commander/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/has-symbols/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/websocket-extensions/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/punycode/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/mini-css-extract-plugin/dist/hmr/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/mini-css-extract-plugin/types/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/mdn-data/api/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/mdn-data/l10n/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/vue/jsx-runtime/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/vue/server-renderer/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/element-resize-detector/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/escalade/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/deepmerge/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/cssnano/types/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/cssnano/src/postcss-discard-comments/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/cssnano/src/postcss-normalize-whitespace/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/cssnano/src/postcss-discard-empty/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/yargs/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/any-promise/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/ajv/scripts/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/ajv/dist/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/ajv/lib/dot/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/undici-types/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/caniuse-lite/data/regions/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/domelementtype/lib/esm/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/bluebird/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/safer-buffer/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/memfs/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/renderkid/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/is-core-module/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/express/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/totalist/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/wildcard/.github/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/wildcard/examples/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/wildcard/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/human-signals/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/shell-quote/.github/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/shell-quote/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/shell-quote/example/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/flatted/php/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/flatted/esm/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/flatted/python/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/estree-walker/src/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/estree-walker/types/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/estree-walker/dist/esm/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/async/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/opener/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/get-intrinsic/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/numeral/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/prettier/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/figures/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/requires-port/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/js-yaml/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/terser/bin/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/terser/tools/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/terser/lib/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/eslint/bin/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/eslint/messages/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/eslint/lib/config/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/eslint/lib/init/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/eslint/lib/cli-engine/formatters/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/autoprefixer/bin/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/webpack-dev-server/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/highlight.js/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/postcss-svgo/types/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/iconv-lite/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/lodash.chunk/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/mz/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/http-proxy/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/table/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/regenerator-transform/src/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/http-proxy-middleware/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/resolve/bin/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/resolve/.github/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/resolve/example/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/resolve/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/object-inspect/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/multicast-dns/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/no-case/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/javascript-stringify/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/webpack-dev-middleware/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/lower-case/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/dot-case/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/dayjs/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/uri-js/dist/esnext/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/node-forge/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/events/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/negotiator/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/postcss-minify-selectors/types/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/pretty-error/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/faye-websocket/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/text-table/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/acorn/bin/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/view-ui-plus/src/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/view-ui-plus/dist/locale/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/view-ui-plus/types/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/serve-static/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/regenerate-unicode-properties/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/webpack/bin/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/webpack/hot/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/webpack/schemas/plugins/debug/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/webpack/schemas/plugins/schemes/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/webpack/schemas/plugins/ids/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/webpack/schemas/plugins/sharing/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/webpack/schemas/plugins/container/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/webpack/lib/debug/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/webpack/lib/electron/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/webpack/lib/esm/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/webpack/lib/container/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/yaml/types/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/yaml/browser/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/@aashutoshrathi/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/fast-glob/out/types/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/serve-index/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/postcss-merge-longhand/types/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/lodash/fp/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/@ampproject/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (yarn install) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/ui/node_modules/.cache/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:yarn (run build) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/arthas/arthas/arthas-grpc-web-proxy/target/static/",
+    "Responsible plugin": "flatten-maven-plugin:1.2.2:flatten (flatten) @ arthas-grpc-web-proxy",
+    "Responsible command": "mvn clean install -P full",
+    "Name of the step": "Build with Maven"
+  }
+]

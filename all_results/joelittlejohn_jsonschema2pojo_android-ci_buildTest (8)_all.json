@@ -1,0 +1,26 @@
+[
+  {
+    "Unused directory": "/home/runner/work/jsonschema2pojo/jsonschema2pojo/jsonschema2pojo-cli/target/lib/",
+    "Responsible plugin": "maven-dependency-plugin:3.5.0:copy-dependencies (default) @ jsonschema2pojo-cli",
+    "Responsible command": "mvn -U -B install -DskipTests -Dmaven.javadoc.skip -Dmaven.site.skip",
+    "Name of the step": "Install latest jsonschema2pojo SNAPSHOT"
+  },
+  {
+    "Unused directory": "/home/runner/work/jsonschema2pojo/jsonschema2pojo/jsonschema2pojo-integration-tests/target/custom-libs/",
+    "Responsible plugin": "maven-dependency-plugin:3.5.0:copy (custom-libs) @ jsonschema2pojo-integration-tests",
+    "Responsible command": "mvn -U -B install -DskipTests -Dmaven.javadoc.skip -Dmaven.site.skip",
+    "Name of the step": "Install latest jsonschema2pojo SNAPSHOT"
+  },
+  {
+    "Unused directory": "/home/runner/work/jsonschema2pojo/jsonschema2pojo/jsonschema2pojo-integration-tests/target/maven-status/",
+    "Responsible plugin": "maven-compiler-plugin:3.11.0:testCompile (default-testCompile) @ jsonschema2pojo-integration-tests",
+    "Responsible command": "mvn -U -B install -DskipTests -Dmaven.javadoc.skip -Dmaven.site.skip",
+    "Name of the step": "Install latest jsonschema2pojo SNAPSHOT"
+  },
+  {
+    "Unused directory": "/home/runner/work/jsonschema2pojo/jsonschema2pojo/jsonschema2pojo-integration-tests/target/ant-libs/",
+    "Responsible plugin": "maven-compiler-plugin:3.11.0:testCompile (default-testCompile) @ jsonschema2pojo-integration-tests",
+    "Responsible command": "mvn -U -B install -DskipTests -Dmaven.javadoc.skip -Dmaven.site.skip",
+    "Name of the step": "Install latest jsonschema2pojo SNAPSHOT"
+  }
+]

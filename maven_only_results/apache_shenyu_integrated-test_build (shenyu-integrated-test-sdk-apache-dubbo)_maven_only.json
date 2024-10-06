@@ -1,0 +1,8 @@
+[
+  {
+    "Unused directory": "/home/runner/work/shenyu/shenyu/shenyu-examples/shenyu-examples-sdk/shenyu-examples-sdk-grpc/shenyu-examples-sdk-grpc-consumer/target/maven-status/",
+    "Responsible plugin": "maven-compiler-plugin:3.7.0:compile (default-compile) @ shenyu-examples-sdk-grpc-consumer",
+    "Responsible command": "./mvnw -B clean install -Pexample -Dmaven.javadoc.skip=true -Dmaven.test.skip=true -am -f ./shenyu-examples/pom.xml",
+    "Name of the step": "Build examples"
+  }
+]

@@ -1,0 +1,170 @@
+[
+  {
+    "Unused directory": "/home/runner/work/shardingsphere/shardingsphere/kernel/transaction/type/target/",
+    "Responsible plugin": "maven-remote-resources-plugin:1.7.0:process (process-resource-bundles) @ shardingsphere-transaction-type",
+    "Responsible command": "./mvnw -B clean install -am -pl test/e2e/operation/${{ matrix.operation }} -Pit.env.docker -DskipTests",
+    "Name of the step": "Build ${{ matrix.operation }} E2E Image"
+  },
+  {
+    "Unused directory": "/home/runner/work/shardingsphere/shardingsphere/kernel/transaction/distsql/target/",
+    "Responsible plugin": "maven-remote-resources-plugin:1.7.0:process (process-resource-bundles) @ shardingsphere-transaction-distsql",
+    "Responsible command": "./mvnw -B clean install -am -pl test/e2e/operation/${{ matrix.operation }} -Pit.env.docker -DskipTests",
+    "Name of the step": "Build ${{ matrix.operation }} E2E Image"
+  },
+  {
+    "Unused directory": "/home/runner/work/shardingsphere/shardingsphere/mode/type/standalone/repository/target/",
+    "Responsible plugin": "maven-remote-resources-plugin:1.7.0:process (process-resource-bundles) @ shardingsphere-standalone-mode-repository",
+    "Responsible command": "./mvnw -B clean install -am -pl test/e2e/operation/${{ matrix.operation }} -Pit.env.docker -DskipTests",
+    "Name of the step": "Build ${{ matrix.operation }} E2E Image"
+  },
+  {
+    "Unused directory": "/home/runner/work/shardingsphere/shardingsphere/mode/type/standalone/target/",
+    "Responsible plugin": "maven-remote-resources-plugin:1.7.0:process (process-resource-bundles) @ shardingsphere-standalone-mode",
+    "Responsible command": "./mvnw -B clean install -am -pl test/e2e/operation/${{ matrix.operation }} -Pit.env.docker -DskipTests",
+    "Name of the step": "Build ${{ matrix.operation }} E2E Image"
+  },
+  {
+    "Unused directory": "/home/runner/work/shardingsphere/shardingsphere/kernel/sql-translator/provider/target/",
+    "Responsible plugin": "maven-remote-resources-plugin:1.7.0:process (process-resource-bundles) @ shardingsphere-sql-translator-provider",
+    "Responsible command": "./mvnw -B clean install -am -pl test/e2e/operation/${{ matrix.operation }} -Pit.env.docker -DskipTests",
+    "Name of the step": "Build ${{ matrix.operation }} E2E Image"
+  },
+  {
+    "Unused directory": "/home/runner/work/shardingsphere/shardingsphere/kernel/sql-parser/distsql/target/",
+    "Responsible plugin": "maven-remote-resources-plugin:1.7.0:process (process-resource-bundles) @ shardingsphere-sql-parser-distsql",
+    "Responsible command": "./mvnw -B clean install -am -pl test/e2e/operation/${{ matrix.operation }} -Pit.env.docker -DskipTests",
+    "Name of the step": "Build ${{ matrix.operation }} E2E Image"
+  },
+  {
+    "Unused directory": "/home/runner/work/shardingsphere/shardingsphere/kernel/sql-federation/distsql/target/",
+    "Responsible plugin": "maven-remote-resources-plugin:1.7.0:process (process-resource-bundles) @ shardingsphere-sql-federation-distsql",
+    "Responsible command": "./mvnw -B clean install -am -pl test/e2e/operation/${{ matrix.operation }} -Pit.env.docker -DskipTests",
+    "Name of the step": "Build ${{ matrix.operation }} E2E Image"
+  },
+  {
+    "Unused directory": "/home/runner/work/shardingsphere/shardingsphere/kernel/single/distsql/target/",
+    "Responsible plugin": "maven-remote-resources-plugin:1.7.0:process (process-resource-bundles) @ shardingsphere-single-distsql",
+    "Responsible command": "./mvnw -B clean install -am -pl test/e2e/operation/${{ matrix.operation }} -Pit.env.docker -DskipTests",
+    "Name of the step": "Build ${{ matrix.operation }} E2E Image"
+  },
+  {
+    "Unused directory": "/home/runner/work/shardingsphere/shardingsphere/features/sharding/distsql/target/",
+    "Responsible plugin": "maven-remote-resources-plugin:1.7.0:process (process-resource-bundles) @ shardingsphere-sharding-distsql",
+    "Responsible command": "./mvnw -B clean install -am -pl test/e2e/operation/${{ matrix.operation }} -Pit.env.docker -DskipTests",
+    "Name of the step": "Build ${{ matrix.operation }} E2E Image"
+  },
+  {
+    "Unused directory": "/home/runner/work/shardingsphere/shardingsphere/features/shadow/distsql/target/",
+    "Responsible plugin": "maven-remote-resources-plugin:1.7.0:process (process-resource-bundles) @ shardingsphere-shadow-distsql",
+    "Responsible command": "./mvnw -B clean install -am -pl test/e2e/operation/${{ matrix.operation }} -Pit.env.docker -DskipTests",
+    "Name of the step": "Build ${{ matrix.operation }} E2E Image"
+  },
+  {
+    "Unused directory": "/home/runner/work/shardingsphere/shardingsphere/features/readwrite-splitting/distsql/target/",
+    "Responsible plugin": "maven-remote-resources-plugin:1.7.0:process (process-resource-bundles) @ shardingsphere-readwrite-splitting-distsql",
+    "Responsible command": "./mvnw -B clean install -am -pl test/e2e/operation/${{ matrix.operation }} -Pit.env.docker -DskipTests",
+    "Name of the step": "Build ${{ matrix.operation }} E2E Image"
+  },
+  {
+    "Unused directory": "/home/runner/work/shardingsphere/shardingsphere/proxy/frontend/type/target/",
+    "Responsible plugin": "maven-remote-resources-plugin:1.7.0:process (process-resource-bundles) @ shardingsphere-proxy-frontend-type",
+    "Responsible command": "./mvnw -B clean install -am -pl test/e2e/operation/${{ matrix.operation }} -Pit.env.docker -DskipTests",
+    "Name of the step": "Build ${{ matrix.operation }} E2E Image"
+  },
+  {
+    "Unused directory": "/home/runner/work/shardingsphere/shardingsphere/parser/sql/statement/type/target/",
+    "Responsible plugin": "maven-remote-resources-plugin:1.7.0:process (process-resource-bundles) @ shardingsphere-parser-sql-statement-type",
+    "Responsible command": "./mvnw -B clean install -am -pl test/e2e/operation/${{ matrix.operation }} -Pit.env.docker -DskipTests",
+    "Name of the step": "Build ${{ matrix.operation }} E2E Image"
+  },
+  {
+    "Unused directory": "/home/runner/work/shardingsphere/shardingsphere/features/mask/distsql/target/",
+    "Responsible plugin": "maven-remote-resources-plugin:1.7.0:process (process-resource-bundles) @ shardingsphere-mask-distsql",
+    "Responsible command": "./mvnw -B clean install -am -pl test/e2e/operation/${{ matrix.operation }} -Pit.env.docker -DskipTests",
+    "Name of the step": "Build ${{ matrix.operation }} E2E Image"
+  },
+  {
+    "Unused directory": "/home/runner/work/shardingsphere/shardingsphere/kernel/logging/type/target/",
+    "Responsible plugin": "maven-remote-resources-plugin:1.7.0:process (process-resource-bundles) @ shardingsphere-logging-type",
+    "Responsible command": "./mvnw -B clean install -am -pl test/e2e/operation/${{ matrix.operation }} -Pit.env.docker -DskipTests",
+    "Name of the step": "Build ${{ matrix.operation }} E2E Image"
+  },
+  {
+    "Unused directory": "/home/runner/work/shardingsphere/shardingsphere/infra/url/type/target/",
+    "Responsible plugin": "maven-remote-resources-plugin:1.7.0:process (process-resource-bundles) @ shardingsphere-infra-url-type",
+    "Responsible command": "./mvnw -B clean install -am -pl test/e2e/operation/${{ matrix.operation }} -Pit.env.docker -DskipTests",
+    "Name of the step": "Build ${{ matrix.operation }} E2E Image"
+  },
+  {
+    "Unused directory": "/home/runner/work/shardingsphere/shardingsphere/infra/expr/type/target/",
+    "Responsible plugin": "maven-remote-resources-plugin:1.7.0:process (process-resource-bundles) @ shardingsphere-infra-expr-type",
+    "Responsible command": "./mvnw -B clean install -am -pl test/e2e/operation/${{ matrix.operation }} -Pit.env.docker -DskipTests",
+    "Name of the step": "Build ${{ matrix.operation }} E2E Image"
+  },
+  {
+    "Unused directory": "/home/runner/work/shardingsphere/shardingsphere/infra/exception/dialect/type/target/",
+    "Responsible plugin": "maven-remote-resources-plugin:1.7.0:process (process-resource-bundles) @ shardingsphere-infra-exception-dialect-type",
+    "Responsible command": "./mvnw -B clean install -am -pl test/e2e/operation/${{ matrix.operation }} -Pit.env.docker -DskipTests",
+    "Name of the step": "Build ${{ matrix.operation }} E2E Image"
+  },
+  {
+    "Unused directory": "/home/runner/work/shardingsphere/shardingsphere/infra/exception/dialect/target/",
+    "Responsible plugin": "maven-remote-resources-plugin:1.7.0:process (process-resource-bundles) @ shardingsphere-infra-exception-dialect",
+    "Responsible command": "./mvnw -B clean install -am -pl test/e2e/operation/${{ matrix.operation }} -Pit.env.docker -DskipTests",
+    "Name of the step": "Build ${{ matrix.operation }} E2E Image"
+  },
+  {
+    "Unused directory": "/home/runner/work/shardingsphere/shardingsphere/infra/database/type/target/",
+    "Responsible plugin": "maven-remote-resources-plugin:1.7.0:process (process-resource-bundles) @ shardingsphere-infra-database-type",
+    "Responsible command": "./mvnw -B clean install -am -pl test/e2e/operation/${{ matrix.operation }} -Pit.env.docker -DskipTests",
+    "Name of the step": "Build ${{ matrix.operation }} E2E Image"
+  },
+  {
+    "Unused directory": "/home/runner/work/shardingsphere/shardingsphere/infra/data-source-pool/type/target/",
+    "Responsible plugin": "maven-remote-resources-plugin:1.7.0:process (process-resource-bundles) @ shardingsphere-infra-data-source-pool-type",
+    "Responsible command": "./mvnw -B clean install -am -pl test/e2e/operation/${{ matrix.operation }} -Pit.env.docker -DskipTests",
+    "Name of the step": "Build ${{ matrix.operation }} E2E Image"
+  },
+  {
+    "Unused directory": "/home/runner/work/shardingsphere/shardingsphere/kernel/global-clock/type/target/",
+    "Responsible plugin": "maven-remote-resources-plugin:1.7.0:process (process-resource-bundles) @ shardingsphere-global-clock-type",
+    "Responsible command": "./mvnw -B clean install -am -pl test/e2e/operation/${{ matrix.operation }} -Pit.env.docker -DskipTests",
+    "Name of the step": "Build ${{ matrix.operation }} E2E Image"
+  },
+  {
+    "Unused directory": "/home/runner/work/shardingsphere/shardingsphere/kernel/global-clock/distsql/target/",
+    "Responsible plugin": "maven-remote-resources-plugin:1.7.0:process (process-resource-bundles) @ shardingsphere-global-clock-distsql",
+    "Responsible command": "./mvnw -B clean install -am -pl test/e2e/operation/${{ matrix.operation }} -Pit.env.docker -DskipTests",
+    "Name of the step": "Build ${{ matrix.operation }} E2E Image"
+  },
+  {
+    "Unused directory": "/home/runner/work/shardingsphere/shardingsphere/features/encrypt/distsql/target/",
+    "Responsible plugin": "maven-remote-resources-plugin:1.7.0:process (process-resource-bundles) @ shardingsphere-encrypt-distsql",
+    "Responsible command": "./mvnw -B clean install -am -pl test/e2e/operation/${{ matrix.operation }} -Pit.env.docker -DskipTests",
+    "Name of the step": "Build ${{ matrix.operation }} E2E Image"
+  },
+  {
+    "Unused directory": "/home/runner/work/shardingsphere/shardingsphere/kernel/data-pipeline/distsql/target/",
+    "Responsible plugin": "maven-remote-resources-plugin:1.7.0:process (process-resource-bundles) @ shardingsphere-data-pipeline-distsql",
+    "Responsible command": "./mvnw -B clean install -am -pl test/e2e/operation/${{ matrix.operation }} -Pit.env.docker -DskipTests",
+    "Name of the step": "Build ${{ matrix.operation }} E2E Image"
+  },
+  {
+    "Unused directory": "/home/runner/work/shardingsphere/shardingsphere/kernel/data-pipeline/dialect/target/",
+    "Responsible plugin": "maven-remote-resources-plugin:1.7.0:process (process-resource-bundles) @ shardingsphere-data-pipeline-dialect",
+    "Responsible command": "./mvnw -B clean install -am -pl test/e2e/operation/${{ matrix.operation }} -Pit.env.docker -DskipTests",
+    "Name of the step": "Build ${{ matrix.operation }} E2E Image"
+  },
+  {
+    "Unused directory": "/home/runner/work/shardingsphere/shardingsphere/kernel/sql-translator/distsql/parser/target/maven-status/",
+    "Responsible plugin": "antlr4-maven-plugin:4.10.1:antlr4 (antlr) @ shardingsphere-sql-translator-distsql-parser",
+    "Responsible command": "./mvnw -B clean install -am -pl test/e2e/operation/${{ matrix.operation }} -Pit.env.docker -DskipTests",
+    "Name of the step": "Build ${{ matrix.operation }} E2E Image"
+  },
+  {
+    "Unused directory": "/home/runner/work/shardingsphere/shardingsphere/features/mask/distsql/parser/target/maven-status/",
+    "Responsible plugin": "antlr4-maven-plugin:4.10.1:antlr4 (antlr) @ shardingsphere-mask-distsql-parser",
+    "Responsible command": "./mvnw -B clean install -am -pl test/e2e/operation/${{ matrix.operation }} -Pit.env.docker -DskipTests",
+    "Name of the step": "Build ${{ matrix.operation }} E2E Image"
+  }
+]

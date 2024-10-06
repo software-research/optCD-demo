@@ -1,0 +1,14 @@
+[
+  {
+    "Unused directory": "/home/runner/work/jsoup/jsoup/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.5.0:test (default-test) @ jsoup",
+    "Responsible command": "mvn -X verify -B --file pom.xml",
+    "Name of the step": "Maven Verify"
+  },
+  {
+    "Unused directory": "/home/runner/work/jsoup/jsoup/target/japicmp/",
+    "Responsible plugin": "japicmp-maven-plugin:0.23.0:cmp (default) @ jsoup",
+    "Responsible command": "mvn -X verify -B --file pom.xml",
+    "Name of the step": "Maven Verify"
+  }
+]

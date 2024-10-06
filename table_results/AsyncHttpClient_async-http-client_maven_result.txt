@@ -1,0 +1,13 @@
+Unused directories and their responsible plugins in RunOnWindows:
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in RunOnLinux:
+╒═════════════════════════════════════════════════════════════════════════════════════════════╤═══════════════════════════════════════════════════════════════╤═══════════════════════════╤════════════════════╕
+│ Unused directory                                                                            │ Responsible plugin                                            │ Responsible command       │ Name of the step   │
+╞═════════════════════════════════════════════════════════════════════════════════════════════╪═══════════════════════════════════════════════════════════════╪═══════════════════════════╪════════════════════╡
+│ /home/runner/work/async-http-client/async-http-client/client/target/surefire-reports/       │ surefire:3.5.0:test (default-test) @ async-http-client        │ ./mvnw -B -ntp clean test │ Run Tests          │
+├─────────────────────────────────────────────────────────────────────────────────────────────┼───────────────────────────────────────────────────────────────┼───────────────────────────┼────────────────────┤
+│ /home/runner/work/async-http-client/async-http-client/client/target/generated-test-sources/ │ compiler:3.13.0:compile (default-compile) @ async-http-client │ ./mvnw -B -ntp clean test │ Run Tests          │
+╘═════════════════════════════════════════════════════════════════════════════════════════════╧═══════════════════════════════════════════════════════════════╧═══════════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in RunOnMacOs:
+Inotify log does not exist, because the job runs on Windows or MacOS.

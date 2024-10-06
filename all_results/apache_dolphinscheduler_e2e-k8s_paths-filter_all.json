@@ -1,0 +1,146 @@
+[
+  {
+    "Unused directory": "/home/runner/work/dolphinscheduler/dolphinscheduler/dolphinscheduler-standalone-server/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v4",
+    "Name of the step": "actions/checkout@v4"
+  },
+  {
+    "Unused directory": "/home/runner/work/dolphinscheduler/dolphinscheduler/licenses/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v4",
+    "Name of the step": "actions/checkout@v4"
+  },
+  {
+    "Unused directory": "/home/runner/work/dolphinscheduler/dolphinscheduler/dolphinscheduler-authentication/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v4",
+    "Name of the step": "actions/checkout@v4"
+  },
+  {
+    "Unused directory": "/home/runner/work/dolphinscheduler/dolphinscheduler/dolphinscheduler-e2e/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v4",
+    "Name of the step": "actions/checkout@v4"
+  },
+  {
+    "Unused directory": "/home/runner/work/dolphinscheduler/dolphinscheduler/dolphinscheduler-scheduler-plugin/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v4",
+    "Name of the step": "actions/checkout@v4"
+  },
+  {
+    "Unused directory": "/home/runner/work/dolphinscheduler/dolphinscheduler/dolphinscheduler-api-test/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v4",
+    "Name of the step": "actions/checkout@v4"
+  },
+  {
+    "Unused directory": "/home/runner/work/dolphinscheduler/dolphinscheduler/dolphinscheduler-dist/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v4",
+    "Name of the step": "actions/checkout@v4"
+  },
+  {
+    "Unused directory": "/home/runner/work/dolphinscheduler/dolphinscheduler/dolphinscheduler-alert/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v4",
+    "Name of the step": "actions/checkout@v4"
+  },
+  {
+    "Unused directory": "/home/runner/work/dolphinscheduler/dolphinscheduler/dolphinscheduler-microbench/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v4",
+    "Name of the step": "actions/checkout@v4"
+  },
+  {
+    "Unused directory": "/home/runner/work/dolphinscheduler/dolphinscheduler/dolphinscheduler-registry/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v4",
+    "Name of the step": "actions/checkout@v4"
+  },
+  {
+    "Unused directory": "/home/runner/work/dolphinscheduler/dolphinscheduler/.git/logs/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v4",
+    "Name of the step": "actions/checkout@v4"
+  },
+  {
+    "Unused directory": "/home/runner/work/dolphinscheduler/dolphinscheduler/.git/hooks/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v4",
+    "Name of the step": "actions/checkout@v4"
+  },
+  {
+    "Unused directory": "/home/runner/work/dolphinscheduler/dolphinscheduler/dolphinscheduler-storage-plugin/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v4",
+    "Name of the step": "actions/checkout@v4"
+  },
+  {
+    "Unused directory": "/home/runner/work/dolphinscheduler/dolphinscheduler/dolphinscheduler-spi/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v4",
+    "Name of the step": "actions/checkout@v4"
+  },
+  {
+    "Unused directory": "/home/runner/work/dolphinscheduler/dolphinscheduler/.github/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v4",
+    "Name of the step": "actions/checkout@v4"
+  },
+  {
+    "Unused directory": "/home/runner/work/dolphinscheduler/dolphinscheduler/dolphinscheduler-dao-plugin/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v4",
+    "Name of the step": "actions/checkout@v4"
+  },
+  {
+    "Unused directory": "/home/runner/work/dolphinscheduler/dolphinscheduler/dolphinscheduler-meter/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v4",
+    "Name of the step": "actions/checkout@v4"
+  },
+  {
+    "Unused directory": "/home/runner/work/dolphinscheduler/dolphinscheduler/dolphinscheduler-yarn-aop/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v4",
+    "Name of the step": "actions/checkout@v4"
+  },
+  {
+    "Unused directory": "/home/runner/work/dolphinscheduler/dolphinscheduler/images/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v4",
+    "Name of the step": "actions/checkout@v4"
+  },
+  {
+    "Unused directory": "/home/runner/work/dolphinscheduler/dolphinscheduler/docs/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v4",
+    "Name of the step": "actions/checkout@v4"
+  },
+  {
+    "Unused directory": "/home/runner/work/dolphinscheduler/dolphinscheduler/dolphinscheduler-task-plugin/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v4",
+    "Name of the step": "actions/checkout@v4"
+  },
+  {
+    "Unused directory": "/home/runner/work/dolphinscheduler/dolphinscheduler/dolphinscheduler-ui/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v4",
+    "Name of the step": "actions/checkout@v4"
+  },
+  {
+    "Unused directory": "/home/runner/work/dolphinscheduler/dolphinscheduler/dolphinscheduler-datasource-plugin/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v4",
+    "Name of the step": "actions/checkout@v4"
+  },
+  {
+    "Unused directory": "/home/runner/work/dolphinscheduler/dolphinscheduler/dolphinscheduler-extract/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v4",
+    "Name of the step": "actions/checkout@v4"
+  }
+]

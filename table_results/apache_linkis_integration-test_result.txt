@@ -1,0 +1,2 @@
+Unused directories and their responsible plugins in integration-test (16.0.0, kindest/node:v1.23.4):
+Inotify log does not exist, because the job runs on Windows or MacOS.

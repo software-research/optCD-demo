@@ -24,7 +24,7 @@ echo "[INFO] $(date +"%Y-%m-%d %H:%M:%S") | Finished modifying the original YAML
 
 path_to_yaml_file=$(echo "$output_yaml_filename" | rev | cut -d'/' -f1-3 | rev)
 path_to_local_repo=$(echo "$output_yaml_filename" | rev | cut -d'/' -f4- | rev)
-workflow_file=$(echo "$output_yaml_filename" | rev | cut -d'/' -f1 | rev | cut -d'.' -f1)
+workflow_file=$(echo "$input_yaml_filename" | rev | cut -d'/' -f1 | rev | cut -d'.' -f1)
 
 run_id=$(gh run list --repo "$owner"/"$repo" --workflow "$path_to_yaml_file" --limit 1 --json databaseId --jq '.[0].databaseId')
 
@@ -49,6 +49,8 @@ while true; do
   sleep 5
 done
 
+echo "$run_id" > "$repo"-"$workflow_file".txt
+
 # wait until modified yaml workflow finishes
 while true; do
   run_status=$(gh run view "$run_id" --repo "$owner"/"$repo" --json status -q '.status')
@@ -58,7 +60,7 @@ while true; do
   fi
   echo "[INFO] $(date +"%Y-%m-%d %H:%M:%S") | Waiting until modified YAML workflow is completed."
   echo "[INFO] $(date +"%Y-%m-%d %H:%M:%S") | Run status of current workflow (run_id: $run_id) is: $run_status"
-  sleep 10
+  sleep 50
 done
 
 # get job ids inside of modified yaml workflow run

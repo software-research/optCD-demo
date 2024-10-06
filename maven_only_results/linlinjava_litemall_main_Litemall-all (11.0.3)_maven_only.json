@@ -1,0 +1,8 @@
+[
+  {
+    "Unused directory": "/home/runner/work/litemall/litemall/litemall-wx-api/target/maven-status/",
+    "Responsible plugin": "maven-compiler-plugin:3.1:compile (default-compile) @ litemall-wx-api",
+    "Responsible command": "mvn --batch-mode --update-snapshots verify",
+    "Name of the step": "Build with Maven"
+  }
+]

@@ -1,0 +1,8 @@
+[
+  {
+    "Unused directory": "/home/runner/work/shenyu/shenyu/shenyu-examples/shenyu-examples-dubbo/shenyu-examples-dubbo-api/target/maven-status/",
+    "Responsible plugin": "maven-compiler-plugin:3.7.0:compile (default-compile) @ shenyu-examples-dubbo-api",
+    "Responsible command": "./mvnw -B clean install -Pexample -Dmaven.javadoc.skip=true -Dmaven.test.skip=true -f ./shenyu-examples/pom.xml",
+    "Name of the step": "Build examples"
+  }
+]

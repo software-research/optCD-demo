@@ -1,0 +1,38 @@
+[
+  {
+    "Unused directory": "/home/runner/work/karate/karate/karate-core/target/karate-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ karate-core",
+    "Responsible command": "mvn -B clean install -P pre-release -Djavacpp.platform=linux-x86_64",
+    "Name of the step": "build with maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/karate/karate/karate-core/target/report-test-env/res/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ karate-core",
+    "Responsible command": "mvn -B clean install -P pre-release -Djavacpp.platform=linux-x86_64",
+    "Name of the step": "build with maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/karate/karate/karate-core/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ karate-core",
+    "Responsible command": "mvn -B clean install -P pre-release -Djavacpp.platform=linux-x86_64",
+    "Name of the step": "build with maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/karate/karate/karate-core/target/dependency-maven-plugin-markers/",
+    "Responsible plugin": "maven-dependency-plugin:3.6.1:unpack-dependencies (unpack-dependencies) @ karate-core",
+    "Responsible command": "mvn -B clean install -P pre-release -Djavacpp.platform=linux-x86_64",
+    "Name of the step": "build with maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/karate/karate/karate-core/target/generated-test-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.13.0:testCompile (default-testCompile) @ karate-core",
+    "Responsible command": "mvn -B clean install -P pre-release -Djavacpp.platform=linux-x86_64",
+    "Name of the step": "build with maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/karate/karate/karate-core/target/maven-status/",
+    "Responsible plugin": "antlr4-maven-plugin:4.13.1:antlr4 (default) @ karate-core",
+    "Responsible command": "mvn -B clean install -P pre-release -Djavacpp.platform=linux-x86_64",
+    "Name of the step": "build with maven"
+  }
+]

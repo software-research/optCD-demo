@@ -1,0 +1,39 @@
+Unused directories and their responsible plugins in test (ubuntu-latest, 8):
+╒════════════════════════════════════════════════════════╤═════════════════════════════════════════════════════════╤═════════════════════════════════╤════════════════════╕
+│ Unused directory                                       │ Responsible plugin                                      │ Responsible command             │ Name of the step   │
+╞════════════════════════════════════════════════════════╪═════════════════════════════════════════════════════════╪═════════════════════════════════╪════════════════════╡
+│ /home/runner/work/jsoup/jsoup/target/surefire-reports/ │ maven-surefire-plugin:3.5.0:test (default-test) @ jsoup │ mvn -X verify -B --file pom.xml │ Maven Verify       │
+├────────────────────────────────────────────────────────┼─────────────────────────────────────────────────────────┼─────────────────────────────────┼────────────────────┤
+│ /home/runner/work/jsoup/jsoup/target/japicmp/          │ japicmp-maven-plugin:0.23.0:cmp (default) @ jsoup       │ mvn -X verify -B --file pom.xml │ Maven Verify       │
+╘════════════════════════════════════════════════════════╧═════════════════════════════════════════════════════════╧═════════════════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in test (ubuntu-latest, 17):
+╒════════════════════════════════════════════════════════╤═════════════════════════════════════════════════════════╤═════════════════════════════════╤════════════════════╕
+│ Unused directory                                       │ Responsible plugin                                      │ Responsible command             │ Name of the step   │
+╞════════════════════════════════════════════════════════╪═════════════════════════════════════════════════════════╪═════════════════════════════════╪════════════════════╡
+│ /home/runner/work/jsoup/jsoup/target/surefire-reports/ │ maven-surefire-plugin:3.5.0:test (default-test) @ jsoup │ mvn -X verify -B --file pom.xml │ Maven Verify       │
+├────────────────────────────────────────────────────────┼─────────────────────────────────────────────────────────┼─────────────────────────────────┼────────────────────┤
+│ /home/runner/work/jsoup/jsoup/target/japicmp/          │ japicmp-maven-plugin:0.23.0:cmp (default) @ jsoup       │ mvn -X verify -B --file pom.xml │ Maven Verify       │
+╘════════════════════════════════════════════════════════╧═════════════════════════════════════════════════════════╧═════════════════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in test (ubuntu-latest, 21):
+╒════════════════════════════════════════════════════════╤═════════════════════════════════════════════════════════╤═════════════════════════════════╤════════════════════╕
+│ Unused directory                                       │ Responsible plugin                                      │ Responsible command             │ Name of the step   │
+╞════════════════════════════════════════════════════════╪═════════════════════════════════════════════════════════╪═════════════════════════════════╪════════════════════╡
+│ /home/runner/work/jsoup/jsoup/target/surefire-reports/ │ maven-surefire-plugin:3.5.0:test (default-test) @ jsoup │ mvn -X verify -B --file pom.xml │ Maven Verify       │
+├────────────────────────────────────────────────────────┼─────────────────────────────────────────────────────────┼─────────────────────────────────┼────────────────────┤
+│ /home/runner/work/jsoup/jsoup/target/japicmp/          │ japicmp-maven-plugin:0.23.0:cmp (default) @ jsoup       │ mvn -X verify -B --file pom.xml │ Maven Verify       │
+╘════════════════════════════════════════════════════════╧═════════════════════════════════════════════════════════╧═════════════════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in test (windows-latest, 8):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in test (windows-latest, 17):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in test (windows-latest, 21):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in test (macOS-latest, 8):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in test (macOS-latest, 17):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in test (macOS-latest, 21):
+Inotify log does not exist, because the job runs on Windows or MacOS.

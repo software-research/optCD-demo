@@ -1,0 +1,8 @@
+[
+  {
+    "Unused directory": "/home/runner/work/spring-boot-starter/spring-boot-starter/mybatis-spring-boot-samples/mybatis-spring-boot-sample-xml/target/surefire-reports/",
+    "Responsible plugin": "surefire:3.3.1:test (default-test) @ mybatis-spring-boot-sample-xml",
+    "Responsible command": "./mvnw test -B -V --no-transfer-progress -D\"license.skip=true\"",
+    "Name of the step": "Test with Maven"
+  }
+]

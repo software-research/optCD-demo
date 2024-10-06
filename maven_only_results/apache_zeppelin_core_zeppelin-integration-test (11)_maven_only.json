@@ -1,0 +1,752 @@
+[
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-plugins/notebookrepo/s3/target/lib/",
+    "Responsible plugin": "maven-dependency-plugin:3.1.2:copy-dependencies (copy-dependencies) @ notebookrepo-s3",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-plugins/notebookrepo/gcs/target/lib/",
+    "Responsible plugin": "maven-dependency-plugin:3.1.2:copy-dependencies (copy-dependencies) @ notebookrepo-gcs",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-plugins/notebookrepo/s3/target/generated-test-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.10.1:testCompile (default-testCompile) @ notebookrepo-s3",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/spark/spark-common/target/maven-status/",
+    "Responsible plugin": "maven-compiler-plugin:3.10.1:compile (default-compile) @ spark-common",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/worker-farm/examples/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/webpack-cli/lib/utils/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/webdriver-manager/built/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/iconv-lite/encodings/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/shell-quote/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/zlib-browserify/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/jquery-ui/ui/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/jshint/dist/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/caniuse-lite/dist/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/unique-filename/.nyc_output/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/unique-filename/coverage/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/url/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/sax/examples/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/sax/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/whet.extend/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/ng-annotate-loader/cases/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/ng-sortable/demo/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/stream-http/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/ajv/scripts/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/ajv/dist/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/handlebars/lib/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/handlebars/dist/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/jquery/src/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/uuid/lib/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/webpack-dev-server/lib/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/webpack-dev-server/client/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/karma/lib/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/pretty-error/src/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/pretty-error/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/terser/tools/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/scrollmonitor/demos/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/select2/src/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/uri-js/dist/esnext/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/csso/lib/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/source-map/dist/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/resolve/example/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/resolve/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/perfect-scrollbar/examples/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/angular-ui-grid/less/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/angular-ui-grid/i18n/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/moment/ts3.1-typings/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/moment/dist/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/moment/min/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/moment/src/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/object-inspect/example/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/object-inspect/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/grunt-newer/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/es5-ext/json/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/es5-ext/boolean/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/es5-ext/iterable/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/es5-ext/date/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/es5-ext/string/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/es5-ext/error/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/es5-ext/reg-exp/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/es5-ext/function/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/es5-ext/promise/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/es5-ext/array/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/es5-ext/math/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/es5-ext/object/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/es5-ext/number/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/webpack/hot/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/sshpk/lib/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/string.prototype.padend/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/core-js/web/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/core-js/stage/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/core-js/client/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/core-js/es6/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/core-js/es7/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/core-js/build/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/core-js/core/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/core-js/es5/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/core-js/library/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/core-js/fn/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/core-js/modules/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/protractor/exampleTypescript/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/protractor/built/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/nvd3/examples/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/nvd3/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/babel-runtime/core-js/regexp/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/babel-runtime/core-js/reflect/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/babel-runtime/core-js/math/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/excel-builder/src/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/angular-ui-bootstrap/template/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/angular-ui-bootstrap/src/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/grunt-cache-bust/tests/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/es-abstract/operations/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/es-abstract/2018/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/es-abstract/2019/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/es-abstract/2016/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/es-abstract/2017/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/es-abstract/2022/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/es-abstract/2021/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/es-abstract/2020/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/es-abstract/2023/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/es-abstract/2015/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/bootstrap/fonts/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/bootstrap/grunt/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/bootstrap/js/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/bootstrap/less/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/mathjax/jax/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/mathjax/config/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/mathjax/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/mathjax/extensions/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/mathjax/localization/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/mathjax/unpacked/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/lodash/collection/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/lodash/string/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/lodash/internal/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/d3/src/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/ace-builds/src-noconflict/snippets/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/ace-builds/src-min/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/ace-builds/src/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/caniuse-db/fulldata-json/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/caniuse-db/region-usage-json/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/rlang/target/spark-3.5.3-bin-without-hadoop/sbin/",
+    "Responsible plugin": "download-maven-plugin:1.6.0:wget (download-sparkr-files) @ r",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/rlang/target/spark-3.5.3-bin-without-hadoop/data/",
+    "Responsible plugin": "download-maven-plugin:1.6.0:wget (download-sparkr-files) @ r",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/rlang/target/spark-3.5.3-bin-without-hadoop/bin/",
+    "Responsible plugin": "download-maven-plugin:1.6.0:wget (download-sparkr-files) @ r",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/rlang/target/spark-3.5.3-bin-without-hadoop/licenses/",
+    "Responsible plugin": "download-maven-plugin:1.6.0:wget (download-sparkr-files) @ r",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/rlang/target/spark-3.5.3-bin-without-hadoop/python/",
+    "Responsible plugin": "download-maven-plugin:1.6.0:wget (download-sparkr-files) @ r",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/rlang/target/spark-3.5.3-bin-without-hadoop/jars/",
+    "Responsible plugin": "download-maven-plugin:1.6.0:wget (download-sparkr-files) @ r",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/rlang/target/spark-3.5.3-bin-without-hadoop/examples/",
+    "Responsible plugin": "download-maven-plugin:1.6.0:wget (download-sparkr-files) @ r",
+    "Responsible command": "./mvnw install -DskipTests -Pintegration -pl zeppelin-interpreter-integration,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,flink-cmd,flink/flink-scala-2.12,jdbc,shell -am -Pweb-classic -Pflink-117 ${MAVEN_ARGS}\n./mvnw package -pl zeppelin-plugins -amd -DskipTests ${MAVEN_ARGS}\n",
+    "Name of the step": "install environment"
+  }
+]

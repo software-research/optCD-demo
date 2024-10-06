@@ -1,0 +1,73 @@
+Unused directories and their responsible plugins in file_changes:
+╒══════════════════════════════════════════════════════════════════╤══════════════════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory                                                 │ Responsible plugin               │ Responsible command   │ Name of the step   │
+╞══════════════════════════════════════════════════════════════════╪══════════════════════════════════╪═══════════════════════╪════════════════════╡
+│ /home/runner/work/debezium/debezium/debezium-interceptor/        │ Not responsible by maven plugins │ actions/checkout@v4   │ Checkout Action    │
+├──────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────┼────────────────────┤
+│ /home/runner/work/debezium/debezium/github-support/              │ Not responsible by maven plugins │ actions/checkout@v4   │ Checkout Action    │
+├──────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────┼────────────────────┤
+│ /home/runner/work/debezium/debezium/debezium-quarkus-outbox/     │ Not responsible by maven plugins │ actions/checkout@v4   │ Checkout Action    │
+├──────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────┼────────────────────┤
+│ /home/runner/work/debezium/debezium/debezium-e2e-benchmark/      │ Not responsible by maven plugins │ actions/checkout@v4   │ Checkout Action    │
+├──────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────┼────────────────────┤
+│ /home/runner/work/debezium/debezium/debezium-testing/            │ Not responsible by maven plugins │ actions/checkout@v4   │ Checkout Action    │
+├──────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────┼────────────────────┤
+│ /home/runner/work/debezium/debezium/debezium-connector-mariadb/  │ Not responsible by maven plugins │ actions/checkout@v4   │ Checkout Action    │
+├──────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────┼────────────────────┤
+│ /home/runner/work/debezium/debezium/.git/hooks/                  │ Not responsible by maven plugins │ actions/checkout@v4   │ Checkout Action    │
+├──────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────┼────────────────────┤
+│ /home/runner/work/debezium/debezium/.git/logs/                   │ Not responsible by maven plugins │ actions/checkout@v4   │ Checkout Action    │
+├──────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────┼────────────────────┤
+│ /home/runner/work/debezium/debezium/debezium-storage/            │ Not responsible by maven plugins │ actions/checkout@v4   │ Checkout Action    │
+├──────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────┼────────────────────┤
+│ /home/runner/work/debezium/debezium/jenkins-jobs/                │ Not responsible by maven plugins │ actions/checkout@v4   │ Checkout Action    │
+├──────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────┼────────────────────┤
+│ /home/runner/work/debezium/debezium/debezium-connector-postgres/ │ Not responsible by maven plugins │ actions/checkout@v4   │ Checkout Action    │
+├──────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────┼────────────────────┤
+│ /home/runner/work/debezium/debezium/debezium-core/               │ Not responsible by maven plugins │ actions/checkout@v4   │ Checkout Action    │
+├──────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────┼────────────────────┤
+│ /home/runner/work/debezium/debezium/debezium-connector-mysql/    │ Not responsible by maven plugins │ actions/checkout@v4   │ Checkout Action    │
+╘══════════════════════════════════════════════════════════════════╧══════════════════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in build_cache:
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in check_style:
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build_debezium_testing:
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build_debezium_server:
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build_db2:
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build_cassandra:
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build_ibmi:
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build_jdbc:
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build_informix:
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build_mariadb (${{ matrix.profile }}):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build_mongodb (${{ matrix.version-mongo-server }}):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build_mysql (${{ matrix.profile }}, ${{ matrix.version-mysql-server }}):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build_oracle:
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build_outbox:
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build_postgresql (${{ matrix.profile }}):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build_rest_extension:
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build_spanner:
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build_schema_generator:
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build_sqlserver:
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build_storage:
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build_vitess:
+Inotify log does not exist, because the job runs on Windows or MacOS.

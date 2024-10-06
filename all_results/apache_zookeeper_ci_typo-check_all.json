@@ -1,0 +1,14 @@
+[
+  {
+    "Unused directory": "/home/runner/work/zookeeper/zookeeper/.git/logs/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v4",
+    "Name of the step": "actions/checkout@v4"
+  },
+  {
+    "Unused directory": "/home/runner/work/zookeeper/zookeeper/.git/hooks/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v4",
+    "Name of the step": "actions/checkout@v4"
+  }
+]

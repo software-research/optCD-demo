@@ -1,0 +1,4 @@
+Unused directories and their responsible plugins in test (ubuntu-latest, 17):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in test (windows-latest, 17):
+Inotify log does not exist, because the job runs on Windows or MacOS.

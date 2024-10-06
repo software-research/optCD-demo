@@ -1,0 +1,38 @@
+[
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/rlang/target/spark-3.5.3-bin-without-hadoop/data/",
+    "Responsible plugin": "download-maven-plugin:1.6.0:wget (download-sparkr-files) @ r",
+    "Responsible command": "./mvnw install -DskipTests -pl spark-submit,spark/scala-2.12,spark/scala-2.13 -am ${MAVEN_ARGS}",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/rlang/target/spark-3.5.3-bin-without-hadoop/examples/",
+    "Responsible plugin": "download-maven-plugin:1.6.0:wget (download-sparkr-files) @ r",
+    "Responsible command": "./mvnw install -DskipTests -pl spark-submit,spark/scala-2.12,spark/scala-2.13 -am ${MAVEN_ARGS}",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/rlang/target/spark-3.5.3-bin-without-hadoop/licenses/",
+    "Responsible plugin": "download-maven-plugin:1.6.0:wget (download-sparkr-files) @ r",
+    "Responsible command": "./mvnw install -DskipTests -pl spark-submit,spark/scala-2.12,spark/scala-2.13 -am ${MAVEN_ARGS}",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/rlang/target/spark-3.5.3-bin-without-hadoop/python/",
+    "Responsible plugin": "download-maven-plugin:1.6.0:wget (download-sparkr-files) @ r",
+    "Responsible command": "./mvnw install -DskipTests -pl spark-submit,spark/scala-2.12,spark/scala-2.13 -am ${MAVEN_ARGS}",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/rlang/target/spark-3.5.3-bin-without-hadoop/sbin/",
+    "Responsible plugin": "download-maven-plugin:1.6.0:wget (download-sparkr-files) @ r",
+    "Responsible command": "./mvnw install -DskipTests -pl spark-submit,spark/scala-2.12,spark/scala-2.13 -am ${MAVEN_ARGS}",
+    "Name of the step": "install environment"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/rlang/target/spark-3.5.3-bin-without-hadoop/jars/",
+    "Responsible plugin": "download-maven-plugin:1.6.0:wget (download-sparkr-files) @ r",
+    "Responsible command": "./mvnw install -DskipTests -pl spark-submit,spark/scala-2.12,spark/scala-2.13 -am ${MAVEN_ARGS}",
+    "Name of the step": "install environment"
+  }
+]

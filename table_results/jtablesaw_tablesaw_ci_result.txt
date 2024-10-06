@@ -1,0 +1,46 @@
+Unused directories and their responsible plugins in Tests (11, macOS-latest):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in Tests (11, ubuntu-latest):
+╒═════════════════════════════════════════════════════════════════════╤═══════════════════════════════════════════════════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory                                                    │ Responsible plugin                                                │ Responsible command   │ Name of the step   │
+╞═════════════════════════════════════════════════════════════════════╪═══════════════════════════════════════════════════════════════════╪═══════════════════════╪════════════════════╡
+│ /home/runner/work/tablesaw/tablesaw/saw/target/surefire-reports/    │ maven-surefire-plugin:3.2.5:test (default-test) @ tablesaw-saw    │ mvn test              │ Test with Maven    │
+├─────────────────────────────────────────────────────────────────────┼───────────────────────────────────────────────────────────────────┼───────────────────────┼────────────────────┤
+│ /home/runner/work/tablesaw/tablesaw/jsplot/target/surefire-reports/ │ maven-surefire-plugin:3.2.5:test (default-test) @ tablesaw-jsplot │ mvn test              │ Test with Maven    │
+├─────────────────────────────────────────────────────────────────────┼───────────────────────────────────────────────────────────────────┼───────────────────────┼────────────────────┤
+│ /home/runner/work/tablesaw/tablesaw/json/target/surefire-reports/   │ maven-surefire-plugin:3.2.5:test (default-test) @ tablesaw-json   │ mvn test              │ Test with Maven    │
+├─────────────────────────────────────────────────────────────────────┼───────────────────────────────────────────────────────────────────┼───────────────────────┼────────────────────┤
+│ /home/runner/work/tablesaw/tablesaw/html/target/surefire-reports/   │ maven-surefire-plugin:3.2.5:test (default-test) @ tablesaw-html   │ mvn test              │ Test with Maven    │
+├─────────────────────────────────────────────────────────────────────┼───────────────────────────────────────────────────────────────────┼───────────────────────┼────────────────────┤
+│ /home/runner/work/tablesaw/tablesaw/excel/target/surefire-reports/  │ maven-surefire-plugin:3.2.5:test (default-test) @ tablesaw-excel  │ mvn test              │ Test with Maven    │
+├─────────────────────────────────────────────────────────────────────┼───────────────────────────────────────────────────────────────────┼───────────────────────┼────────────────────┤
+│ /home/runner/work/tablesaw/tablesaw/core/target/surefire-reports/   │ maven-surefire-plugin:3.2.5:test (default-test) @ tablesaw-core   │ mvn test              │ Test with Maven    │
+├─────────────────────────────────────────────────────────────────────┼───────────────────────────────────────────────────────────────────┼───────────────────────┼────────────────────┤
+│ /home/runner/work/tablesaw/tablesaw/arrow/target/surefire-reports/  │ maven-surefire-plugin:3.2.5:test (default-test) @ tablesaw-arrow  │ mvn test              │ Test with Maven    │
+╘═════════════════════════════════════════════════════════════════════╧═══════════════════════════════════════════════════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in Tests (11, windows-latest):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in Tests (17, macOS-latest):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in Tests (17, ubuntu-latest):
+╒═════════════════════════════════════════════════════════════════════╤═══════════════════════════════════════════════════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory                                                    │ Responsible plugin                                                │ Responsible command   │ Name of the step   │
+╞═════════════════════════════════════════════════════════════════════╪═══════════════════════════════════════════════════════════════════╪═══════════════════════╪════════════════════╡
+│ /home/runner/work/tablesaw/tablesaw/saw/target/surefire-reports/    │ maven-surefire-plugin:3.2.5:test (default-test) @ tablesaw-saw    │ mvn test              │ Test with Maven    │
+├─────────────────────────────────────────────────────────────────────┼───────────────────────────────────────────────────────────────────┼───────────────────────┼────────────────────┤
+│ /home/runner/work/tablesaw/tablesaw/jsplot/target/surefire-reports/ │ maven-surefire-plugin:3.2.5:test (default-test) @ tablesaw-jsplot │ mvn test              │ Test with Maven    │
+├─────────────────────────────────────────────────────────────────────┼───────────────────────────────────────────────────────────────────┼───────────────────────┼────────────────────┤
+│ /home/runner/work/tablesaw/tablesaw/json/target/surefire-reports/   │ maven-surefire-plugin:3.2.5:test (default-test) @ tablesaw-json   │ mvn test              │ Test with Maven    │
+├─────────────────────────────────────────────────────────────────────┼───────────────────────────────────────────────────────────────────┼───────────────────────┼────────────────────┤
+│ /home/runner/work/tablesaw/tablesaw/html/target/surefire-reports/   │ maven-surefire-plugin:3.2.5:test (default-test) @ tablesaw-html   │ mvn test              │ Test with Maven    │
+├─────────────────────────────────────────────────────────────────────┼───────────────────────────────────────────────────────────────────┼───────────────────────┼────────────────────┤
+│ /home/runner/work/tablesaw/tablesaw/excel/target/surefire-reports/  │ maven-surefire-plugin:3.2.5:test (default-test) @ tablesaw-excel  │ mvn test              │ Test with Maven    │
+├─────────────────────────────────────────────────────────────────────┼───────────────────────────────────────────────────────────────────┼───────────────────────┼────────────────────┤
+│ /home/runner/work/tablesaw/tablesaw/core/target/surefire-reports/   │ maven-surefire-plugin:3.2.5:test (default-test) @ tablesaw-core   │ mvn test              │ Test with Maven    │
+├─────────────────────────────────────────────────────────────────────┼───────────────────────────────────────────────────────────────────┼───────────────────────┼────────────────────┤
+│ /home/runner/work/tablesaw/tablesaw/arrow/target/surefire-reports/  │ maven-surefire-plugin:3.2.5:test (default-test) @ tablesaw-arrow  │ mvn test              │ Test with Maven    │
+╘═════════════════════════════════════════════════════════════════════╧═══════════════════════════════════════════════════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in Tests (17, windows-latest):
+Inotify log does not exist, because the job runs on Windows or MacOS.

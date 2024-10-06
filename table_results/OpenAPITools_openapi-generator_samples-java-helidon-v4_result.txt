@@ -1,0 +1,12 @@
+Unused directories and their responsible plugins in build (samples/client/petstore/java-helidon-client/v4/mp, 21):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (samples/client/petstore/java-helidon-client/v4/se, 21):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (samples/server/petstore/java-helidon-server/v4/mp, 21):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (samples/server/petstore/java-helidon-server/v4/se, 21):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (samples/server/petstore/java-helidon-server/v4/se-uac, 21):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (samples/server/others/java-helidon-server/v4/mp-format-test, 21):
+Inotify log does not exist, because the job runs on Windows or MacOS.

@@ -1,0 +1,8 @@
+[
+  {
+    "Unused directory": "/home/runner/work/quarkus/quarkus/integration-tests/hibernate-orm-panache/target/test-classes/",
+    "Responsible plugin": "compiler:3.13.0:testCompile (default-testCompile) @ quarkus-integration-test-hibernate-orm-panache",
+    "Responsible command": "./mvnw -B --settings .github/mvn-settings.xml -Dquickly-ci install",
+    "Name of the step": "Build Java"
+  }
+]

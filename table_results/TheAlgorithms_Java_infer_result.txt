@@ -1,0 +1,38 @@
+Unused directories and their responsible plugins in run_infer:
+╒══════════════════════════════════════════════════════╤════════════════════════════════════════════════════════╤═══════════════════════════════════════════════════════════════════╤════════════════════╕
+│ Unused directory                                     │ Responsible plugin                                     │ Responsible command                                               │ Name of the step   │
+╞══════════════════════════════════════════════════════╪════════════════════════════════════════════════════════╪═══════════════════════════════════════════════════════════════════╪════════════════════╡
+│ /home/runner/work/Java/Java/target/surefire-reports/ │ maven-surefire-plugin:3.5.0:test (default-test) @ Java │ mvn clean                                                         │ Run infer          │
+│                                                      │                                                        │ infer --fail-on-issue  --print-logs --no-progress-bar -- mvn test │                    │
+├──────────────────────────────────────────────────────┼────────────────────────────────────────────────────────┼───────────────────────────────────────────────────────────────────┼────────────────────┤
+│ /home/runner/work/Java/Java/infer/annotations/       │ Not responsible by maven plugins                       │ cd ..                                                             │ Build infer        │
+│                                                      │                                                        │ git clone https://github.com/facebook/infer.git                   │                    │
+│                                                      │                                                        │ cd infer                                                          │                    │
+│                                                      │                                                        │ ./build-infer.sh java                                             │                    │
+│                                                      │                                                        │ cp -r infer ../Java                                               │                    │
+├──────────────────────────────────────────────────────┼────────────────────────────────────────────────────────┼───────────────────────────────────────────────────────────────────┼────────────────────┤
+│ /home/runner/work/Java/Java/infer/models/            │ Not responsible by maven plugins                       │ cd ..                                                             │ Build infer        │
+│                                                      │                                                        │ git clone https://github.com/facebook/infer.git                   │                    │
+│                                                      │                                                        │ cd infer                                                          │                    │
+│                                                      │                                                        │ ./build-infer.sh java                                             │                    │
+│                                                      │                                                        │ cp -r infer ../Java                                               │                    │
+├──────────────────────────────────────────────────────┼────────────────────────────────────────────────────────┼───────────────────────────────────────────────────────────────────┼────────────────────┤
+│ /home/runner/work/Java/Java/infer/tests/             │ Not responsible by maven plugins                       │ cd ..                                                             │ Build infer        │
+│                                                      │                                                        │ git clone https://github.com/facebook/infer.git                   │                    │
+│                                                      │                                                        │ cd infer                                                          │                    │
+│                                                      │                                                        │ ./build-infer.sh java                                             │                    │
+│                                                      │                                                        │ cp -r infer ../Java                                               │                    │
+├──────────────────────────────────────────────────────┼────────────────────────────────────────────────────────┼───────────────────────────────────────────────────────────────────┼────────────────────┤
+│ /home/runner/work/Java/Java/infer/src/               │ Not responsible by maven plugins                       │ cd ..                                                             │ Build infer        │
+│                                                      │                                                        │ git clone https://github.com/facebook/infer.git                   │                    │
+│                                                      │                                                        │ cd infer                                                          │                    │
+│                                                      │                                                        │ ./build-infer.sh java                                             │                    │
+│                                                      │                                                        │ cp -r infer ../Java                                               │                    │
+├──────────────────────────────────────────────────────┼────────────────────────────────────────────────────────┼───────────────────────────────────────────────────────────────────┼────────────────────┤
+│ /home/runner/work/Java/Java/infer/_build/            │ Not responsible by maven plugins                       │ cd ..                                                             │ Build infer        │
+│                                                      │                                                        │ git clone https://github.com/facebook/infer.git                   │                    │
+│                                                      │                                                        │ cd infer                                                          │                    │
+│                                                      │                                                        │ ./build-infer.sh java                                             │                    │
+│                                                      │                                                        │ cp -r infer ../Java                                               │                    │
+╘══════════════════════════════════════════════════════╧════════════════════════════════════════════════════════╧═══════════════════════════════════════════════════════════════════╧════════════════════╛
+

@@ -1,0 +1,44 @@
+[
+  {
+    "Unused directory": "/home/runner/work/OpenRefine/OpenRefine/extensions/wikibase/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.5.0:test (default-test) @ wikibase",
+    "Responsible command": "mvn -B jacoco:prepare-agent test jacoco:report",
+    "Name of the step": "Build and test with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/OpenRefine/OpenRefine/extensions/jython/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.5.0:test (default-test) @ jython",
+    "Responsible command": "mvn -B jacoco:prepare-agent test jacoco:report",
+    "Name of the step": "Build and test with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/OpenRefine/OpenRefine/modules/grel/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.5.0:test (default-test) @ grel",
+    "Responsible command": "mvn -B jacoco:prepare-agent test jacoco:report",
+    "Name of the step": "Build and test with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/OpenRefine/OpenRefine/extensions/gdata/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.5.0:test (default-test) @ gdata",
+    "Responsible command": "mvn -B jacoco:prepare-agent test jacoco:report",
+    "Name of the step": "Build and test with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/OpenRefine/OpenRefine/extensions/wikibase/target/generated-test-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.13.0:testCompile (default-testCompile) @ wikibase",
+    "Responsible command": "mvn -B compile test-compile formatter:validate impsort:check javadoc:javadoc -Ddoclint=all\n",
+    "Name of the step": "Check Java linting"
+  },
+  {
+    "Unused directory": "/home/runner/work/OpenRefine/OpenRefine/extensions/jython/target/generated-test-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.13.0:testCompile (default-testCompile) @ jython",
+    "Responsible command": "mvn -B compile test-compile formatter:validate impsort:check javadoc:javadoc -Ddoclint=all\n",
+    "Name of the step": "Check Java linting"
+  },
+  {
+    "Unused directory": "/home/runner/work/OpenRefine/OpenRefine/extensions/gdata/target/generated-test-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.13.0:testCompile (default-testCompile) @ gdata",
+    "Responsible command": "mvn -B compile test-compile formatter:validate impsort:check javadoc:javadoc -Ddoclint=all\n",
+    "Name of the step": "Check Java linting"
+  }
+]

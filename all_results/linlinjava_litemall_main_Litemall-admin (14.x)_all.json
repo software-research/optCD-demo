@@ -1,0 +1,38 @@
+[
+  {
+    "Unused directory": "/home/runner/work/litemall/litemall/litemall-admin/node_modules/@babel/preset-env/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "npm --prefix litemall-admin install",
+    "Name of the step": "npm --prefix litemall-admin install"
+  },
+  {
+    "Unused directory": "/home/runner/work/litemall/litemall/litemall-admin/node_modules/@babel/helper-define-polyfill-provider/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "npm --prefix litemall-admin install",
+    "Name of the step": "npm --prefix litemall-admin install"
+  },
+  {
+    "Unused directory": "/home/runner/work/litemall/litemall/litemall-admin/node_modules/@babel/helper-create-regexp-features-plugin/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "npm --prefix litemall-admin install",
+    "Name of the step": "npm --prefix litemall-admin install"
+  },
+  {
+    "Unused directory": "/home/runner/work/litemall/litemall/litemall-admin/node_modules/@vue/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "npm --prefix litemall-admin install",
+    "Name of the step": "npm --prefix litemall-admin install"
+  },
+  {
+    "Unused directory": "/home/runner/work/litemall/litemall/litemall-admin/node_modules/@jest/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "npm --prefix litemall-admin install",
+    "Name of the step": "npm --prefix litemall-admin install"
+  },
+  {
+    "Unused directory": "/home/runner/work/litemall/litemall/litemall-admin/node_modules/.staging/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "npm --prefix litemall-admin install",
+    "Name of the step": "npm --prefix litemall-admin install"
+  }
+]

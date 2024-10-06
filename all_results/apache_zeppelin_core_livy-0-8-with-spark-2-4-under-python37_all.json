@@ -1,0 +1,8 @@
+[
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/livy/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.2:test (default-test) @ zeppelin-livy",
+    "Responsible command": "export SPARK_HOME=$PWD/spark-2.4.8-bin-hadoop2.7\nexport LIVY_HOME=$PWD/apache-livy-0.8.0-incubating_2.11-bin\n./mvnw verify -pl livy -am ${MAVEN_ARGS}\n",
+    "Name of the step": "run tests"
+  }
+]

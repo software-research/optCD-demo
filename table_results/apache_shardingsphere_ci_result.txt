@@ -1,0 +1,3 @@
+Unused directories and their responsible plugins in Import Global Environment / init-environment:
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in ci:

@@ -1,0 +1,374 @@
+[
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-spring-security/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.3:test (default-test) @ flowable-spring-security",
+    "Responsible command": "./mvnw clean install ${MAVEN_ARGS} -PcleanDb,postgresql,distro -P'!include-spring-boot-samples' -Djdbc.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Djdbc.username=flowable -Djdbc.password=flowable -Djdbc.driver=org.postgresql.Driver -Dspring.datasource.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Dspring.datasource.username=flowable -Dspring.datasource.password=flowable -Dmaven.test.redirectTestOutputToFile=false",
+    "Name of the step": "Test"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-spring/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.3:test (default-test) @ flowable-spring",
+    "Responsible command": "./mvnw clean install ${MAVEN_ARGS} -PcleanDb,postgresql,distro -P'!include-spring-boot-samples' -Djdbc.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Djdbc.username=flowable -Djdbc.password=flowable -Djdbc.driver=org.postgresql.Driver -Dspring.datasource.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Dspring.datasource.username=flowable -Dspring.datasource.password=flowable -Dmaven.test.redirectTestOutputToFile=false",
+    "Name of the step": "Test"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-secure-javascript/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.3:test (default-test) @ flowable-secure-javascript",
+    "Responsible command": "./mvnw clean install ${MAVEN_ARGS} -PcleanDb,postgresql,distro -P'!include-spring-boot-samples' -Djdbc.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Djdbc.username=flowable -Djdbc.password=flowable -Djdbc.driver=org.postgresql.Driver -Dspring.datasource.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Dspring.datasource.username=flowable -Dspring.datasource.password=flowable -Dmaven.test.redirectTestOutputToFile=false",
+    "Name of the step": "Test"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-rest/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.3:test (default-test) @ flowable-rest",
+    "Responsible command": "./mvnw clean install ${MAVEN_ARGS} -PcleanDb,postgresql,distro -P'!include-spring-boot-samples' -Djdbc.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Djdbc.username=flowable -Djdbc.password=flowable -Djdbc.driver=org.postgresql.Driver -Dspring.datasource.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Dspring.datasource.username=flowable -Dspring.datasource.password=flowable -Dmaven.test.redirectTestOutputToFile=false",
+    "Name of the step": "Test"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-osgi/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.3:test (default-test) @ flowable-osgi",
+    "Responsible command": "./mvnw clean install ${MAVEN_ARGS} -PcleanDb,postgresql,distro -P'!include-spring-boot-samples' -Djdbc.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Djdbc.username=flowable -Djdbc.password=flowable -Djdbc.driver=org.postgresql.Driver -Dspring.datasource.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Dspring.datasource.username=flowable -Dspring.datasource.password=flowable -Dmaven.test.redirectTestOutputToFile=false",
+    "Name of the step": "Test"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-ldap-configurator/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.3:test (default-test) @ flowable-ldap-configurator",
+    "Responsible command": "./mvnw clean install ${MAVEN_ARGS} -PcleanDb,postgresql,distro -P'!include-spring-boot-samples' -Djdbc.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Djdbc.username=flowable -Djdbc.password=flowable -Djdbc.driver=org.postgresql.Driver -Dspring.datasource.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Dspring.datasource.username=flowable -Dspring.datasource.password=flowable -Dmaven.test.redirectTestOutputToFile=false",
+    "Name of the step": "Test"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-job-service/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.3:test (default-test) @ flowable-job-service",
+    "Responsible command": "./mvnw clean install ${MAVEN_ARGS} -PcleanDb,postgresql,distro -P'!include-spring-boot-samples' -Djdbc.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Djdbc.username=flowable -Djdbc.password=flowable -Djdbc.driver=org.postgresql.Driver -Dspring.datasource.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Dspring.datasource.username=flowable -Dspring.datasource.password=flowable -Dmaven.test.redirectTestOutputToFile=false",
+    "Name of the step": "Test"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-jmx/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.3:test (default-test) @ flowable-jmx",
+    "Responsible command": "./mvnw clean install ${MAVEN_ARGS} -PcleanDb,postgresql,distro -P'!include-spring-boot-samples' -Djdbc.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Djdbc.username=flowable -Djdbc.password=flowable -Djdbc.driver=org.postgresql.Driver -Dspring.datasource.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Dspring.datasource.username=flowable -Dspring.datasource.password=flowable -Dmaven.test.redirectTestOutputToFile=false",
+    "Name of the step": "Test"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-idm-spring/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.3:test (default-test) @ flowable-idm-spring",
+    "Responsible command": "./mvnw clean install ${MAVEN_ARGS} -PcleanDb,postgresql,distro -P'!include-spring-boot-samples' -Djdbc.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Djdbc.username=flowable -Djdbc.password=flowable -Djdbc.driver=org.postgresql.Driver -Dspring.datasource.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Dspring.datasource.username=flowable -Dspring.datasource.password=flowable -Dmaven.test.redirectTestOutputToFile=false",
+    "Name of the step": "Test"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-idm-engine/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.3:test (default-test) @ flowable-idm-engine",
+    "Responsible command": "./mvnw clean install ${MAVEN_ARGS} -PcleanDb,postgresql,distro -P'!include-spring-boot-samples' -Djdbc.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Djdbc.username=flowable -Djdbc.password=flowable -Djdbc.driver=org.postgresql.Driver -Dspring.datasource.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Dspring.datasource.username=flowable -Dspring.datasource.password=flowable -Dmaven.test.redirectTestOutputToFile=false",
+    "Name of the step": "Test"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-http-common/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.3:test (default-test) @ flowable-http-common",
+    "Responsible command": "./mvnw clean install ${MAVEN_ARGS} -PcleanDb,postgresql,distro -P'!include-spring-boot-samples' -Djdbc.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Djdbc.username=flowable -Djdbc.password=flowable -Djdbc.driver=org.postgresql.Driver -Dspring.datasource.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Dspring.datasource.username=flowable -Dspring.datasource.password=flowable -Dmaven.test.redirectTestOutputToFile=false",
+    "Name of the step": "Test"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-http/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.3:test (default-test) @ flowable-http",
+    "Responsible command": "./mvnw clean install ${MAVEN_ARGS} -PcleanDb,postgresql,distro -P'!include-spring-boot-samples' -Djdbc.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Djdbc.username=flowable -Djdbc.password=flowable -Djdbc.driver=org.postgresql.Driver -Dspring.datasource.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Dspring.datasource.username=flowable -Dspring.datasource.password=flowable -Dmaven.test.redirectTestOutputToFile=false",
+    "Name of the step": "Test"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-groovy-script-static-engine/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.3:test (default-test) @ flowable-groovy-script-static-engine",
+    "Responsible command": "./mvnw clean install ${MAVEN_ARGS} -PcleanDb,postgresql,distro -P'!include-spring-boot-samples' -Djdbc.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Djdbc.username=flowable -Djdbc.password=flowable -Djdbc.driver=org.postgresql.Driver -Dspring.datasource.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Dspring.datasource.username=flowable -Dspring.datasource.password=flowable -Dmaven.test.redirectTestOutputToFile=false",
+    "Name of the step": "Test"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-external-job-rest/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.3:test (default-test) @ flowable-external-job-rest",
+    "Responsible command": "./mvnw clean install ${MAVEN_ARGS} -PcleanDb,postgresql,distro -P'!include-spring-boot-samples' -Djdbc.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Djdbc.username=flowable -Djdbc.password=flowable -Djdbc.driver=org.postgresql.Driver -Dspring.datasource.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Dspring.datasource.username=flowable -Dspring.datasource.password=flowable -Dmaven.test.redirectTestOutputToFile=false",
+    "Name of the step": "Test"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-event-registry-spring/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.3:test (default-test) @ flowable-event-registry-spring",
+    "Responsible command": "./mvnw clean install ${MAVEN_ARGS} -PcleanDb,postgresql,distro -P'!include-spring-boot-samples' -Djdbc.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Djdbc.username=flowable -Djdbc.password=flowable -Djdbc.driver=org.postgresql.Driver -Dspring.datasource.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Dspring.datasource.username=flowable -Dspring.datasource.password=flowable -Dmaven.test.redirectTestOutputToFile=false",
+    "Name of the step": "Test"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-event-registry-rest/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.3:test (default-test) @ flowable-event-registry-rest",
+    "Responsible command": "./mvnw clean install ${MAVEN_ARGS} -PcleanDb,postgresql,distro -P'!include-spring-boot-samples' -Djdbc.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Djdbc.username=flowable -Djdbc.password=flowable -Djdbc.driver=org.postgresql.Driver -Dspring.datasource.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Dspring.datasource.username=flowable -Dspring.datasource.password=flowable -Dmaven.test.redirectTestOutputToFile=false",
+    "Name of the step": "Test"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-event-registry-json-converter/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.3:test (default-test) @ flowable-event-registry-json-converter",
+    "Responsible command": "./mvnw clean install ${MAVEN_ARGS} -PcleanDb,postgresql,distro -P'!include-spring-boot-samples' -Djdbc.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Djdbc.username=flowable -Djdbc.password=flowable -Djdbc.driver=org.postgresql.Driver -Dspring.datasource.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Dspring.datasource.username=flowable -Dspring.datasource.password=flowable -Dmaven.test.redirectTestOutputToFile=false",
+    "Name of the step": "Test"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-event-registry-integration-test/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.3:test (default-test) @ flowable-event-registry-integration-test",
+    "Responsible command": "./mvnw clean install ${MAVEN_ARGS} -PcleanDb,postgresql,distro -P'!include-spring-boot-samples' -Djdbc.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Djdbc.username=flowable -Djdbc.password=flowable -Djdbc.driver=org.postgresql.Driver -Dspring.datasource.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Dspring.datasource.username=flowable -Dspring.datasource.password=flowable -Dmaven.test.redirectTestOutputToFile=false",
+    "Name of the step": "Test"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-event-registry/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.3:test (default-test) @ flowable-event-registry",
+    "Responsible command": "./mvnw clean install ${MAVEN_ARGS} -PcleanDb,postgresql,distro -P'!include-spring-boot-samples' -Djdbc.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Djdbc.username=flowable -Djdbc.password=flowable -Djdbc.driver=org.postgresql.Driver -Dspring.datasource.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Dspring.datasource.username=flowable -Dspring.datasource.password=flowable -Dmaven.test.redirectTestOutputToFile=false",
+    "Name of the step": "Test"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-engine-configurator/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.3:test (default-test) @ flowable-engine-configurator",
+    "Responsible command": "./mvnw clean install ${MAVEN_ARGS} -PcleanDb,postgresql,distro -P'!include-spring-boot-samples' -Djdbc.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Djdbc.username=flowable -Djdbc.password=flowable -Djdbc.driver=org.postgresql.Driver -Dspring.datasource.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Dspring.datasource.username=flowable -Dspring.datasource.password=flowable -Dmaven.test.redirectTestOutputToFile=false",
+    "Name of the step": "Test"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-engine-common/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.3:test (default-test) @ flowable-engine-common",
+    "Responsible command": "./mvnw clean install ${MAVEN_ARGS} -PcleanDb,postgresql,distro -P'!include-spring-boot-samples' -Djdbc.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Djdbc.username=flowable -Djdbc.password=flowable -Djdbc.driver=org.postgresql.Driver -Dspring.datasource.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Dspring.datasource.username=flowable -Dspring.datasource.password=flowable -Dmaven.test.redirectTestOutputToFile=false",
+    "Name of the step": "Test"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-engine/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.3:test (default-test) @ flowable-engine",
+    "Responsible command": "./mvnw clean install ${MAVEN_ARGS} -PcleanDb,postgresql,distro -P'!include-spring-boot-samples' -Djdbc.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Djdbc.username=flowable -Djdbc.password=flowable -Djdbc.driver=org.postgresql.Driver -Dspring.datasource.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Dspring.datasource.username=flowable -Dspring.datasource.password=flowable -Dmaven.test.redirectTestOutputToFile=false",
+    "Name of the step": "Test"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-dmn-xml-converter/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.3:test (default-test) @ flowable-dmn-xml-converter",
+    "Responsible command": "./mvnw clean install ${MAVEN_ARGS} -PcleanDb,postgresql,distro -P'!include-spring-boot-samples' -Djdbc.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Djdbc.username=flowable -Djdbc.password=flowable -Djdbc.driver=org.postgresql.Driver -Dspring.datasource.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Dspring.datasource.username=flowable -Dspring.datasource.password=flowable -Dmaven.test.redirectTestOutputToFile=false",
+    "Name of the step": "Test"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-dmn-spring-configurator/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.3:test (default-test) @ flowable-dmn-spring-configurator",
+    "Responsible command": "./mvnw clean install ${MAVEN_ARGS} -PcleanDb,postgresql,distro -P'!include-spring-boot-samples' -Djdbc.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Djdbc.username=flowable -Djdbc.password=flowable -Djdbc.driver=org.postgresql.Driver -Dspring.datasource.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Dspring.datasource.username=flowable -Dspring.datasource.password=flowable -Dmaven.test.redirectTestOutputToFile=false",
+    "Name of the step": "Test"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-dmn-spring/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.3:test (default-test) @ flowable-dmn-spring",
+    "Responsible command": "./mvnw clean install ${MAVEN_ARGS} -PcleanDb,postgresql,distro -P'!include-spring-boot-samples' -Djdbc.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Djdbc.username=flowable -Djdbc.password=flowable -Djdbc.driver=org.postgresql.Driver -Dspring.datasource.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Dspring.datasource.username=flowable -Dspring.datasource.password=flowable -Dmaven.test.redirectTestOutputToFile=false",
+    "Name of the step": "Test"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-dmn-rest/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.3:test (default-test) @ flowable-dmn-rest",
+    "Responsible command": "./mvnw clean install ${MAVEN_ARGS} -PcleanDb,postgresql,distro -P'!include-spring-boot-samples' -Djdbc.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Djdbc.username=flowable -Djdbc.password=flowable -Djdbc.driver=org.postgresql.Driver -Dspring.datasource.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Dspring.datasource.username=flowable -Dspring.datasource.password=flowable -Dmaven.test.redirectTestOutputToFile=false",
+    "Name of the step": "Test"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-dmn-engine-configurator/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.3:test (default-test) @ flowable-dmn-engine-configurator",
+    "Responsible command": "./mvnw clean install ${MAVEN_ARGS} -PcleanDb,postgresql,distro -P'!include-spring-boot-samples' -Djdbc.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Djdbc.username=flowable -Djdbc.password=flowable -Djdbc.driver=org.postgresql.Driver -Dspring.datasource.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Dspring.datasource.username=flowable -Dspring.datasource.password=flowable -Dmaven.test.redirectTestOutputToFile=false",
+    "Name of the step": "Test"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-dmn-engine/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.3:test (default-test) @ flowable-dmn-engine",
+    "Responsible command": "./mvnw clean install ${MAVEN_ARGS} -PcleanDb,postgresql,distro -P'!include-spring-boot-samples' -Djdbc.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Djdbc.username=flowable -Djdbc.password=flowable -Djdbc.driver=org.postgresql.Driver -Dspring.datasource.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Dspring.datasource.username=flowable -Dspring.datasource.password=flowable -Dmaven.test.redirectTestOutputToFile=false",
+    "Name of the step": "Test"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-common-rest/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.3:test (default-test) @ flowable-common-rest",
+    "Responsible command": "./mvnw clean install ${MAVEN_ARGS} -PcleanDb,postgresql,distro -P'!include-spring-boot-samples' -Djdbc.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Djdbc.username=flowable -Djdbc.password=flowable -Djdbc.driver=org.postgresql.Driver -Dspring.datasource.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Dspring.datasource.username=flowable -Dspring.datasource.password=flowable -Dmaven.test.redirectTestOutputToFile=false",
+    "Name of the step": "Test"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-cmmn-spring/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.3:test (default-test) @ flowable-cmmn-spring",
+    "Responsible command": "./mvnw clean install ${MAVEN_ARGS} -PcleanDb,postgresql,distro -P'!include-spring-boot-samples' -Djdbc.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Djdbc.username=flowable -Djdbc.password=flowable -Djdbc.driver=org.postgresql.Driver -Dspring.datasource.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Dspring.datasource.username=flowable -Dspring.datasource.password=flowable -Dmaven.test.redirectTestOutputToFile=false",
+    "Name of the step": "Test"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-cmmn-rest/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.3:test (default-test) @ flowable-cmmn-rest",
+    "Responsible command": "./mvnw clean install ${MAVEN_ARGS} -PcleanDb,postgresql,distro -P'!include-spring-boot-samples' -Djdbc.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Djdbc.username=flowable -Djdbc.password=flowable -Djdbc.driver=org.postgresql.Driver -Dspring.datasource.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Dspring.datasource.username=flowable -Dspring.datasource.password=flowable -Dmaven.test.redirectTestOutputToFile=false",
+    "Name of the step": "Test"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-cmmn-engine-configurator/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.3:test (default-test) @ flowable-cmmn-engine-configurator",
+    "Responsible command": "./mvnw clean install ${MAVEN_ARGS} -PcleanDb,postgresql,distro -P'!include-spring-boot-samples' -Djdbc.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Djdbc.username=flowable -Djdbc.password=flowable -Djdbc.driver=org.postgresql.Driver -Dspring.datasource.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Dspring.datasource.username=flowable -Dspring.datasource.password=flowable -Dmaven.test.redirectTestOutputToFile=false",
+    "Name of the step": "Test"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-cmmn-engine/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.3:test (default-test) @ flowable-cmmn-engine",
+    "Responsible command": "./mvnw clean install ${MAVEN_ARGS} -PcleanDb,postgresql,distro -P'!include-spring-boot-samples' -Djdbc.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Djdbc.username=flowable -Djdbc.password=flowable -Djdbc.driver=org.postgresql.Driver -Dspring.datasource.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Dspring.datasource.username=flowable -Dspring.datasource.password=flowable -Dmaven.test.redirectTestOutputToFile=false",
+    "Name of the step": "Test"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-cmmn-converter/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.3:test (default-test) @ flowable-cmmn-converter",
+    "Responsible command": "./mvnw clean install ${MAVEN_ARGS} -PcleanDb,postgresql,distro -P'!include-spring-boot-samples' -Djdbc.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Djdbc.username=flowable -Djdbc.password=flowable -Djdbc.driver=org.postgresql.Driver -Dspring.datasource.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Dspring.datasource.username=flowable -Dspring.datasource.password=flowable -Dmaven.test.redirectTestOutputToFile=false",
+    "Name of the step": "Test"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-cdi/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.3:test (default-test) @ flowable-cdi",
+    "Responsible command": "./mvnw clean install ${MAVEN_ARGS} -PcleanDb,postgresql,distro -P'!include-spring-boot-samples' -Djdbc.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Djdbc.username=flowable -Djdbc.password=flowable -Djdbc.driver=org.postgresql.Driver -Dspring.datasource.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Dspring.datasource.username=flowable -Dspring.datasource.password=flowable -Dmaven.test.redirectTestOutputToFile=false",
+    "Name of the step": "Test"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-case-validation/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.3:test (default-test) @ flowable-case-validation",
+    "Responsible command": "./mvnw clean install ${MAVEN_ARGS} -PcleanDb,postgresql,distro -P'!include-spring-boot-samples' -Djdbc.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Djdbc.username=flowable -Djdbc.password=flowable -Djdbc.driver=org.postgresql.Driver -Dspring.datasource.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Dspring.datasource.username=flowable -Dspring.datasource.password=flowable -Dmaven.test.redirectTestOutputToFile=false",
+    "Name of the step": "Test"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-camel/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.3:test (default-test) @ flowable-camel",
+    "Responsible command": "./mvnw clean install ${MAVEN_ARGS} -PcleanDb,postgresql,distro -P'!include-spring-boot-samples' -Djdbc.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Djdbc.username=flowable -Djdbc.password=flowable -Djdbc.driver=org.postgresql.Driver -Dspring.datasource.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Dspring.datasource.username=flowable -Dspring.datasource.password=flowable -Dmaven.test.redirectTestOutputToFile=false",
+    "Name of the step": "Test"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-bpmn-converter/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.3:test (default-test) @ flowable-bpmn-converter",
+    "Responsible command": "./mvnw clean install ${MAVEN_ARGS} -PcleanDb,postgresql,distro -P'!include-spring-boot-samples' -Djdbc.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Djdbc.username=flowable -Djdbc.password=flowable -Djdbc.driver=org.postgresql.Driver -Dspring.datasource.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Dspring.datasource.username=flowable -Dspring.datasource.password=flowable -Dmaven.test.redirectTestOutputToFile=false",
+    "Name of the step": "Test"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-app-rest/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.3:test (default-test) @ flowable-app-rest",
+    "Responsible command": "./mvnw clean install ${MAVEN_ARGS} -PcleanDb,postgresql,distro -P'!include-spring-boot-samples' -Djdbc.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Djdbc.username=flowable -Djdbc.password=flowable -Djdbc.driver=org.postgresql.Driver -Dspring.datasource.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Dspring.datasource.username=flowable -Dspring.datasource.password=flowable -Dmaven.test.redirectTestOutputToFile=false",
+    "Name of the step": "Test"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-app-engine-spring/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.3:test (default-test) @ flowable-app-engine-spring",
+    "Responsible command": "./mvnw clean install ${MAVEN_ARGS} -PcleanDb,postgresql,distro -P'!include-spring-boot-samples' -Djdbc.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Djdbc.username=flowable -Djdbc.password=flowable -Djdbc.driver=org.postgresql.Driver -Dspring.datasource.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Dspring.datasource.username=flowable -Dspring.datasource.password=flowable -Dmaven.test.redirectTestOutputToFile=false",
+    "Name of the step": "Test"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-app-engine-rest/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.3:test (default-test) @ flowable-app-engine-rest",
+    "Responsible command": "./mvnw clean install ${MAVEN_ARGS} -PcleanDb,postgresql,distro -P'!include-spring-boot-samples' -Djdbc.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Djdbc.username=flowable -Djdbc.password=flowable -Djdbc.driver=org.postgresql.Driver -Dspring.datasource.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Dspring.datasource.username=flowable -Dspring.datasource.password=flowable -Dmaven.test.redirectTestOutputToFile=false",
+    "Name of the step": "Test"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-app-engine/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.3:test (default-test) @ flowable-app-engine",
+    "Responsible command": "./mvnw clean install ${MAVEN_ARGS} -PcleanDb,postgresql,distro -P'!include-spring-boot-samples' -Djdbc.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Djdbc.username=flowable -Djdbc.password=flowable -Djdbc.driver=org.postgresql.Driver -Dspring.datasource.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Dspring.datasource.username=flowable -Dspring.datasource.password=flowable -Dmaven.test.redirectTestOutputToFile=false",
+    "Name of the step": "Test"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-spring-security/target/generated-test-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.12.1:testCompile (default-testCompile) @ flowable-spring-security",
+    "Responsible command": "./mvnw clean install ${MAVEN_ARGS} -PcleanDb,postgresql,distro -P'!include-spring-boot-samples' -Djdbc.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Djdbc.username=flowable -Djdbc.password=flowable -Djdbc.driver=org.postgresql.Driver -Dspring.datasource.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Dspring.datasource.username=flowable -Dspring.datasource.password=flowable -Dmaven.test.redirectTestOutputToFile=false",
+    "Name of the step": "Test"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-spring/target/generated-test-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.12.1:testCompile (default-testCompile) @ flowable-spring",
+    "Responsible command": "./mvnw clean install ${MAVEN_ARGS} -PcleanDb,postgresql,distro -P'!include-spring-boot-samples' -Djdbc.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Djdbc.username=flowable -Djdbc.password=flowable -Djdbc.driver=org.postgresql.Driver -Dspring.datasource.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Dspring.datasource.username=flowable -Dspring.datasource.password=flowable -Dmaven.test.redirectTestOutputToFile=false",
+    "Name of the step": "Test"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-rest/target/generated-test-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.12.1:testCompile (default-testCompile) @ flowable-rest",
+    "Responsible command": "./mvnw clean install ${MAVEN_ARGS} -PcleanDb,postgresql,distro -P'!include-spring-boot-samples' -Djdbc.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Djdbc.username=flowable -Djdbc.password=flowable -Djdbc.driver=org.postgresql.Driver -Dspring.datasource.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Dspring.datasource.username=flowable -Dspring.datasource.password=flowable -Dmaven.test.redirectTestOutputToFile=false",
+    "Name of the step": "Test"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-http-common/target/generated-test-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.12.1:testCompile (default-testCompile) @ flowable-http-common",
+    "Responsible command": "./mvnw clean install ${MAVEN_ARGS} -PcleanDb,postgresql,distro -P'!include-spring-boot-samples' -Djdbc.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Djdbc.username=flowable -Djdbc.password=flowable -Djdbc.driver=org.postgresql.Driver -Dspring.datasource.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Dspring.datasource.username=flowable -Dspring.datasource.password=flowable -Dmaven.test.redirectTestOutputToFile=false",
+    "Name of the step": "Test"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-http/target/generated-test-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.12.1:testCompile (default-testCompile) @ flowable-http",
+    "Responsible command": "./mvnw clean install ${MAVEN_ARGS} -PcleanDb,postgresql,distro -P'!include-spring-boot-samples' -Djdbc.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Djdbc.username=flowable -Djdbc.password=flowable -Djdbc.driver=org.postgresql.Driver -Dspring.datasource.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Dspring.datasource.username=flowable -Dspring.datasource.password=flowable -Dmaven.test.redirectTestOutputToFile=false",
+    "Name of the step": "Test"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-event-registry-spring/target/generated-test-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.12.1:testCompile (default-testCompile) @ flowable-event-registry-spring",
+    "Responsible command": "./mvnw clean install ${MAVEN_ARGS} -PcleanDb,postgresql,distro -P'!include-spring-boot-samples' -Djdbc.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Djdbc.username=flowable -Djdbc.password=flowable -Djdbc.driver=org.postgresql.Driver -Dspring.datasource.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Dspring.datasource.username=flowable -Dspring.datasource.password=flowable -Dmaven.test.redirectTestOutputToFile=false",
+    "Name of the step": "Test"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-event-registry-rest/target/generated-test-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.12.1:testCompile (default-testCompile) @ flowable-event-registry-rest",
+    "Responsible command": "./mvnw clean install ${MAVEN_ARGS} -PcleanDb,postgresql,distro -P'!include-spring-boot-samples' -Djdbc.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Djdbc.username=flowable -Djdbc.password=flowable -Djdbc.driver=org.postgresql.Driver -Dspring.datasource.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Dspring.datasource.username=flowable -Dspring.datasource.password=flowable -Dmaven.test.redirectTestOutputToFile=false",
+    "Name of the step": "Test"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-event-registry-integration-test/target/generated-test-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.12.1:testCompile (default-testCompile) @ flowable-event-registry-integration-test",
+    "Responsible command": "./mvnw clean install ${MAVEN_ARGS} -PcleanDb,postgresql,distro -P'!include-spring-boot-samples' -Djdbc.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Djdbc.username=flowable -Djdbc.password=flowable -Djdbc.driver=org.postgresql.Driver -Dspring.datasource.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Dspring.datasource.username=flowable -Dspring.datasource.password=flowable -Dmaven.test.redirectTestOutputToFile=false",
+    "Name of the step": "Test"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-engine/target/generated-test-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.12.1:testCompile (default-testCompile) @ flowable-engine",
+    "Responsible command": "./mvnw clean install ${MAVEN_ARGS} -PcleanDb,postgresql,distro -P'!include-spring-boot-samples' -Djdbc.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Djdbc.username=flowable -Djdbc.password=flowable -Djdbc.driver=org.postgresql.Driver -Dspring.datasource.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Dspring.datasource.username=flowable -Dspring.datasource.password=flowable -Dmaven.test.redirectTestOutputToFile=false",
+    "Name of the step": "Test"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-dmn-spring-configurator/target/generated-test-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.12.1:testCompile (default-testCompile) @ flowable-dmn-spring-configurator",
+    "Responsible command": "./mvnw clean install ${MAVEN_ARGS} -PcleanDb,postgresql,distro -P'!include-spring-boot-samples' -Djdbc.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Djdbc.username=flowable -Djdbc.password=flowable -Djdbc.driver=org.postgresql.Driver -Dspring.datasource.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Dspring.datasource.username=flowable -Dspring.datasource.password=flowable -Dmaven.test.redirectTestOutputToFile=false",
+    "Name of the step": "Test"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-dmn-spring/target/generated-test-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.12.1:testCompile (default-testCompile) @ flowable-dmn-spring",
+    "Responsible command": "./mvnw clean install ${MAVEN_ARGS} -PcleanDb,postgresql,distro -P'!include-spring-boot-samples' -Djdbc.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Djdbc.username=flowable -Djdbc.password=flowable -Djdbc.driver=org.postgresql.Driver -Dspring.datasource.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Dspring.datasource.username=flowable -Dspring.datasource.password=flowable -Dmaven.test.redirectTestOutputToFile=false",
+    "Name of the step": "Test"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-dmn-rest/target/generated-test-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.12.1:testCompile (default-testCompile) @ flowable-dmn-rest",
+    "Responsible command": "./mvnw clean install ${MAVEN_ARGS} -PcleanDb,postgresql,distro -P'!include-spring-boot-samples' -Djdbc.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Djdbc.username=flowable -Djdbc.password=flowable -Djdbc.driver=org.postgresql.Driver -Dspring.datasource.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Dspring.datasource.username=flowable -Dspring.datasource.password=flowable -Dmaven.test.redirectTestOutputToFile=false",
+    "Name of the step": "Test"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-dmn-engine-configurator/target/generated-test-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.12.1:testCompile (default-testCompile) @ flowable-dmn-engine-configurator",
+    "Responsible command": "./mvnw clean install ${MAVEN_ARGS} -PcleanDb,postgresql,distro -P'!include-spring-boot-samples' -Djdbc.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Djdbc.username=flowable -Djdbc.password=flowable -Djdbc.driver=org.postgresql.Driver -Dspring.datasource.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Dspring.datasource.username=flowable -Dspring.datasource.password=flowable -Dmaven.test.redirectTestOutputToFile=false",
+    "Name of the step": "Test"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-dmn-engine/target/generated-test-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.12.1:testCompile (default-testCompile) @ flowable-dmn-engine",
+    "Responsible command": "./mvnw clean install ${MAVEN_ARGS} -PcleanDb,postgresql,distro -P'!include-spring-boot-samples' -Djdbc.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Djdbc.username=flowable -Djdbc.password=flowable -Djdbc.driver=org.postgresql.Driver -Dspring.datasource.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Dspring.datasource.username=flowable -Dspring.datasource.password=flowable -Dmaven.test.redirectTestOutputToFile=false",
+    "Name of the step": "Test"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-common-rest/target/generated-test-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.12.1:testCompile (default-testCompile) @ flowable-common-rest",
+    "Responsible command": "./mvnw clean install ${MAVEN_ARGS} -PcleanDb,postgresql,distro -P'!include-spring-boot-samples' -Djdbc.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Djdbc.username=flowable -Djdbc.password=flowable -Djdbc.driver=org.postgresql.Driver -Dspring.datasource.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Dspring.datasource.username=flowable -Dspring.datasource.password=flowable -Dmaven.test.redirectTestOutputToFile=false",
+    "Name of the step": "Test"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-cmmn-engine/target/generated-test-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.12.1:testCompile (default-testCompile) @ flowable-cmmn-engine",
+    "Responsible command": "./mvnw clean install ${MAVEN_ARGS} -PcleanDb,postgresql,distro -P'!include-spring-boot-samples' -Djdbc.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Djdbc.username=flowable -Djdbc.password=flowable -Djdbc.driver=org.postgresql.Driver -Dspring.datasource.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Dspring.datasource.username=flowable -Dspring.datasource.password=flowable -Dmaven.test.redirectTestOutputToFile=false",
+    "Name of the step": "Test"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-cmmn-converter/target/generated-test-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.12.1:testCompile (default-testCompile) @ flowable-cmmn-converter",
+    "Responsible command": "./mvnw clean install ${MAVEN_ARGS} -PcleanDb,postgresql,distro -P'!include-spring-boot-samples' -Djdbc.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Djdbc.username=flowable -Djdbc.password=flowable -Djdbc.driver=org.postgresql.Driver -Dspring.datasource.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Dspring.datasource.username=flowable -Dspring.datasource.password=flowable -Dmaven.test.redirectTestOutputToFile=false",
+    "Name of the step": "Test"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-app-engine-rest/target/generated-test-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.12.1:testCompile (default-testCompile) @ flowable-app-engine-rest",
+    "Responsible command": "./mvnw clean install ${MAVEN_ARGS} -PcleanDb,postgresql,distro -P'!include-spring-boot-samples' -Djdbc.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Djdbc.username=flowable -Djdbc.password=flowable -Djdbc.driver=org.postgresql.Driver -Dspring.datasource.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Dspring.datasource.username=flowable -Dspring.datasource.password=flowable -Dmaven.test.redirectTestOutputToFile=false",
+    "Name of the step": "Test"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-app-engine/target/generated-test-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.12.1:testCompile (default-testCompile) @ flowable-app-engine",
+    "Responsible command": "./mvnw clean install ${MAVEN_ARGS} -PcleanDb,postgresql,distro -P'!include-spring-boot-samples' -Djdbc.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Djdbc.username=flowable -Djdbc.password=flowable -Djdbc.driver=org.postgresql.Driver -Dspring.datasource.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Dspring.datasource.username=flowable -Dspring.datasource.password=flowable -Dmaven.test.redirectTestOutputToFile=false",
+    "Name of the step": "Test"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-engine-common/target/generated-test-sources/",
+    "Responsible plugin": "maven-bundle-plugin:5.1.9:manifest (bundle-manifest) @ flowable-engine-common",
+    "Responsible command": "./mvnw clean install ${MAVEN_ARGS} -PcleanDb,postgresql,distro -P'!include-spring-boot-samples' -Djdbc.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Djdbc.username=flowable -Djdbc.password=flowable -Djdbc.driver=org.postgresql.Driver -Dspring.datasource.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Dspring.datasource.username=flowable -Dspring.datasource.password=flowable -Dmaven.test.redirectTestOutputToFile=false",
+    "Name of the step": "Test"
+  }
+]

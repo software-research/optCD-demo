@@ -1,0 +1,8 @@
+[
+  {
+    "Unused directory": "/home/runner/work/shenyu/shenyu/shenyu-integrated-test/shenyu-integrated-test-websocket/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.0.0-M4:test (default-test) @ shenyu-integrated-test-websocket",
+    "Responsible command": "./mvnw test -Pit -f ./shenyu-integrated-test/${{ matrix.case }}/pom.xml",
+    "Name of the step": "Run test"
+  }
+]

@@ -1,0 +1,80 @@
+[
+  {
+    "Unused directory": "/home/runner/work/debezium/debezium/debezium-interceptor/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v4",
+    "Name of the step": "Checkout Action"
+  },
+  {
+    "Unused directory": "/home/runner/work/debezium/debezium/github-support/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v4",
+    "Name of the step": "Checkout Action"
+  },
+  {
+    "Unused directory": "/home/runner/work/debezium/debezium/debezium-quarkus-outbox/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v4",
+    "Name of the step": "Checkout Action"
+  },
+  {
+    "Unused directory": "/home/runner/work/debezium/debezium/debezium-e2e-benchmark/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v4",
+    "Name of the step": "Checkout Action"
+  },
+  {
+    "Unused directory": "/home/runner/work/debezium/debezium/debezium-testing/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v4",
+    "Name of the step": "Checkout Action"
+  },
+  {
+    "Unused directory": "/home/runner/work/debezium/debezium/debezium-connector-mariadb/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v4",
+    "Name of the step": "Checkout Action"
+  },
+  {
+    "Unused directory": "/home/runner/work/debezium/debezium/.git/hooks/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v4",
+    "Name of the step": "Checkout Action"
+  },
+  {
+    "Unused directory": "/home/runner/work/debezium/debezium/.git/logs/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v4",
+    "Name of the step": "Checkout Action"
+  },
+  {
+    "Unused directory": "/home/runner/work/debezium/debezium/debezium-storage/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v4",
+    "Name of the step": "Checkout Action"
+  },
+  {
+    "Unused directory": "/home/runner/work/debezium/debezium/jenkins-jobs/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v4",
+    "Name of the step": "Checkout Action"
+  },
+  {
+    "Unused directory": "/home/runner/work/debezium/debezium/debezium-connector-postgres/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v4",
+    "Name of the step": "Checkout Action"
+  },
+  {
+    "Unused directory": "/home/runner/work/debezium/debezium/debezium-core/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v4",
+    "Name of the step": "Checkout Action"
+  },
+  {
+    "Unused directory": "/home/runner/work/debezium/debezium/debezium-connector-mysql/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v4",
+    "Name of the step": "Checkout Action"
+  }
+]

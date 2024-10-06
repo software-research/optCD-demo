@@ -1,0 +1,693 @@
+Unused directories and their responsible plugins in Import Global Environment / init-environment:
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build-e2e-image:
+Unused directories and their responsible plugins in e2e-sql (proxy, Standalone, MySQL, db, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (proxy, Standalone, MySQL, tbl, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (proxy, Standalone, MySQL, encrypt, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (proxy, Standalone, MySQL, readwrite_splitting, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (proxy, Standalone, MySQL, shadow, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (proxy, Standalone, MySQL, mask, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (proxy, Standalone, MySQL, dbtbl_with_readwrite_splitting_and_encrypt, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (proxy, Standalone, MySQL, sharding_and_encrypt, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (proxy, Standalone, MySQL, encrypt_and_readwrite_splitting, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (proxy, Standalone, MySQL, encrypt_shadow, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (proxy, Standalone, MySQL, readwrite_splitting_and_shadow, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (proxy, Standalone, MySQL, sharding_and_shadow, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (proxy, Standalone, MySQL, sharding_encrypt_shadow, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (proxy, Standalone, MySQL, mask_encrypt, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (proxy, Standalone, MySQL, mask_sharding, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (proxy, Standalone, MySQL, mask_encrypt_sharding, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (proxy, Standalone, MySQL, db_tbl_sql_federation, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (proxy, Standalone, PostgreSQL, db, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (proxy, Standalone, PostgreSQL, tbl, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (proxy, Standalone, PostgreSQL, encrypt, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (proxy, Standalone, PostgreSQL, readwrite_splitting, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (proxy, Standalone, PostgreSQL, shadow, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (proxy, Standalone, PostgreSQL, mask, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (proxy, Standalone, PostgreSQL, dbtbl_with_readwrite_splitting_and_encrypt, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (proxy, Standalone, PostgreSQL, sharding_and_encrypt, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (proxy, Standalone, PostgreSQL, encrypt_and_readwrite_splitting, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (proxy, Standalone, PostgreSQL, encrypt_shadow, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (proxy, Standalone, PostgreSQL, readwrite_splitting_and_shadow, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (proxy, Standalone, PostgreSQL, sharding_and_shadow, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (proxy, Standalone, PostgreSQL, sharding_encrypt_shadow, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (proxy, Standalone, PostgreSQL, mask_encrypt, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (proxy, Standalone, PostgreSQL, mask_sharding, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (proxy, Standalone, PostgreSQL, mask_encrypt_sharding, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (proxy, Standalone, PostgreSQL, db_tbl_sql_federation, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (proxy, Cluster, MySQL, empty_rules, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (proxy, Cluster, MySQL, distsql_rdl, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (proxy, Cluster, MySQL, passthrough, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (proxy, Cluster, MySQL, db, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (proxy, Cluster, MySQL, tbl, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (proxy, Cluster, MySQL, encrypt, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (proxy, Cluster, MySQL, readwrite_splitting, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (proxy, Cluster, MySQL, shadow, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (proxy, Cluster, MySQL, mask, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (proxy, Cluster, MySQL, dbtbl_with_readwrite_splitting_and_encrypt, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (proxy, Cluster, MySQL, sharding_and_encrypt, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (proxy, Cluster, MySQL, encrypt_and_readwrite_splitting, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (proxy, Cluster, MySQL, encrypt_shadow, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (proxy, Cluster, MySQL, readwrite_splitting_and_shadow, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (proxy, Cluster, MySQL, sharding_and_shadow, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (proxy, Cluster, MySQL, sharding_encrypt_shadow, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (proxy, Cluster, MySQL, mask_encrypt, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (proxy, Cluster, MySQL, mask_sharding, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (proxy, Cluster, MySQL, mask_encrypt_sharding, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (proxy, Cluster, MySQL, db_tbl_sql_federation, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (proxy, Cluster, PostgreSQL, empty_rules, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (proxy, Cluster, PostgreSQL, distsql_rdl, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (proxy, Cluster, PostgreSQL, passthrough, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (proxy, Cluster, PostgreSQL, db, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (proxy, Cluster, PostgreSQL, tbl, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (proxy, Cluster, PostgreSQL, encrypt, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (proxy, Cluster, PostgreSQL, readwrite_splitting, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (proxy, Cluster, PostgreSQL, shadow, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (proxy, Cluster, PostgreSQL, mask, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (proxy, Cluster, PostgreSQL, dbtbl_with_readwrite_splitting_and_encrypt, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (proxy, Cluster, PostgreSQL, sharding_and_encrypt, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (proxy, Cluster, PostgreSQL, encrypt_and_readwrite_splitting, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (proxy, Cluster, PostgreSQL, encrypt_shadow, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (proxy, Cluster, PostgreSQL, readwrite_splitting_and_shadow, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (proxy, Cluster, PostgreSQL, sharding_and_shadow, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (proxy, Cluster, PostgreSQL, sharding_encrypt_shadow, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (proxy, Cluster, PostgreSQL, mask_encrypt, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (proxy, Cluster, PostgreSQL, mask_sharding, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (proxy, Cluster, PostgreSQL, mask_encrypt_sharding, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (proxy, Cluster, PostgreSQL, db_tbl_sql_federation, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (jdbc, Standalone, MySQL, empty_rules, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (jdbc, Standalone, MySQL, distsql_rdl, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (jdbc, Standalone, MySQL, db, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (jdbc, Standalone, MySQL, tbl, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (jdbc, Standalone, MySQL, encrypt, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (jdbc, Standalone, MySQL, readwrite_splitting, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (jdbc, Standalone, MySQL, shadow, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (jdbc, Standalone, MySQL, mask, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (jdbc, Standalone, MySQL, dbtbl_with_readwrite_splitting_and_encrypt, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (jdbc, Standalone, MySQL, sharding_and_encrypt, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (jdbc, Standalone, MySQL, encrypt_and_readwrite_splitting, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (jdbc, Standalone, MySQL, encrypt_shadow, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (jdbc, Standalone, MySQL, readwrite_splitting_and_shadow, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (jdbc, Standalone, MySQL, sharding_and_shadow, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (jdbc, Standalone, MySQL, sharding_encrypt_shadow, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (jdbc, Standalone, MySQL, mask_encrypt, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (jdbc, Standalone, MySQL, mask_sharding, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (jdbc, Standalone, MySQL, mask_encrypt_sharding, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (jdbc, Standalone, MySQL, db_tbl_sql_federation, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (jdbc, Standalone, MySQL, empty_storage_units, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (jdbc, Standalone, PostgreSQL, empty_rules, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (jdbc, Standalone, PostgreSQL, distsql_rdl, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (jdbc, Standalone, PostgreSQL, db, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (jdbc, Standalone, PostgreSQL, tbl, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (jdbc, Standalone, PostgreSQL, encrypt, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (jdbc, Standalone, PostgreSQL, readwrite_splitting, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (jdbc, Standalone, PostgreSQL, shadow, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (jdbc, Standalone, PostgreSQL, mask, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (jdbc, Standalone, PostgreSQL, dbtbl_with_readwrite_splitting_and_encrypt, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (jdbc, Standalone, PostgreSQL, sharding_and_encrypt, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (jdbc, Standalone, PostgreSQL, encrypt_and_readwrite_splitting, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (jdbc, Standalone, PostgreSQL, encrypt_shadow, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (jdbc, Standalone, PostgreSQL, readwrite_splitting_and_shadow, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (jdbc, Standalone, PostgreSQL, sharding_and_shadow, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (jdbc, Standalone, PostgreSQL, sharding_encrypt_shadow, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (jdbc, Standalone, PostgreSQL, mask_encrypt, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (jdbc, Standalone, PostgreSQL, mask_sharding, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (jdbc, Standalone, PostgreSQL, mask_encrypt_sharding, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (jdbc, Standalone, PostgreSQL, db_tbl_sql_federation, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (jdbc, Standalone, PostgreSQL, empty_storage_units, ):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in e2e-sql (proxy, , MySQL, passthrough, -Dmysql-connector-java.version=8.3.0):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+

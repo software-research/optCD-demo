@@ -1,0 +1,24 @@
+Unused directories and their responsible plugins in analyze (java):
+╒════════════════════════════════════════════════════════════════════════════════════════╤══════════════════════════════════════════════════════════════════════╤═══════════════════════════════════════════════╤════════════════════╕
+│ Unused directory                                                                       │ Responsible plugin                                                   │ Responsible command                           │ Name of the step   │
+╞════════════════════════════════════════════════════════════════════════════════════════╪══════════════════════════════════════════════════════════════════════╪═══════════════════════════════════════════════╪════════════════════╡
+│ /home/runner/work/netty/netty/transport-native-epoll/target/native-build/conf7942.dir/ │ hawtjni:1.18:build (build-native-lib) @ netty-transport-native-epoll │ ./mvnw -B -ntp clean package -DskipTests=true │ Compile project    │
+├────────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────────────────────┼───────────────────────────────────────────────┼────────────────────┤
+│ /home/runner/work/netty/netty/transport-native-epoll/target/native-build/conf6830.dir/ │ hawtjni:1.18:build (build-native-lib) @ netty-transport-native-epoll │ ./mvnw -B -ntp clean package -DskipTests=true │ Compile project    │
+╘════════════════════════════════════════════════════════════════════════════════════════╧══════════════════════════════════════════════════════════════════════╧═══════════════════════════════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in analyze (cpp):
+╒══════════════════════════════════════════════════════════════════════════════════════════╤══════════════════════════════════════════════════════════════════════╤═══════════════════════════════════════════════╤════════════════════╕
+│ Unused directory                                                                         │ Responsible plugin                                                   │ Responsible command                           │ Name of the step   │
+╞══════════════════════════════════════════════════════════════════════════════════════════╪══════════════════════════════════════════════════════════════════════╪═══════════════════════════════════════════════╪════════════════════╡
+│ /home/runner/work/netty/netty/transport-native-epoll/target/native-build/conf5455.dir/   │ hawtjni:1.18:build (build-native-lib) @ netty-transport-native-epoll │ ./mvnw -B -ntp clean package -DskipTests=true │ Compile project    │
+├──────────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────────────────────┼───────────────────────────────────────────────┼────────────────────┤
+│ /home/runner/work/netty/netty/transport-native-epoll/target/native-build/conf6565.dir/   │ hawtjni:1.18:build (build-native-lib) @ netty-transport-native-epoll │ ./mvnw -B -ntp clean package -DskipTests=true │ Compile project    │
+├──────────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────────────────────┼───────────────────────────────────────────────┼────────────────────┤
+│ /home/runner/work/netty/netty/transport-native-epoll/target/native-build/autom4te.cache/ │ hawtjni:1.18:build (build-native-lib) @ netty-transport-native-epoll │ ./mvnw -B -ntp clean package -DskipTests=true │ Compile project    │
+├──────────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────────────────────┼───────────────────────────────────────────────┼────────────────────┤
+│ /home/runner/work/netty/netty/common/target/maven-status/                                │ compiler:3.8.0:compile (default-compile) @ netty-common              │ ./mvnw -B -ntp clean package -DskipTests=true │ Compile project    │
+├──────────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────────────────────┼───────────────────────────────────────────────┼────────────────────┤
+│ /home/runner/work/netty/netty/testsuite-shading/target/classes-shaded/                   │ antrun:1.8:run (unpack-jar-features) @ netty-testsuite-shading       │ ./mvnw -B -ntp clean package -DskipTests=true │ Compile project    │
+╘══════════════════════════════════════════════════════════════════════════════════════════╧══════════════════════════════════════════════════════════════════════╧═══════════════════════════════════════════════╧════════════════════╛
+

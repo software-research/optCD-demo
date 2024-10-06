@@ -1,0 +1,104 @@
+[
+  {
+    "Unused directory": "/home/runner/work/crate/crate/plugins/repository-gcs/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.5.0:test (default-test) @ repository-gcs",
+    "Responsible command": "mvn test \\\n  -Dtests.crate.run-windows-incompatible=true \\\n  -DforkCount=2 \\\n  -DthreadCount=2 \\\n  -Dcheckstyle.skip \\\n  -Dforbiddenapis.skip=true \\\n  -Dmaven.javadoc.skip=true \\\n  -Djacoco.skip=true\n",
+    "Name of the step": "Run tests on ${{ matrix.os }}"
+  },
+  {
+    "Unused directory": "/home/runner/work/crate/crate/plugins/es-repository-url/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.5.0:test (default-test) @ es-repository-s3",
+    "Responsible command": "mvn test \\\n  -Dtests.crate.run-windows-incompatible=true \\\n  -DforkCount=2 \\\n  -DthreadCount=2 \\\n  -Dcheckstyle.skip \\\n  -Dforbiddenapis.skip=true \\\n  -Dmaven.javadoc.skip=true \\\n  -Djacoco.skip=true\n",
+    "Name of the step": "Run tests on ${{ matrix.os }}"
+  },
+  {
+    "Unused directory": "/home/runner/work/crate/crate/plugins/es-repository-s3/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.5.0:test (default-test) @ es-repository-s3",
+    "Responsible command": "mvn test \\\n  -Dtests.crate.run-windows-incompatible=true \\\n  -DforkCount=2 \\\n  -DthreadCount=2 \\\n  -Dcheckstyle.skip \\\n  -Dforbiddenapis.skip=true \\\n  -Dmaven.javadoc.skip=true \\\n  -Djacoco.skip=true\n",
+    "Name of the step": "Run tests on ${{ matrix.os }}"
+  },
+  {
+    "Unused directory": "/home/runner/work/crate/crate/plugins/es-repository-azure/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.5.0:test (default-test) @ es-repository-azure",
+    "Responsible command": "mvn test \\\n  -Dtests.crate.run-windows-incompatible=true \\\n  -DforkCount=2 \\\n  -DthreadCount=2 \\\n  -Dcheckstyle.skip \\\n  -Dforbiddenapis.skip=true \\\n  -Dmaven.javadoc.skip=true \\\n  -Djacoco.skip=true\n",
+    "Name of the step": "Run tests on ${{ matrix.os }}"
+  },
+  {
+    "Unused directory": "/home/runner/work/crate/crate/plugins/es-analysis-phonetic/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.5.0:test (default-test) @ es-analysis-phonetic",
+    "Responsible command": "mvn test \\\n  -Dtests.crate.run-windows-incompatible=true \\\n  -DforkCount=2 \\\n  -DthreadCount=2 \\\n  -Dcheckstyle.skip \\\n  -Dforbiddenapis.skip=true \\\n  -Dmaven.javadoc.skip=true \\\n  -Djacoco.skip=true\n",
+    "Name of the step": "Run tests on ${{ matrix.os }}"
+  },
+  {
+    "Unused directory": "/home/runner/work/crate/crate/libs/sql-parser/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.5.0:test (default-test) @ crate-libs-sql-parser",
+    "Responsible command": "mvn test \\\n  -Dtests.crate.run-windows-incompatible=true \\\n  -DforkCount=2 \\\n  -DthreadCount=2 \\\n  -Dcheckstyle.skip \\\n  -Dforbiddenapis.skip=true \\\n  -Dmaven.javadoc.skip=true \\\n  -Djacoco.skip=true\n",
+    "Name of the step": "Run tests on ${{ matrix.os }}"
+  },
+  {
+    "Unused directory": "/home/runner/work/crate/crate/libs/shared/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.5.0:test (default-test) @ crate-libs-shared",
+    "Responsible command": "mvn test \\\n  -Dtests.crate.run-windows-incompatible=true \\\n  -DforkCount=2 \\\n  -DthreadCount=2 \\\n  -Dcheckstyle.skip \\\n  -Dforbiddenapis.skip=true \\\n  -Dmaven.javadoc.skip=true \\\n  -Djacoco.skip=true\n",
+    "Name of the step": "Run tests on ${{ matrix.os }}"
+  },
+  {
+    "Unused directory": "/home/runner/work/crate/crate/libs/pgwire/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.5.0:test (default-test) @ crate-libs-guice",
+    "Responsible command": "mvn test \\\n  -Dtests.crate.run-windows-incompatible=true \\\n  -DforkCount=2 \\\n  -DthreadCount=2 \\\n  -Dcheckstyle.skip \\\n  -Dforbiddenapis.skip=true \\\n  -Dmaven.javadoc.skip=true \\\n  -Djacoco.skip=true\n",
+    "Name of the step": "Run tests on ${{ matrix.os }}"
+  },
+  {
+    "Unused directory": "/home/runner/work/crate/crate/app/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.5.0:test (default-test) @ crate-app",
+    "Responsible command": "mvn test \\\n  -Dtests.crate.run-windows-incompatible=true \\\n  -DforkCount=2 \\\n  -DthreadCount=2 \\\n  -Dcheckstyle.skip \\\n  -Dforbiddenapis.skip=true \\\n  -Dmaven.javadoc.skip=true \\\n  -Djacoco.skip=true\n",
+    "Name of the step": "Run tests on ${{ matrix.os }}"
+  },
+  {
+    "Unused directory": "/home/runner/work/crate/crate/plugins/es-analysis-phonetic/target/generated-test-sources/",
+    "Responsible plugin": "maven-resources-plugin:3.3.1:testResources (default-testResources) @ es-analysis-phonetic",
+    "Responsible command": "mvn test \\\n  -Dtests.crate.run-windows-incompatible=true \\\n  -DforkCount=2 \\\n  -DthreadCount=2 \\\n  -Dcheckstyle.skip \\\n  -Dforbiddenapis.skip=true \\\n  -Dmaven.javadoc.skip=true \\\n  -Djacoco.skip=true\n",
+    "Name of the step": "Run tests on ${{ matrix.os }}"
+  },
+  {
+    "Unused directory": "/home/runner/work/crate/crate/plugins/es-repository-azure/target/generated-sources/",
+    "Responsible plugin": "maven-resources-plugin:3.3.1:resources (default-resources) @ es-repository-azure",
+    "Responsible command": "mvn test \\\n  -Dtests.crate.run-windows-incompatible=true \\\n  -DforkCount=2 \\\n  -DthreadCount=2 \\\n  -Dcheckstyle.skip \\\n  -Dforbiddenapis.skip=true \\\n  -Dmaven.javadoc.skip=true \\\n  -Djacoco.skip=true\n",
+    "Name of the step": "Run tests on ${{ matrix.os }}"
+  },
+  {
+    "Unused directory": "/home/runner/work/crate/crate/libs/shared/target/generated-test-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.13.0:testCompile (default-testCompile) @ crate-libs-shared",
+    "Responsible command": "mvn test \\\n  -Dtests.crate.run-windows-incompatible=true \\\n  -DforkCount=2 \\\n  -DthreadCount=2 \\\n  -Dcheckstyle.skip \\\n  -Dforbiddenapis.skip=true \\\n  -Dmaven.javadoc.skip=true \\\n  -Djacoco.skip=true\n",
+    "Name of the step": "Run tests on ${{ matrix.os }}"
+  },
+  {
+    "Unused directory": "/home/runner/work/crate/crate/libs/pgwire/target/generated-test-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.13.0:testCompile (default-testCompile) @ crate-libs-pgwire",
+    "Responsible command": "mvn test \\\n  -Dtests.crate.run-windows-incompatible=true \\\n  -DforkCount=2 \\\n  -DthreadCount=2 \\\n  -Dcheckstyle.skip \\\n  -Dforbiddenapis.skip=true \\\n  -Dmaven.javadoc.skip=true \\\n  -Djacoco.skip=true\n",
+    "Name of the step": "Run tests on ${{ matrix.os }}"
+  },
+  {
+    "Unused directory": "/home/runner/work/crate/crate/app/target/generated-test-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.13.0:testCompile (default-testCompile) @ crate-app",
+    "Responsible command": "mvn test \\\n  -Dtests.crate.run-windows-incompatible=true \\\n  -DforkCount=2 \\\n  -DthreadCount=2 \\\n  -Dcheckstyle.skip \\\n  -Dforbiddenapis.skip=true \\\n  -Dmaven.javadoc.skip=true \\\n  -Djacoco.skip=true\n",
+    "Name of the step": "Run tests on ${{ matrix.os }}"
+  },
+  {
+    "Unused directory": "/home/runner/work/crate/crate/plugins/es-repository-url/target/generated-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.13.0:compile (default-compile) @ es-repository-url",
+    "Responsible command": "mvn test \\\n  -Dtests.crate.run-windows-incompatible=true \\\n  -DforkCount=2 \\\n  -DthreadCount=2 \\\n  -Dcheckstyle.skip \\\n  -Dforbiddenapis.skip=true \\\n  -Dmaven.javadoc.skip=true \\\n  -Djacoco.skip=true\n",
+    "Name of the step": "Run tests on ${{ matrix.os }}"
+  },
+  {
+    "Unused directory": "/home/runner/work/crate/crate/plugins/es-analysis-phonetic/target/generated-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.13.0:compile (default-compile) @ es-analysis-phonetic",
+    "Responsible command": "mvn test \\\n  -Dtests.crate.run-windows-incompatible=true \\\n  -DforkCount=2 \\\n  -DthreadCount=2 \\\n  -Dcheckstyle.skip \\\n  -Dforbiddenapis.skip=true \\\n  -Dmaven.javadoc.skip=true \\\n  -Djacoco.skip=true\n",
+    "Name of the step": "Run tests on ${{ matrix.os }}"
+  },
+  {
+    "Unused directory": "/home/runner/work/crate/crate/app/target/generated-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.13.0:compile (default-compile) @ crate-app",
+    "Responsible command": "mvn test \\\n  -Dtests.crate.run-windows-incompatible=true \\\n  -DforkCount=2 \\\n  -DthreadCount=2 \\\n  -Dcheckstyle.skip \\\n  -Dforbiddenapis.skip=true \\\n  -Dmaven.javadoc.skip=true \\\n  -Djacoco.skip=true\n",
+    "Name of the step": "Run tests on ${{ matrix.os }}"
+  }
+]

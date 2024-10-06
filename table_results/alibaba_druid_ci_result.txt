@@ -1,0 +1,16 @@
+Unused directories and their responsible plugins in test (ubuntu-latest, 8):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in test (ubuntu-latest, 11):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in test (ubuntu-latest, 17):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in test (ubuntu-latest, 21):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+

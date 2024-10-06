@@ -1,0 +1,680 @@
+[
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-zaif/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-zaif",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-yobit/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-yobit",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-upbit/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-upbit",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-truefx/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-truefx",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-tradeogre/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-tradeogre",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-therock/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-therock",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-stream-okcoin/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-stream-okcoin",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-stream-lgo/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-stream-lgo",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-stream-kraken/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-stream-kraken",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-stream-hitbtc/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-stream-hitbtc",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-stream-gemini-v2/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-stream-gemini-v2",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-stream-gateio/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-stream-gateio",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-stream-ftx/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-stream-ftx",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-stream-dydx/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-stream-dydx",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-stream-core/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-stream-core",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-stream-coinmate/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-stream-coinmate",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-stream-coinjar/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-stream-coinjar",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-stream-coincheck/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-stream-coincheck",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-stream-coinbasepro/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-stream-coinbasepro",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-stream-cexio/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-stream-cexio",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-stream-bitstamp/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-stream-bitstamp",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-stream-bitmex/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-stream-bitmex",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-stream-bitfinex/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-stream-bitfinex",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-stream-binance/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-stream-binance",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-simulated/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-simulated",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-serum/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-serum",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-ripple/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-ripple",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-quoine/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-quoine",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-poloniex/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-poloniex",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-paymium/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-paymium",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-paribu/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-paribu",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-openexchangerates/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-openexchangerates",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-okcoin/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-okcoin",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-mexc/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-mexc",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-mercadobitcoin/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-mercadobitcoin",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-lykke/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-lykke",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-livecoin/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-livecoin",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-lgo/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-lgo",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-latoken/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-latoken",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-kuna/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-kuna",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-kraken/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-kraken",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-koinim/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-koinim",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-koineks/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-koineks",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-itbit/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-itbit",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-independentreserve/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-independentreserve",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-hitbtc/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-hitbtc",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-globitex/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-globitex",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-gemini/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-gemini",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-gateio-v4/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-gateio-v4",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-gateio/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-gateio",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-ftx/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-ftx",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-enigma/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-enigma",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-dvchain/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-dvchain",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-deribit/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-deribit",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-cryptowatch/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-cryptowatch",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-core/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-core",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-coinone/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-coinone",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-coinmate/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-coinmate",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-coinmarketcap/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-coinmarketcap",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-coinjar/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-coinjar",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-coingi/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-coingi",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-coinfloor/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-coinfloor",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-coinex/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-coinex",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-coinegg/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-coinegg",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-coindirect/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-coindirect",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-coindeal/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-coindeal",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-coincheck/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-coincheck",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-coinbasepro/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-coinbasepro",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-coinbase/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-coinbase",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-cexio/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-cexio",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-ccex/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-ccex",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-bybit/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-bybit",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-btcturk/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-btcturk",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-btcmarkets/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-btcmarkets",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-btcc/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-btcc",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-blockchain/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-blockchain",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-bleutrade/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-bleutrade",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-bitz/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-bitz",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-bity/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-bity",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-bittrex/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-bittrex",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-bitstamp/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-bitstamp",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-bitmex/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-bitmex",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-bithumb/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-bithumb",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-bitget/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-bitget",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-bitflyer/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-bitflyer",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-bitfinex/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-bitfinex",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-bitcointoyou/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-bitcointoyou",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-bitcoinde/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-bitcoinde",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-bitcoincore/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-bitcoincore",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-bitcoinaverage/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-bitcoinaverage",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-bitbay/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-bitbay",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-binance/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-binance",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-bibox/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-bibox",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-ascendex/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ xchange-ascendex",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-krakenfutures/target/generated-test-sources/",
+    "Responsible plugin": "maven-resources-plugin:2.6:testResources (default-testResources) @ xchange-krakenfutures",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-upbit/target/generated-test-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.13.0:testCompile (default-testCompile) @ xchange-upbit",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-stream-gemini/target/generated-test-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.13.0:testCompile (default-testCompile) @ xchange-stream-gemini",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-stream-ftx/target/generated-test-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.13.0:testCompile (default-testCompile) @ xchange-stream-ftx",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-stream-bybit/target/generated-test-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.13.0:testCompile (default-testCompile) @ xchange-stream-bybit",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-paribu/target/generated-test-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.13.0:testCompile (default-testCompile) @ xchange-paribu",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-gateio/target/generated-test-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.13.0:testCompile (default-testCompile) @ xchange-gateio",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-cryptowatch/target/generated-test-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.13.0:testCompile (default-testCompile) @ xchange-cryptowatch",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-core/target/generated-test-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.13.0:testCompile (default-testCompile) @ xchange-core",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-coindeal/target/generated-test-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.13.0:testCompile (default-testCompile) @ xchange-coindeal",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-coinbase/target/generated-test-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.13.0:testCompile (default-testCompile) @ xchange-coinbase",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-ccex/target/generated-test-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.13.0:testCompile (default-testCompile) @ xchange-ccex",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-blockchain/target/generated-test-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.13.0:testCompile (default-testCompile) @ xchange-blockchain",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-bity/target/generated-test-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.13.0:testCompile (default-testCompile) @ xchange-bity",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-bitstamp/target/generated-test-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.13.0:testCompile (default-testCompile) @ xchange-bitstamp",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-bithumb/target/generated-test-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.13.0:testCompile (default-testCompile) @ xchange-bithumb",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-bitflyer/target/generated-test-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.13.0:testCompile (default-testCompile) @ xchange-bitflyer",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-truefx/target/generated-test-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.13.0:compile (default-compile) @ xchange-truefx",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/XChange/XChange/xchange-itbit/target/generated-test-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.13.0:compile (default-compile) @ xchange-itbit",
+    "Responsible command": "mvn clean verify --no-transfer-progress --batch-mode --settings etc/settings.xml -Dmaven.javadoc.skip=true -Dfmt.skip=true;",
+    "Name of the step": "Build with Maven"
+  }
+]

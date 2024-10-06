@@ -1,0 +1,15 @@
+Unused directories and their responsible plugins in spotless-check:
+╒══════════════════════════════════════════════════════════════════════════════════════════════════════════════════╤══════════════════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory                                                                                                 │ Responsible plugin               │ Responsible command   │ Name of the step   │
+╞══════════════════════════════════════════════════════════════════════════════════════════════════════════════════╪══════════════════════════════════╪═══════════════════════╪════════════════════╡
+│ /home/runner/work/linkis/linkis/linkis-commons/linkis-storage/src/test/resources/                                │ Not responsible by maven plugins │ actions/checkout@v2   │ Checkout source    │
+├──────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────┼────────────────────┤
+│ /home/runner/work/linkis/linkis/linkis-public-enhancements/linkis-udf-service/src/test/resources/                │ Not responsible by maven plugins │ actions/checkout@v2   │ Checkout source    │
+├──────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────┼────────────────────┤
+│ /home/runner/work/linkis/linkis/linkis-public-enhancements/linkis-datasource/linkis-metadata/src/test/resources/ │ Not responsible by maven plugins │ actions/checkout@v2   │ Checkout source    │
+├──────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────┼────────────────────┤
+│ /home/runner/work/linkis/linkis/linkis-public-enhancements/linkis-jobhistory/src/test/resources/                 │ Not responsible by maven plugins │ actions/checkout@v2   │ Checkout source    │
+├──────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────┼────────────────────┤
+│ /home/runner/work/linkis/linkis/linkis-public-enhancements/linkis-configuration/src/test/resources/              │ Not responsible by maven plugins │ actions/checkout@v2   │ Checkout source    │
+╘══════════════════════════════════════════════════════════════════════════════════════════════════════════════════╧══════════════════════════════════╧═══════════════════════╧════════════════════╛
+

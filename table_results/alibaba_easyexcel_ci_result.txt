@@ -1,0 +1,13 @@
+Unused directories and their responsible plugins in test (8, adopt):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in test (11, adopt):
+╒═══════════════════════════════════════════════════════════════════════════════╤══════════════════════════════════════════════════════════════════╤════════════════════════════════════════╤════════════════════╕
+│ Unused directory                                                              │ Responsible plugin                                               │ Responsible command                    │ Name of the step   │
+╞═══════════════════════════════════════════════════════════════════════════════╪══════════════════════════════════════════════════════════════════╪════════════════════════════════════════╪════════════════════╡
+│ /home/runner/work/easyexcel/easyexcel/easyexcel-test/target/surefire-reports/ │ maven-surefire-plugin:3.3.0:test (default-test) @ easyexcel-test │ ./mvnw test -B -Dmaven.test.skip=false │ Test with Maven    │
+╘═══════════════════════════════════════════════════════════════════════════════╧══════════════════════════════════════════════════════════════════╧════════════════════════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in test (17, adopt):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in test (21, adopt):
+Inotify log does not exist, because the job runs on Windows or MacOS.

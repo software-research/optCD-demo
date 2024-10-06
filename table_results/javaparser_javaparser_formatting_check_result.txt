@@ -1,0 +1,8 @@
+Unused directories and their responsible plugins in spotless_check:
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in checkstyle_check:
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+

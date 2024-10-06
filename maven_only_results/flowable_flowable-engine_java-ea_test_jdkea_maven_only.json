@@ -1,0 +1,128 @@
+[
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-job-service/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.3:test (default-test) @ flowable-job-service",
+    "Responsible command": "./mvnw verify -Pdistro,errorLogging ${MAVEN_ARGS} -Dmaven.test.redirectTestOutputToFile=false",
+    "Name of the step": "Test"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-event-registry-json-converter/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.3:test (default-test) @ flowable-event-registry-json-converter",
+    "Responsible command": "./mvnw verify -Pdistro,errorLogging ${MAVEN_ARGS} -Dmaven.test.redirectTestOutputToFile=false",
+    "Name of the step": "Test"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-event-registry/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.3:test (default-test) @ flowable-event-registry",
+    "Responsible command": "./mvnw verify -Pdistro,errorLogging ${MAVEN_ARGS} -Dmaven.test.redirectTestOutputToFile=false",
+    "Name of the step": "Test"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-engine-common/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.3:test (default-test) @ flowable-engine-common",
+    "Responsible command": "./mvnw verify -Pdistro,errorLogging ${MAVEN_ARGS} -Dmaven.test.redirectTestOutputToFile=false",
+    "Name of the step": "Test"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-bpmn-converter/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.3:test (default-test) @ flowable-bpmn-converter",
+    "Responsible command": "./mvnw verify -Pdistro,errorLogging ${MAVEN_ARGS} -Dmaven.test.redirectTestOutputToFile=false",
+    "Name of the step": "Test"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-batch-service/target/test-classes/",
+    "Responsible plugin": "maven-resources-plugin:3.3.1:testResources (default-testResources) @ flowable-batch-service",
+    "Responsible command": "./mvnw install ${MAVEN_ARGS} -DskipTests=true -Dmaven.javadoc.skip=true -B -V",
+    "Name of the step": "Install"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-spring-security/target/generated-test-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.12.1:testCompile (default-testCompile) @ flowable-spring-security",
+    "Responsible command": "./mvnw install ${MAVEN_ARGS} -DskipTests=true -Dmaven.javadoc.skip=true -B -V",
+    "Name of the step": "Install"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-job-service/target/generated-test-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.12.1:testCompile (default-testCompile) @ flowable-job-service",
+    "Responsible command": "./mvnw install ${MAVEN_ARGS} -DskipTests=true -Dmaven.javadoc.skip=true -B -V",
+    "Name of the step": "Install"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-idm-engine/target/generated-test-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.12.1:testCompile (default-testCompile) @ flowable-idm-engine",
+    "Responsible command": "./mvnw install ${MAVEN_ARGS} -DskipTests=true -Dmaven.javadoc.skip=true -B -V",
+    "Name of the step": "Install"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-http-common/target/generated-test-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.12.1:testCompile (default-testCompile) @ flowable-http-common",
+    "Responsible command": "./mvnw install ${MAVEN_ARGS} -DskipTests=true -Dmaven.javadoc.skip=true -B -V",
+    "Name of the step": "Install"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-event-registry-json-converter/target/generated-test-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.12.1:testCompile (default-testCompile) @ flowable-event-registry-json-converter",
+    "Responsible command": "./mvnw install ${MAVEN_ARGS} -DskipTests=true -Dmaven.javadoc.skip=true -B -V",
+    "Name of the step": "Install"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-event-registry/target/generated-test-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.12.1:testCompile (default-testCompile) @ flowable-event-registry",
+    "Responsible command": "./mvnw install ${MAVEN_ARGS} -DskipTests=true -Dmaven.javadoc.skip=true -B -V",
+    "Name of the step": "Install"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-engine/target/generated-test-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.12.1:testCompile (default-testCompile) @ flowable-engine",
+    "Responsible command": "./mvnw install ${MAVEN_ARGS} -DskipTests=true -Dmaven.javadoc.skip=true -B -V",
+    "Name of the step": "Install"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-dmn-engine-configurator/target/generated-test-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.12.1:testCompile (default-testCompile) @ flowable-dmn-engine-configurator",
+    "Responsible command": "./mvnw install ${MAVEN_ARGS} -DskipTests=true -Dmaven.javadoc.skip=true -B -V",
+    "Name of the step": "Install"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-dmn-engine/target/generated-test-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.12.1:testCompile (default-testCompile) @ flowable-dmn-engine",
+    "Responsible command": "./mvnw install ${MAVEN_ARGS} -DskipTests=true -Dmaven.javadoc.skip=true -B -V",
+    "Name of the step": "Install"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-cmmn-engine-configurator/target/generated-test-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.12.1:testCompile (default-testCompile) @ flowable-cmmn-engine-configurator",
+    "Responsible command": "./mvnw install ${MAVEN_ARGS} -DskipTests=true -Dmaven.javadoc.skip=true -B -V",
+    "Name of the step": "Install"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-cmmn-engine/target/generated-test-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.12.1:testCompile (default-testCompile) @ flowable-cmmn-engine",
+    "Responsible command": "./mvnw install ${MAVEN_ARGS} -DskipTests=true -Dmaven.javadoc.skip=true -B -V",
+    "Name of the step": "Install"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-cmmn-converter/target/generated-test-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.12.1:testCompile (default-testCompile) @ flowable-cmmn-converter",
+    "Responsible command": "./mvnw install ${MAVEN_ARGS} -DskipTests=true -Dmaven.javadoc.skip=true -B -V",
+    "Name of the step": "Install"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-bpmn-converter/target/generated-test-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.12.1:testCompile (default-testCompile) @ flowable-bpmn-converter",
+    "Responsible command": "./mvnw install ${MAVEN_ARGS} -DskipTests=true -Dmaven.javadoc.skip=true -B -V",
+    "Name of the step": "Install"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-app-engine/target/generated-test-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.12.1:testCompile (default-testCompile) @ flowable-app-engine",
+    "Responsible command": "./mvnw install ${MAVEN_ARGS} -DskipTests=true -Dmaven.javadoc.skip=true -B -V",
+    "Name of the step": "Install"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-engine-common/target/generated-test-sources/",
+    "Responsible plugin": "maven-bundle-plugin:5.1.9:manifest (bundle-manifest) @ flowable-engine-common",
+    "Responsible command": "./mvnw install ${MAVEN_ARGS} -DskipTests=true -Dmaven.javadoc.skip=true -B -V",
+    "Name of the step": "Install"
+  }
+]

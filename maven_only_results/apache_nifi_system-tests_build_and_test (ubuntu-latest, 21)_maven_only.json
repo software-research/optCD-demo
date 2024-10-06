@@ -1,0 +1,848 @@
+[
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-system-tests/nifi-system-test-extensions-bundle/nifi-system-test-extensions-services-nar/target/test-classes/",
+    "Responsible plugin": "resources:3.3.1:testResources (default-testResources) @ nifi-system-test-extensions-services-nar",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-system-tests/nifi-system-test-extensions-bundle/nifi-system-test-extensions-services-api-nar/target/test-classes/",
+    "Responsible plugin": "resources:3.3.1:testResources (default-testResources) @ nifi-system-test-extensions-services-api-nar",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-stateless/nifi-stateless-bundle/nifi-stateless-nar/target/test-classes/",
+    "Responsible plugin": "resources:3.3.1:testResources (default-testResources) @ nifi-stateless-nar",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-extension-bundles/nifi-standard-shared-bundle/nifi-standard-shared-nar/target/test-classes/",
+    "Responsible plugin": "resources:3.3.1:testResources (default-testResources) @ nifi-standard-shared-nar",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-extension-bundles/nifi-standard-services/nifi-standard-services-api-nar/target/test-classes/",
+    "Responsible plugin": "resources:3.3.1:testResources (default-testResources) @ nifi-standard-services-api-nar",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-extension-bundles/nifi-py4j-extension-bundle/nifi-py4j-nar/target/test-classes/",
+    "Responsible plugin": "resources:3.3.1:testResources (default-testResources) @ nifi-py4j-nar",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-system-tests/nifi-system-test-nar-provider-bundles/nifi-nar-provider-service-nar/target/test-classes/",
+    "Responsible plugin": "resources:3.3.1:testResources (default-testResources) @ nifi-nar-provider-service-nar",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-system-tests/nifi-system-test-nar-provider-bundles/nifi-nar-provider-service-api-nar/target/test-classes/",
+    "Responsible plugin": "resources:3.3.1:testResources (default-testResources) @ nifi-nar-provider-service-api-nar",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-system-tests/nifi-system-test-nar-provider-bundles/nifi-nar-provider-processors-nar/target/test-classes/",
+    "Responsible plugin": "resources:3.3.1:testResources (default-testResources) @ nifi-nar-provider-processors-nar",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-framework-bundle/nifi-framework/nifi-framework-core-api/target/generated-test-sources/",
+    "Responsible plugin": "resources:3.3.1:testResources (default-testResources) @ nifi-framework-core-api",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-framework-bundle/nifi-framework/nifi-web/target/",
+    "Responsible plugin": "remote-resources:3.2.0:process (process-resource-bundles) @ nifi-web",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-registry/nifi-registry-core/nifi-registry-revision/target/",
+    "Responsible plugin": "remote-resources:3.2.0:process (process-resource-bundles) @ nifi-registry-revision",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-extension-bundles/nifi-extension-utils/nifi-record-utils/target/",
+    "Responsible plugin": "remote-resources:3.2.0:process (process-resource-bundles) @ nifi-record-utils",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-extension-bundles/nifi-standard-services/nifi-record-serialization-services-bundle/target/",
+    "Responsible plugin": "remote-resources:3.2.0:process (process-resource-bundles) @ nifi-record-serialization-services-bundle",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-extension-bundles/nifi-standard-services/nifi-lookup-services-bundle/target/",
+    "Responsible plugin": "remote-resources:3.2.0:process (process-resource-bundles) @ nifi-lookup-services-bundle",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-extension-bundles/nifi-standard-services/nifi-distributed-cache-services-bundle/target/",
+    "Responsible plugin": "remote-resources:3.2.0:process (process-resource-bundles) @ nifi-distributed-cache-services-bundle",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-system-tests/nifi-system-test-suite/target/failsafe-reports/",
+    "Responsible plugin": "failsafe:3.2.5:integration-test (default) @ nifi-system-test-suite",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_RUN_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Run Tests"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-system-tests/nifi-system-test-suite/target/pythonic-instance/logs/",
+    "Responsible plugin": "failsafe:3.2.5:integration-test (default) @ nifi-system-test-suite",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_RUN_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Run Tests"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-commons/nifi-web-client-api/target/generated-test-sources/",
+    "Responsible plugin": "compiler:3.13.0:testCompile (default-testCompile) @ nifi-web-client-api",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-commons/nifi-web-client/target/generated-test-sources/",
+    "Responsible plugin": "compiler:3.13.0:testCompile (default-testCompile) @ nifi-web-client",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-commons/nifi-utils/target/generated-test-sources/",
+    "Responsible plugin": "compiler:3.13.0:testCompile (default-testCompile) @ nifi-utils",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-commons/nifi-site-to-site-client/target/generated-test-sources/",
+    "Responsible plugin": "compiler:3.13.0:testCompile (default-testCompile) @ nifi-site-to-site-client",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-commons/nifi-security-utils-api/target/generated-test-sources/",
+    "Responsible plugin": "compiler:3.13.0:testCompile (default-testCompile) @ nifi-security-utils-api",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-commons/nifi-security-kerberos/target/generated-test-sources/",
+    "Responsible plugin": "compiler:3.13.0:testCompile (default-testCompile) @ nifi-security-kerberos",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-commons/nifi-schema-utils/target/generated-test-sources/",
+    "Responsible plugin": "compiler:3.13.0:testCompile (default-testCompile) @ nifi-schema-utils",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-framework-bundle/nifi-framework/nifi-repository-models/target/generated-test-sources/",
+    "Responsible plugin": "compiler:3.13.0:testCompile (default-testCompile) @ nifi-repository-models",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-registry/nifi-registry-core/nifi-registry-client/target/generated-test-sources/",
+    "Responsible plugin": "compiler:3.13.0:testCompile (default-testCompile) @ nifi-registry-client",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-extension-bundles/nifi-standard-services/nifi-record-serialization-services-bundle/nifi-record-serialization-services/target/generated-test-sources/",
+    "Responsible plugin": "compiler:3.13.0:testCompile (default-testCompile) @ nifi-record-serialization-services",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-commons/nifi-record/target/generated-test-sources/",
+    "Responsible plugin": "compiler:3.13.0:testCompile (default-testCompile) @ nifi-record",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-commons/nifi-property-encryptor/target/generated-test-sources/",
+    "Responsible plugin": "compiler:3.13.0:testCompile (default-testCompile) @ nifi-property-encryptor",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-commons/nifi-properties/target/generated-test-sources/",
+    "Responsible plugin": "compiler:3.13.0:testCompile (default-testCompile) @ nifi-properties",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-commons/nifi-parameter/target/generated-test-sources/",
+    "Responsible plugin": "compiler:3.13.0:testCompile (default-testCompile) @ nifi-parameter",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-framework-bundle/nifi-framework/nifi-framework-cluster-protocol/target/generated-test-sources/",
+    "Responsible plugin": "compiler:3.13.0:testCompile (default-testCompile) @ nifi-framework-cluster-protocol",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-commons/nifi-flowfile-packager/target/generated-test-sources/",
+    "Responsible plugin": "compiler:3.13.0:testCompile (default-testCompile) @ nifi-flowfile-packager",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-manifest/nifi-extension-manifest-parser/target/generated-test-sources/",
+    "Responsible plugin": "compiler:3.13.0:testCompile (default-testCompile) @ nifi-extension-manifest-parser",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-commons/nifi-deprecation-log/target/generated-test-sources/",
+    "Responsible plugin": "compiler:3.13.0:testCompile (default-testCompile) @ nifi-deprecation-log",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-framework-bundle/nifi-framework/nifi-client-dto/target/generated-test-sources/",
+    "Responsible plugin": "compiler:3.13.0:testCompile (default-testCompile) @ nifi-client-dto",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-extension-bundles/nifi-extension-utils/nifi-record-utils/nifi-yaml-record-utils/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-yaml-record-utils",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-commons/nifi-xml-processing/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-xml-processing",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-commons/nifi-web-utils/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-web-utils",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-commons/nifi-web-servlet-shared/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-web-servlet-shared",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-commons/nifi-web-client-api/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-web-client-api",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-commons/nifi-web-client/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-web-client",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-framework-bundle/nifi-framework/nifi-web/nifi-web-api/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-web-api",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-commons/nifi-uuid5/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-uuid5",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-commons/nifi-utils/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-utils",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-framework-bundle/nifi-framework/nifi-user-actions/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-user-actions",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-framework-bundle/nifi-framework/nifi-web/nifi-ui-extension/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-ui-extension",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-toolkit/nifi-toolkit-cli/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-toolkit-cli",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-system-tests/nifi-system-test-extensions-bundle/nifi-system-test-extensions-services-api/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-system-test-extensions-services-api",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-system-tests/nifi-system-test-extensions-bundle/nifi-system-test-extensions-services/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-system-test-extensions-services",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-system-tests/nifi-system-test-extensions-bundle/nifi-system-test-extensions/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-system-test-extensions",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-extension-bundles/nifi-extension-utils/nifi-syslog-utils/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-syslog-utils",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-commons/nifi-swagger-integration/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-swagger-integration",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-extension-bundles/nifi-standard-bundle/nifi-standard-rules/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-standard-rules",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-extension-bundles/nifi-standard-bundle/nifi-standard-reporting-tasks/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-standard-reporting-tasks",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-extension-bundles/nifi-extension-utils/nifi-record-utils/nifi-standard-record-utils/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-standard-record-utils",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-extension-bundles/nifi-standard-bundle/nifi-standard-processors/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-standard-processors",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-framework-bundle/nifi-framework/nifi-standard-prioritizers/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-standard-prioritizers",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-extension-bundles/nifi-standard-bundle/nifi-standard-parameter-providers/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-standard-parameter-providers",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-extension-bundles/nifi-standard-services/nifi-ssl-context-service-api/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-ssl-context-service-api",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-commons/nifi-site-to-site-client/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-site-to-site-client",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-framework-bundle/nifi-framework/nifi-site-to-site/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-site-to-site",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-extension-bundles/nifi-extension-utils/nifi-service-utils/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-service-utils",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-commons/nifi-security-utils-api/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-security-utils-api",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-commons/nifi-security-utils/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-security-utils",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-commons/nifi-security-ssl/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-security-ssl",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-commons/nifi-security-kerberos-api/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-security-kerberos-api",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-commons/nifi-security-kerberos/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-security-kerberos",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-commons/nifi-security-identity/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-security-identity",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-commons/nifi-security-crypto-key/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-security-crypto-key",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-commons/nifi-security-cert-builder/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-security-cert-builder",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-commons/nifi-security-cert/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-security-cert",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-commons/nifi-schema-utils/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-schema-utils",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-extension-bundles/nifi-standard-services/nifi-schema-registry-service-api/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-schema-registry-service-api",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-extension-bundles/nifi-extension-utils/nifi-record-utils/nifi-schema-inference-utils/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-schema-inference-utils",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-manifest/nifi-runtime-manifest-core/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-runtime-manifest-core",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-framework-bundle/nifi-framework/nifi-runtime/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-runtime",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-framework-bundle/nifi-framework/nifi-repository-models/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-repository-models",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-registry/nifi-registry-core/nifi-registry-security-utils/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-registry-security-utils",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-registry/nifi-registry-core/nifi-registry-revision/nifi-registry-revision-entity-model/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-registry-revision-entity-model",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-registry/nifi-registry-core/nifi-registry-flow-diff/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-registry-flow-diff",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-registry/nifi-registry-core/nifi-registry-data-model/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-registry-data-model",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-registry/nifi-registry-core/nifi-registry-client/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-registry-client",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-extension-bundles/nifi-standard-services/nifi-record-sink-api/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-record-sink-api",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-extension-bundles/nifi-standard-services/nifi-record-serialization-services-bundle/nifi-record-serialization-services-shared/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-record-serialization-services-shared",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-extension-bundles/nifi-standard-services/nifi-record-serialization-services-bundle/nifi-record-serialization-services/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-record-serialization-services",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-extension-bundles/nifi-standard-services/nifi-record-serialization-service-api/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-record-serialization-service-api",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-commons/nifi-record/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-record",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-extension-bundles/nifi-extension-utils/nifi-put-pattern/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-put-pattern",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-extension-bundles/nifi-standard-services/nifi-proxy-configuration-api/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-proxy-configuration-api",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-commons/nifi-property-utils/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-property-utils",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-framework-bundle/nifi-framework/nifi-properties-loader/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-properties-loader",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-commons/nifi-properties/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-properties",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-commons/nifi-per-process-group-logging/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-per-process-group-logging",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-extension-bundles/nifi-standard-services/nifi-oauth2-provider-api/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-oauth2-provider-api",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-framework-bundle/nifi-framework/nifi-nar-utils/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-nar-utils",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-system-tests/nifi-system-test-nar-provider-bundles/nifi-nar-provider-service-api/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-nar-provider-service-api",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-system-tests/nifi-system-test-nar-provider-bundles/nifi-nar-provider-service/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-nar-provider-service",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-system-tests/nifi-system-test-nar-provider-bundles/nifi-nar-provider-processors/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-nar-provider-processors",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-extension-bundles/nifi-extension-utils/nifi-record-utils/nifi-mock-record-utils/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-mock-record-utils",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-framework-bundle/nifi-framework/nifi-mock-authorizer/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-mock-authorizer",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-extension-bundles/nifi-extension-utils/nifi-migration-utils/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-migration-utils",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-commons/nifi-metrics/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-metrics",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-extension-bundles/nifi-standard-services/nifi-lookup-services-bundle/nifi-lookup-services/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-lookup-services",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-extension-bundles/nifi-standard-services/nifi-lookup-service-api/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-lookup-service-api",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-extension-bundles/nifi-extension-utils/nifi-listed-entity/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-listed-entity",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-extension-bundles/nifi-standard-services/nifi-key-service-api/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-key-service-api",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-extension-bundles/nifi-standard-services/nifi-kerberos-user-service-api/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-kerberos-user-service-api",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-commons/nifi-json-schema-shared/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-json-schema-shared",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-extension-bundles/nifi-extension-utils/nifi-record-utils/nifi-json-record-utils/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-json-record-utils",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-commons/nifi-jetty-configuration/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-jetty-configuration",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-extension-bundles/nifi-standard-services/nifi-http-context-map-api/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-http-context-map-api",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-extension-bundles/nifi-standard-services/nifi-hbase-client-service-api/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-hbase-client-service-api",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-framework-bundle/nifi-framework/nifi-framework-zookeeper-leader-election/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-framework-zookeeper-leader-election",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-framework-bundle/nifi-framework/nifi-framework-status-history-shared/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-framework-status-history-shared",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-framework-bundle/nifi-framework/nifi-framework-nar-loading-utils/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-framework-nar-loading-utils",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-framework-bundle/nifi-framework/nifi-framework-leader-election-shared/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-framework-leader-election-shared",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-framework-bundle/nifi-framework/nifi-framework-external-resource-utils/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-framework-external-resource-utils",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-framework-bundle/nifi-framework/nifi-framework-core-api/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-framework-core-api",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-framework-bundle/nifi-framework/nifi-framework-core/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-framework-core",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-framework-bundle/nifi-framework/nifi-framework-components/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-framework-components",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-framework-bundle/nifi-framework/nifi-framework-cluster-protocol/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-framework-cluster-protocol",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-framework-bundle/nifi-framework/nifi-framework-cluster/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-framework-cluster",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-framework-bundle/nifi-framework/nifi-framework-authorization-providers/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-framework-authorization-providers",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-framework-bundle/nifi-framework/nifi-framework-authorization/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-framework-authorization",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-framework-bundle/nifi-framework/nifi-flowfile-repo-serialization/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-flowfile-repo-serialization",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-commons/nifi-flowfile-packager/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-flowfile-packager",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-extension-bundles/nifi-extension-utils/nifi-file-transfer/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-file-transfer",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-extension-bundles/nifi-standard-services/nifi-file-resource-service-api/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-file-resource-service-api",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-extension-bundles/nifi-extension-utils/nifi-event-transport/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-event-transport",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-extension-bundles/nifi-extension-utils/nifi-event-put/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-event-put",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-extension-bundles/nifi-extension-utils/nifi-event-listen/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-event-listen",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-extension-bundles/nifi-standard-services/nifi-distributed-cache-services-bundle/nifi-distributed-cache-protocol/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-distributed-cache-protocol",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-extension-bundles/nifi-standard-services/nifi-distributed-cache-client-service-api/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-distributed-cache-client-service-api",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-extension-bundles/nifi-extension-utils/nifi-dbcp-base/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-dbcp-base",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-extension-bundles/nifi-extension-utils/nifi-database-test-utils/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-database-test-utils",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-commons/nifi-data-provenance-utils/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-data-provenance-utils",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-commons/nifi-content-viewer-utils/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-content-viewer-utils",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/nifi-framework-bundle/nifi-framework/nifi-client-dto/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ nifi-client-dto",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  },
+  {
+    "Unused directory": "/home/runner/work/nifi/nifi/c2/c2-protocol/c2-protocol-component-api/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ c2-protocol-component-api",
+    "Responsible command": "${{ env.MAVEN_COMMAND }} ${{ env.MAVEN_BUILD_ARGUMENTS }} ${{ env.MAVEN_PROJECTS }}\n",
+    "Name of the step": "Build Dependencies"
+  }
+]

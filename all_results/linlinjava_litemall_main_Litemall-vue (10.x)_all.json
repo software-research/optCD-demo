@@ -1,0 +1,62 @@
+[
+  {
+    "Unused directory": "/home/runner/work/litemall/litemall/litemall-vue/node_modules/bonjour/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "npm --prefix litemall-vue install",
+    "Name of the step": "npm --prefix litemall-vue install"
+  },
+  {
+    "Unused directory": "/home/runner/work/litemall/litemall/litemall-vue/node_modules/@babel/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "npm --prefix litemall-vue install",
+    "Name of the step": "npm --prefix litemall-vue install"
+  },
+  {
+    "Unused directory": "/home/runner/work/litemall/litemall/litemall-vue/node_modules/@intervolga/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "npm --prefix litemall-vue install",
+    "Name of the step": "npm --prefix litemall-vue install"
+  },
+  {
+    "Unused directory": "/home/runner/work/litemall/litemall/litemall-vue/node_modules/assert/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "npm --prefix litemall-vue install",
+    "Name of the step": "npm --prefix litemall-vue install"
+  },
+  {
+    "Unused directory": "/home/runner/work/litemall/litemall/litemall-vue/node_modules/globby/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "npm --prefix litemall-vue install",
+    "Name of the step": "npm --prefix litemall-vue install"
+  },
+  {
+    "Unused directory": "/home/runner/work/litemall/litemall/litemall-vue/node_modules/fill-range/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "npm --prefix litemall-vue install",
+    "Name of the step": "npm --prefix litemall-vue install"
+  },
+  {
+    "Unused directory": "/home/runner/work/litemall/litemall/litemall-vue/node_modules/cross-spawn/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "npm --prefix litemall-vue install",
+    "Name of the step": "npm --prefix litemall-vue install"
+  },
+  {
+    "Unused directory": "/home/runner/work/litemall/litemall/litemall-vue/node_modules/cssnano/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "npm --prefix litemall-vue install",
+    "Name of the step": "npm --prefix litemall-vue install"
+  },
+  {
+    "Unused directory": "/home/runner/work/litemall/litemall/litemall-vue/node_modules/@vue/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "npm --prefix litemall-vue install",
+    "Name of the step": "npm --prefix litemall-vue install"
+  },
+  {
+    "Unused directory": "/home/runner/work/litemall/litemall/litemall-vue/node_modules/cli-highlight/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "npm --prefix litemall-vue install",
+    "Name of the step": "npm --prefix litemall-vue install"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "Unused directory": "/home/runner/work/linkis/linkis/linkis-commons/linkis-storage/src/test/resources/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v2",
+    "Name of the step": "Checkout source"
+  },
+  {
+    "Unused directory": "/home/runner/work/linkis/linkis/linkis-public-enhancements/linkis-udf-service/src/test/resources/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v2",
+    "Name of the step": "Checkout source"
+  },
+  {
+    "Unused directory": "/home/runner/work/linkis/linkis/linkis-public-enhancements/linkis-datasource/linkis-metadata/src/test/resources/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v2",
+    "Name of the step": "Checkout source"
+  },
+  {
+    "Unused directory": "/home/runner/work/linkis/linkis/linkis-public-enhancements/linkis-jobhistory/src/test/resources/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v2",
+    "Name of the step": "Checkout source"
+  },
+  {
+    "Unused directory": "/home/runner/work/linkis/linkis/linkis-public-enhancements/linkis-configuration/src/test/resources/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v2",
+    "Name of the step": "Checkout source"
+  }
+]

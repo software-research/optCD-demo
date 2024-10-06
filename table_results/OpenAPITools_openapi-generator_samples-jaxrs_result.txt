@@ -1,0 +1,42 @@
+Unused directories and their responsible plugins in build (samples/server/petstore/jaxrs/jersey2):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (samples/server/petstore/jaxrs/jersey2-useTags):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (samples/server/petstore/jaxrs-jersey):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (samples/server/petstore/jaxrs-spec):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (samples/server/petstore/jaxrs-spec-interface):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (samples/server/petstore/jaxrs-spec-interface-response):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (samples/server/petstore/jaxrs-jersey):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (samples/server/petstore/jaxrs-spec):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (samples/server/petstore/jaxrs-spec-interface):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (samples/server/petstore/jaxrs-spec-interface-response):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (samples/server/petstore/jaxrs-datelib-j8):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (samples/server/petstore/jaxrs-resteasy/default):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (samples/server/petstore/jaxrs-resteasy/eap):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (samples/server/petstore/jaxrs-resteasy/eap-joda):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (samples/server/petstore/jaxrs-resteasy/eap-java8):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (samples/server/petstore/jaxrs-resteasy/joda):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (samples/server/petstore/jaxrs-cxf):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (samples/server/petstore/jaxrs-cxf-annotated-base-path):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (samples/server/petstore/jaxrs-cxf-cdi):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (samples/server/petstore/jaxrs-cxf-non-spring-app):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (samples/server/petstore/jaxrs-spec-microprofile-openapi-annotations):
+Inotify log does not exist, because the job runs on Windows or MacOS.

@@ -1,0 +1,24 @@
+Unused directories and their responsible plugins in build (samples/server/petstore/java-play-framework):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (samples/server/petstore/java-play-framework-api-package-override):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (samples/server/petstore/java-play-framework-async):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (samples/server/petstore/java-play-framework-controller-only):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (samples/server/petstore/java-play-framework-fake-endpoints):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (samples/server/petstore/java-play-framework-fake-endpoints-with-security):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (samples/server/petstore/java-play-framework-no-bean-validation):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (samples/server/petstore/java-play-framework-no-exception-handling):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (samples/server/petstore/java-play-framework-no-interface):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (samples/server/petstore/java-play-framework-no-nullable):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (samples/server/petstore/java-play-framework-no-swagger-ui):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (samples/server/petstore/java-play-framework-no-wrap-calls):
+Inotify log does not exist, because the job runs on Windows or MacOS.

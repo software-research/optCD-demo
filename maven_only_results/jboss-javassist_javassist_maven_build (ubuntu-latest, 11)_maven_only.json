@@ -1,0 +1,26 @@
+[
+  {
+    "Unused directory": "/home/runner/work/javassist/javassist/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:2.18.1:test (default-test) @ javassist",
+    "Responsible command": "mvn -B package --file pom.xml",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/javassist/javassist/target/runtest/proxy/",
+    "Responsible plugin": "maven-surefire-plugin:2.18.1:test (default-test) @ javassist",
+    "Responsible command": "mvn -B package --file pom.xml",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/javassist/javassist/target/runtest/javassist/",
+    "Responsible plugin": "maven-surefire-plugin:2.18.1:test (default-test) @ javassist",
+    "Responsible command": "mvn -B package --file pom.xml",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/javassist/javassist/target/runtest/testproxy/",
+    "Responsible plugin": "maven-surefire-plugin:2.18.1:test (default-test) @ javassist",
+    "Responsible command": "mvn -B package --file pom.xml",
+    "Name of the step": "Build with Maven"
+  }
+]

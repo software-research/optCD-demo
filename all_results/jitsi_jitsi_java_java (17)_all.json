@@ -1,0 +1,8 @@
+[
+  {
+    "Unused directory": "/home/runner/work/jitsi/jitsi/target/native/",
+    "Responsible plugin": "maven-compiler-plugin:3.11.0:compile (default-compile) @ service-sysactivity",
+    "Responsible command": "mvn -B verify -DperformRelease=true -DskipTests\n",
+    "Name of the step": "Build Java source with Maven"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "Unused directory": "/home/runner/work/transmittable-thread-local/transmittable-thread-local/ttl-kotlin/target/surefire-reports/",
+    "Responsible plugin": "surefire:3.5.0:test (default-test) @ ttl-kotlin",
+    "Responsible command": "./mvnw -V --no-transfer-progress clean package",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/transmittable-thread-local/transmittable-thread-local/ttl-core/target/surefire-reports/",
+    "Responsible plugin": "surefire:3.5.0:test (default-test) @ ttl-core",
+    "Responsible command": "./mvnw -V --no-transfer-progress clean package",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/transmittable-thread-local/transmittable-thread-local/ttl2-compatible/target/surefire-reports/",
+    "Responsible plugin": "surefire:3.5.0:test (default-test) @ transmittable-thread-local",
+    "Responsible command": "./mvnw -V --no-transfer-progress clean package",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/transmittable-thread-local/transmittable-thread-local/ttl2-compatible/target/generated-test-sources/",
+    "Responsible plugin": "kotlin:1.9.25:test-compile (test-compile) @ transmittable-thread-local",
+    "Responsible command": "./mvnw -V --no-transfer-progress clean package",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/transmittable-thread-local/transmittable-thread-local/ttl-integrations/vertx4-ttl-integration/target/generated-test-sources/",
+    "Responsible plugin": "compiler:3.13.0:testCompile (java-test-compile) @ vertx4-ttl-integration",
+    "Responsible command": "./mvnw -V --no-transfer-progress clean package",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/transmittable-thread-local/transmittable-thread-local/ttl-core/target/generated-test-sources/",
+    "Responsible plugin": "compiler:3.13.0:testCompile (java-test-compile) @ ttl-core",
+    "Responsible command": "./mvnw -V --no-transfer-progress clean package",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/transmittable-thread-local/transmittable-thread-local/ttl-integrations/vertx4-ttl-integration/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (java-compile) @ vertx4-ttl-integration",
+    "Responsible command": "./mvnw -V --no-transfer-progress clean package",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/transmittable-thread-local/transmittable-thread-local/ttl-integrations/vertx3-ttl-integration/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (java-compile) @ vertx3-ttl-integration",
+    "Responsible command": "./mvnw -V --no-transfer-progress clean package",
+    "Name of the step": "Build with Maven"
+  }
+]

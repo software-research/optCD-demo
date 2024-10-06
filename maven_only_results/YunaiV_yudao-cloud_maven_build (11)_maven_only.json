@@ -1,0 +1,14 @@
+[
+  {
+    "Unused directory": "/home/runner/work/yudao-cloud/yudao-cloud/yudao-framework/yudao-spring-boot-starter-biz-ip/target/generated-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.13.0:compile (default-compile) @ yudao-spring-boot-starter-biz-ip",
+    "Responsible command": "mvn -B package --file pom.xml -Dmaven.test.skip=true",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/yudao-cloud/yudao-cloud/yudao-module-mall/yudao-module-promotion-api/target/generated-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.13.0:compile (default-compile) @ yudao-module-promotion-api",
+    "Responsible command": "mvn -B package --file pom.xml -Dmaven.test.skip=true",
+    "Name of the step": "Build with Maven"
+  }
+]

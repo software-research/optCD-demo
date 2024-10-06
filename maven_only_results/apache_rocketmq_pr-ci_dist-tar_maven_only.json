@@ -1,0 +1,8 @@
+[
+  {
+    "Unused directory": "/home/runner/work/rocketmq/rocketmq/remoting/target/maven-status/",
+    "Responsible plugin": "maven-compiler-plugin:3.5.1:compile (default-compile) @ rocketmq-remoting",
+    "Responsible command": "mvn -Prelease-all -DskipTests -Dspotbugs.skip=true clean install -U\n",
+    "Name of the step": "Build distribution tar"
+  }
+]

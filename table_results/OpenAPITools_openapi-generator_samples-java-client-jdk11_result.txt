@@ -1,0 +1,82 @@
+Unused directories and their responsible plugins in build (samples/client/petstore/jaxrs-cxf-client):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (samples/client/petstore/java/native):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (samples/client/petstore/java/native-async):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (samples/client/petstore/java/native-jakarta):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (samples/client/petstore/java/retrofit2):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (samples/client/petstore/java/retrofit2rx2):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (samples/client/petstore/java/retrofit2rx3):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (samples/client/petstore/java/retrofit2-play26):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (samples/client/petstore/java/resttemplate):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (samples/client/petstore/java/resttemplate-withXml):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (samples/client/petstore/java/webclient):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (samples/client/petstore/java/webclient-nullable-arrays):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (samples/client/petstore/java/webclient-swagger2):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (samples/client/petstore/java/vertx):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (samples/client/petstore/java/jersey2-java8-localdatetime):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (samples/client/petstore/java/google-api-client):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (samples/client/petstore/java/rest-assured):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (samples/client/petstore/java/rest-assured-jackson):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (samples/client/petstore/java/microprofile-rest-client):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (samples/client/petstore/java/microprofile-rest-client-3.0):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (samples/client/petstore/java/microprofile-rest-client-3.0-jackson):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (samples/client/petstore/java/microprofile-rest-client-3.0-jackson-with-xml):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (samples/client/petstore/java/microprofile-rest-client-with-useSingleRequestParameter):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (samples/client/petstore/java/apache-httpclient):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (samples/client/petstore/java/feign):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (samples/client/petstore/java/okhttp-gson-awsv4signature):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (samples/openapi3/client/petstore/java/jersey2-java8-special-characters):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (samples/openapi3/client/petstore/java/native):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (samples/client/petstore/java/okhttp-gson-swagger1/):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (samples/client/petstore/java/resttemplate-swagger1/):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (samples/openapi3/client/petstore/java/jersey2-java8-swagger1/):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (samples/client/petstore/java/okhttp-gson-swagger2/):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (samples/client/petstore/java/resttemplate-swagger2/):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (samples/openapi3/client/petstore/java/jersey2-java8-swagger2/):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (samples/client/others/java/okhttp-gson-oneOf/):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (samples/client/echo_api/java/okhttp-gson-user-defined-templates/):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (samples/client/others/java/resttemplate-useAbstractionForFiles/):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (samples/client/others/java/webclient-useAbstractionForFiles/):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (samples/client/others/java/jersey2-oneOf-duplicates/):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (samples/client/others/java/jersey2-oneOf-Mixed/):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (samples/client/others/java/resttemplate-list-schema-validation/):
+Inotify log does not exist, because the job runs on Windows or MacOS.

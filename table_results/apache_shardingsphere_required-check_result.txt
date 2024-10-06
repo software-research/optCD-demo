@@ -1,0 +1,33 @@
+Unused directories and their responsible plugins in Import Global Environment / init-environment:
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in check-checkstyle:
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in check-license:
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in check-spotless:
+╒═════════════════════════════════════════════════════════════════════════════════════════════════════╤══════════════════════════════════╤═══════════════════════╤═════════════════════╕
+│ Unused directory                                                                                    │ Responsible plugin               │ Responsible command   │ Name of the step    │
+╞═════════════════════════════════════════════════════════════════════════════════════════════════════╪══════════════════════════════════╪═══════════════════════╪═════════════════════╡
+│ /home/runner/work/shardingsphere/shardingsphere/kernel/transaction/core/src/test/resources/         │ Not responsible by maven plugins │ actions/checkout@v4   │ actions/checkout@v4 │
+├─────────────────────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────┼─────────────────────┤
+│ /home/runner/work/shardingsphere/shardingsphere/kernel/sql-federation/optimizer/src/test/resources/ │ Not responsible by maven plugins │ actions/checkout@v4   │ actions/checkout@v4 │
+├─────────────────────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────┼─────────────────────┤
+│ /home/runner/work/shardingsphere/shardingsphere/kernel/logging/core/src/test/resources/             │ Not responsible by maven plugins │ actions/checkout@v4   │ actions/checkout@v4 │
+├─────────────────────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────┼─────────────────────┤
+│ /home/runner/work/shardingsphere/shardingsphere/kernel/data-pipeline/core/src/test/resources/       │ Not responsible by maven plugins │ actions/checkout@v4   │ actions/checkout@v4 │
+├─────────────────────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────┼─────────────────────┤
+│ /home/runner/work/shardingsphere/shardingsphere/proxy/bootstrap/src/test/resources/                 │ Not responsible by maven plugins │ actions/checkout@v4   │ actions/checkout@v4 │
+├─────────────────────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────┼─────────────────────┤
+│ /home/runner/work/shardingsphere/shardingsphere/jdbc/src/test/resources/                            │ Not responsible by maven plugins │ actions/checkout@v4   │ actions/checkout@v4 │
+├─────────────────────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────┼─────────────────────┤
+│ /home/runner/work/shardingsphere/shardingsphere/mode/core/src/test/resources/                       │ Not responsible by maven plugins │ actions/checkout@v4   │ actions/checkout@v4 │
+╘═════════════════════════════════════════════════════════════════════════════════════════════════════╧══════════════════════════════════╧═══════════════════════╧═════════════════════╛
+

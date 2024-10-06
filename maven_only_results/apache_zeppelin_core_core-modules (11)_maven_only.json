@@ -1,0 +1,1598 @@
+[
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-plugins/notebookrepo/s3/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.2:test (default-test) @ notebookrepo-s3",
+    "Responsible command": "./mvnw package -pl zeppelin-plugins -amd ${MAVEN_ARGS}",
+    "Name of the step": "install and test plugins"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-plugins/notebookrepo/oss/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.2:test (default-test) @ notebookrepo-oss",
+    "Responsible command": "./mvnw package -pl zeppelin-plugins -amd ${MAVEN_ARGS}",
+    "Name of the step": "install and test plugins"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-plugins/notebookrepo/mongo/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.2:test (default-test) @ notebookrepo-mongo",
+    "Responsible command": "./mvnw package -pl zeppelin-plugins -amd ${MAVEN_ARGS}",
+    "Name of the step": "install and test plugins"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-plugins/notebookrepo/github/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.2:test (default-test) @ notebookrepo-github",
+    "Responsible command": "./mvnw package -pl zeppelin-plugins -amd ${MAVEN_ARGS}",
+    "Name of the step": "install and test plugins"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-plugins/notebookrepo/gcs/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.2:test (default-test) @ notebookrepo-gcs",
+    "Responsible command": "./mvnw package -pl zeppelin-plugins -amd ${MAVEN_ARGS}",
+    "Name of the step": "install and test plugins"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-plugins/notebookrepo/filesystem/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.2:test (default-test) @ notebookrepo-filesystem",
+    "Responsible command": "./mvnw package -pl zeppelin-plugins -amd ${MAVEN_ARGS}",
+    "Name of the step": "install and test plugins"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-plugins/notebookrepo/s3/target/lib/",
+    "Responsible plugin": "maven-dependency-plugin:3.1.2:copy-dependencies (copy-dependencies) @ notebookrepo-s3",
+    "Responsible command": "./mvnw package -pl zeppelin-plugins -amd ${MAVEN_ARGS}",
+    "Name of the step": "install and test plugins"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-plugins/notebookrepo/oss/target/lib/",
+    "Responsible plugin": "maven-dependency-plugin:3.1.2:copy-dependencies (copy-dependencies) @ notebookrepo-oss",
+    "Responsible command": "./mvnw package -pl zeppelin-plugins -amd ${MAVEN_ARGS}",
+    "Name of the step": "install and test plugins"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-plugins/notebookrepo/gcs/target/lib/",
+    "Responsible plugin": "maven-dependency-plugin:3.1.2:copy-dependencies (copy-dependencies) @ notebookrepo-gcs",
+    "Responsible command": "./mvnw package -pl zeppelin-plugins -amd ${MAVEN_ARGS}",
+    "Name of the step": "install and test plugins"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/simple-fmt/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/json-schema-traverse/spec/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/sigmund/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/safe-regex/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/safe-regex/example/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/memorystream/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/node-libs-browser/mock/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/path-browserify/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/querystring-es3/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/setprototypeof/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/object.getownpropertydescriptors/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/acorn/acorn-walk/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/pretty-error/src/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/pretty-error/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/string_decoder/lib/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/angular-filter/src/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/htmlparser2/tests/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/qs/dist/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/qs/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/simple-is/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/string.prototype.padend/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/terser/tools/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/angular-dragdrop/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/angular-dragdrop/demo/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/buffer/bin/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/buffer/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/stream-shift/.github/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/unique-slug/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/safe-regex-test/.github/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/safe-regex-test/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/ng-sortable/demo/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/mime/types/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/uniq/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/source-map/dist/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/ajv/scripts/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/ajv/dist/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/escope/src/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/escope/powered-test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/escope/third_party/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/postcss-zindex/lib/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/vm-browserify/.github/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/vm-browserify/example/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/vm-browserify/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/jszip/lib/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/grunt-angular-templates/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/url/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/utila/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/set-function-length/.github/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/nopt/examples/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/istanbul/lib/report/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/readable-stream/doc/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/eslint-watch/build/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/ng-toast/src/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/ngclipboard/src/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/moment-duration-format/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/postcss-merge-longhand/dist/lib/decl/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/side-channel/.github/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/side-channel/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/caniuse-lite/dist/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/postcss-modules-values/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/postcss-modules-values/src/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/sax/examples/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/sax/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/jasmine/lib/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/events/tests/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/perfect-scrollbar/examples/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/zlib-browserify/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/postcss/docs/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/string-replace-webpack-plugin/.idea/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/underscore.string/dist/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/underscore.string/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/unique-filename/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/unique-filename/.nyc_output/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/unique-filename/coverage/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/handlebars/dist/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/handlebars/lib/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/csso/lib/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/worker-farm/tests/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/worker-farm/examples/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/sha.js/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/pseudomap/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/scrollmonitor/src/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/scrollmonitor/dist/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/scrollmonitor/demos/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/iconv-lite/encodings/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/object-inspect/example/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/object-inspect/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/protractor/example/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/protractor/exampleTypescript/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/protractor/.circleci/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/protractor/built/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/ng-annotate/tests/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/jshint/dist/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/jshint/src/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/webpack-cli/lib/utils/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/urix/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/ng-annotate-loader/cases/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/excel-builder/demo/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/excel-builder/spec/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/excel-builder/src/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/regenerator-transform/src/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/stream-browserify/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/safe-array-concat/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/select2/src/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/select2/dist/js/i18n/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/tiny-lr-fork/tasks/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/tiny-lr-fork/lib/public/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/tiny-lr-fork/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/ng-infinite-scroll/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/string.prototype.trim/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/webdriver-manager/built/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/jquery/src/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/highlight.js/docs/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/nth-check/lib/esm/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/webpack-dev-server/lib/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/webpack-dev-server/client/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/sshpk/man/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/sshpk/lib/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/nvd3/meteor/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/nvd3/examples/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/nvd3/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/nvd3/src/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/uri-js/dist/esnext/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/util/support/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/grunt-newer/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/karma/static/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/karma/lib/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/stream-http/lib/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/stream-http/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/es5-ext/json/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/es5-ext/promise/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/es5-ext/string/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/es5-ext/boolean/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/es5-ext/error/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/es5-ext/reg-exp/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/es5-ext/math/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/es5-ext/function/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/es5-ext/number/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/es5-ext/date/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/es5-ext/iterable/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/es5-ext/array/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/es5-ext/object/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/jquery-ui/ui/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/json-stable-stringify/example/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/json-stable-stringify/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/uuid/lib/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/resolve/.github/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/resolve/example/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/resolve/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/postcss-discard-overridden/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/shell-quote/.github/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/shell-quote/example/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/shell-quote/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/grunt-cache-bust/tests/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/bootstrap/fonts/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/bootstrap/grunt/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/bootstrap/js/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/bootstrap/less/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/svgo/lib-cov/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/text-table/example/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/text-table/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/ace-builds/demo/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/ace-builds/src/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/moment/dist/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/moment/min/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/moment/src/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/angular-ui-grid/i18n/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/angular-ui-grid/less/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/core-js/web/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/core-js/client/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/core-js/build/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/core-js/core/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/core-js/es7/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/core-js/stage/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/core-js/library/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/core-js/es6/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/core-js/fn/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/core-js/modules/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/lodash/lang/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/lodash/utility/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/lodash/array/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/lodash/collection/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/lodash/string/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/lodash/internal/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/webpack/declarations/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/webpack/web_modules/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/webpack/hot/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/webpack/lib/webworker/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/webpack/lib/util/hash/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/caniuse-db/fulldata-json/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/caniuse-db/region-usage-json/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/angular-ui-bootstrap/template/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/angular-ui-bootstrap/src/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/es-abstract/2015/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/es-abstract/operations/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/es-abstract/2024/Number/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/es-abstract/2024/BigInt/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/es-abstract/2021/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/es-abstract/2023/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/es-abstract/2019/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/es-abstract/2020/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/es-abstract/2017/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/es-abstract/2016/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/es-abstract/2018/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/es-abstract/2022/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/d3/src/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/eslint/messages/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/eslint/lib/internal-rules/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/eslint/lib/testers/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/mathjax/jax/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/mathjax/unpacked/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/mathjax/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/mathjax/config/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/mathjax/extensions/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/mathjax/fonts/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/babel-runtime/core-js/regexp/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/babel-runtime/core-js/reflect/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/babel-runtime/core-js/math/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/babel-runtime/core-js/string/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/whet.extend/src/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/zeppelin-web/node_modules/whet.extend/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:npm (npm install) @ zeppelin-web",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/spark/interpreter/target/spark-3.4.3-bin-without-hadoop/kubernetes/",
+    "Responsible plugin": "download-maven-plugin:1.6.0:wget (download-sparkr-files) @ spark-interpreter",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/spark/interpreter/target/spark-3.4.3-bin-without-hadoop/data/",
+    "Responsible plugin": "download-maven-plugin:1.6.0:wget (download-sparkr-files) @ spark-interpreter",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/spark/interpreter/target/spark-3.4.3-bin-without-hadoop/bin/",
+    "Responsible plugin": "download-maven-plugin:1.6.0:wget (download-sparkr-files) @ spark-interpreter",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/spark/interpreter/target/spark-3.4.3-bin-without-hadoop/examples/",
+    "Responsible plugin": "download-maven-plugin:1.6.0:wget (download-sparkr-files) @ spark-interpreter",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/spark/interpreter/target/spark-3.4.3-bin-without-hadoop/sbin/",
+    "Responsible plugin": "download-maven-plugin:1.6.0:wget (download-sparkr-files) @ spark-interpreter",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/spark/interpreter/target/spark-3.4.3-bin-without-hadoop/licenses/",
+    "Responsible plugin": "download-maven-plugin:1.6.0:wget (download-sparkr-files) @ spark-interpreter",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/spark/interpreter/target/spark-3.4.3-bin-without-hadoop/jars/",
+    "Responsible plugin": "download-maven-plugin:1.6.0:wget (download-sparkr-files) @ spark-interpreter",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/rlang/target/spark-3.5.3-bin-without-hadoop/data/",
+    "Responsible plugin": "download-maven-plugin:1.6.0:wget (download-sparkr-files) @ r",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/rlang/target/spark-3.5.3-bin-without-hadoop/licenses/",
+    "Responsible plugin": "download-maven-plugin:1.6.0:wget (download-sparkr-files) @ r",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/rlang/target/spark-3.5.3-bin-without-hadoop/sbin/",
+    "Responsible plugin": "download-maven-plugin:1.6.0:wget (download-sparkr-files) @ r",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/rlang/target/spark-3.5.3-bin-without-hadoop/examples/",
+    "Responsible plugin": "download-maven-plugin:1.6.0:wget (download-sparkr-files) @ r",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/rlang/target/spark-3.5.3-bin-without-hadoop/jars/",
+    "Responsible plugin": "download-maven-plugin:1.6.0:wget (download-sparkr-files) @ r",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/rlang/target/spark-3.5.3-bin-without-hadoop/bin/",
+    "Responsible plugin": "download-maven-plugin:1.6.0:wget (download-sparkr-files) @ r",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/rlang/target/spark-3.5.3-bin-without-hadoop/python/",
+    "Responsible plugin": "download-maven-plugin:1.6.0:wget (download-sparkr-files) @ r",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/spark/interpreter/target/spark-3.4.3/examples/",
+    "Responsible plugin": "download-maven-plugin:1.6.0:wget (download-pyspark-files) @ spark-interpreter",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/spark/interpreter/target/spark-3.4.3/mllib/",
+    "Responsible plugin": "download-maven-plugin:1.6.0:wget (download-pyspark-files) @ spark-interpreter",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/spark/interpreter/target/spark-3.4.3/hadoop-cloud/",
+    "Responsible plugin": "download-maven-plugin:1.6.0:wget (download-pyspark-files) @ spark-interpreter",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/spark/interpreter/target/spark-3.4.3/launcher/",
+    "Responsible plugin": "download-maven-plugin:1.6.0:wget (download-pyspark-files) @ spark-interpreter",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/spark/interpreter/target/spark-3.4.3/mllib-local/",
+    "Responsible plugin": "download-maven-plugin:1.6.0:wget (download-pyspark-files) @ spark-interpreter",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/spark/interpreter/target/spark-3.4.3/project/",
+    "Responsible plugin": "download-maven-plugin:1.6.0:wget (download-pyspark-files) @ spark-interpreter",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/spark/interpreter/target/spark-3.4.3/streaming/",
+    "Responsible plugin": "download-maven-plugin:1.6.0:wget (download-pyspark-files) @ spark-interpreter",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/spark/interpreter/target/spark-3.4.3/data/",
+    "Responsible plugin": "download-maven-plugin:1.6.0:wget (download-pyspark-files) @ spark-interpreter",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/spark/interpreter/target/spark-3.4.3/build/",
+    "Responsible plugin": "download-maven-plugin:1.6.0:wget (download-pyspark-files) @ spark-interpreter",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/spark/interpreter/target/spark-3.4.3/repl/",
+    "Responsible plugin": "download-maven-plugin:1.6.0:wget (download-pyspark-files) @ spark-interpreter",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/spark/interpreter/target/spark-3.4.3/bin/",
+    "Responsible plugin": "download-maven-plugin:1.6.0:wget (download-pyspark-files) @ spark-interpreter",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/spark/interpreter/target/spark-3.4.3/python/docs/",
+    "Responsible plugin": "download-maven-plugin:1.6.0:wget (download-pyspark-files) @ spark-interpreter",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/spark/interpreter/target/spark-3.4.3/python/test_support/",
+    "Responsible plugin": "download-maven-plugin:1.6.0:wget (download-pyspark-files) @ spark-interpreter",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/spark/interpreter/target/spark-3.4.3/R/",
+    "Responsible plugin": "download-maven-plugin:1.6.0:wget (download-pyspark-files) @ spark-interpreter",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/spark/interpreter/target/spark-3.4.3/sbin/",
+    "Responsible plugin": "download-maven-plugin:1.6.0:wget (download-pyspark-files) @ spark-interpreter",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/spark/interpreter/target/spark-3.4.3/resource-managers/",
+    "Responsible plugin": "download-maven-plugin:1.6.0:wget (download-pyspark-files) @ spark-interpreter",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/spark/interpreter/target/spark-3.4.3/common/",
+    "Responsible plugin": "download-maven-plugin:1.6.0:wget (download-pyspark-files) @ spark-interpreter",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/spark/interpreter/target/spark-3.4.3/core/",
+    "Responsible plugin": "download-maven-plugin:1.6.0:wget (download-pyspark-files) @ spark-interpreter",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/spark/interpreter/target/spark-3.4.3/connector/",
+    "Responsible plugin": "download-maven-plugin:1.6.0:wget (download-pyspark-files) @ spark-interpreter",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/spark/interpreter/target/spark-3.4.3/licenses/",
+    "Responsible plugin": "download-maven-plugin:1.6.0:wget (download-pyspark-files) @ spark-interpreter",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/spark/interpreter/target/spark-3.4.3/sql/",
+    "Responsible plugin": "download-maven-plugin:1.6.0:wget (download-pyspark-files) @ spark-interpreter",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/spark/interpreter/target/spark-3.4.3/docs/",
+    "Responsible plugin": "download-maven-plugin:1.6.0:wget (download-pyspark-files) @ spark-interpreter",
+    "Responsible command": "./mvnw install -Pbuild-distr -DskipTests -pl zeppelin-server,zeppelin-web,spark-submit,spark/scala-2.12,spark/scala-2.13,markdown,angular,shell -am -Pweb-classic -Phelium-dev -Pexamples ${MAVEN_ARGS}",
+    "Name of the step": "install application with some interpreter"
+  }
+]

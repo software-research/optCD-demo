@@ -1,0 +1,8 @@
+[
+  {
+    "Unused directory": "/home/runner/work/sofa-jraft/sofa-jraft/jraft-rheakv/rheakv-pd/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:2.12.4:test (default-test) @ jraft-rheakv-pd",
+    "Responsible command": "mvn clean install -DskipTests=true -Dmaven.javadoc.skip=true -B -V && (mvn --projects jraft-rheakv/rheakv-pd test || mvn --projects jraft-rheakv/rheakv-pd test || mvn --projects jraft-rheakv/rheakv-pd test)",
+    "Name of the step": "Maven Test"
+  }
+]

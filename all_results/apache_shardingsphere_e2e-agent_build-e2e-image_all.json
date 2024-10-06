@@ -1,0 +1,8 @@
+[
+  {
+    "Unused directory": "/home/runner/work/shardingsphere/shardingsphere/distribution/proxy-native/target/",
+    "Responsible plugin": "maven-remote-resources-plugin:1.7.0:process (process-resource-bundles) @ shardingsphere-proxy-native-distribution",
+    "Responsible command": "./mvnw -B clean install -DskipTests -Prelease",
+    "Name of the step": "Build Project"
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "Unused directory": "/home/runner/work/tablesaw/tablesaw/saw/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ tablesaw-saw",
+    "Responsible command": "mvn test",
+    "Name of the step": "Test with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/tablesaw/tablesaw/jsplot/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ tablesaw-jsplot",
+    "Responsible command": "mvn test",
+    "Name of the step": "Test with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/tablesaw/tablesaw/json/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ tablesaw-json",
+    "Responsible command": "mvn test",
+    "Name of the step": "Test with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/tablesaw/tablesaw/html/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ tablesaw-html",
+    "Responsible command": "mvn test",
+    "Name of the step": "Test with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/tablesaw/tablesaw/excel/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ tablesaw-excel",
+    "Responsible command": "mvn test",
+    "Name of the step": "Test with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/tablesaw/tablesaw/core/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ tablesaw-core",
+    "Responsible command": "mvn test",
+    "Name of the step": "Test with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/tablesaw/tablesaw/arrow/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.5:test (default-test) @ tablesaw-arrow",
+    "Responsible command": "mvn test",
+    "Name of the step": "Test with Maven"
+  }
+]

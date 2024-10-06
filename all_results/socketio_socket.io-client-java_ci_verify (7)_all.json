@@ -1,0 +1,8 @@
+[
+  {
+    "Unused directory": "/home/runner/work/socket.io-client-java/socket.io-client-java/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:2.19.1:test (default-test) @ socket.io-client",
+    "Responsible command": "mvn verify -Dgpg.skip=true",
+    "Name of the step": "Run the Maven verify phase"
+  }
+]

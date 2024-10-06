@@ -1,0 +1,410 @@
+[
+  {
+    "Unused directory": "/home/runner/work/incubator-kie-drools/incubator-kie-drools/drools-docs/node_modules/define-properties/test/",
+    "Responsible plugin": "frontend:1.15.1:npm (npm install antora) @ drools-docs",
+    "Responsible command": "mvn -B clean install --file drools-docs/pom.xml",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-kie-drools/incubator-kie-drools/drools-docs/node_modules/simple-concat/test/",
+    "Responsible plugin": "frontend:1.15.1:npm (npm install antora) @ drools-docs",
+    "Responsible command": "mvn -B clean install --file drools-docs/pom.xml",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-kie-drools/incubator-kie-drools/drools-docs/node_modules/quick-format-unescaped/test/",
+    "Responsible plugin": "frontend:1.15.1:npm (npm install antora) @ drools-docs",
+    "Responsible command": "mvn -B clean install --file drools-docs/pom.xml",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-kie-drools/incubator-kie-drools/drools-docs/node_modules/concat-map/example/",
+    "Responsible plugin": "frontend:1.15.1:npm (npm install antora) @ drools-docs",
+    "Responsible command": "mvn -B clean install --file drools-docs/pom.xml",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-kie-drools/incubator-kie-drools/drools-docs/node_modules/concat-map/test/",
+    "Responsible plugin": "frontend:1.15.1:npm (npm install antora) @ drools-docs",
+    "Responsible command": "mvn -B clean install --file drools-docs/pom.xml",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-kie-drools/incubator-kie-drools/drools-docs/node_modules/crc-32/types/",
+    "Responsible plugin": "frontend:1.15.1:npm (npm install antora) @ drools-docs",
+    "Responsible command": "mvn -B clean install --file drools-docs/pom.xml",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-kie-drools/incubator-kie-drools/drools-docs/node_modules/balanced-match/.github/",
+    "Responsible plugin": "frontend:1.15.1:npm (npm install antora) @ drools-docs",
+    "Responsible command": "mvn -B clean install --file drools-docs/pom.xml",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-kie-drools/incubator-kie-drools/drools-docs/node_modules/get-intrinsic/.github/",
+    "Responsible plugin": "frontend:1.15.1:npm (npm install antora) @ drools-docs",
+    "Responsible command": "mvn -B clean install --file drools-docs/pom.xml",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-kie-drools/incubator-kie-drools/drools-docs/node_modules/call-bind/.github/",
+    "Responsible plugin": "frontend:1.15.1:npm (npm install antora) @ drools-docs",
+    "Responsible command": "mvn -B clean install --file drools-docs/pom.xml",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-kie-drools/incubator-kie-drools/drools-docs/node_modules/call-bind/test/",
+    "Responsible plugin": "frontend:1.15.1:npm (npm install antora) @ drools-docs",
+    "Responsible command": "mvn -B clean install --file drools-docs/pom.xml",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-kie-drools/incubator-kie-drools/drools-docs/node_modules/process-warning/.github/",
+    "Responsible plugin": "frontend:1.15.1:npm (npm install antora) @ drools-docs",
+    "Responsible command": "mvn -B clean install --file drools-docs/pom.xml",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-kie-drools/incubator-kie-drools/drools-docs/node_modules/rfdc/test/",
+    "Responsible plugin": "frontend:1.15.1:npm (npm install antora) @ drools-docs",
+    "Responsible command": "mvn -B clean install --file drools-docs/pom.xml",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-kie-drools/incubator-kie-drools/drools-docs/node_modules/on-exit-leak-free/.github/",
+    "Responsible plugin": "frontend:1.15.1:npm (npm install antora) @ drools-docs",
+    "Responsible command": "mvn -B clean install --file drools-docs/pom.xml",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-kie-drools/incubator-kie-drools/drools-docs/node_modules/on-exit-leak-free/test/",
+    "Responsible plugin": "frontend:1.15.1:npm (npm install antora) @ drools-docs",
+    "Responsible command": "mvn -B clean install --file drools-docs/pom.xml",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-kie-drools/incubator-kie-drools/drools-docs/node_modules/pino-std-serializers/test/",
+    "Responsible plugin": "frontend:1.15.1:npm (npm install antora) @ drools-docs",
+    "Responsible command": "mvn -B clean install --file drools-docs/pom.xml",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-kie-drools/incubator-kie-drools/drools-docs/node_modules/pino-std-serializers/.github/",
+    "Responsible plugin": "frontend:1.15.1:npm (npm install antora) @ drools-docs",
+    "Responsible command": "mvn -B clean install --file drools-docs/pom.xml",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-kie-drools/incubator-kie-drools/drools-docs/node_modules/@asciidoctor/core/dist/css/",
+    "Responsible plugin": "frontend:1.15.1:npm (npm install antora) @ drools-docs",
+    "Responsible command": "mvn -B clean install --file drools-docs/pom.xml",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-kie-drools/incubator-kie-drools/drools-docs/node_modules/@asciidoctor/core/dist/browser/",
+    "Responsible plugin": "frontend:1.15.1:npm (npm install antora) @ drools-docs",
+    "Responsible command": "mvn -B clean install --file drools-docs/pom.xml",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-kie-drools/incubator-kie-drools/drools-docs/node_modules/pino-abstract-transport/.husky/",
+    "Responsible plugin": "frontend:1.15.1:npm (npm install antora) @ drools-docs",
+    "Responsible command": "mvn -B clean install --file drools-docs/pom.xml",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-kie-drools/incubator-kie-drools/drools-docs/node_modules/pino-abstract-transport/.github/",
+    "Responsible plugin": "frontend:1.15.1:npm (npm install antora) @ drools-docs",
+    "Responsible command": "mvn -B clean install --file drools-docs/pom.xml",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-kie-drools/incubator-kie-drools/drools-docs/node_modules/pino-abstract-transport/test/",
+    "Responsible plugin": "frontend:1.15.1:npm (npm install antora) @ drools-docs",
+    "Responsible command": "mvn -B clean install --file drools-docs/pom.xml",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-kie-drools/incubator-kie-drools/drools-docs/node_modules/has-symbols/.github/",
+    "Responsible plugin": "frontend:1.15.1:npm (npm install antora) @ drools-docs",
+    "Responsible command": "mvn -B clean install --file drools-docs/pom.xml",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-kie-drools/incubator-kie-drools/drools-docs/node_modules/has-symbols/test/",
+    "Responsible plugin": "frontend:1.15.1:npm (npm install antora) @ drools-docs",
+    "Responsible command": "mvn -B clean install --file drools-docs/pom.xml",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-kie-drools/incubator-kie-drools/drools-docs/node_modules/fd-slicer/test/",
+    "Responsible plugin": "frontend:1.15.1:npm (npm install antora) @ drools-docs",
+    "Responsible command": "mvn -B clean install --file drools-docs/pom.xml",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-kie-drools/incubator-kie-drools/drools-docs/node_modules/safe-stable-stringify/esm/",
+    "Responsible plugin": "frontend:1.15.1:npm (npm install antora) @ drools-docs",
+    "Responsible command": "mvn -B clean install --file drools-docs/pom.xml",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-kie-drools/incubator-kie-drools/drools-docs/node_modules/json5/dist/",
+    "Responsible plugin": "frontend:1.15.1:npm (npm install antora) @ drools-docs",
+    "Responsible command": "mvn -B clean install --file drools-docs/pom.xml",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-kie-drools/incubator-kie-drools/drools-docs/node_modules/tslib/modules/",
+    "Responsible plugin": "frontend:1.15.1:npm (npm install antora) @ drools-docs",
+    "Responsible command": "mvn -B clean install --file drools-docs/pom.xml",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-kie-drools/incubator-kie-drools/drools-docs/node_modules/.bin/",
+    "Responsible plugin": "frontend:1.15.1:npm (npm install antora) @ drools-docs",
+    "Responsible command": "mvn -B clean install --file drools-docs/pom.xml",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-kie-drools/incubator-kie-drools/drools-docs/node_modules/printj/types/",
+    "Responsible plugin": "frontend:1.15.1:npm (npm install antora) @ drools-docs",
+    "Responsible command": "mvn -B clean install --file drools-docs/pom.xml",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-kie-drools/incubator-kie-drools/drools-docs/node_modules/printj/dist/",
+    "Responsible plugin": "frontend:1.15.1:npm (npm install antora) @ drools-docs",
+    "Responsible command": "mvn -B clean install --file drools-docs/pom.xml",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-kie-drools/incubator-kie-drools/drools-docs/node_modules/object.assign/dist/",
+    "Responsible plugin": "frontend:1.15.1:npm (npm install antora) @ drools-docs",
+    "Responsible command": "mvn -B clean install --file drools-docs/pom.xml",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-kie-drools/incubator-kie-drools/drools-docs/node_modules/object.assign/test/",
+    "Responsible plugin": "frontend:1.15.1:npm (npm install antora) @ drools-docs",
+    "Responsible command": "mvn -B clean install --file drools-docs/pom.xml",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-kie-drools/incubator-kie-drools/drools-docs/node_modules/object.assign/.github/",
+    "Responsible plugin": "frontend:1.15.1:npm (npm install antora) @ drools-docs",
+    "Responsible command": "mvn -B clean install --file drools-docs/pom.xml",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-kie-drools/incubator-kie-drools/drools-docs/node_modules/json-stable-stringify-without-jsonify/test/",
+    "Responsible plugin": "frontend:1.15.1:npm (npm install antora) @ drools-docs",
+    "Responsible command": "mvn -B clean install --file drools-docs/pom.xml",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-kie-drools/incubator-kie-drools/drools-docs/node_modules/json-stable-stringify-without-jsonify/example/",
+    "Responsible plugin": "frontend:1.15.1:npm (npm install antora) @ drools-docs",
+    "Responsible command": "mvn -B clean install --file drools-docs/pom.xml",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-kie-drools/incubator-kie-drools/drools-docs/node_modules/buffer-equal/example/",
+    "Responsible plugin": "frontend:1.15.1:npm (npm install antora) @ drools-docs",
+    "Responsible command": "mvn -B clean install --file drools-docs/pom.xml",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-kie-drools/incubator-kie-drools/drools-docs/node_modules/buffer-equal/test/",
+    "Responsible plugin": "frontend:1.15.1:npm (npm install antora) @ drools-docs",
+    "Responsible command": "mvn -B clean install --file drools-docs/pom.xml",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-kie-drools/incubator-kie-drools/drools-docs/node_modules/yargs-parser/build/lib/",
+    "Responsible plugin": "frontend:1.15.1:npm (npm install antora) @ drools-docs",
+    "Responsible command": "mvn -B clean install --file drools-docs/pom.xml",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-kie-drools/incubator-kie-drools/drools-docs/node_modules/source-map/dist/",
+    "Responsible plugin": "frontend:1.15.1:npm (npm install antora) @ drools-docs",
+    "Responsible command": "mvn -B clean install --file drools-docs/pom.xml",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-kie-drools/incubator-kie-drools/drools-docs/node_modules/sonic-boom/.husky/",
+    "Responsible plugin": "frontend:1.15.1:npm (npm install antora) @ drools-docs",
+    "Responsible command": "mvn -B clean install --file drools-docs/pom.xml",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-kie-drools/incubator-kie-drools/drools-docs/node_modules/sonic-boom/fixtures/",
+    "Responsible plugin": "frontend:1.15.1:npm (npm install antora) @ drools-docs",
+    "Responsible command": "mvn -B clean install --file drools-docs/pom.xml",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-kie-drools/incubator-kie-drools/drools-docs/node_modules/secure-json-parse/.github/",
+    "Responsible plugin": "frontend:1.15.1:npm (npm install antora) @ drools-docs",
+    "Responsible command": "mvn -B clean install --file drools-docs/pom.xml",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-kie-drools/incubator-kie-drools/drools-docs/node_modules/secure-json-parse/benchmarks/",
+    "Responsible plugin": "frontend:1.15.1:npm (npm install antora) @ drools-docs",
+    "Responsible command": "mvn -B clean install --file drools-docs/pom.xml",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-kie-drools/incubator-kie-drools/drools-docs/node_modules/commander/typings/",
+    "Responsible plugin": "frontend:1.15.1:npm (npm install antora) @ drools-docs",
+    "Responsible command": "mvn -B clean install --file drools-docs/pom.xml",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-kie-drools/incubator-kie-drools/drools-docs/node_modules/handlebars/types/",
+    "Responsible plugin": "frontend:1.15.1:npm (npm install antora) @ drools-docs",
+    "Responsible command": "mvn -B clean install --file drools-docs/pom.xml",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-kie-drools/incubator-kie-drools/drools-docs/node_modules/handlebars/lib/handlebars/",
+    "Responsible plugin": "frontend:1.15.1:npm (npm install antora) @ drools-docs",
+    "Responsible command": "mvn -B clean install --file drools-docs/pom.xml",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-kie-drools/incubator-kie-drools/drools-docs/node_modules/pako/dist/",
+    "Responsible plugin": "frontend:1.15.1:npm (npm install antora) @ drools-docs",
+    "Responsible command": "mvn -B clean install --file drools-docs/pom.xml",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-kie-drools/incubator-kie-drools/drools-docs/node_modules/lazystream/test/",
+    "Responsible plugin": "frontend:1.15.1:npm (npm install antora) @ drools-docs",
+    "Responsible command": "mvn -B clean install --file drools-docs/pom.xml",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-kie-drools/incubator-kie-drools/drools-docs/node_modules/fast-redact/.github/",
+    "Responsible plugin": "frontend:1.15.1:npm (npm install antora) @ drools-docs",
+    "Responsible command": "mvn -B clean install --file drools-docs/pom.xml",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-kie-drools/incubator-kie-drools/drools-docs/node_modules/fast-redact/example/",
+    "Responsible plugin": "frontend:1.15.1:npm (npm install antora) @ drools-docs",
+    "Responsible command": "mvn -B clean install --file drools-docs/pom.xml",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-kie-drools/incubator-kie-drools/drools-docs/node_modules/function-bind/test/",
+    "Responsible plugin": "frontend:1.15.1:npm (npm install antora) @ drools-docs",
+    "Responsible command": "mvn -B clean install --file drools-docs/pom.xml",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-kie-drools/incubator-kie-drools/drools-docs/node_modules/through/test/",
+    "Responsible plugin": "frontend:1.15.1:npm (npm install antora) @ drools-docs",
+    "Responsible command": "mvn -B clean install --file drools-docs/pom.xml",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-kie-drools/incubator-kie-drools/drools-docs/node_modules/sha.js/test/",
+    "Responsible plugin": "frontend:1.15.1:npm (npm install antora) @ drools-docs",
+    "Responsible command": "mvn -B clean install --file drools-docs/pom.xml",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-kie-drools/incubator-kie-drools/drools-docs/node_modules/pino-pretty/docs/",
+    "Responsible plugin": "frontend:1.15.1:npm (npm install antora) @ drools-docs",
+    "Responsible command": "mvn -B clean install --file drools-docs/pom.xml",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-kie-drools/incubator-kie-drools/drools-docs/node_modules/pino-pretty/.github/",
+    "Responsible plugin": "frontend:1.15.1:npm (npm install antora) @ drools-docs",
+    "Responsible command": "mvn -B clean install --file drools-docs/pom.xml",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-kie-drools/incubator-kie-drools/drools-docs/node_modules/pino-pretty/test/",
+    "Responsible plugin": "frontend:1.15.1:npm (npm install antora) @ drools-docs",
+    "Responsible command": "mvn -B clean install --file drools-docs/pom.xml",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-kie-drools/incubator-kie-drools/drools-docs/node_modules/thread-stream/.github/",
+    "Responsible plugin": "frontend:1.15.1:npm (npm install antora) @ drools-docs",
+    "Responsible command": "mvn -B clean install --file drools-docs/pom.xml",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-kie-drools/incubator-kie-drools/drools-docs/node_modules/thread-stream/.husky/",
+    "Responsible plugin": "frontend:1.15.1:npm (npm install antora) @ drools-docs",
+    "Responsible command": "mvn -B clean install --file drools-docs/pom.xml",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-kie-drools/incubator-kie-drools/drools-docs/node_modules/thread-stream/test/",
+    "Responsible plugin": "frontend:1.15.1:npm (npm install antora) @ drools-docs",
+    "Responsible command": "mvn -B clean install --file drools-docs/pom.xml",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-kie-drools/incubator-kie-drools/drools-docs/node_modules/pino/docs/",
+    "Responsible plugin": "frontend:1.15.1:npm (npm install antora) @ drools-docs",
+    "Responsible command": "mvn -B clean install --file drools-docs/pom.xml",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-kie-drools/incubator-kie-drools/drools-docs/node_modules/pino/test/",
+    "Responsible plugin": "frontend:1.15.1:npm (npm install antora) @ drools-docs",
+    "Responsible command": "mvn -B clean install --file drools-docs/pom.xml",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-kie-drools/incubator-kie-drools/drools-docs/node_modules/uglify-js/tools/",
+    "Responsible plugin": "frontend:1.15.1:npm (npm install antora) @ drools-docs",
+    "Responsible command": "mvn -B clean install --file drools-docs/pom.xml",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-kie-drools/incubator-kie-drools/drools-docs/node_modules/uglify-js/lib/",
+    "Responsible plugin": "frontend:1.15.1:npm (npm install antora) @ drools-docs",
+    "Responsible command": "mvn -B clean install --file drools-docs/pom.xml",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-kie-drools/incubator-kie-drools/drools-docs/node_modules/lunr/lib/",
+    "Responsible plugin": "frontend:1.15.1:npm (npm install antora) @ drools-docs",
+    "Responsible command": "mvn -B clean install --file drools-docs/pom.xml",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-kie-drools/incubator-kie-drools/drools-docs/node_modules/lunr/perf/",
+    "Responsible plugin": "frontend:1.15.1:npm (npm install antora) @ drools-docs",
+    "Responsible command": "mvn -B clean install --file drools-docs/pom.xml",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-kie-drools/incubator-kie-drools/drools-docs/node_modules/lunr/build/",
+    "Responsible plugin": "frontend:1.15.1:npm (npm install antora) @ drools-docs",
+    "Responsible command": "mvn -B clean install --file drools-docs/pom.xml",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-kie-drools/incubator-kie-drools/drools-docs/node_modules/lunr/test/",
+    "Responsible plugin": "frontend:1.15.1:npm (npm install antora) @ drools-docs",
+    "Responsible command": "mvn -B clean install --file drools-docs/pom.xml",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-kie-drools/incubator-kie-drools/drools-docs/target/drools-docs-999-SNAPSHOT/",
+    "Responsible plugin": "assembly:3.7.1:single (package-generated-docs) @ drools-docs",
+    "Responsible command": "mvn -B clean install --file drools-docs/pom.xml",
+    "Name of the step": "Build with Maven"
+  }
+]

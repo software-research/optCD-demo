@@ -1,0 +1,122 @@
+[
+  {
+    "Unused directory": "/home/runner/work/crate/crate/plugins/es-discovery-ec2/target/generated-sources/",
+    "Responsible plugin": "maven-resources-plugin:3.3.1:resources (default-resources) @ es-discovery-ec2",
+    "Responsible command": "mvn compile forbiddenapis:check\n",
+    "Name of the step": "Run forbiddenapis:check"
+  },
+  {
+    "Unused directory": "/home/runner/work/crate/crate/libs/shared/target/generated-sources/",
+    "Responsible plugin": "maven-resources-plugin:3.3.1:resources (default-resources) @ crate-libs-shared",
+    "Responsible command": "mvn compile forbiddenapis:check\n",
+    "Name of the step": "Run forbiddenapis:check"
+  },
+  {
+    "Unused directory": "/home/runner/work/crate/crate/libs/cli/target/generated-sources/",
+    "Responsible plugin": "maven-resources-plugin:3.3.1:resources (default-resources) @ crate-libs-cli",
+    "Responsible command": "mvn compile forbiddenapis:check\n",
+    "Name of the step": "Run forbiddenapis:check"
+  },
+  {
+    "Unused directory": "/home/runner/work/crate/crate/plugins/repository-gcs/target/generated-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.13.0:compile (default-compile) @ repository-gcs",
+    "Responsible command": "mvn compile forbiddenapis:check\n",
+    "Name of the step": "Run forbiddenapis:check"
+  },
+  {
+    "Unused directory": "/home/runner/work/crate/crate/plugins/es-repository-url/target/generated-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.13.0:compile (default-compile) @ es-repository-url",
+    "Responsible command": "mvn compile forbiddenapis:check\n",
+    "Name of the step": "Run forbiddenapis:check"
+  },
+  {
+    "Unused directory": "/home/runner/work/crate/crate/plugins/es-repository-s3/target/generated-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.13.0:compile (default-compile) @ es-repository-s3",
+    "Responsible command": "mvn compile forbiddenapis:check\n",
+    "Name of the step": "Run forbiddenapis:check"
+  },
+  {
+    "Unused directory": "/home/runner/work/crate/crate/plugins/es-repository-azure/target/generated-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.13.0:compile (default-compile) @ es-repository-azure",
+    "Responsible command": "mvn compile forbiddenapis:check\n",
+    "Name of the step": "Run forbiddenapis:check"
+  },
+  {
+    "Unused directory": "/home/runner/work/crate/crate/plugins/es-analysis-phonetic/target/generated-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.13.0:compile (default-compile) @ es-analysis-phonetic",
+    "Responsible command": "mvn compile forbiddenapis:check\n",
+    "Name of the step": "Run forbiddenapis:check"
+  },
+  {
+    "Unused directory": "/home/runner/work/crate/crate/plugins/es-analysis-common/target/generated-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.13.0:compile (default-compile) @ es-analysis-common",
+    "Responsible command": "mvn compile forbiddenapis:check\n",
+    "Name of the step": "Run forbiddenapis:check"
+  },
+  {
+    "Unused directory": "/home/runner/work/crate/crate/plugins/dns-discovery/target/generated-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.13.0:compile (default-compile) @ dns-discovery",
+    "Responsible command": "mvn compile forbiddenapis:check\n",
+    "Name of the step": "Run forbiddenapis:check"
+  },
+  {
+    "Unused directory": "/home/runner/work/crate/crate/libs/guice/target/generated-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.13.0:compile (default-compile) @ crate-libs-guice",
+    "Responsible command": "mvn compile forbiddenapis:check\n",
+    "Name of the step": "Run forbiddenapis:check"
+  },
+  {
+    "Unused directory": "/home/runner/work/crate/crate/libs/es-x-content/target/generated-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.13.0:compile (default-compile) @ crate-libs-es-x-content",
+    "Responsible command": "mvn compile forbiddenapis:check\n",
+    "Name of the step": "Run forbiddenapis:check"
+  },
+  {
+    "Unused directory": "/home/runner/work/crate/crate/libs/dex/target/generated-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.13.0:compile (default-compile) @ crate-libs-dex",
+    "Responsible command": "mvn compile forbiddenapis:check\n",
+    "Name of the step": "Run forbiddenapis:check"
+  },
+  {
+    "Unused directory": "/home/runner/work/crate/crate/extensions/lang-js/target/generated-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.13.0:compile (default-compile) @ crate-lang-js",
+    "Responsible command": "mvn compile forbiddenapis:check\n",
+    "Name of the step": "Run forbiddenapis:check"
+  },
+  {
+    "Unused directory": "/home/runner/work/crate/crate/extensions/jmx-monitoring/target/generated-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.13.0:compile (default-compile) @ crate-jmx-monitoring",
+    "Responsible command": "mvn compile forbiddenapis:check\n",
+    "Name of the step": "Run forbiddenapis:check"
+  },
+  {
+    "Unused directory": "/home/runner/work/crate/crate/plugins/crate-copy-azure/target/generated-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.13.0:compile (default-compile) @ crate-copy-azure",
+    "Responsible command": "mvn compile forbiddenapis:check\n",
+    "Name of the step": "Run forbiddenapis:check"
+  },
+  {
+    "Unused directory": "/home/runner/work/crate/crate/app/target/generated-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.13.0:compile (default-compile) @ crate-app",
+    "Responsible command": "mvn compile forbiddenapis:check\n",
+    "Name of the step": "Run forbiddenapis:check"
+  },
+  {
+    "Unused directory": "/home/runner/work/crate/crate/server/target/maven-status/",
+    "Responsible plugin": "antlr4-maven-plugin:4.13.2:antlr4 (antlr) @ crate-server",
+    "Responsible command": "mvn compile forbiddenapis:check\n",
+    "Name of the step": "Run forbiddenapis:check"
+  },
+  {
+    "Unused directory": "/home/runner/work/crate/crate/libs/sql-parser/target/maven-status/",
+    "Responsible plugin": "antlr4-maven-plugin:4.13.2:antlr4 (antlr) @ crate-libs-sql-parser",
+    "Responsible command": "mvn compile forbiddenapis:check\n",
+    "Name of the step": "Run forbiddenapis:check"
+  },
+  {
+    "Unused directory": "/home/runner/work/crate/crate/libs/pgwire/target/maven-status/",
+    "Responsible plugin": "antlr4-maven-plugin:4.13.2:antlr4 (antlr) @ crate-libs-pgwire",
+    "Responsible command": "mvn compile forbiddenapis:check\n",
+    "Name of the step": "Run forbiddenapis:check"
+  }
+]

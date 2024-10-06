@@ -1,0 +1,32 @@
+[
+  {
+    "Unused directory": "/home/runner/work/netty/netty/transport-native-epoll/target/native-build/conf5455.dir/",
+    "Responsible plugin": "hawtjni:1.18:build (build-native-lib) @ netty-transport-native-epoll",
+    "Responsible command": "./mvnw -B -ntp clean package -DskipTests=true",
+    "Name of the step": "Compile project"
+  },
+  {
+    "Unused directory": "/home/runner/work/netty/netty/transport-native-epoll/target/native-build/conf6565.dir/",
+    "Responsible plugin": "hawtjni:1.18:build (build-native-lib) @ netty-transport-native-epoll",
+    "Responsible command": "./mvnw -B -ntp clean package -DskipTests=true",
+    "Name of the step": "Compile project"
+  },
+  {
+    "Unused directory": "/home/runner/work/netty/netty/transport-native-epoll/target/native-build/autom4te.cache/",
+    "Responsible plugin": "hawtjni:1.18:build (build-native-lib) @ netty-transport-native-epoll",
+    "Responsible command": "./mvnw -B -ntp clean package -DskipTests=true",
+    "Name of the step": "Compile project"
+  },
+  {
+    "Unused directory": "/home/runner/work/netty/netty/common/target/maven-status/",
+    "Responsible plugin": "compiler:3.8.0:compile (default-compile) @ netty-common",
+    "Responsible command": "./mvnw -B -ntp clean package -DskipTests=true",
+    "Name of the step": "Compile project"
+  },
+  {
+    "Unused directory": "/home/runner/work/netty/netty/testsuite-shading/target/classes-shaded/",
+    "Responsible plugin": "antrun:1.8:run (unpack-jar-features) @ netty-testsuite-shading",
+    "Responsible command": "./mvnw -B -ntp clean package -DskipTests=true",
+    "Name of the step": "Compile project"
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "Unused directory": "/home/runner/work/Mapper/Mapper/weekend/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:2.12.4:test (default-test) @ mapper-weekend",
+    "Responsible command": "mvn --batch-mode --update-snapshots -P dev test",
+    "Name of the step": "Run the Maven verify phase"
+  },
+  {
+    "Unused directory": "/home/runner/work/Mapper/Mapper/spring/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:2.12.4:test (default-test) @ mapper-spring",
+    "Responsible command": "mvn --batch-mode --update-snapshots -P dev test",
+    "Name of the step": "Run the Maven verify phase"
+  },
+  {
+    "Unused directory": "/home/runner/work/Mapper/Mapper/solon-plugin/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:2.12.4:test (default-test) @ mapper-solon-plugin",
+    "Responsible command": "mvn --batch-mode --update-snapshots -P dev test",
+    "Name of the step": "Run the Maven verify phase"
+  },
+  {
+    "Unused directory": "/home/runner/work/Mapper/Mapper/extra/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:2.12.4:test (default-test) @ mapper-extra",
+    "Responsible command": "mvn --batch-mode --update-snapshots -P dev test",
+    "Name of the step": "Run the Maven verify phase"
+  },
+  {
+    "Unused directory": "/home/runner/work/Mapper/Mapper/core/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:2.12.4:test (default-test) @ mapper-core",
+    "Responsible command": "mvn --batch-mode --update-snapshots -P dev test",
+    "Name of the step": "Run the Maven verify phase"
+  },
+  {
+    "Unused directory": "/home/runner/work/Mapper/Mapper/base/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:2.12.4:test (default-test) @ mapper-base",
+    "Responsible command": "mvn --batch-mode --update-snapshots -P dev test",
+    "Name of the step": "Run the Maven verify phase"
+  },
+  {
+    "Unused directory": "/home/runner/work/Mapper/Mapper/weekend/target/generated-test-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.13.0:testCompile (default-testCompile) @ mapper-weekend",
+    "Responsible command": "mvn --batch-mode --update-snapshots -P dev test",
+    "Name of the step": "Run the Maven verify phase"
+  },
+  {
+    "Unused directory": "/home/runner/work/Mapper/Mapper/spring/target/generated-test-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.13.0:testCompile (default-testCompile) @ mapper-spring",
+    "Responsible command": "mvn --batch-mode --update-snapshots -P dev test",
+    "Name of the step": "Run the Maven verify phase"
+  },
+  {
+    "Unused directory": "/home/runner/work/Mapper/Mapper/solon-plugin/target/generated-test-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.13.0:testCompile (default-testCompile) @ mapper-solon-plugin",
+    "Responsible command": "mvn --batch-mode --update-snapshots -P dev test",
+    "Name of the step": "Run the Maven verify phase"
+  },
+  {
+    "Unused directory": "/home/runner/work/Mapper/Mapper/extra/target/generated-test-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.13.0:testCompile (default-testCompile) @ mapper-extra",
+    "Responsible command": "mvn --batch-mode --update-snapshots -P dev test",
+    "Name of the step": "Run the Maven verify phase"
+  },
+  {
+    "Unused directory": "/home/runner/work/Mapper/Mapper/core/target/generated-test-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.13.0:testCompile (default-testCompile) @ mapper-core",
+    "Responsible command": "mvn --batch-mode --update-snapshots -P dev test",
+    "Name of the step": "Run the Maven verify phase"
+  },
+  {
+    "Unused directory": "/home/runner/work/Mapper/Mapper/base/target/generated-test-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.13.0:testCompile (default-testCompile) @ mapper-base",
+    "Responsible command": "mvn --batch-mode --update-snapshots -P dev test",
+    "Name of the step": "Run the Maven verify phase"
+  },
+  {
+    "Unused directory": "/home/runner/work/Mapper/Mapper/spring-boot-starter/mapper-spring-boot-samples/mapper-spring-boot-sample-xml/target/generated-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.13.0:compile (default-compile) @ mapper-spring-boot-sample-xml",
+    "Responsible command": "mvn --batch-mode --update-snapshots -P dev test",
+    "Name of the step": "Run the Maven verify phase"
+  },
+  {
+    "Unused directory": "/home/runner/work/Mapper/Mapper/generator/target/generated-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.13.0:compile (default-compile) @ mapper-generator",
+    "Responsible command": "mvn --batch-mode --update-snapshots -P dev test",
+    "Name of the step": "Run the Maven verify phase"
+  }
+]

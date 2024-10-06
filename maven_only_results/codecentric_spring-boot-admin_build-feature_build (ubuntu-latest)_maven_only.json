@@ -1,0 +1,1070 @@
+[
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-samples/spring-boot-admin-sample-zookeeper/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.5.0:test (default-test) @ spring-boot-admin-sample-zookeeper",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-samples/spring-boot-admin-sample-servlet/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.5.0:test (default-test) @ spring-boot-admin-sample-servlet",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-samples/spring-boot-admin-sample-reactive/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.5.0:test (default-test) @ spring-boot-admin-sample-reactive",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-samples/spring-boot-admin-sample-eureka/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.5.0:test (default-test) @ spring-boot-admin-sample-eureka",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-samples/spring-boot-admin-sample-consul/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.5.0:test (default-test) @ spring-boot-admin-sample-consul",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/is-symbol/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/is-symbol/.github/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/d3-shape/dist/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/function-bind/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/@humanwhocodes/module-importer/dist/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/functions-have-names/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/functions-have-names/.github/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/is-date-object/.github/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/is-date-object/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/concat-map/example/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/concat-map/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/json-schema-traverse/spec/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/regexp.prototype.flags/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/isexe/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/for-each/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/cliui/build/lib/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/he/man/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/is-weakset/.github/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/is-weakset/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/popper.js/src/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/is-callable/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/is-callable/.github/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/why-is-node-running/.github/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/autolinker/dist/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/which-boxed-primitive/.github/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/which-boxed-primitive/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/nanoid/async/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/nanoid/url-alphabet/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/deep-equal/example/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/deep-equal/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/is-boolean-object/.github/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/is-boolean-object/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/text-table/example/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/d3/dist/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/set-function-name/.github/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/lz-string/tests/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/is-number-object/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/is-number-object/.github/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/which-collection/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/which-collection/.github/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/resize-observer-polyfill/src/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/is-set/.github/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/is-set/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/@testing-library/user-event/dist/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/qs/.github/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/qs/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/object-is/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/fast-json-stable-stringify/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/fast-json-stable-stringify/benchmark/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/fast-json-stable-stringify/example/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/y18n/build/lib/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/yargs/locales/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/yargs/helpers/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/es-get-iterator/.github/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/es-get-iterator/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/fast-deep-equal/es6/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/chai/lib/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/object-inspect/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/object-inspect/example/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/object.assign/dist/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/object.assign/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/eslint/messages/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/tldts/dist/cjs/src/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/tldts/dist/es6/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/yargs-parser/build/lib/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/estree-walker/src/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/array-buffer-byte-length/.github/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/array-buffer-byte-length/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/msw/src/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/msw/lib/iife/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/msw/lib/native/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/mkdirp/lib/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/ajv/dist/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/ajv/scripts/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/available-typed-arrays/.github/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/available-typed-arrays/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/js-yaml/dist/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/js-yaml/lib/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/escalade/dist/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/is-array-buffer/.github/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/is-array-buffer/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/object-keys/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/possible-typed-array-names/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/possible-typed-array-names/.github/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/is-bigint/.github/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/is-bigint/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/which-typed-array/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/mime/src/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/is-map/.github/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/is-map/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/@jridgewell/trace-mapping/dist/types/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/rxjs/dist/esm/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/parse5/dist/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/has-symbols/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/define-properties/.github/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/has-bigints/.github/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/has-bigints/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/tslib/modules/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/fast-glob/out/types/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/storybook/core/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/json5/dist/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/ansi_up/examples/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/moment/src/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/moment/locale/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/has-tostringtag/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/vue/jsx-runtime/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/vue/server-renderer/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/@inquirer/confirm/dist/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/@inquirer/figures/dist/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/esbuild/lib/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/jiti/dist/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/chart.js/helpers/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/yaml/browser/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/yaml/dist/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/is-string/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/is-string/.github/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/sucrase/ts-node-plugin/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/sucrase/register/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/@nodelib/fs.walk/out/types/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/@nodelib/fs.scandir/out/types/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/tailwindcss/types/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/tailwindcss/nesting/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/tailwindcss/scripts/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/tailwindcss/src/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/rollup/dist/shared/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/is-shared-array-buffer/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/is-shared-array-buffer/.github/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/d3-format/locale/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/graphql/subscription/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/iconv-lite/.idea/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/iconv-lite/encodings/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/robust-predicates/umd/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/call-bind/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/d3-time-format/locale/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/is-weakmap/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/is-weakmap/.github/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/is-arguments/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/fastq/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/ts-node/register/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/ts-node/dist-raw/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/ts-node/dist/transpilers/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/ts-node/dist/child/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/@babel/runtime/helpers/esm/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/lodash/fp/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/happy-dom/cjs/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/resolve/example/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/resolve/lib/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/resolve/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/axios/dist/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-server-ui/node_modules/@fortawesome/vue-fontawesome/src/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-server-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-samples/spring-boot-admin-sample-custom-ui/node_modules/chokidar/types/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-sample-custom-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-samples/spring-boot-admin-sample-custom-ui/node_modules/estree-walker/dist/esm/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-sample-custom-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-samples/spring-boot-admin-sample-custom-ui/node_modules/estree-walker/src/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-sample-custom-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-samples/spring-boot-admin-sample-custom-ui/node_modules/estree-walker/types/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-sample-custom-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-samples/spring-boot-admin-sample-custom-ui/node_modules/.bin/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-sample-custom-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-samples/spring-boot-admin-sample-custom-ui/node_modules/fastq/.github/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-sample-custom-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-samples/spring-boot-admin-sample-custom-ui/node_modules/fastq/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-sample-custom-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-samples/spring-boot-admin-sample-custom-ui/node_modules/vite/dist/node-cjs/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-sample-custom-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-samples/spring-boot-admin-sample-custom-ui/node_modules/vite/dist/client/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-sample-custom-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-samples/spring-boot-admin-sample-custom-ui/node_modules/vite/types/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-sample-custom-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-samples/spring-boot-admin-sample-custom-ui/node_modules/rollup/dist/shared/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-sample-custom-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-samples/spring-boot-admin-sample-custom-ui/node_modules/reusify/benchmarks/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-sample-custom-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-samples/spring-boot-admin-sample-custom-ui/node_modules/fast-glob/out/types/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-sample-custom-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-samples/spring-boot-admin-sample-custom-ui/node_modules/@nodelib/fs.walk/out/types/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-sample-custom-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-samples/spring-boot-admin-sample-custom-ui/node_modules/@nodelib/fs.stat/out/types/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-sample-custom-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-samples/spring-boot-admin-sample-custom-ui/node_modules/vue/jsx-runtime/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-sample-custom-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-samples/spring-boot-admin-sample-custom-ui/node_modules/vue/server-renderer/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-sample-custom-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-samples/spring-boot-admin-sample-custom-ui/node_modules/sass/types/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-sample-custom-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-samples/spring-boot-admin-sample-custom-ui/node_modules/nanoid/async/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-sample-custom-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-samples/spring-boot-admin-sample-custom-ui/node_modules/nanoid/url-alphabet/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-sample-custom-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-samples/spring-boot-admin-sample-custom-ui/node_modules/acorn/dist/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-sample-custom-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-samples/spring-boot-admin-sample-custom-ui/node_modules/@babel/parser/typings/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-sample-custom-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-boot-admin/spring-boot-admin/spring-boot-admin-samples/spring-boot-admin-sample-custom-ui/node_modules/entities/lib/esm/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.1:npm (npm-install) @ spring-boot-admin-sample-custom-ui",
+    "Responsible command": "mvn -B verify -P coverage --no-transfer-progress -D maven.javadoc.skip=true\n",
+    "Name of the step": "Build with Maven"
+  }
+]

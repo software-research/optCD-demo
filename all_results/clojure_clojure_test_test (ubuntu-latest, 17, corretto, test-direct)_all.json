@@ -1,0 +1,8 @@
+[
+  {
+    "Unused directory": "/home/runner/work/clojure/clojure/target/generated-test-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.13.0:testCompile (default-testCompile) @ clojure",
+    "Responsible command": "mvn -ntp -B -P${{ matrix.profile }} clean test",
+    "Name of the step": "Build with Maven"
+  }
+]

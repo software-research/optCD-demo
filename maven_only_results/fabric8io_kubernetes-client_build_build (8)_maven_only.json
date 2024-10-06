@@ -1,0 +1,680 @@
+[
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/extensions/volumesnapshot/tests/target/surefire-reports/",
+    "Responsible plugin": "surefire:3.5.0:test (default-test) @ volumesnapshot-tests",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/extensions/volcano/tests/target/surefire-reports/",
+    "Responsible plugin": "surefire:3.5.0:test (default-test) @ volcano-tests",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/extensions/verticalpodautoscaler/tests/target/surefire-reports/",
+    "Responsible plugin": "surefire:3.5.0:test (default-test) @ verticalpodautoscaler-tests",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/extensions/tekton/tests/target/surefire-reports/",
+    "Responsible plugin": "surefire:3.5.0:test (default-test) @ tekton-tests",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/extensions/tekton/model-v1beta1/target/surefire-reports/",
+    "Responsible plugin": "surefire:3.5.0:test (default-test) @ tekton-model-v1beta1",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/kubernetes-model-generator/openshift-model-operatorhub/target/surefire-reports/",
+    "Responsible plugin": "surefire:3.5.0:test (default-test) @ openshift-model-operatorhub",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/kubernetes-model-generator/openshift-model-operator/target/surefire-reports/",
+    "Responsible plugin": "surefire:3.5.0:test (default-test) @ openshift-model-operator",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/kubernetes-model-generator/openshift-model-miscellaneous/target/surefire-reports/",
+    "Responsible plugin": "surefire:3.5.0:test (default-test) @ openshift-model-miscellaneous",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/kubernetes-model-generator/openshift-model-machine/target/surefire-reports/",
+    "Responsible plugin": "surefire:3.5.0:test (default-test) @ openshift-model-machine",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/kubernetes-model-generator/openshift-model-installer/target/surefire-reports/",
+    "Responsible plugin": "surefire:3.5.0:test (default-test) @ openshift-model-installer",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/kubernetes-model-generator/openshift-model-hive/target/surefire-reports/",
+    "Responsible plugin": "surefire:3.5.0:test (default-test) @ openshift-model-hive",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/kubernetes-model-generator/openshift-model-config/target/surefire-reports/",
+    "Responsible plugin": "surefire:3.5.0:test (default-test) @ openshift-model-config",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/kubernetes-model-generator/openshift-model/target/surefire-reports/",
+    "Responsible plugin": "surefire:3.5.0:test (default-test) @ openshift-model",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/kubernetes-model-generator/openapi/maven-plugin/target/surefire-reports/",
+    "Responsible plugin": "surefire:3.5.0:test (default-test) @ openapi-model-generator-maven-plugin",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/extensions/open-virtual-networking/tests/target/surefire-reports/",
+    "Responsible plugin": "surefire:3.5.0:test (default-test) @ open-virtual-networking-tests",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/extensions/open-virtual-networking/model-v1/target/surefire-reports/",
+    "Responsible plugin": "surefire:3.5.0:test (default-test) @ open-virtual-networking-model-v1",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/extensions/open-cluster-management/tests/target/surefire-reports/",
+    "Responsible plugin": "surefire:3.5.0:test (default-test) @ open-cluster-management-tests",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/extensions/open-cluster-management/model-search/target/surefire-reports/",
+    "Responsible plugin": "surefire:3.5.0:test (default-test) @ open-cluster-management-search-model",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/extensions/open-cluster-management/model-policy/target/surefire-reports/",
+    "Responsible plugin": "surefire:3.5.0:test (default-test) @ open-cluster-management-policy-model",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/extensions/open-cluster-management/model-placementruleapps/target/surefire-reports/",
+    "Responsible plugin": "surefire:3.5.0:test (default-test) @ open-cluster-management-placementruleapps-model",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/extensions/open-cluster-management/model-operator/target/surefire-reports/",
+    "Responsible plugin": "surefire:3.5.0:test (default-test) @ open-cluster-management-operator-model",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/extensions/open-cluster-management/model-observability/target/surefire-reports/",
+    "Responsible plugin": "surefire:3.5.0:test (default-test) @ open-cluster-management-observability-model",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/extensions/open-cluster-management/model-discovery/target/surefire-reports/",
+    "Responsible plugin": "surefire:3.5.0:test (default-test) @ open-cluster-management-discovery-model",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/extensions/open-cluster-management/model-cluster/target/surefire-reports/",
+    "Responsible plugin": "surefire:3.5.0:test (default-test) @ open-cluster-management-cluster-model",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/extensions/open-cluster-management/model-apps/target/surefire-reports/",
+    "Responsible plugin": "surefire:3.5.0:test (default-test) @ open-cluster-management-apps-model",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/extensions/open-cluster-management/model-agent/target/surefire-reports/",
+    "Responsible plugin": "surefire:3.5.0:test (default-test) @ open-cluster-management-agent-model",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/kubernetes-model-generator/kubernetes-model-storageclass/target/surefire-reports/",
+    "Responsible plugin": "surefire:3.5.0:test (default-test) @ kubernetes-model-storageclass",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/kubernetes-model-generator/kubernetes-model-resource/target/surefire-reports/",
+    "Responsible plugin": "surefire:3.5.0:test (default-test) @ kubernetes-model-resource",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/kubernetes-model-generator/kubernetes-model-rbac/target/surefire-reports/",
+    "Responsible plugin": "surefire:3.5.0:test (default-test) @ kubernetes-model-rbac",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/kubernetes-model-generator/kubernetes-model-policy/target/surefire-reports/",
+    "Responsible plugin": "surefire:3.5.0:test (default-test) @ kubernetes-model-policy",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/kubernetes-model-generator/kubernetes-model-networking/target/surefire-reports/",
+    "Responsible plugin": "surefire:3.5.0:test (default-test) @ kubernetes-model-networking",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/kubernetes-model-generator/kubernetes-model-metrics/target/surefire-reports/",
+    "Responsible plugin": "surefire:3.5.0:test (default-test) @ kubernetes-model-metrics",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/kubernetes-model-generator/kubernetes-model-kustomize/target/surefire-reports/",
+    "Responsible plugin": "surefire:3.5.0:test (default-test) @ kubernetes-model-kustomize",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/kubernetes-model-generator/kubernetes-model-jsonschema2pojo/target/surefire-reports/",
+    "Responsible plugin": "surefire:3.5.0:test (default-test) @ kubernetes-model-jsonschema2pojo",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/kubernetes-model-generator/kubernetes-model-gatewayapi/target/surefire-reports/",
+    "Responsible plugin": "surefire:3.5.0:test (default-test) @ kubernetes-model-gatewayapi",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/kubernetes-model-generator/kubernetes-model-flowcontrol/target/surefire-reports/",
+    "Responsible plugin": "surefire:3.5.0:test (default-test) @ kubernetes-model-flowcontrol",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/kubernetes-model-generator/kubernetes-model-discovery/target/surefire-reports/",
+    "Responsible plugin": "surefire:3.5.0:test (default-test) @ kubernetes-model-discovery",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/kubernetes-model-generator/kubernetes-model-core/target/surefire-reports/",
+    "Responsible plugin": "surefire:3.5.0:test (default-test) @ kubernetes-model-core",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/kubernetes-model-generator/kubernetes-model-common/target/surefire-reports/",
+    "Responsible plugin": "surefire:3.5.0:test (default-test) @ kubernetes-model-common",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/kubernetes-model-generator/kubernetes-model-certificates/target/surefire-reports/",
+    "Responsible plugin": "surefire:3.5.0:test (default-test) @ kubernetes-model-certificates",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/kubernetes-model-generator/kubernetes-model-batch/target/surefire-reports/",
+    "Responsible plugin": "surefire:3.5.0:test (default-test) @ kubernetes-model-batch",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/kubernetes-model-generator/kubernetes-model-autoscaling/target/surefire-reports/",
+    "Responsible plugin": "surefire:3.5.0:test (default-test) @ kubernetes-model-autoscaling",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/kubernetes-model-generator/kubernetes-model-apps/target/surefire-reports/",
+    "Responsible plugin": "surefire:3.5.0:test (default-test) @ kubernetes-model-apps",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/kubernetes-model-generator/kubernetes-model-apiextensions/target/surefire-reports/",
+    "Responsible plugin": "surefire:3.5.0:test (default-test) @ kubernetes-model-apiextensions",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/kubernetes-model-generator/kubernetes-model-admissionregistration/target/surefire-reports/",
+    "Responsible plugin": "surefire:3.5.0:test (default-test) @ kubernetes-model-admissionregistration",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/log4j/target/surefire-reports/",
+    "Responsible plugin": "surefire:3.5.0:test (default-test) @ kubernetes-log4j",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/junit/kubernetes-junit-jupiter/target/surefire-reports/",
+    "Responsible plugin": "surefire:3.5.0:test (default-test) @ kubernetes-junit-jupiter",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/extensions/knative/tests/target/surefire-reports/",
+    "Responsible plugin": "surefire:3.5.0:test (default-test) @ knative-tests",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/extensions/knative/model/target/surefire-reports/",
+    "Responsible plugin": "surefire:3.5.0:test (default-test) @ knative-model",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/java-generator/core/target/surefire-reports/",
+    "Responsible plugin": "surefire:3.5.0:test (default-test) @ java-generator-core",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/extensions/istio/tests/target/surefire-reports/",
+    "Responsible plugin": "surefire:3.5.0:test (default-test) @ istio-tests",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/extensions/istio/model-v1beta1/target/surefire-reports/",
+    "Responsible plugin": "surefire:3.5.0:test (default-test) @ istio-model-v1beta1",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/extensions/istio/model-v1alpha3/target/surefire-reports/",
+    "Responsible plugin": "surefire:3.5.0:test (default-test) @ istio-model-v1alpha3",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/java-generator/gradle-plugin/target/surefire-reports/",
+    "Responsible plugin": "surefire:3.5.0:test (default-test) @ io.fabric8.java-generator.gradle.plugin",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/crd-generator/test/target/surefire-reports/",
+    "Responsible plugin": "surefire:3.5.0:test (default-test) @ crd-generator-test",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/crd-generator/maven-plugin/target/surefire-reports/",
+    "Responsible plugin": "surefire:3.5.0:test (default-test) @ crd-generator-maven-plugin",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/crd-generator/collector/target/surefire-reports/",
+    "Responsible plugin": "surefire:3.5.0:test (default-test) @ crd-generator-collector",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/crd-generator/api/target/surefire-reports/",
+    "Responsible plugin": "surefire:3.5.0:test (default-test) @ crd-generator-api",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/extensions/chaosmesh/tests/target/surefire-reports/",
+    "Responsible plugin": "surefire:3.5.0:test (default-test) @ chaosmesh-tests",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/kubernetes-model-generator/kubernetes-model-autoscaling/target/generated-test-sources/",
+    "Responsible plugin": "jandex:3.2.2:jandex (make-index) @ kubernetes-model-autoscaling",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/kubernetes-tests/target/site/jacoco-aggregate/",
+    "Responsible plugin": "jacoco:0.8.12:report-aggregate (report-aggregate) @ kubernetes-test",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/httpclient-vertx/target/site/jacoco-aggregate/",
+    "Responsible plugin": "jacoco:0.8.12:report-aggregate (report-aggregate) @ kubernetes-httpclient-vertx",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/httpclient-okhttp/target/site/jacoco-aggregate/",
+    "Responsible plugin": "jacoco:0.8.12:report-aggregate (report-aggregate) @ kubernetes-httpclient-okhttp",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/kubernetes-model-generator/openapi/maven-plugin/target/invoker-reports/",
+    "Responsible plugin": "invoker:3.8.0:run (integration-tests) @ openapi-model-generator-maven-plugin",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/kubernetes-model-generator/openapi/maven-plugin/target/it/kubernetes-model-core/target/",
+    "Responsible plugin": "invoker:3.8.0:run (integration-tests) @ openapi-model-generator-maven-plugin",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/java-generator/it/target/invoker-reports/",
+    "Responsible plugin": "invoker:3.8.0:run (integration-tests) @ java-generator-integration-tests",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/java-generator/it/target/it/ignore-unknown-toplevel-objects/target/surefire-reports/",
+    "Responsible plugin": "invoker:3.8.0:run (integration-tests) @ java-generator-integration-tests",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/java-generator/it/target/it/ignore-unknown-toplevel-objects/target/generated-test-sources/",
+    "Responsible plugin": "invoker:3.8.0:run (integration-tests) @ java-generator-integration-tests",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/java-generator/it/target/it/crd-names/target/surefire-reports/",
+    "Responsible plugin": "invoker:3.8.0:run (integration-tests) @ java-generator-integration-tests",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/java-generator/it/target/it/ser-deser/target/surefire-reports/",
+    "Responsible plugin": "invoker:3.8.0:run (integration-tests) @ java-generator-integration-tests",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/java-generator/it/target/it/ser-deser/target/generated-test-sources/",
+    "Responsible plugin": "invoker:3.8.0:run (integration-tests) @ java-generator-integration-tests",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/java-generator/it/target/it/preserve-unknown-toplevel-objects/target/surefire-reports/",
+    "Responsible plugin": "invoker:3.8.0:run (integration-tests) @ java-generator-integration-tests",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/java-generator/it/target/it/preserve-unknown-toplevel-objects/target/generated-test-sources/",
+    "Responsible plugin": "invoker:3.8.0:run (integration-tests) @ java-generator-integration-tests",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/java-generator/it/target/it/preserve-unknown-serdeser/target/generated-test-sources/",
+    "Responsible plugin": "invoker:3.8.0:run (integration-tests) @ java-generator-integration-tests",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/java-generator/it/target/it/preserve-unknown-serdeser/target/surefire-reports/",
+    "Responsible plugin": "invoker:3.8.0:run (integration-tests) @ java-generator-integration-tests",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/java-generator/it/target/it/datetime-fmt/target/generated-test-sources/",
+    "Responsible plugin": "invoker:3.8.0:run (integration-tests) @ java-generator-integration-tests",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/java-generator/it/target/it/datetime-fmt/target/surefire-reports/",
+    "Responsible plugin": "invoker:3.8.0:run (integration-tests) @ java-generator-integration-tests",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/java-generator/it/target/it/escape-characters/target/surefire-reports/",
+    "Responsible plugin": "invoker:3.8.0:run (integration-tests) @ java-generator-integration-tests",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/java-generator/it/target/it/escape-characters/target/generated-test-sources/",
+    "Responsible plugin": "invoker:3.8.0:run (integration-tests) @ java-generator-integration-tests",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/java-generator/it/target/it/preserve-unknown-objects/target/maven-status/",
+    "Responsible plugin": "invoker:3.8.0:run (integration-tests) @ java-generator-integration-tests",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/java-generator/it/target/it/preserve-unknown-objects/target/generated-test-sources/",
+    "Responsible plugin": "invoker:3.8.0:run (integration-tests) @ java-generator-integration-tests",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/java-generator/it/target/it/preserve-unknown-objects/target/surefire-reports/",
+    "Responsible plugin": "invoker:3.8.0:run (integration-tests) @ java-generator-integration-tests",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/java-generator/it/target/it/default-values-instantiation/target/generated-test-sources/",
+    "Responsible plugin": "invoker:3.8.0:run (integration-tests) @ java-generator-integration-tests",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/java-generator/it/target/it/default-values-instantiation/target/surefire-reports/",
+    "Responsible plugin": "invoker:3.8.0:run (integration-tests) @ java-generator-integration-tests",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/java-generator/it/target/it/preserve-unknown-objects-through-config/target/generated-test-sources/",
+    "Responsible plugin": "invoker:3.8.0:run (integration-tests) @ java-generator-integration-tests",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/java-generator/it/target/it/preserve-unknown-objects-through-config/target/surefire-reports/",
+    "Responsible plugin": "invoker:3.8.0:run (integration-tests) @ java-generator-integration-tests",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/crd-generator/maven-plugin/target/invoker-reports/",
+    "Responsible plugin": "invoker:3.8.0:run (integration-tests) @ crd-generator-maven-plugin",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/crd-generator/maven-plugin/target/it/project-and-dependency-scan/target/generated-sources/",
+    "Responsible plugin": "invoker:3.8.0:run (integration-tests) @ crd-generator-maven-plugin",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/crd-generator/maven-plugin/target/it/project-scan/target/generated-sources/",
+    "Responsible plugin": "invoker:3.8.0:run (integration-tests) @ crd-generator-maven-plugin",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/extensions/tekton/model-v1beta1/target/generated-test-sources/",
+    "Responsible plugin": "compiler:3.13.0:testCompile (default-testCompile) @ tekton-model-v1beta1",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/kubernetes-model-generator/openshift-model-operatorhub/target/generated-test-sources/",
+    "Responsible plugin": "compiler:3.13.0:testCompile (default-testCompile) @ openshift-model-operatorhub",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/kubernetes-model-generator/openshift-model-machine/target/generated-test-sources/",
+    "Responsible plugin": "compiler:3.13.0:testCompile (default-testCompile) @ openshift-model-machine",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/kubernetes-model-generator/openshift-model-config/target/generated-test-sources/",
+    "Responsible plugin": "compiler:3.13.0:testCompile (default-testCompile) @ openshift-model-config",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/extensions/open-virtual-networking/tests/target/generated-test-sources/",
+    "Responsible plugin": "compiler:3.13.0:testCompile (default-testCompile) @ open-virtual-networking-tests",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/extensions/open-cluster-management/tests/target/generated-test-sources/",
+    "Responsible plugin": "compiler:3.13.0:testCompile (default-testCompile) @ open-cluster-management-tests",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/extensions/open-cluster-management/model-observability/target/generated-test-sources/",
+    "Responsible plugin": "compiler:3.13.0:testCompile (default-testCompile) @ open-cluster-management-observability-model",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/extensions/open-cluster-management/model-agent/target/generated-test-sources/",
+    "Responsible plugin": "compiler:3.13.0:testCompile (default-testCompile) @ open-cluster-management-agent-model",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/kubernetes-model-generator/kubernetes-model-storageclass/target/generated-test-sources/",
+    "Responsible plugin": "compiler:3.13.0:testCompile (default-testCompile) @ kubernetes-model-storageclass",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/kubernetes-model-generator/kubernetes-model-resource/target/generated-test-sources/",
+    "Responsible plugin": "compiler:3.13.0:testCompile (default-testCompile) @ kubernetes-model-resource",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/kubernetes-model-generator/kubernetes-model-policy/target/generated-test-sources/",
+    "Responsible plugin": "compiler:3.13.0:testCompile (default-testCompile) @ kubernetes-model-policy",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/kubernetes-model-generator/kubernetes-model-networking/target/generated-test-sources/",
+    "Responsible plugin": "compiler:3.13.0:testCompile (default-testCompile) @ kubernetes-model-networking",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/kubernetes-model-generator/kubernetes-model-kustomize/target/generated-test-sources/",
+    "Responsible plugin": "compiler:3.13.0:testCompile (default-testCompile) @ kubernetes-model-kustomize",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/kubernetes-model-generator/kubernetes-model-common/target/generated-test-sources/",
+    "Responsible plugin": "compiler:3.13.0:testCompile (default-testCompile) @ kubernetes-model-common",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/kubernetes-model-generator/kubernetes-model-batch/target/generated-test-sources/",
+    "Responsible plugin": "compiler:3.13.0:testCompile (default-testCompile) @ kubernetes-model-batch",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/kubernetes-model-generator/kubernetes-model-apps/target/generated-test-sources/",
+    "Responsible plugin": "compiler:3.13.0:testCompile (default-testCompile) @ kubernetes-model-apps",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/extensions/knative/model/target/generated-test-sources/",
+    "Responsible plugin": "compiler:3.13.0:testCompile (default-testCompile) @ knative-model",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/extensions/istio/model-v1beta1/target/generated-test-sources/",
+    "Responsible plugin": "compiler:3.13.0:testCompile (default-testCompile) @ istio-model-v1beta1",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/extensions/istio/model-v1alpha3/target/generated-test-sources/",
+    "Responsible plugin": "compiler:3.13.0:testCompile (default-testCompile) @ istio-model-v1alpha3",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/java-generator/gradle-plugin/target/generated-test-sources/",
+    "Responsible plugin": "compiler:3.13.0:testCompile (default-testCompile) @ io.fabric8.java-generator.gradle.plugin",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/crd-generator/test/target/generated-test-sources/",
+    "Responsible plugin": "compiler:3.13.0:testCompile (default-testCompile) @ crd-generator-test",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/crd-generator/maven-plugin/target/generated-test-sources/",
+    "Responsible plugin": "compiler:3.13.0:testCompile (default-testCompile) @ crd-generator-maven-plugin",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/extensions/open-cluster-management/examples/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ openclustermanagement-examples",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  },
+  {
+    "Unused directory": "/home/runner/work/kubernetes-client/kubernetes-client/kubernetes-examples/target/generated-sources/",
+    "Responsible plugin": "compiler:3.13.0:compile (default-compile) @ kubernetes-examples",
+    "Responsible command": "./mvnw ${MAVEN_ARGS} clean install",
+    "Name of the step": "Build Project"
+  }
+]

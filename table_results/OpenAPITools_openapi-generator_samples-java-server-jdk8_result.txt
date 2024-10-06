@@ -1,0 +1,8 @@
+Unused directories and their responsible plugins in build (samples/server/petstore/java-vertx-web/):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (samples/server/petstore/java-inflector/):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (samples/server/petstore/java-pkmst/):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (samples/server/petstore/java-microprofile/):
+Inotify log does not exist, because the job runs on Windows or MacOS.

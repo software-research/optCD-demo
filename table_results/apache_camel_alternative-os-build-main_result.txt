@@ -1,0 +1,6 @@
+Unused directories and their responsible plugins in build (windows-latest):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (macos-latest):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (windows-2019):
+Inotify log does not exist, because the job runs on Windows or MacOS.

@@ -1,0 +1,140 @@
+[
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/sqlparser/seata-sqlparser-core/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.0.0-M5:test (default-test) @ seata-saga-statelang",
+    "Responsible command": "./mvnw -T 4C clean test \\\n       -Ddruid.version=${{ matrix.druid }} \\\n       -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn;\n",
+    "Name of the step": "Test with Maven and Druid ${{ matrix.druid }}"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/config/seata-config-core/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.0.0-M5:test (default-test) @ seata-saga-statelang",
+    "Responsible command": "./mvnw -T 4C clean test \\\n       -Ddruid.version=${{ matrix.druid }} \\\n       -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn;\n",
+    "Name of the step": "Test with Maven and Druid ${{ matrix.druid }}"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/metrics/seata-metrics-registry-compact/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.0.0-M5:test (default-test) @ seata-saga-statelang",
+    "Responsible command": "./mvnw -T 4C clean test \\\n       -Ddruid.version=${{ matrix.druid }} \\\n       -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn;\n",
+    "Name of the step": "Test with Maven and Druid ${{ matrix.druid }}"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/discovery/seata-discovery-etcd3/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.0.0-M5:test (default-test) @ seata-core",
+    "Responsible command": "./mvnw -T 4C clean test \\\n       -Ddruid.version=${{ matrix.druid }} \\\n       -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn;\n",
+    "Name of the step": "Test with Maven and Druid ${{ matrix.druid }}"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/discovery/seata-discovery-core/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.0.0-M5:test (default-test) @ seata-config-nacos",
+    "Responsible command": "./mvnw -T 4C clean test \\\n       -Ddruid.version=${{ matrix.druid }} \\\n       -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn;\n",
+    "Name of the step": "Test with Maven and Druid ${{ matrix.druid }}"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/config/seata-config-custom/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.0.0-M5:test (default-test) @ seata-config-apollo",
+    "Responsible command": "./mvnw -T 4C clean test \\\n       -Ddruid.version=${{ matrix.druid }} \\\n       -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn;\n",
+    "Name of the step": "Test with Maven and Druid ${{ matrix.druid }}"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/common/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.0.0-M5:test (default-test) @ seata-common",
+    "Responsible command": "./mvnw -T 4C clean test \\\n       -Ddruid.version=${{ matrix.druid }} \\\n       -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn;\n",
+    "Name of the step": "Test with Maven and Druid ${{ matrix.druid }}"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/namingserver/target/surefire-reports/",
+    "Responsible plugin": "maven-resources-plugin:3.2.0:resources (default-resources) @ seata-discovery-zk",
+    "Responsible command": "./mvnw -T 4C clean test \\\n       -Ddruid.version=${{ matrix.druid }} \\\n       -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn;\n",
+    "Name of the step": "Test with Maven and Druid ${{ matrix.druid }}"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/console/target/",
+    "Responsible plugin": "maven-remote-resources-plugin:1.5:process (process-resource-bundles) @ seata-sqlparser-druid",
+    "Responsible command": "./mvnw -T 4C clean test \\\n       -Ddruid.version=${{ matrix.druid }} \\\n       -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn;\n",
+    "Name of the step": "Test with Maven and Druid ${{ matrix.druid }}"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/target/",
+    "Responsible plugin": "maven-remote-resources-plugin:1.5:process (process-resource-bundles) @ seata-parent",
+    "Responsible command": "./mvnw -T 4C clean test \\\n       -Ddruid.version=${{ matrix.druid }} \\\n       -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn;\n",
+    "Name of the step": "Test with Maven and Druid ${{ matrix.druid }}"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/core/target/surefire-reports/",
+    "Responsible plugin": "maven-remote-resources-plugin:1.5:process (process-resource-bundles) @ seata-discovery-all",
+    "Responsible command": "./mvnw -T 4C clean test \\\n       -Ddruid.version=${{ matrix.druid }} \\\n       -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn;\n",
+    "Name of the step": "Test with Maven and Druid ${{ matrix.druid }}"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/sqlparser/seata-sqlparser-antlr/target/surefire-reports/",
+    "Responsible plugin": "maven-remote-resources-plugin:1.5:process (process-resource-bundles) @ seata-config-consul",
+    "Responsible command": "./mvnw -T 4C clean test \\\n       -Ddruid.version=${{ matrix.druid }} \\\n       -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn;\n",
+    "Name of the step": "Test with Maven and Druid ${{ matrix.druid }}"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/integration/dubbo/target/",
+    "Responsible plugin": "maven-remote-resources-plugin:1.5:process (process-resource-bundles) @ seata-common",
+    "Responsible command": "./mvnw -T 4C clean test \\\n       -Ddruid.version=${{ matrix.druid }} \\\n       -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn;\n",
+    "Name of the step": "Test with Maven and Druid ${{ matrix.druid }}"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/config/seata-config-nacos/target/surefire-reports/",
+    "Responsible plugin": "maven-enforcer-plugin:3.0.0-M3:enforce (enforce-maven-version) @ seata-discovery-sofa",
+    "Responsible command": "./mvnw -T 4C clean test \\\n       -Ddruid.version=${{ matrix.druid }} \\\n       -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn;\n",
+    "Name of the step": "Test with Maven and Druid ${{ matrix.druid }}"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/discovery/seata-discovery-zk/target/surefire-reports/",
+    "Responsible plugin": "maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ seata-core",
+    "Responsible command": "./mvnw -T 4C clean test \\\n       -Ddruid.version=${{ matrix.druid }} \\\n       -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn;\n",
+    "Name of the step": "Test with Maven and Druid ${{ matrix.druid }}"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/metrics/seata-metrics-api/target/surefire-reports/",
+    "Responsible plugin": "maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ seata-common",
+    "Responsible command": "./mvnw -T 4C clean test \\\n       -Ddruid.version=${{ matrix.druid }} \\\n       -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn;\n",
+    "Name of the step": "Test with Maven and Druid ${{ matrix.druid }}"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/sqlparser/seata-sqlparser-antlr/target/generated-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.8.1:compile (default-compile) @ seata-sqlparser-antlr",
+    "Responsible command": "./mvnw -T 4C clean test \\\n       -Ddruid.version=${{ matrix.druid }} \\\n       -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn;\n",
+    "Name of the step": "Test with Maven and Druid ${{ matrix.druid }}"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/common/target/maven-status/",
+    "Responsible plugin": "maven-compiler-plugin:3.8.1:compile (default-compile) @ seata-common",
+    "Responsible command": "./mvnw -T 4C clean test \\\n       -Ddruid.version=${{ matrix.druid }} \\\n       -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn;\n",
+    "Name of the step": "Test with Maven and Druid ${{ matrix.druid }}"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-processctrl/target/surefire-reports/",
+    "Responsible plugin": "jacoco-maven-plugin:0.8.7:report (report) @ seata-sqlparser-core",
+    "Responsible command": "./mvnw -T 4C clean test \\\n       -Ddruid.version=${{ matrix.druid }} \\\n       -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn;\n",
+    "Name of the step": "Test with Maven and Druid ${{ matrix.druid }}"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/discovery/seata-discovery-nacos/target/surefire-reports/",
+    "Responsible plugin": "jacoco-maven-plugin:0.8.7:report (report) @ seata-namingserver",
+    "Responsible command": "./mvnw -T 4C clean test \\\n       -Ddruid.version=${{ matrix.druid }} \\\n       -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn;\n",
+    "Name of the step": "Test with Maven and Druid ${{ matrix.druid }}"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/config/seata-config-zk/target/surefire-reports/",
+    "Responsible plugin": "jacoco-maven-plugin:0.8.7:report (report) @ seata-discovery-core",
+    "Responsible command": "./mvnw -T 4C clean test \\\n       -Ddruid.version=${{ matrix.druid }} \\\n       -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn;\n",
+    "Name of the step": "Test with Maven and Druid ${{ matrix.druid }}"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/discovery/seata-discovery-raft/target/surefire-reports/",
+    "Responsible plugin": "jacoco-maven-plugin:0.8.7:report (report) @ seata-discovery-all",
+    "Responsible command": "./mvnw -T 4C clean test \\\n       -Ddruid.version=${{ matrix.druid }} \\\n       -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn;\n",
+    "Name of the step": "Test with Maven and Druid ${{ matrix.druid }}"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/config/seata-config-apollo/target/surefire-reports/",
+    "Responsible plugin": "jacoco-maven-plugin:0.8.7:prepare-agent (default) @ seata-core",
+    "Responsible command": "./mvnw -T 4C clean test \\\n       -Ddruid.version=${{ matrix.druid }} \\\n       -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn;\n",
+    "Name of the step": "Test with Maven and Druid ${{ matrix.druid }}"
+  }
+]

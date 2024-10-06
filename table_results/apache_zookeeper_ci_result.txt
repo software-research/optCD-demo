@@ -1,0 +1,33 @@
+Unused directories and their responsible plugins in mvn (Object):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in mvn (Object):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in mvn (Object):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in typo-check:
+╒═══════════════════════════════════════════════════╤══════════════════════════════════╤═══════════════════════╤═════════════════════╕
+│ Unused directory                                  │ Responsible plugin               │ Responsible command   │ Name of the step    │
+╞═══════════════════════════════════════════════════╪══════════════════════════════════╪═══════════════════════╪═════════════════════╡
+│ /home/runner/work/zookeeper/zookeeper/.git/logs/  │ Not responsible by maven plugins │ actions/checkout@v4   │ actions/checkout@v4 │
+├───────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────┼─────────────────────┤
+│ /home/runner/work/zookeeper/zookeeper/.git/hooks/ │ Not responsible by maven plugins │ actions/checkout@v4   │ actions/checkout@v4 │
+╘═══════════════════════════════════════════════════╧══════════════════════════════════╧═══════════════════════╧═════════════════════╛
+
+Unused directories and their responsible plugins in mvn (Object):
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+

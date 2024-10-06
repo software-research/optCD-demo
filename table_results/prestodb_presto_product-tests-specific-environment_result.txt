@@ -1,0 +1,6 @@
+Unused directories and their responsible plugins in changes:
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in product-tests-specific-environment1:
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in product-tests-specific-environment2:
+Inotify log does not exist, because the job runs on Windows or MacOS.

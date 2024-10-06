@@ -1,0 +1,26 @@
+[
+  {
+    "Unused directory": "/home/runner/work/spring-cloud-netflix/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/surefire-reports/",
+    "Responsible plugin": "surefire:2.22.2:test (default-test) @ spring-cloud-netflix-eureka-server",
+    "Responsible command": "./mvnw clean install -B -U -P sonar",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-cloud-netflix/spring-cloud-netflix/spring-cloud-netflix-eureka-client-tls-tests/target/surefire-reports/",
+    "Responsible plugin": "surefire:2.22.2:test (default-test) @ spring-cloud-netflix-eureka-client-tls-tests",
+    "Responsible command": "./mvnw clean install -B -U -P sonar",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-cloud-netflix/spring-cloud-netflix/spring-cloud-netflix-eureka-client/target/surefire-reports/",
+    "Responsible plugin": "surefire:2.22.2:test (default-test) @ spring-cloud-netflix-eureka-client",
+    "Responsible command": "./mvnw clean install -B -U -P sonar",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/spring-cloud-netflix/spring-cloud-netflix/spring-cloud-netflix-eureka-client/target/javadoc-bundle-options/",
+    "Responsible plugin": "javadoc:3.10.1:jar (javadoc) @ spring-cloud-netflix-eureka-client",
+    "Responsible command": "./mvnw clean install -B -U -P sonar",
+    "Name of the step": "Build with Maven"
+  }
+]

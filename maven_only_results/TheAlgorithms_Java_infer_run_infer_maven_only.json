@@ -1,0 +1,8 @@
+[
+  {
+    "Unused directory": "/home/runner/work/Java/Java/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.5.0:test (default-test) @ Java",
+    "Responsible command": "mvn clean\ninfer --fail-on-issue  --print-logs --no-progress-bar -- mvn test\n",
+    "Name of the step": "Run infer"
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-bpmn-model/target/maven-status/",
+    "Responsible plugin": "maven-compiler-plugin:3.12.1:compile (default-compile) @ flowable-bpmn-model",
+    "Responsible command": "./mvnw clean install ${MAVEN_ARGS} -PcleanDb,postgresql,distro -P'!include-spring-boot-samples' -Djdbc.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Djdbc.username=flowable -Djdbc.password=flowable -Djdbc.driver=org.postgresql.Driver -Dspring.datasource.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Dspring.datasource.username=flowable -Dspring.datasource.password=flowable -Dmaven.test.redirectTestOutputToFile=false",
+    "Name of the step": "Test"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-image-generator/target/",
+    "Responsible plugin": "maven-bundle-plugin:5.1.9:cleanVersions (default) @ flowable-image-generator",
+    "Responsible command": "./mvnw clean install ${MAVEN_ARGS} -PcleanDb,postgresql,distro -P'!include-spring-boot-samples' -Djdbc.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Djdbc.username=flowable -Djdbc.password=flowable -Djdbc.driver=org.postgresql.Driver -Dspring.datasource.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Dspring.datasource.username=flowable -Dspring.datasource.password=flowable -Dmaven.test.redirectTestOutputToFile=false",
+    "Name of the step": "Test"
+  }
+]

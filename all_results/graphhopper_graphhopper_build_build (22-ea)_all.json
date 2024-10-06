@@ -1,0 +1,14 @@
+[
+  {
+    "Unused directory": "/home/runner/work/graphhopper/graphhopper/web-api/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:2.22.2:test (default-test) @ graphhopper-web-api",
+    "Responsible command": "mvn -B clean test",
+    "Name of the step": "Build ${{ matrix.java-version }}"
+  },
+  {
+    "Unused directory": "/home/runner/work/graphhopper/graphhopper/core/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:2.22.2:test (default-test) @ graphhopper-core",
+    "Responsible command": "mvn -B clean test",
+    "Name of the step": "Build ${{ matrix.java-version }}"
+  }
+]

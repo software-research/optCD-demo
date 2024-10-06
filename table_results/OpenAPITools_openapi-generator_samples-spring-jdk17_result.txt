@@ -1,0 +1,10 @@
+Unused directories and their responsible plugins in build (samples/openapi3/client/petstore/spring-cloud-3-with-optional):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (samples/openapi3/server/petstore/springboot-3):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (samples/server/petstore/springboot-lombok-data):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (samples/server/petstore/springboot-lombok-tostring):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (samples/server/petstore/springboot-file-delegate-optional):
+Inotify log does not exist, because the job runs on Windows or MacOS.

@@ -1,0 +1,5 @@
+Unused directories and their responsible plugins in java_build (ubuntu-latest, 8):
+Unused directories and their responsible plugins in java_build (windows-latest, 8):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in java_build (macos-latest, 8):
+Inotify log does not exist, because the job runs on Windows or MacOS.

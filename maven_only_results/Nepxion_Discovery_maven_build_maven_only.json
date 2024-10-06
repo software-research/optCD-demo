@@ -1,0 +1,26 @@
+[
+  {
+    "Unused directory": "/home/runner/work/Discovery/Discovery/discovery-plugin-framework/discovery-plugin-framework-starter/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:2.12.4:test (default-test) @ discovery-plugin-framework-starter",
+    "Responsible command": "mvn -B package --file pom.xml",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/Discovery/Discovery/discovery-commons/discovery-common/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:2.12.4:test (default-test) @ discovery-common",
+    "Responsible command": "mvn -B package --file pom.xml",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/Discovery/Discovery/discovery-springcloud-examples/discovery-springcloud-example-eureka/target/maven-status/",
+    "Responsible plugin": "maven-compiler-plugin:3.1:compile (default-compile) @ discovery-springcloud-example-eureka",
+    "Responsible command": "mvn -B package --file pom.xml",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/Discovery/Discovery/discovery-console/discovery-console-starter-redis/target/maven-status/",
+    "Responsible plugin": "maven-compiler-plugin:3.1:compile (default-compile) @ discovery-console-starter-redis",
+    "Responsible command": "mvn -B package --file pom.xml",
+    "Name of the step": "Build with Maven"
+  }
+]

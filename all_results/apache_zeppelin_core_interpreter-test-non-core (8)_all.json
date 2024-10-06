@@ -1,0 +1,80 @@
+[
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/sparql/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.2:test (default-test) @ zeppelin-sparql",
+    "Responsible command": "./mvnw verify -am -pl ${INTERPRETERS} ${MAVEN_ARGS}",
+    "Name of the step": "verify interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/shell/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.2:test (default-test) @ zeppelin-shell",
+    "Responsible command": "./mvnw verify -am -pl ${INTERPRETERS} ${MAVEN_ARGS}",
+    "Name of the step": "verify interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/neo4j/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.2:test (default-test) @ zeppelin-neo4j",
+    "Responsible command": "./mvnw verify -am -pl ${INTERPRETERS} ${MAVEN_ARGS}",
+    "Name of the step": "verify interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/mongodb/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.2:test (default-test) @ zeppelin-mongodb",
+    "Responsible command": "./mvnw verify -am -pl ${INTERPRETERS} ${MAVEN_ARGS}",
+    "Name of the step": "verify interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/livy/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.2:test (default-test) @ zeppelin-livy",
+    "Responsible command": "./mvnw verify -am -pl ${INTERPRETERS} ${MAVEN_ARGS}",
+    "Name of the step": "verify interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/jdbc/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.2:test (default-test) @ zeppelin-jdbc",
+    "Responsible command": "./mvnw verify -am -pl ${INTERPRETERS} ${MAVEN_ARGS}",
+    "Name of the step": "verify interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/java/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.2:test (default-test) @ zeppelin-java",
+    "Responsible command": "./mvnw verify -am -pl ${INTERPRETERS} ${MAVEN_ARGS}",
+    "Name of the step": "verify interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/influxdb/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.2:test (default-test) @ zeppelin-influxdb",
+    "Responsible command": "./mvnw verify -am -pl ${INTERPRETERS} ${MAVEN_ARGS}",
+    "Name of the step": "verify interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/hbase/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.2:test (default-test) @ zeppelin-hbase",
+    "Responsible command": "./mvnw verify -am -pl ${INTERPRETERS} ${MAVEN_ARGS}",
+    "Name of the step": "verify interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/file/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.2:test (default-test) @ zeppelin-file",
+    "Responsible command": "./mvnw verify -am -pl ${INTERPRETERS} ${MAVEN_ARGS}",
+    "Name of the step": "verify interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/elasticsearch/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.2:test (default-test) @ zeppelin-elasticsearch",
+    "Responsible command": "./mvnw verify -am -pl ${INTERPRETERS} ${MAVEN_ARGS}",
+    "Name of the step": "verify interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/cassandra/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.2:test (default-test) @ zeppelin-cassandra",
+    "Responsible command": "./mvnw verify -am -pl ${INTERPRETERS} ${MAVEN_ARGS}",
+    "Name of the step": "verify interpreter"
+  },
+  {
+    "Unused directory": "/home/runner/work/zeppelin/zeppelin/alluxio/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.2.2:test (default-test) @ zeppelin-alluxio",
+    "Responsible command": "./mvnw verify -am -pl ${INTERPRETERS} ${MAVEN_ARGS}",
+    "Name of the step": "verify interpreter"
+  }
+]

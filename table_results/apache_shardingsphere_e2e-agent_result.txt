@@ -1,0 +1,25 @@
+Unused directories and their responsible plugins in Import Global Environment / init-environment:
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build-e2e-image:
+╒═══════════════════════════════════════════════════════════════════════════════════╤═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════╤═══════════════════════════════════════════════╤════════════════════╕
+│ Unused directory                                                                  │ Responsible plugin                                                                                                │ Responsible command                           │ Name of the step   │
+╞═══════════════════════════════════════════════════════════════════════════════════╪═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════╪═══════════════════════════════════════════════╪════════════════════╡
+│ /home/runner/work/shardingsphere/shardingsphere/distribution/proxy-native/target/ │ maven-remote-resources-plugin:1.7.0:process (process-resource-bundles) @ shardingsphere-proxy-native-distribution │ ./mvnw -B clean install -DskipTests -Prelease │ Build Project      │
+╘═══════════════════════════════════════════════════════════════════════════════════╧═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════╧═══════════════════════════════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in agent-mysql () (proxy, tracing, jaeger):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in agent-mysql () (proxy, tracing, zipkin):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in agent-mysql () (proxy, metrics, prometheus):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in agent-mysql () (proxy, logging, file):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in agent-mysql () (jdbc, logging, file):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in agent-mysql () (jdbc, metrics, prometheus):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in agent-mysql () (jdbc, tracing, jaeger):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in agent-mysql () (jdbc, tracing, zipkin):
+Inotify log does not exist, because the job runs on Windows or MacOS.

@@ -1,0 +1,14 @@
+[
+  {
+    "Unused directory": "/home/runner/work/netty/netty/transport-native-epoll/target/native-build/conf7942.dir/",
+    "Responsible plugin": "hawtjni:1.18:build (build-native-lib) @ netty-transport-native-epoll",
+    "Responsible command": "./mvnw -B -ntp clean package -DskipTests=true",
+    "Name of the step": "Compile project"
+  },
+  {
+    "Unused directory": "/home/runner/work/netty/netty/transport-native-epoll/target/native-build/conf6830.dir/",
+    "Responsible plugin": "hawtjni:1.18:build (build-native-lib) @ netty-transport-native-epoll",
+    "Responsible command": "./mvnw -B -ntp clean package -DskipTests=true",
+    "Name of the step": "Compile project"
+  }
+]

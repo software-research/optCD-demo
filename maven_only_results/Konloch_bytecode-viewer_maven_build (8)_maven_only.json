@@ -1,0 +1,8 @@
+[
+  {
+    "Unused directory": "/home/runner/work/bytecode-viewer/bytecode-viewer/target/generated-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.13.0:compile (default-compile) @ Bytecode-Viewer",
+    "Responsible command": "mvn -B package --file pom.xml",
+    "Name of the step": "Build with Maven"
+  }
+]

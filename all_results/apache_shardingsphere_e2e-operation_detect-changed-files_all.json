@@ -1,0 +1,92 @@
+[
+  {
+    "Unused directory": "/home/runner/work/shardingsphere/shardingsphere/examples/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v4",
+    "Name of the step": "actions/checkout@v4"
+  },
+  {
+    "Unused directory": "/home/runner/work/shardingsphere/shardingsphere/jdbc/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v4",
+    "Name of the step": "actions/checkout@v4"
+  },
+  {
+    "Unused directory": "/home/runner/work/shardingsphere/shardingsphere/mode/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v4",
+    "Name of the step": "actions/checkout@v4"
+  },
+  {
+    "Unused directory": "/home/runner/work/shardingsphere/shardingsphere/db-protocol/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v4",
+    "Name of the step": "actions/checkout@v4"
+  },
+  {
+    "Unused directory": "/home/runner/work/shardingsphere/shardingsphere/agent/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v4",
+    "Name of the step": "actions/checkout@v4"
+  },
+  {
+    "Unused directory": "/home/runner/work/shardingsphere/shardingsphere/features/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v4",
+    "Name of the step": "actions/checkout@v4"
+  },
+  {
+    "Unused directory": "/home/runner/work/shardingsphere/shardingsphere/distribution/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v4",
+    "Name of the step": "actions/checkout@v4"
+  },
+  {
+    "Unused directory": "/home/runner/work/shardingsphere/shardingsphere/.git/logs/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v4",
+    "Name of the step": "actions/checkout@v4"
+  },
+  {
+    "Unused directory": "/home/runner/work/shardingsphere/shardingsphere/.git/hooks/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v4",
+    "Name of the step": "actions/checkout@v4"
+  },
+  {
+    "Unused directory": "/home/runner/work/shardingsphere/shardingsphere/proxy/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v4",
+    "Name of the step": "actions/checkout@v4"
+  },
+  {
+    "Unused directory": "/home/runner/work/shardingsphere/shardingsphere/parser/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v4",
+    "Name of the step": "actions/checkout@v4"
+  },
+  {
+    "Unused directory": "/home/runner/work/shardingsphere/shardingsphere/docs/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v4",
+    "Name of the step": "actions/checkout@v4"
+  },
+  {
+    "Unused directory": "/home/runner/work/shardingsphere/shardingsphere/infra/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v4",
+    "Name of the step": "actions/checkout@v4"
+  },
+  {
+    "Unused directory": "/home/runner/work/shardingsphere/shardingsphere/test/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v4",
+    "Name of the step": "actions/checkout@v4"
+  },
+  {
+    "Unused directory": "/home/runner/work/shardingsphere/shardingsphere/kernel/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v4",
+    "Name of the step": "actions/checkout@v4"
+  }
+]

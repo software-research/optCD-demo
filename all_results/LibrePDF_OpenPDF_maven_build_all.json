@@ -1,0 +1,38 @@
+[
+  {
+    "Unused directory": "/home/runner/work/OpenPDF/OpenPDF/pdf-toolbox/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.3.0:test (default-test) @ pdf-toolbox",
+    "Responsible command": "mvn -B install --file pom.xml",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/OpenPDF/OpenPDF/openpdf-fonts-extra/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.3.0:test (default-test) @ openpdf-fonts-extra",
+    "Responsible command": "mvn -B install --file pom.xml",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/OpenPDF/OpenPDF/openpdf/target/surefire-reports/",
+    "Responsible plugin": "maven-surefire-plugin:3.3.0:test (default-test) @ openpdf",
+    "Responsible command": "mvn -B install --file pom.xml",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/OpenPDF/OpenPDF/pdf-toolbox/target/generated-test-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.13.0:testCompile (default-testCompile) @ pdf-toolbox",
+    "Responsible command": "mvn -B install --file pom.xml",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/OpenPDF/OpenPDF/pdf-swing/target/maven-archiver/",
+    "Responsible plugin": "maven-compiler-plugin:3.13.0:testCompile (default-testCompile) @ pdf-swing",
+    "Responsible command": "mvn -B install --file pom.xml",
+    "Name of the step": "Build with Maven"
+  },
+  {
+    "Unused directory": "/home/runner/work/OpenPDF/OpenPDF/openpdf-fonts-extra/target/generated-test-sources/",
+    "Responsible plugin": "maven-compiler-plugin:3.13.0:testCompile (default-testCompile) @ openpdf-fonts-extra",
+    "Responsible command": "mvn -B install --file pom.xml",
+    "Name of the step": "Build with Maven"
+  }
+]

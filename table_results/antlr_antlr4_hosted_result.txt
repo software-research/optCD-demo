@@ -1,0 +1,82 @@
+Unused directories and their responsible plugins in cpp-lib-build (macos-12, clang, true):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in cpp-lib-build (macos-12, clang, false):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (macos-12, tool):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in cpp-lib-build (macos-12, gcc, true):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (macos-12, cpp):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in cpp-lib-build (macos-12, gcc, false):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (macos-12, csharp):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in cpp-lib-build (ubuntu-20.04, clang, true):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (macos-12, dart):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in cpp-lib-build (ubuntu-20.04, clang, false):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (macos-12, go):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in cpp-lib-build (ubuntu-20.04, gcc, true):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (macos-12, java):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in cpp-lib-build (ubuntu-20.04, gcc, false):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (macos-12, javascript):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in cpp-lib-build (windows-2022, clang, true):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (macos-12, typescript):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in cpp-lib-build (windows-2022, clang, false):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (macos-12, php):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in cpp-lib-build (windows-2022, cl, ):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (macos-12, python3):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (ubuntu-20.04, tool):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (ubuntu-20.04, cpp):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (ubuntu-20.04, csharp):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (ubuntu-20.04, dart):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (ubuntu-20.04, go):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (ubuntu-20.04, java):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (ubuntu-20.04, javascript):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (ubuntu-20.04, typescript):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (ubuntu-20.04, php):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (ubuntu-20.04, python3):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (windows-2022, tool):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (windows-2022, cpp):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (windows-2022, csharp):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (windows-2022, dart):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (windows-2022, go):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (windows-2022, java):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (windows-2022, javascript):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (windows-2022, typescript):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (windows-2022, php):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in build (windows-2022, python3):
+Inotify log does not exist, because the job runs on Windows or MacOS.

@@ -1,0 +1,8 @@
+Unused directories and their responsible plugins in build:
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in JUnit Test Report:
+Inotify log does not exist, because the job runs on Windows or MacOS.

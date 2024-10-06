@@ -1,0 +1,8 @@
+[
+  {
+    "Unused directory": "/home/runner/work/gson/gson/.git/logs/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@d632683dd7b4114ad314bca15554477dd762a938",
+    "Name of the step": "Check out new version"
+  }
+]

@@ -1,0 +1,200 @@
+[
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-bpmn-model/target/maven-status/",
+    "Responsible plugin": "maven-compiler-plugin:3.12.1:compile (default-compile) @ flowable-bpmn-model",
+    "Responsible command": "./mvnw clean install ${MAVEN_ARGS} -PcleanDb,postgresql,distro -P'!include-spring-boot-samples' -Djdbc.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Djdbc.username=flowable -Djdbc.password=flowable -Djdbc.driver=org.postgresql.Driver -Dspring.datasource.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Dspring.datasource.username=flowable -Dspring.datasource.password=flowable -Dmaven.test.redirectTestOutputToFile=false",
+    "Name of the step": "Test"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-image-generator/target/",
+    "Responsible plugin": "maven-bundle-plugin:5.1.9:cleanVersions (default) @ flowable-image-generator",
+    "Responsible command": "./mvnw clean install ${MAVEN_ARGS} -PcleanDb,postgresql,distro -P'!include-spring-boot-samples' -Djdbc.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Djdbc.username=flowable -Djdbc.password=flowable -Djdbc.driver=org.postgresql.Driver -Dspring.datasource.url=jdbc:postgresql://localhost:${{ job.services.postgres.ports[5432] }}/flowable -Dspring.datasource.username=flowable -Dspring.datasource.password=flowable -Dmaven.test.redirectTestOutputToFile=false",
+    "Name of the step": "Test"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/distro/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v4",
+    "Name of the step": "actions/checkout@v4"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/.github/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v4",
+    "Name of the step": "actions/checkout@v4"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/docs/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v4",
+    "Name of the step": "actions/checkout@v4"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/ide-settings/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v4",
+    "Name of the step": "actions/checkout@v4"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/.git/logs/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v4",
+    "Name of the step": "actions/checkout@v4"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/.git/hooks/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v4",
+    "Name of the step": "actions/checkout@v4"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable5-compatibility-test/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v4",
+    "Name of the step": "actions/checkout@v4"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable5-test/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v4",
+    "Name of the step": "actions/checkout@v4"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable5-compatibility-testdata/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v4",
+    "Name of the step": "actions/checkout@v4"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-task-service/src/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v4",
+    "Name of the step": "actions/checkout@v4"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-app-engine-spring/src/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v4",
+    "Name of the step": "actions/checkout@v4"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-cmmn-rest/src/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v4",
+    "Name of the step": "actions/checkout@v4"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-identitylink-service/src/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v4",
+    "Name of the step": "actions/checkout@v4"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-dmn-rest/src/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v4",
+    "Name of the step": "actions/checkout@v4"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-external-job-rest/src/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v4",
+    "Name of the step": "actions/checkout@v4"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-cmmn-engine/src/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v4",
+    "Name of the step": "actions/checkout@v4"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-job-service/src/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v4",
+    "Name of the step": "actions/checkout@v4"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-camel/src/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v4",
+    "Name of the step": "actions/checkout@v4"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-event-registry/src/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v4",
+    "Name of the step": "actions/checkout@v4"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-cdi/src/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v4",
+    "Name of the step": "actions/checkout@v4"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-common-rest/src/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v4",
+    "Name of the step": "actions/checkout@v4"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-engine/src/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v4",
+    "Name of the step": "actions/checkout@v4"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-dmn-xml-converter/src/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v4",
+    "Name of the step": "actions/checkout@v4"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-event-registry-rest/src/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v4",
+    "Name of the step": "actions/checkout@v4"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-variable-service/src/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v4",
+    "Name of the step": "actions/checkout@v4"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-app-rest/src/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v4",
+    "Name of the step": "actions/checkout@v4"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-http-common/src/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v4",
+    "Name of the step": "actions/checkout@v4"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-event-registry-json-converter/src/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v4",
+    "Name of the step": "actions/checkout@v4"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-cmmn-engine-configurator/src/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v4",
+    "Name of the step": "actions/checkout@v4"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-dmn-engine/src/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v4",
+    "Name of the step": "actions/checkout@v4"
+  },
+  {
+    "Unused directory": "/home/runner/work/flowable-engine/flowable-engine/modules/flowable-osgi/src/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v4",
+    "Name of the step": "actions/checkout@v4"
+  }
+]

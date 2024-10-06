@@ -1,0 +1,1010 @@
+[
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/test/target/protoc-dependencies/1dcb27462b1f59dafbb4503bd78159e1/",
+    "Responsible plugin": "protobuf-maven-plugin:0.6.1:compile-custom (default) @ seata-test",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/test/target/protoc-dependencies/bd85d6e1ad6cd92d45d2763a4fbfac5c/",
+    "Responsible plugin": "protobuf-maven-plugin:0.6.1:compile-custom (default) @ seata-test",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/test-mock-server/target/test-classes/",
+    "Responsible plugin": "maven-resources-plugin:3.2.0:testResources (default-testResources) @ seata-mock-server",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/seata-spring-autoconfigure/seata-spring-autoconfigure-server/target/maven-status/",
+    "Responsible plugin": "maven-compiler-plugin:3.8.1:compile (default-compile) @ seata-spring-autoconfigure-client",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/copy-webpack-plugin/types/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/jsesc/man/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/cssesc/man/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/pidtree/lib/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/he/man/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/fastq/.github/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/fastq/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/function-bind/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/function-bind/.github/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/is-core-module/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/bpmn-font/resources/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/css-loader/node_modules/.bin/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/didi/lib/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/crelt/dist/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/source-map/dist/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/gensync/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/terser-webpack-plugin/types/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/reusify/benchmarks/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/acorn-import-attributes/src/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/chalk/types/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/schema-utils/declarations/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/fast-json-stable-stringify/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/fast-json-stable-stringify/benchmark/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/fast-json-stable-stringify/.github/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/fast-json-stable-stringify/example/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/mime/src/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/hasown/.github/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/tabbable/src/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/mini-css-extract-plugin/dist/hmr/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/mini-css-extract-plugin/types/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/json-schema-traverse/spec/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/json-schema-traverse/.github/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/babel-plugin-polyfill-corejs3/esm/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/object-refs/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/webpack-dev-server/types/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/webpack-dev-server/client/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/webpack-dev-server/lib/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/fast-glob/out/types/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/webpack-cli/lib/utils/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/regenerator-transform/src/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/npm-run-all/lib/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/npm-run-all/node_modules/.bin/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/npm-run-all/docs/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/npm-run-all/bin/common/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/@codemirror/state/.github/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/@codemirror/autocomplete/.github/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/@codemirror/commands/.github/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/@codemirror/language/.github/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/@codemirror/lint/.github/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/@codemirror/view/.github/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/ajv-keywords/src/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/@nodelib/fs.walk/out/types/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/@nodelib/fs.stat/out/types/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/@nodelib/fs.scandir/out/types/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/nanoid/async/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/nanoid/url-alphabet/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/luxon/build/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/json5/dist/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/uri-js/dist/esnext/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/uuid/dist/esm-browser/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/uuid/dist/esm-node/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/uuid/dist/umd/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/ajv-formats/src/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/body-parser/lib/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/.bin/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/fast-deep-equal/es6/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/style-mod/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/style-mod/dist/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/js-yaml/dist/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/js-yaml/lib/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/serve-index/public/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/diagram-js/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/diagram-js/lib/ui/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/diagram-js/lib/i18n/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/diagram-js/lib/navigation/touch/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/diagram-js/lib/features/ordering/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/diagram-js/lib/features/complex-preview/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/diagram-js/lib/features/clipboard/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/diagram-js/lib/features/search-pad/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/diagram-js/lib/features/root-elements/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/diagram-js/lib/features/tooltips/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/diagram-js/lib/features/popup-menu/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/diagram-js/lib/features/replace/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/diagram-js/lib/features/distribute-elements/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/diagram-js/lib/features/auto-resize/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/diagram-js/lib/features/hand-tool/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/diagram-js/lib/features/global-connect/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/diagram-js/lib/features/label-support/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/diagram-js/lib/features/touch/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/diagram-js/lib/features/copy-paste/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/diagram-js/lib/features/auto-place/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/eslint/conf/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/eslint/messages/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/eslint/lib/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/ajv/lib/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/ajv/dist/types/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/ajv/dist/standalone/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/ajv/dist/compile/jtd/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/ajv/dist/vocabularies/unevaluated/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/ajv/dist/vocabularies/dynamic/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/ajv/dist/vocabularies/jtd/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/ajv/dist/refs/json-schema-2020-12/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/ajv/dist/refs/json-schema-2019-09/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/caniuse-lite/data/regions/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/caniuse-lite/data/features/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/@bpmn-io/properties-panel/preact/devtools/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/@bpmn-io/properties-panel/preact/debug/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/@bpmn-io/properties-panel/preact/hooks/src/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/@bpmn-io/properties-panel/preact/jsx-runtime/src/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/@bpmn-io/properties-panel/preact/test-utils/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/@bpmn-io/properties-panel/preact/compat/src/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/@bpmn-io/properties-panel/preact/src/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/@lezer/markdown/bin/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/@lezer/markdown/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/@lezer/markdown/src/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/terser/tools/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/terser/lib/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/hpack.js/bin/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/hpack.js/lib/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/hpack.js/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/hpack.js/tools/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/@babel/parser/typings/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/@babel/helper-validator-identifier/scripts/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/@babel/preset-modules/src/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/@babel/preset-modules/lib/plugins/transform-jsx-spread/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/@babel/helpers/scripts/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/@babel/helpers/lib/helpers/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/@babel/runtime/regenerator/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/@babel/runtime/helpers/esm/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/@babel/types/lib/ast-types/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/@babel/core/src/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/eslint-plugin-import/memo-parser/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/eslint-plugin-import/config/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/eslint-plugin-import/docs/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/eslint-plugin-import/lib/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/eslint-plugin-react/configs/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/eslint-plugin-react/lib/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/eslint-plugin-react/node_modules/.bin/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/eslint-plugin-react/node_modules/resolve/example/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/eslint-plugin-react/node_modules/resolve/.github/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/eslint-plugin-react/node_modules/resolve/lib/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/eslint-plugin-react/node_modules/resolve/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/flat/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/webpack/hot/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/webpack/schemas/plugins/debug/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/webpack/schemas/plugins/schemes/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/webpack/schemas/plugins/ids/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/webpack/schemas/plugins/container/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/webpack/schemas/plugins/sharing/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/webpack/lib/electron/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/webpack/lib/debug/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/webpack/lib/container/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/webpack/lib/esm/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/resolve/example/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/resolve/.github/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/resolve/test/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/@jridgewell/sourcemap-codec/dist/types/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/@jridgewell/set-array/src/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/@jridgewell/set-array/dist/types/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/@jridgewell/gen-mapping/dist/types/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/@jridgewell/trace-mapping/dist/types/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/@jridgewell/resolve-uri/dist/types/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/@jridgewell/source-map/dist/types/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/incubator-seata/incubator-seata/saga/seata-saga-statemachine-designer/node_modules/lodash/fp/",
+    "Responsible plugin": "frontend-maven-plugin:1.15.0:npm (npm build) @ seata-console",
+    "Responsible command": "docker run --rm -v ${{ github.workspace }}:/ws:rw --workdir=/ws \\\n  arm64v8/ubuntu:20.04 \\\n  bash -exc 'apt-get update -y && \\\n             apt-get install maven -y && \\\n             apt-get install -y python3 python3-pip python3-distutils && \\\n             apt-get install -y build-essential && \\\n             mvn -version && \\\n             mvn -T 4C clean install \\\n                 -Dspring-boot.version=${{ matrix.springboot }} \\\n                 -Prelease-seata \\\n                 -DskipTests \\\n                 -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn'\n",
+    "Name of the step": "Build with Maven on 'arm64v8/ubuntu:20.04' OS (Skip tests)"
+  }
+]

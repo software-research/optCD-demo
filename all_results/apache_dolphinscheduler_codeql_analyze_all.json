@@ -1,0 +1,224 @@
+[
+  {
+    "Unused directory": "/home/runner/work/dolphinscheduler/dolphinscheduler/dolphinscheduler-ui/target/",
+    "Responsible plugin": "maven-remote-resources-plugin:1.7.0:process (process-resource-bundles) @ dolphinscheduler-ui",
+    "Responsible command": "./mvnw -B clean install \\\n  -Dmaven.test.skip \\\n  -Dspotless.skip=true \\\n  -Prelease\n",
+    "Name of the step": "./mvnw -B clean install \\\n  -Dmaven.test.skip \\\n  -Dspotless.skip=true \\\n  -Prelease\n"
+  },
+  {
+    "Unused directory": "/home/runner/work/dolphinscheduler/dolphinscheduler/dolphinscheduler-alert/dolphinscheduler-alert-server/target/alert-server/",
+    "Responsible plugin": "maven-assembly-plugin:3.3.0:single (dolphinscheduler-alert-server) @ dolphinscheduler-alert-server",
+    "Responsible command": "./mvnw -B clean install \\\n  -Dmaven.test.skip \\\n  -Dspotless.skip=true \\\n  -Prelease\n",
+    "Name of the step": "./mvnw -B clean install \\\n  -Dmaven.test.skip \\\n  -Dspotless.skip=true \\\n  -Prelease\n"
+  },
+  {
+    "Unused directory": "/home/runner/work/dolphinscheduler/dolphinscheduler/dolphinscheduler-ui/node_modules/.pnpm/is-any-array@2.0.1/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:pnpm (pnpm install) @ dolphinscheduler-ui",
+    "Responsible command": "./mvnw -B clean install \\\n  -Dmaven.test.skip \\\n  -Dspotless.skip=true \\\n  -Prelease\n",
+    "Name of the step": "./mvnw -B clean install \\\n  -Dmaven.test.skip \\\n  -Dspotless.skip=true \\\n  -Prelease\n"
+  },
+  {
+    "Unused directory": "/home/runner/work/dolphinscheduler/dolphinscheduler/dolphinscheduler-ui/node_modules/.pnpm/ml-array-rescale@1.3.7/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:pnpm (pnpm install) @ dolphinscheduler-ui",
+    "Responsible command": "./mvnw -B clean install \\\n  -Dmaven.test.skip \\\n  -Dspotless.skip=true \\\n  -Prelease\n",
+    "Name of the step": "./mvnw -B clean install \\\n  -Dmaven.test.skip \\\n  -Dspotless.skip=true \\\n  -Prelease\n"
+  },
+  {
+    "Unused directory": "/home/runner/work/dolphinscheduler/dolphinscheduler/dolphinscheduler-ui/node_modules/.pnpm/d3-dispatch@2.0.0/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:pnpm (pnpm install) @ dolphinscheduler-ui",
+    "Responsible command": "./mvnw -B clean install \\\n  -Dmaven.test.skip \\\n  -Dspotless.skip=true \\\n  -Prelease\n",
+    "Name of the step": "./mvnw -B clean install \\\n  -Dmaven.test.skip \\\n  -Dspotless.skip=true \\\n  -Prelease\n"
+  },
+  {
+    "Unused directory": "/home/runner/work/dolphinscheduler/dolphinscheduler/dolphinscheduler-ui/node_modules/.pnpm/@webgpu+types@0.0.31/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:pnpm (pnpm install) @ dolphinscheduler-ui",
+    "Responsible command": "./mvnw -B clean install \\\n  -Dmaven.test.skip \\\n  -Dspotless.skip=true \\\n  -Prelease\n",
+    "Name of the step": "./mvnw -B clean install \\\n  -Dmaven.test.skip \\\n  -Dspotless.skip=true \\\n  -Prelease\n"
+  },
+  {
+    "Unused directory": "/home/runner/work/dolphinscheduler/dolphinscheduler/dolphinscheduler-ui/node_modules/.pnpm/inversify@5.1.1/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:pnpm (pnpm install) @ dolphinscheduler-ui",
+    "Responsible command": "./mvnw -B clean install \\\n  -Dmaven.test.skip \\\n  -Dspotless.skip=true \\\n  -Prelease\n",
+    "Name of the step": "./mvnw -B clean install \\\n  -Dmaven.test.skip \\\n  -Dspotless.skip=true \\\n  -Prelease\n"
+  },
+  {
+    "Unused directory": "/home/runner/work/dolphinscheduler/dolphinscheduler/dolphinscheduler-ui/node_modules/.pnpm/@dagrejs+graphlib@2.1.4/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:pnpm (pnpm install) @ dolphinscheduler-ui",
+    "Responsible command": "./mvnw -B clean install \\\n  -Dmaven.test.skip \\\n  -Dspotless.skip=true \\\n  -Prelease\n",
+    "Name of the step": "./mvnw -B clean install \\\n  -Dmaven.test.skip \\\n  -Dspotless.skip=true \\\n  -Prelease\n"
+  },
+  {
+    "Unused directory": "/home/runner/work/dolphinscheduler/dolphinscheduler/dolphinscheduler-ui/node_modules/.pnpm/d3-quadtree@2.0.0/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:pnpm (pnpm install) @ dolphinscheduler-ui",
+    "Responsible command": "./mvnw -B clean install \\\n  -Dmaven.test.skip \\\n  -Dspotless.skip=true \\\n  -Prelease\n",
+    "Name of the step": "./mvnw -B clean install \\\n  -Dmaven.test.skip \\\n  -Dspotless.skip=true \\\n  -Prelease\n"
+  },
+  {
+    "Unused directory": "/home/runner/work/dolphinscheduler/dolphinscheduler/dolphinscheduler-ui/node_modules/.pnpm/reflect-metadata@0.1.13/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:pnpm (pnpm install) @ dolphinscheduler-ui",
+    "Responsible command": "./mvnw -B clean install \\\n  -Dmaven.test.skip \\\n  -Dspotless.skip=true \\\n  -Prelease\n",
+    "Name of the step": "./mvnw -B clean install \\\n  -Dmaven.test.skip \\\n  -Dspotless.skip=true \\\n  -Prelease\n"
+  },
+  {
+    "Unused directory": "/home/runner/work/dolphinscheduler/dolphinscheduler/dolphinscheduler-ui/node_modules/.pnpm/jquery-mousewheel@3.1.13/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:pnpm (pnpm install) @ dolphinscheduler-ui",
+    "Responsible command": "./mvnw -B clean install \\\n  -Dmaven.test.skip \\\n  -Dspotless.skip=true \\\n  -Prelease\n",
+    "Name of the step": "./mvnw -B clean install \\\n  -Dmaven.test.skip \\\n  -Dspotless.skip=true \\\n  -Prelease\n"
+  },
+  {
+    "Unused directory": "/home/runner/work/dolphinscheduler/dolphinscheduler/dolphinscheduler-ui/node_modules/.pnpm/ml-array-min@1.2.3/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:pnpm (pnpm install) @ dolphinscheduler-ui",
+    "Responsible command": "./mvnw -B clean install \\\n  -Dmaven.test.skip \\\n  -Dspotless.skip=true \\\n  -Prelease\n",
+    "Name of the step": "./mvnw -B clean install \\\n  -Dmaven.test.skip \\\n  -Dspotless.skip=true \\\n  -Prelease\n"
+  },
+  {
+    "Unused directory": "/home/runner/work/dolphinscheduler/dolphinscheduler/dolphinscheduler-ui/node_modules/.pnpm/@antv+g-webgpu-engine@0.5.6/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:pnpm (pnpm install) @ dolphinscheduler-ui",
+    "Responsible command": "./mvnw -B clean install \\\n  -Dmaven.test.skip \\\n  -Dspotless.skip=true \\\n  -Prelease\n",
+    "Name of the step": "./mvnw -B clean install \\\n  -Dmaven.test.skip \\\n  -Dspotless.skip=true \\\n  -Prelease\n"
+  },
+  {
+    "Unused directory": "/home/runner/work/dolphinscheduler/dolphinscheduler/dolphinscheduler-ui/node_modules/.pnpm/gl-vec2@1.3.0/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:pnpm (pnpm install) @ dolphinscheduler-ui",
+    "Responsible command": "./mvnw -B clean install \\\n  -Dmaven.test.skip \\\n  -Dspotless.skip=true \\\n  -Prelease\n",
+    "Name of the step": "./mvnw -B clean install \\\n  -Dmaven.test.skip \\\n  -Dspotless.skip=true \\\n  -Prelease\n"
+  },
+  {
+    "Unused directory": "/home/runner/work/dolphinscheduler/dolphinscheduler/dolphinscheduler-ui/node_modules/.pnpm/ml-matrix@6.10.4/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:pnpm (pnpm install) @ dolphinscheduler-ui",
+    "Responsible command": "./mvnw -B clean install \\\n  -Dmaven.test.skip \\\n  -Dspotless.skip=true \\\n  -Prelease\n",
+    "Name of the step": "./mvnw -B clean install \\\n  -Dmaven.test.skip \\\n  -Dspotless.skip=true \\\n  -Prelease\n"
+  },
+  {
+    "Unused directory": "/home/runner/work/dolphinscheduler/dolphinscheduler/dolphinscheduler-ui/node_modules/.pnpm/@antv+g-webgpu-core@0.5.6/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:pnpm (pnpm install) @ dolphinscheduler-ui",
+    "Responsible command": "./mvnw -B clean install \\\n  -Dmaven.test.skip \\\n  -Dspotless.skip=true \\\n  -Prelease\n",
+    "Name of the step": "./mvnw -B clean install \\\n  -Dmaven.test.skip \\\n  -Dspotless.skip=true \\\n  -Prelease\n"
+  },
+  {
+    "Unused directory": "/home/runner/work/dolphinscheduler/dolphinscheduler/dolphinscheduler-ui/node_modules/.pnpm/gl-matrix@3.4.3/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:pnpm (pnpm install) @ dolphinscheduler-ui",
+    "Responsible command": "./mvnw -B clean install \\\n  -Dmaven.test.skip \\\n  -Dspotless.skip=true \\\n  -Prelease\n",
+    "Name of the step": "./mvnw -B clean install \\\n  -Dmaven.test.skip \\\n  -Dspotless.skip=true \\\n  -Prelease\n"
+  },
+  {
+    "Unused directory": "/home/runner/work/dolphinscheduler/dolphinscheduler/dolphinscheduler-ui/node_modules/.pnpm/lodash@4.17.21/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:pnpm (pnpm install) @ dolphinscheduler-ui",
+    "Responsible command": "./mvnw -B clean install \\\n  -Dmaven.test.skip \\\n  -Dspotless.skip=true \\\n  -Prelease\n",
+    "Name of the step": "./mvnw -B clean install \\\n  -Dmaven.test.skip \\\n  -Dspotless.skip=true \\\n  -Prelease\n"
+  },
+  {
+    "Unused directory": "/home/runner/work/dolphinscheduler/dolphinscheduler/dolphinscheduler-ui/node_modules/.pnpm/@babel+runtime@7.22.5/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:pnpm (pnpm install) @ dolphinscheduler-ui",
+    "Responsible command": "./mvnw -B clean install \\\n  -Dmaven.test.skip \\\n  -Dspotless.skip=true \\\n  -Prelease\n",
+    "Name of the step": "./mvnw -B clean install \\\n  -Dmaven.test.skip \\\n  -Dspotless.skip=true \\\n  -Prelease\n"
+  },
+  {
+    "Unused directory": "/home/runner/work/dolphinscheduler/dolphinscheduler/dolphinscheduler-ui/node_modules/.pnpm/csstype@3.1.2/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:pnpm (pnpm install) @ dolphinscheduler-ui",
+    "Responsible command": "./mvnw -B clean install \\\n  -Dmaven.test.skip \\\n  -Dspotless.skip=true \\\n  -Prelease\n",
+    "Name of the step": "./mvnw -B clean install \\\n  -Dmaven.test.skip \\\n  -Dspotless.skip=true \\\n  -Prelease\n"
+  },
+  {
+    "Unused directory": "/home/runner/work/dolphinscheduler/dolphinscheduler/dolphinscheduler-ui/node_modules/.pnpm/hammerjs@2.0.8/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:pnpm (pnpm install) @ dolphinscheduler-ui",
+    "Responsible command": "./mvnw -B clean install \\\n  -Dmaven.test.skip \\\n  -Dspotless.skip=true \\\n  -Prelease\n",
+    "Name of the step": "./mvnw -B clean install \\\n  -Dmaven.test.skip \\\n  -Dspotless.skip=true \\\n  -Prelease\n"
+  },
+  {
+    "Unused directory": "/home/runner/work/dolphinscheduler/dolphinscheduler/dolphinscheduler-ui/node_modules/.pnpm/@antv+x6@1.34.13/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:pnpm (pnpm install) @ dolphinscheduler-ui",
+    "Responsible command": "./mvnw -B clean install \\\n  -Dmaven.test.skip \\\n  -Dspotless.skip=true \\\n  -Prelease\n",
+    "Name of the step": "./mvnw -B clean install \\\n  -Dmaven.test.skip \\\n  -Dspotless.skip=true \\\n  -Prelease\n"
+  },
+  {
+    "Unused directory": "/home/runner/work/dolphinscheduler/dolphinscheduler/dolphinscheduler-ui/node_modules/.pnpm/lodash-es@4.17.21/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:pnpm (pnpm install) @ dolphinscheduler-ui",
+    "Responsible command": "./mvnw -B clean install \\\n  -Dmaven.test.skip \\\n  -Dspotless.skip=true \\\n  -Prelease\n",
+    "Name of the step": "./mvnw -B clean install \\\n  -Dmaven.test.skip \\\n  -Dspotless.skip=true \\\n  -Prelease\n"
+  },
+  {
+    "Unused directory": "/home/runner/work/dolphinscheduler/dolphinscheduler/dolphinscheduler-ui/node_modules/.pnpm/ml-array-max@1.2.4/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:pnpm (pnpm install) @ dolphinscheduler-ui",
+    "Responsible command": "./mvnw -B clean install \\\n  -Dmaven.test.skip \\\n  -Dspotless.skip=true \\\n  -Prelease\n",
+    "Name of the step": "./mvnw -B clean install \\\n  -Dmaven.test.skip \\\n  -Dspotless.skip=true \\\n  -Prelease\n"
+  },
+  {
+    "Unused directory": "/home/runner/work/dolphinscheduler/dolphinscheduler/dolphinscheduler-ui/node_modules/.pnpm/regl@1.7.0/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:pnpm (pnpm install) @ dolphinscheduler-ui",
+    "Responsible command": "./mvnw -B clean install \\\n  -Dmaven.test.skip \\\n  -Dspotless.skip=true \\\n  -Prelease\n",
+    "Name of the step": "./mvnw -B clean install \\\n  -Dmaven.test.skip \\\n  -Dspotless.skip=true \\\n  -Prelease\n"
+  },
+  {
+    "Unused directory": "/home/runner/work/dolphinscheduler/dolphinscheduler/dolphinscheduler-ui/node_modules/.pnpm/d3-timer@2.0.0/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:pnpm (pnpm install) @ dolphinscheduler-ui",
+    "Responsible command": "./mvnw -B clean install \\\n  -Dmaven.test.skip \\\n  -Dspotless.skip=true \\\n  -Prelease\n",
+    "Name of the step": "./mvnw -B clean install \\\n  -Dmaven.test.skip \\\n  -Dspotless.skip=true \\\n  -Prelease\n"
+  },
+  {
+    "Unused directory": "/home/runner/work/dolphinscheduler/dolphinscheduler/dolphinscheduler-ui/node_modules/.pnpm/@webgpu+glslang@0.0.15/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:pnpm (pnpm install) @ dolphinscheduler-ui",
+    "Responsible command": "./mvnw -B clean install \\\n  -Dmaven.test.skip \\\n  -Dspotless.skip=true \\\n  -Prelease\n",
+    "Name of the step": "./mvnw -B clean install \\\n  -Dmaven.test.skip \\\n  -Dspotless.skip=true \\\n  -Prelease\n"
+  },
+  {
+    "Unused directory": "/home/runner/work/dolphinscheduler/dolphinscheduler/dolphinscheduler-ui/node_modules/.pnpm/eventemitter3@4.0.7/node_modules/_tmp_6140_b29b80cd8e10ea650f244594b6919b0c/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:pnpm (pnpm install) @ dolphinscheduler-ui",
+    "Responsible command": "./mvnw -B clean install \\\n  -Dmaven.test.skip \\\n  -Dspotless.skip=true \\\n  -Prelease\n",
+    "Name of the step": "./mvnw -B clean install \\\n  -Dmaven.test.skip \\\n  -Dspotless.skip=true \\\n  -Prelease\n"
+  },
+  {
+    "Unused directory": "/home/runner/work/dolphinscheduler/dolphinscheduler/dolphinscheduler-ui/node_modules/.pnpm/d3-force@2.1.1/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:pnpm (pnpm install) @ dolphinscheduler-ui",
+    "Responsible command": "./mvnw -B clean install \\\n  -Dmaven.test.skip \\\n  -Dspotless.skip=true \\\n  -Prelease\n",
+    "Name of the step": "./mvnw -B clean install \\\n  -Dmaven.test.skip \\\n  -Dspotless.skip=true \\\n  -Prelease\n"
+  },
+  {
+    "Unused directory": "/home/runner/work/dolphinscheduler/dolphinscheduler/dolphinscheduler-ui/node_modules/.pnpm/@probe.gl+stats@3.6.0/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:pnpm (pnpm install) @ dolphinscheduler-ui",
+    "Responsible command": "./mvnw -B clean install \\\n  -Dmaven.test.skip \\\n  -Dspotless.skip=true \\\n  -Prelease\n",
+    "Name of the step": "./mvnw -B clean install \\\n  -Dmaven.test.skip \\\n  -Dspotless.skip=true \\\n  -Prelease\n"
+  },
+  {
+    "Unused directory": "/home/runner/work/dolphinscheduler/dolphinscheduler/dolphinscheduler-ui/node_modules/.pnpm/@antv+g-webgpu@0.5.5/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:pnpm (pnpm install) @ dolphinscheduler-ui",
+    "Responsible command": "./mvnw -B clean install \\\n  -Dmaven.test.skip \\\n  -Dspotless.skip=true \\\n  -Prelease\n",
+    "Name of the step": "./mvnw -B clean install \\\n  -Dmaven.test.skip \\\n  -Dspotless.skip=true \\\n  -Prelease\n"
+  },
+  {
+    "Unused directory": "/home/runner/work/dolphinscheduler/dolphinscheduler/dolphinscheduler-ui/node_modules/.pnpm/@probe.gl+log@3.6.0/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:pnpm (pnpm install) @ dolphinscheduler-ui",
+    "Responsible command": "./mvnw -B clean install \\\n  -Dmaven.test.skip \\\n  -Dspotless.skip=true \\\n  -Prelease\n",
+    "Name of the step": "./mvnw -B clean install \\\n  -Dmaven.test.skip \\\n  -Dspotless.skip=true \\\n  -Prelease\n"
+  },
+  {
+    "Unused directory": "/home/runner/work/dolphinscheduler/dolphinscheduler/dolphinscheduler-ui/node_modules/.pnpm/polyline-miter-util@1.0.1/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:pnpm (pnpm install) @ dolphinscheduler-ui",
+    "Responsible command": "./mvnw -B clean install \\\n  -Dmaven.test.skip \\\n  -Dspotless.skip=true \\\n  -Prelease\n",
+    "Name of the step": "./mvnw -B clean install \\\n  -Dmaven.test.skip \\\n  -Dspotless.skip=true \\\n  -Prelease\n"
+  },
+  {
+    "Unused directory": "/home/runner/work/dolphinscheduler/dolphinscheduler/dolphinscheduler-ui/node_modules/.pnpm/inversify-inject-decorators@3.1.0/node_modules/_tmp_6140_7c21c7c1672ca3335ca9b6d79db7625c/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:pnpm (pnpm install) @ dolphinscheduler-ui",
+    "Responsible command": "./mvnw -B clean install \\\n  -Dmaven.test.skip \\\n  -Dspotless.skip=true \\\n  -Prelease\n",
+    "Name of the step": "./mvnw -B clean install \\\n  -Dmaven.test.skip \\\n  -Dspotless.skip=true \\\n  -Prelease\n"
+  },
+  {
+    "Unused directory": "/home/runner/work/dolphinscheduler/dolphinscheduler/dolphinscheduler-ui/node_modules/.pnpm/polyline-normals@2.0.2/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:pnpm (pnpm install) @ dolphinscheduler-ui",
+    "Responsible command": "./mvnw -B clean install \\\n  -Dmaven.test.skip \\\n  -Dspotless.skip=true \\\n  -Prelease\n",
+    "Name of the step": "./mvnw -B clean install \\\n  -Dmaven.test.skip \\\n  -Dspotless.skip=true \\\n  -Prelease\n"
+  },
+  {
+    "Unused directory": "/home/runner/work/dolphinscheduler/dolphinscheduler/dolphinscheduler-ui/node_modules/.pnpm/@probe.gl+env@3.6.0/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:pnpm (pnpm install) @ dolphinscheduler-ui",
+    "Responsible command": "./mvnw -B clean install \\\n  -Dmaven.test.skip \\\n  -Dspotless.skip=true \\\n  -Prelease\n",
+    "Name of the step": "./mvnw -B clean install \\\n  -Dmaven.test.skip \\\n  -Dspotless.skip=true \\\n  -Prelease\n"
+  },
+  {
+    "Unused directory": "/home/runner/work/dolphinscheduler/dolphinscheduler/dolphinscheduler-ui/node_modules/.pnpm/regenerator-runtime@0.13.11/",
+    "Responsible plugin": "frontend-maven-plugin:1.12.1:pnpm (pnpm install) @ dolphinscheduler-ui",
+    "Responsible command": "./mvnw -B clean install \\\n  -Dmaven.test.skip \\\n  -Dspotless.skip=true \\\n  -Prelease\n",
+    "Name of the step": "./mvnw -B clean install \\\n  -Dmaven.test.skip \\\n  -Dspotless.skip=true \\\n  -Prelease\n"
+  }
+]

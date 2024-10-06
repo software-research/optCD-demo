@@ -1,0 +1,36 @@
+Unused directories and their responsible plugins in check-spotless:
+╒════════════════════════════════════════════════════════════════════════════════════╤══════════════════════════════════╤═══════════════════════╤═════════════════════╕
+│ Unused directory                                                                   │ Responsible plugin               │ Responsible command   │ Name of the step    │
+╞════════════════════════════════════════════════════════════════════════════════════╪══════════════════════════════════╪═══════════════════════╪═════════════════════╡
+│ /home/runner/work/shardingsphere-elasticjob/shardingsphere-elasticjob/docs/        │ Not responsible by maven plugins │ actions/checkout@v3   │ actions/checkout@v3 │
+├────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────┼─────────────────────┤
+│ /home/runner/work/shardingsphere-elasticjob/shardingsphere-elasticjob/examples/    │ Not responsible by maven plugins │ actions/checkout@v3   │ actions/checkout@v3 │
+├────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────┼─────────────────────┤
+│ /home/runner/work/shardingsphere-elasticjob/shardingsphere-elasticjob/test/native/ │ Not responsible by maven plugins │ actions/checkout@v3   │ actions/checkout@v3 │
+├────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────┼─────────────────────┤
+│ /home/runner/work/shardingsphere-elasticjob/shardingsphere-elasticjob/.git/logs/   │ Not responsible by maven plugins │ actions/checkout@v3   │ actions/checkout@v3 │
+├────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────┼─────────────────────┤
+│ /home/runner/work/shardingsphere-elasticjob/shardingsphere-elasticjob/.git/hooks/  │ Not responsible by maven plugins │ actions/checkout@v3   │ actions/checkout@v3 │
+╘════════════════════════════════════════════════════════════════════════════════════╧══════════════════════════════════╧═══════════════════════╧═════════════════════╛
+
+Unused directories and their responsible plugins in check-license:
+╒════════════════════╤══════════════════════╤═══════════════════════╤════════════════════╕
+│ Unused directory   │ Responsible plugin   │ Responsible command   │ Name of the step   │
+╞════════════════════╪══════════════════════╪═══════════════════════╪════════════════════╡
+╘════════════════════╧══════════════════════╧═══════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in check-checkstyle:
+╒════════════════════════════════════════════════════════════════════════════════════╤══════════════════════════════════╤═══════════════════════╤═════════════════════╕
+│ Unused directory                                                                   │ Responsible plugin               │ Responsible command   │ Name of the step    │
+╞════════════════════════════════════════════════════════════════════════════════════╪══════════════════════════════════╪═══════════════════════╪═════════════════════╡
+│ /home/runner/work/shardingsphere-elasticjob/shardingsphere-elasticjob/docs/        │ Not responsible by maven plugins │ actions/checkout@v3   │ actions/checkout@v3 │
+├────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────┼─────────────────────┤
+│ /home/runner/work/shardingsphere-elasticjob/shardingsphere-elasticjob/test/native/ │ Not responsible by maven plugins │ actions/checkout@v3   │ actions/checkout@v3 │
+├────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────┼─────────────────────┤
+│ /home/runner/work/shardingsphere-elasticjob/shardingsphere-elasticjob/.git/logs/   │ Not responsible by maven plugins │ actions/checkout@v3   │ actions/checkout@v3 │
+├────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────┼─────────────────────┤
+│ /home/runner/work/shardingsphere-elasticjob/shardingsphere-elasticjob/.git/hooks/  │ Not responsible by maven plugins │ actions/checkout@v3   │ actions/checkout@v3 │
+├────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┼───────────────────────┼─────────────────────┤
+│ /home/runner/work/shardingsphere-elasticjob/shardingsphere-elasticjob/examples/    │ Not responsible by maven plugins │ actions/checkout@v3   │ actions/checkout@v3 │
+╘════════════════════════════════════════════════════════════════════════════════════╧══════════════════════════════════╧═══════════════════════╧═════════════════════╛
+

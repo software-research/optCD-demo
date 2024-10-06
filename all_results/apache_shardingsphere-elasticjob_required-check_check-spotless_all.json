@@ -1,0 +1,32 @@
+[
+  {
+    "Unused directory": "/home/runner/work/shardingsphere-elasticjob/shardingsphere-elasticjob/docs/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v3",
+    "Name of the step": "actions/checkout@v3"
+  },
+  {
+    "Unused directory": "/home/runner/work/shardingsphere-elasticjob/shardingsphere-elasticjob/examples/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v3",
+    "Name of the step": "actions/checkout@v3"
+  },
+  {
+    "Unused directory": "/home/runner/work/shardingsphere-elasticjob/shardingsphere-elasticjob/test/native/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v3",
+    "Name of the step": "actions/checkout@v3"
+  },
+  {
+    "Unused directory": "/home/runner/work/shardingsphere-elasticjob/shardingsphere-elasticjob/.git/logs/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v3",
+    "Name of the step": "actions/checkout@v3"
+  },
+  {
+    "Unused directory": "/home/runner/work/shardingsphere-elasticjob/shardingsphere-elasticjob/.git/hooks/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v3",
+    "Name of the step": "actions/checkout@v3"
+  }
+]

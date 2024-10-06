@@ -1,0 +1,26 @@
+[
+  {
+    "Unused directory": "/home/runner/work/dolphinscheduler/dolphinscheduler/dolphinscheduler-alert/dolphinscheduler-alert-server/src/test/resources/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v4",
+    "Name of the step": "actions/checkout@v4"
+  },
+  {
+    "Unused directory": "/home/runner/work/dolphinscheduler/dolphinscheduler/dolphinscheduler-storage-plugin/dolphinscheduler-storage-hdfs/src/test/resources/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v4",
+    "Name of the step": "actions/checkout@v4"
+  },
+  {
+    "Unused directory": "/home/runner/work/dolphinscheduler/dolphinscheduler/dolphinscheduler-storage-plugin/dolphinscheduler-storage-s3/src/test/resources/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v4",
+    "Name of the step": "actions/checkout@v4"
+  },
+  {
+    "Unused directory": "/home/runner/work/dolphinscheduler/dolphinscheduler/dolphinscheduler-task-plugin/dolphinscheduler-task-kubeflow/src/test/resources/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "actions/checkout@v4",
+    "Name of the step": "actions/checkout@v4"
+  }
+]

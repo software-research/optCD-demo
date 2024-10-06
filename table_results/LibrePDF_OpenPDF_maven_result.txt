@@ -1,0 +1,17 @@
+Unused directories and their responsible plugins in build:
+╒══════════════════════════════════════════════════════════════════════════════════════╤══════════════════════════════════════════════════════════════════════════════════════╤═══════════════════════════════╤════════════════════╕
+│ Unused directory                                                                     │ Responsible plugin                                                                   │ Responsible command           │ Name of the step   │
+╞══════════════════════════════════════════════════════════════════════════════════════╪══════════════════════════════════════════════════════════════════════════════════════╪═══════════════════════════════╪════════════════════╡
+│ /home/runner/work/OpenPDF/OpenPDF/pdf-toolbox/target/surefire-reports/               │ maven-surefire-plugin:3.3.0:test (default-test) @ pdf-toolbox                        │ mvn -B install --file pom.xml │ Build with Maven   │
+├──────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────────────────────────────────────┼───────────────────────────────┼────────────────────┤
+│ /home/runner/work/OpenPDF/OpenPDF/openpdf-fonts-extra/target/surefire-reports/       │ maven-surefire-plugin:3.3.0:test (default-test) @ openpdf-fonts-extra                │ mvn -B install --file pom.xml │ Build with Maven   │
+├──────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────────────────────────────────────┼───────────────────────────────┼────────────────────┤
+│ /home/runner/work/OpenPDF/OpenPDF/openpdf/target/surefire-reports/                   │ maven-surefire-plugin:3.3.0:test (default-test) @ openpdf                            │ mvn -B install --file pom.xml │ Build with Maven   │
+├──────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────────────────────────────────────┼───────────────────────────────┼────────────────────┤
+│ /home/runner/work/OpenPDF/OpenPDF/pdf-toolbox/target/generated-test-sources/         │ maven-compiler-plugin:3.13.0:testCompile (default-testCompile) @ pdf-toolbox         │ mvn -B install --file pom.xml │ Build with Maven   │
+├──────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────────────────────────────────────┼───────────────────────────────┼────────────────────┤
+│ /home/runner/work/OpenPDF/OpenPDF/pdf-swing/target/maven-archiver/                   │ maven-compiler-plugin:3.13.0:testCompile (default-testCompile) @ pdf-swing           │ mvn -B install --file pom.xml │ Build with Maven   │
+├──────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────────────────────────────────────┼───────────────────────────────┼────────────────────┤
+│ /home/runner/work/OpenPDF/OpenPDF/openpdf-fonts-extra/target/generated-test-sources/ │ maven-compiler-plugin:3.13.0:testCompile (default-testCompile) @ openpdf-fonts-extra │ mvn -B install --file pom.xml │ Build with Maven   │
+╘══════════════════════════════════════════════════════════════════════════════════════╧══════════════════════════════════════════════════════════════════════════════════════╧═══════════════════════════════╧════════════════════╛
+

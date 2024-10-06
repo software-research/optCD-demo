@@ -1,0 +1,20 @@
+[
+  {
+    "Unused directory": "/home/runner/work/vertx-examples/vertx-examples/web-examples/target/protoc-dependencies/1f05528d9a26f2f20688b1569d8610e2/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "mvn -q clean verify -B",
+    "Name of the step": "Run tests"
+  },
+  {
+    "Unused directory": "/home/runner/work/vertx-examples/vertx-examples/grpc-examples/target/generated-sources/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "mvn -q clean verify -B",
+    "Name of the step": "Run tests"
+  },
+  {
+    "Unused directory": "/home/runner/work/vertx-examples/vertx-examples/unit-examples/target/surefire-reports/",
+    "Responsible plugin": "Not responsible by maven plugins",
+    "Responsible command": "mvn -q clean verify -B",
+    "Name of the step": "Run tests"
+  }
+]

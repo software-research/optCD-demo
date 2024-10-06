@@ -1,0 +1,56 @@
+[
+  {
+    "Unused directory": "/home/runner/work/javaparser/javaparser/javaparser-symbol-solver-testing/target/surefire-reports/",
+    "Responsible plugin": "surefire:3.5.0:test (default-test) @ javaparser-symbol-solver-testing",
+    "Responsible command": "./mvnw -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn -B --errors clean test --activate-profiles AlsoSlowTests",
+    "Name of the step": "Test with Maven (incl. slow tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/javaparser/javaparser/javaparser-core-testing-bdd/target/surefire-reports/",
+    "Responsible plugin": "surefire:3.5.0:test (default-test) @ javaparser-core-testing-bdd",
+    "Responsible command": "./mvnw -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn -B --errors clean test --activate-profiles AlsoSlowTests",
+    "Name of the step": "Test with Maven (incl. slow tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/javaparser/javaparser/javaparser-core-serialization/target/surefire-reports/",
+    "Responsible plugin": "surefire:3.5.0:test (default-test) @ javaparser-core-serialization",
+    "Responsible command": "./mvnw -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn -B --errors clean test --activate-profiles AlsoSlowTests",
+    "Name of the step": "Test with Maven (incl. slow tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/javaparser/javaparser/javaparser-core-generators/target/surefire-reports/",
+    "Responsible plugin": "surefire:3.5.0:test (default-test) @ javaparser-core-generators",
+    "Responsible command": "./mvnw -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn -B --errors clean test --activate-profiles AlsoSlowTests",
+    "Name of the step": "Test with Maven (incl. slow tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/javaparser/javaparser/javaparser-symbol-solver-testing/target/generated-sources/",
+    "Responsible plugin": "resources:3.3.1:copy-resources (copy-javaparser-core-generated-sources) @ javaparser-symbol-solver-testing",
+    "Responsible command": "./mvnw -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn -B --errors clean test --activate-profiles AlsoSlowTests",
+    "Name of the step": "Test with Maven (incl. slow tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/javaparser/javaparser/javaparser-core-testing-bdd/target/generated-sources/",
+    "Responsible plugin": "resources:3.3.1:copy-resources (copy-javaparser-core-generated-sources) @ javaparser-core-testing-bdd",
+    "Responsible command": "./mvnw -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn -B --errors clean test --activate-profiles AlsoSlowTests",
+    "Name of the step": "Test with Maven (incl. slow tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/javaparser/javaparser/javaparser-symbol-solver-testing/target/generated-test-sources/",
+    "Responsible plugin": "compiler:3.13.0:testCompile (default-testCompile) @ javaparser-symbol-solver-testing",
+    "Responsible command": "./mvnw -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn -B --errors clean test --activate-profiles AlsoSlowTests",
+    "Name of the step": "Test with Maven (incl. slow tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/javaparser/javaparser/javaparser-symbol-solver-testing/target/classes/",
+    "Responsible plugin": "compiler:3.13.0:testCompile (default-testCompile) @ javaparser-symbol-solver-testing",
+    "Responsible command": "./mvnw -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn -B --errors clean test --activate-profiles AlsoSlowTests",
+    "Name of the step": "Test with Maven (incl. slow tests)"
+  },
+  {
+    "Unused directory": "/home/runner/work/javaparser/javaparser/javaparser-core-testing-bdd/target/generated-test-sources/",
+    "Responsible plugin": "compiler:3.13.0:testCompile (default-testCompile) @ javaparser-core-testing-bdd",
+    "Responsible command": "./mvnw -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn -B --errors clean test --activate-profiles AlsoSlowTests",
+    "Name of the step": "Test with Maven (incl. slow tests)"
+  }
+]

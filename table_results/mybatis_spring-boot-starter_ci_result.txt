@@ -1,0 +1,44 @@
+Unused directories and their responsible plugins in test (maven, temurin, 17, ubuntu-latest):
+╒═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╤═════════════════════════════════════════════════════════════════════╤════════════════════════════════════════════════════════════════╤════════════════════╕
+│ Unused directory                                                                                                                              │ Responsible plugin                                                  │ Responsible command                                            │ Name of the step   │
+╞═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╪═════════════════════════════════════════════════════════════════════╪════════════════════════════════════════════════════════════════╪════════════════════╡
+│ /home/runner/work/spring-boot-starter/spring-boot-starter/mybatis-spring-boot-samples/mybatis-spring-boot-sample-xml/target/surefire-reports/ │ surefire:3.3.1:test (default-test) @ mybatis-spring-boot-sample-xml │ ./mvnw test -B -V --no-transfer-progress -D"license.skip=true" │ Test with Maven    │
+╘═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╧═════════════════════════════════════════════════════════════════════╧════════════════════════════════════════════════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in test (maven, temurin, 17, macos-latest):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in test (maven, temurin, 17, windows-latest):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in test (maven, temurin, 21, ubuntu-latest):
+╒═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╤═════════════════════════════════════════════════════════════════════╤════════════════════════════════════════════════════════════════╤════════════════════╕
+│ Unused directory                                                                                                                              │ Responsible plugin                                                  │ Responsible command                                            │ Name of the step   │
+╞═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╪═════════════════════════════════════════════════════════════════════╪════════════════════════════════════════════════════════════════╪════════════════════╡
+│ /home/runner/work/spring-boot-starter/spring-boot-starter/mybatis-spring-boot-samples/mybatis-spring-boot-sample-xml/target/surefire-reports/ │ surefire:3.3.1:test (default-test) @ mybatis-spring-boot-sample-xml │ ./mvnw test -B -V --no-transfer-progress -D"license.skip=true" │ Test with Maven    │
+╘═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╧═════════════════════════════════════════════════════════════════════╧════════════════════════════════════════════════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in test (maven, temurin, 21, macos-latest):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in test (maven, temurin, 21, windows-latest):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in test (maven, temurin, 22, ubuntu-latest):
+╒═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╤═════════════════════════════════════════════════════════════════════╤════════════════════════════════════════════════════════════════╤════════════════════╕
+│ Unused directory                                                                                                                              │ Responsible plugin                                                  │ Responsible command                                            │ Name of the step   │
+╞═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╪═════════════════════════════════════════════════════════════════════╪════════════════════════════════════════════════════════════════╪════════════════════╡
+│ /home/runner/work/spring-boot-starter/spring-boot-starter/mybatis-spring-boot-samples/mybatis-spring-boot-sample-xml/target/surefire-reports/ │ surefire:3.3.1:test (default-test) @ mybatis-spring-boot-sample-xml │ ./mvnw test -B -V --no-transfer-progress -D"license.skip=true" │ Test with Maven    │
+╘═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╧═════════════════════════════════════════════════════════════════════╧════════════════════════════════════════════════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in test (maven, temurin, 22, macos-latest):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in test (maven, temurin, 22, windows-latest):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in test (maven, temurin, 23-ea, ubuntu-latest):
+╒═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╤═════════════════════════════════════════════════════════════════════╤════════════════════════════════════════════════════════════════╤════════════════════╕
+│ Unused directory                                                                                                                              │ Responsible plugin                                                  │ Responsible command                                            │ Name of the step   │
+╞═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╪═════════════════════════════════════════════════════════════════════╪════════════════════════════════════════════════════════════════╪════════════════════╡
+│ /home/runner/work/spring-boot-starter/spring-boot-starter/mybatis-spring-boot-samples/mybatis-spring-boot-sample-xml/target/surefire-reports/ │ surefire:3.3.1:test (default-test) @ mybatis-spring-boot-sample-xml │ ./mvnw test -B -V --no-transfer-progress -D"license.skip=true" │ Test with Maven    │
+╘═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╧═════════════════════════════════════════════════════════════════════╧════════════════════════════════════════════════════════════════╧════════════════════╛
+
+Unused directories and their responsible plugins in test (maven, temurin, 23-ea, macos-latest):
+Inotify log does not exist, because the job runs on Windows or MacOS.
+Unused directories and their responsible plugins in test (maven, temurin, 23-ea, windows-latest):
+Inotify log does not exist, because the job runs on Windows or MacOS.
