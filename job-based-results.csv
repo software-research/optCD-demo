@@ -1,614 +1,615 @@
-apache;zeppelin;frontend.yml;run-e2e-tests-in-zeppelin-web;107;107
-apache;incubator-seata;test-ubuntu.yml;test (8, ubuntu, 2.5.15         -D spring-framework.version=5.3.27);1;1
-jboss-javassist;javassist;maven.yml;build (ubuntu-latest, 11.0.3);4;4
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Cluster, PostgreSQL, sharding_encrypt_shadow, );0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Standalone, MySQL, readwrite_splitting, );0;0
-rest-assured;rest-assured;ci.yml;test (ubuntu-latest, 8);10;10
-alibaba;nacos;pr-ci.yml;dist-tar;0;0
-linlinjava;litemall;main.yml;Litemall-all (11);0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (jdbc, Standalone, MySQL, empty_storage_units, );0;0
-linlinjava;litemall;main.yml;Litemall-admin (10.x);1;0
-apache;shardingsphere;e2e-sql.yml;e2e-sql (proxy, Cluster, PostgreSQL, readwrite_splitting, );0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Standalone, openGauss, tbl, );0;0
-apache;zeppelin;frontend.yml;run-tests-in-zeppelin-web-angular;138;138
-apache;shenyu;integrated-test.yml;build (shenyu-integrated-test-combination);1;1
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (jdbc, Standalone, PostgreSQL, db, );0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Standalone, PostgreSQL, shadow, );0;0
-apache;shardingsphere;e2e-sql.yml;e2e-sql (proxy, Cluster, MySQL, mask, );0;0
-apache;shardingsphere;e2e-sql.yml;e2e-sql (proxy, Cluster, PostgreSQL, encrypt_and_readwrite_splitting, );0;0
-flowable;flowable-engine;mysql.yml;test_mysql (8);67;67
-apache;incubator-seata;test-ubuntu.yml;test (21, ubuntu, 2.3.12.RELEASE -D spring-framework.version=5.2.15.RELEASE);6;6
-apache;shardingsphere;e2e-sql.yml;e2e-sql (proxy, Standalone, MySQL, sharding_and_encrypt, );0;0
-apache;shardingsphere;e2e-sql.yml;e2e-sql (jdbc, Standalone, MySQL, mask_sharding, );0;0
-TheAlgorithms;Java;infer.yml;run_infer;6;1
-apache;zeppelin;core.yml;spark-integration-test (11);180;180
-mybatis;spring-boot-starter;support.yaml;test (ubuntu-latest, 21, zulu);0;0
-linlinjava;litemall;main.yml;Litemall-all (8.0.192);0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (jdbc, Standalone, openGauss, distsql_rdl, );0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (jdbc, Standalone, PostgreSQL, mask, );0;0
-apache;incubator-seata;test-ubuntu.yml;test (11, ubuntu, 2.2.13.RELEASE -D spring-framework.version=5.2.12.RELEASE);4;4
-apache;druid;codeql.yml;analyze (python);0;0
-clojure;clojure;test.yml;test (ubuntu-latest, 8, corretto, test-direct);1;1
-immutables;immutables;ci.yml;build (21, ecj, none);17;17
-apache;zeppelin;core.yml;spark-test (3.9, 8);7;7
-apache;shardingsphere;e2e-sql.yml;e2e-sql (proxy, Cluster, MySQL, db, );0;0
-apache;incubator-kie-drools;pr-drools-docs.yml;drools-build (ubuntu-latest, 17, 3.9.6);68;68
-apache;shardingsphere;e2e-sql.yml;e2e-sql (jdbc, Standalone, MySQL, sharding_and_shadow, );0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Cluster, MySQL, empty_rules, );0;0
-apache;shardingsphere;e2e-sql.yml;e2e-sql (proxy, Cluster, PostgreSQL, mask_encrypt, );0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Standalone, PostgreSQL, encrypt_shadow, );0;0
-alibaba;nacos;it.yml;test (ubuntu-latest, 11.0.3);0;0
-apache;shardingsphere;e2e-sql.yml;e2e-sql (jdbc, Standalone, MySQL, tbl, );0;0
-javaparser;javaparser;maven_tests.yml;maven_test (ubuntu-latest, 13);9;9
-apache;shardingsphere;e2e-sql.yml;e2e-sql (jdbc, Standalone, MySQL, encrypt_and_readwrite_splitting, );0;0
-apache;incubator-seata;test-ubuntu.yml;test (17, ubuntu, 2.7.18         -D spring-framework.version=5.3.31);5;5
-stleary;JSON-java;pipeline.yml;build-8 (8);0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Standalone, MySQL, mask_encrypt, );0;0
-clojure;clojure;test.yml;test (ubuntu-latest, 21, corretto, test-direct);1;1
-metersphere;metersphere;frontend-build.yml;generic_handler;0;0
-apache;dolphinscheduler;docs.yml;paths-filter;20;0
-apache;shardingsphere;e2e-sql.yml;e2e-sql (proxy, Standalone, PostgreSQL, encrypt, );0;0
-flowable;flowable-engine;postgres.yml;test_postgres (14);58;58
-apache;shardingsphere;e2e-sql.yml;e2e-sql (jdbc, Standalone, PostgreSQL, distsql_rdl, );0;0
-apache;shardingsphere;e2e-sql.yml;e2e-sql (proxy, Cluster, MySQL, distsql_rdl, );0;0
-alibaba;transmittable-thread-local;ci.yaml;test (ubuntu-latest, 11);9;9
-apache;shardingsphere;e2e-sql.yml;e2e-sql (proxy, Cluster, MySQL, passthrough, );0;0
-apache;incubator-seata;test-druid.yml;test-druid (1.2.6);1;1
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Cluster, PostgreSQL, mask, );0;0
-apache;incubator-seata;test-druid.yml;test-druid (1.2.12);0;0
-apache;shardingsphere;e2e-sql.yml;e2e-sql (proxy, Standalone, MySQL, db_tbl_sql_federation, );0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Cluster, MySQL, sharding_and_shadow, );0;0
-stleary;JSON-java;pipeline.yml;build-21 (21);0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Standalone, openGauss, shadow, );0;0
-crate;crate;main.yml;checkstyle;21;21
-alibaba;arthas;test.yaml;ubuntu_build (11);110;110
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (jdbc, Standalone, MySQL, dbtbl_with_readwrite_splitting_and_encrypt, );0;0
-apache;shenyu;integrated-test.yml;build (shenyu-integrated-test-sdk-http);1;1
-apache;shardingsphere;e2e-sql.yml;e2e-sql (proxy, Cluster, PostgreSQL, mask_encrypt_sharding, );0;0
-apache;incubator-seata;test-ubuntu.yml;test (17, ubuntu, 2.5.15         -D spring-framework.version=5.3.27);5;5
-jhy;jsoup;build.yml;test (ubuntu-latest, 17);2;2
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Standalone, MySQL, db_tbl_sql_federation, );0;0
-apache;shardingsphere;e2e-sql.yml;e2e-sql (proxy, Cluster, MySQL, sharding_and_shadow, );0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Standalone, openGauss, mask_encrypt, );0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Standalone, openGauss, db, );0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Standalone, openGauss, sharding_and_shadow, );0;0
-jetlinks;jetlinks-community;pull_request.yml;build;0;0
-apache;nifi;docker-tests.yml;build_and_test;13;0
-apache;dolphinscheduler;docs.yml;helm-doc;0;0
-apache;shardingsphere;e2e-sql.yml;e2e-sql (jdbc, Standalone, MySQL, db_tbl_sql_federation, );0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (jdbc, Standalone, MySQL, sharding_and_encrypt, );0;0
-zxing;zxing;test_java_17.yml;build;0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Cluster, openGauss, sharding_and_shadow, );0;0
-apache;incubator-seata;test-druid.yml;test-druid (1.2.19);1;1
-LibrePDF;OpenPDF;maven.yml;build;6;6
-apache;shardingsphere;e2e-sql.yml;e2e-sql (proxy, Standalone, PostgreSQL, mask_sharding, );0;0
-apache;shardingsphere;e2e-sql.yml;e2e-sql (proxy, Standalone, MySQL, encrypt_shadow, );0;0
-spring-io;initializr;build-pull-request.yml;build;10;10
-apache;shardingsphere-elasticjob;required-check.yml;check-spotless;5;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Cluster, openGauss, tbl, );0;0
-flyway;flyway;build-release.yml;build (ubuntu-latest, 17);0;0
-apache;shardingsphere;e2e-sql.yml;e2e-sql (proxy, Standalone, PostgreSQL, tbl, );0;0
-clojure;clojure;test.yml;test (ubuntu-latest, 21, corretto, test-no-direct);1;1
-apache;shardingsphere;e2e-sql.yml;e2e-sql (proxy, Standalone, MySQL, encrypt_and_readwrite_splitting, );0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (jdbc, Standalone, MySQL, empty_rules, );0;0
-apache;shardingsphere;e2e-sql.yml;e2e-sql (proxy, Standalone, PostgreSQL, db, );0;0
-apache;zeppelin;core.yml;flink-test-and-flink-integration-test (3.9, 116);5;5
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (jdbc, Standalone, PostgreSQL, mask_encrypt_sharding, );0;0
-apache;zeppelin;core.yml;interpreter-test-jupyter-python-rlang (3.9, 11);7;7
-javaparser;javaparser;maven_tests.yml;maven_test (ubuntu-latest, 18);9;9
-apache;shardingsphere;e2e-operation.yml;e2e-operation (pipeline, Object);41;41
-apache;dolphinscheduler;e2e-k8s.yml;paths-filter;24;0
-flowable;flowable-engine;postgres.yml;test_postgres (12);67;67
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Standalone, PostgreSQL, sharding_encrypt_shadow, );0;0
-apache;shardingsphere;e2e-sql.yml;e2e-sql (proxy, Cluster, MySQL, shadow, );0;0
-apache;shardingsphere;e2e-sql.yml;e2e-sql (proxy, Standalone, MySQL, dbtbl_with_readwrite_splitting_and_encrypt, );0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (jdbc, Standalone, openGauss, sharding_and_shadow, );0;0
-apache;incubator-seata;test-druid.yml;test-druid (1.2.0);0;0
-questdb;questdb;pgwire_stable.yml;build;0;0
-kubernetes-client;java;codeql-analysis.yml;analyze (java);0;0
-alibaba;transmittable-thread-local;ci.yaml;test (ubuntu-latest, 17);8;8
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (jdbc, Standalone, MySQL, readwrite_splitting_and_shadow, );0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Cluster, MySQL, mask_encrypt, );0;0
-apache;shardingsphere;e2e-sql.yml;e2e-sql (proxy, Cluster, MySQL, tbl, );0;0
-apache;rocketmq;pr-ci.yml;dist-tar;1;1
-zxing;zxing;test_java_8.yml;build;0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (jdbc, Standalone, PostgreSQL, dbtbl_with_readwrite_splitting_and_encrypt, );0;0
-alibaba;arthas;test.yaml;ubuntu_build (17);113;113
-apache;shardingsphere;e2e-sql.yml;e2e-sql (proxy, Cluster, MySQL, mask_sharding, );0;0
-apache;incubator-seata;test-ubuntu.yml;test (8, ubuntu, 2.7.18         -D spring-framework.version=5.3.31);2;2
-apache;incubator-seata;test-druid.yml;test-druid (1.2.14);1;1
-swagger-api;swagger-core;maven-pulls.yml;build (14);2;2
-Atmosphere;atmosphere;maven.yml;build (18);0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Cluster, PostgreSQL, mask_encrypt_sharding, );0;0
-apache;zeppelin;core.yml;spark-test (3.8, 8);6;6
-apache;zeppelin;core.yml;zeppelin-integration-test (8);144;144
-apache;shardingsphere;e2e-sql.yml;e2e-sql (proxy, Standalone, PostgreSQL, db_tbl_sql_federation, );0;0
-apache;incubator-seata;test-ubuntu.yml;test-arm64 (2.3.12.RELEASE -Dspring-framework.version=5.2.15.RELEASE);163;163
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Cluster, PostgreSQL, readwrite_splitting, );0;0
-alibaba;transmittable-thread-local;ci.yaml;test (ubuntu-latest, 22);8;8
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (jdbc, Standalone, MySQL, tbl, );0;0
-javaparser;javaparser;maven_tests.yml;maven_test (ubuntu-latest, 15);6;6
-apache;shardingsphere;e2e-sql.yml;e2e-sql (proxy, Cluster, PostgreSQL, db, );0;0
-checkstyle;checkstyle;error-prone.yml;error-prone;0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Cluster, MySQL, shadow, );0;0
-apache;incubator-seata;test-ubuntu.yml;test (11, ubuntu, 2.4.13         -D spring-framework.version=5.3.13);7;7
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Standalone, PostgreSQL, mask_encrypt_sharding, );0;0
-sofastack;sofa-jraft;build.yml;test_storage_java_impl;0;0
-OpenRefine;OpenRefine;pull_request_server.yml;linux_server_tests (21);7;7
-immutables;immutables;ci.yml;build (11, ecj, errorprone);14;14
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (jdbc, Standalone, PostgreSQL, distsql_rdl, );0;0
-TooTallNate;Java-WebSocket;checkstyle.yml;build;2;0
-thingsboard;thingsboard;license-header-format.yml;license-format;0;0
-apache;incubator-streampark;codeql-analysis.yml;analyze (java);0;0
-apache;zeppelin;core.yml;default-build (8);289;289
-stleary;JSON-java;pipeline.yml;build-17 (17);0;0
-clojure;clojure;test.yml;test (ubuntu-latest, 17, temurin, test-no-direct);2;2
-apache;shardingsphere;e2e-sql.yml;e2e-sql (proxy, Standalone, PostgreSQL, sharding_and_encrypt, );0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Cluster, MySQL, sharding_encrypt_shadow, );0;0
-apache;shardingsphere;e2e-sql.yml;e2e-sql (proxy, Standalone, MySQL, mask_encrypt_sharding, );0;0
-apache;incubator-seata;test-ubuntu.yml;test (21, ubuntu, 2.5.15         -D spring-framework.version=5.3.27);7;7
-apache;shardingsphere;e2e-sql.yml;e2e-sql (proxy, Standalone, MySQL, tbl, );0;0
-apache;shenyu;integrated-test.yml;build (shenyu-integrated-test-motan);1;1
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Standalone, openGauss, encrypt_shadow, );0;0
-OpenAPITools;openapi-generator;docker.yaml;build;8;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Standalone, MySQL, sharding_encrypt_shadow, );0;0
-apache;shardingsphere;e2e-sql.yml;e2e-sql (jdbc, Standalone, MySQL, shadow, );0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Cluster, openGauss, passthrough, );0;0
-crate;crate;main.yml;forbiddenApis;20;20
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Cluster, openGauss, distsql_rdl, );0;0
-apache;zookeeper;ci.yaml;mvn (Object);0;0
-Konloch;bytecode-viewer;maven.yml;build (8);1;1
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Standalone, MySQL, encrypt_shadow, );0;0
-mybatis;spring-boot-starter;ci.yaml;test (maven, temurin, 22, ubuntu-latest);1;1
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Standalone, PostgreSQL, readwrite_splitting, );0;0
-kekingcn;kkFileView;maven.yml;build;0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Standalone, MySQL, tbl, );0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Standalone, openGauss, mask_sharding, );0;0
-alibaba;druid;ci.yaml;test (ubuntu-latest, 21);0;0
-apache;shardingsphere;e2e-sql.yml;e2e-sql (proxy, Standalone, PostgreSQL, readwrite_splitting, );0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (jdbc, Standalone, PostgreSQL, readwrite_splitting, );0;0
-apache;shardingsphere;e2e-sql.yml;e2e-sql (jdbc, Standalone, PostgreSQL, sharding_encrypt_shadow, );0;0
-AsyncHttpClient;async-http-client;builds.yml;RunOnLinux;1;1
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (jdbc, Standalone, MySQL, sharding_and_shadow, );0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Cluster, PostgreSQL, dbtbl_with_readwrite_splitting_and_encrypt, );0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Cluster, PostgreSQL, encrypt, );0;0
-apache;incubator-seata;test-ubuntu.yml;test (21, ubuntu, 2.2.13.RELEASE -D spring-framework.version=5.2.12.RELEASE);5;5
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Standalone, PostgreSQL, mask, );0;0
-apache;incubator-seata;codeql-analysis.yml;analyze (java);0;0
-apache;shardingsphere;e2e-sql.yml;e2e-sql (jdbc, Standalone, MySQL, encrypt, );0;0
-apache;shardingsphere;e2e-sql.yml;e2e-sql (proxy, Cluster, PostgreSQL, readwrite_splitting_and_shadow, );0;0
-DTStack;chunjun;build.yml;build;1;1
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (jdbc, Standalone, openGauss, encrypt_shadow, );0;0
-apache;shardingsphere;e2e-sql.yml;e2e-sql (proxy, Standalone, PostgreSQL, sharding_encrypt_shadow, );0;0
-apache;zeppelin;core.yml;spark-integration-test (8);266;266
-javaparser;javaparser;maven_tests.yml;maven_test (ubuntu-latest, 12);8;8
-clojure;clojure;test.yml;test (ubuntu-latest, 8, temurin, test-no-direct);1;1
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Cluster, PostgreSQL, shadow, );0;0
-immutables;immutables;ci.yml;build (8, ecj, none);16;16
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Cluster, PostgreSQL, db, );0;0
-apache;shardingsphere;e2e-sql.yml;e2e-sql (jdbc, Standalone, PostgreSQL, readwrite_splitting, );0;0
-apache;incubator-seata;test-ubuntu.yml;test (11, ubuntu, 2.3.12.RELEASE -D spring-framework.version=5.2.15.RELEASE);3;3
-alibaba;nacos;it.yml;test (ubuntu-latest, 8);0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Cluster, MySQL, mask, );0;0
-apache;rocketmq;integration-test.yml;it-test (ubuntu-latest, 8);0;0
-aragozin;jvm-tools;maven.yml;build8;4;4
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (jdbc, Standalone, PostgreSQL, sharding_encrypt_shadow, );0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (jdbc, Standalone, MySQL, sharding_encrypt_shadow, );0;0
-sofastack;sofa-jraft;build.yml;test_jraft_core;1;1
-apache;incubator-seata;test-druid.yml;test-druid (1.2.13);1;1
-cryptomator;cryptomator;pullrequest.yml;test;3;3
-apache;shardingsphere-elasticjob;required-check.yml;check-checkstyle;5;0
-apache;shardingsphere-elasticjob;required-check.yml;check-license;0;0
-apache;shardingsphere;e2e-sql.yml;e2e-sql (jdbc, Standalone, PostgreSQL, readwrite_splitting_and_shadow, );0;0
-apache;shardingsphere;e2e-sql.yml;e2e-sql (proxy, Standalone, MySQL, db, );0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Standalone, openGauss, sharding_encrypt_shadow, );0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Standalone, PostgreSQL, mask_encrypt, );0;0
-apache;rocketmq;coverage.yml;calculate-coverage;0;0
-apache;shardingsphere;e2e-sql.yml;e2e-sql (proxy, Standalone, PostgreSQL, shadow, );0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (jdbc, Standalone, openGauss, db, );0;0
-apache;shardingsphere;e2e-sql.yml;e2e-sql (jdbc, Standalone, MySQL, empty_storage_units, );0;0
-apache;incubator-seata;test-ubuntu.yml;test (11, ubuntu, 2.6.15         -D spring-framework.version=5.3.27);7;7
-apache;shardingsphere;e2e-sql.yml;e2e-sql (proxy, Standalone, PostgreSQL, mask_encrypt, );0;0
-crate;crate;main.yml;test (ubuntu-latest);17;17
-immutables;immutables;ci.yml;build (17, ecj, none);14;14
-apache;zeppelin;core.yml;core-modules (11);266;266
-apache;shardingsphere;e2e-sql.yml;e2e-sql (proxy, Standalone, MySQL, sharding_encrypt_shadow, );0;0
-flowable;flowable-engine;postgres.yml;test_postgres (15);65;65
-linlinjava;litemall;main.yml;Litemall-vue (10.x);10;0
-clojure;clojure;test.yml;test (ubuntu-latest, 21, temurin, test-no-direct);1;1
-jtablesaw;tablesaw;ci.yml;Tests (11, ubuntu-latest);7;7
-stleary;JSON-java;pipeline.yml;build-1_6;0;0
-apache;incubator-seata;test-druid.yml;test-druid (1.2.7);1;1
-apache;linkis;check-license.yml;apache-rat-check;0;0
-apache;shardingsphere;e2e-sql.yml;e2e-sql (proxy, Standalone, MySQL, sharding_and_shadow, );0;0
-apache;shardingsphere;e2e-sql.yml;e2e-sql (jdbc, Standalone, PostgreSQL, mask_sharding, );0;0
-apache;shardingsphere;e2e-sql.yml;e2e-sql (proxy, Cluster, MySQL, readwrite_splitting_and_shadow, );0;0
-sofastack;sofa-jraft;build.yml;test_rheakv_core;1;1
-clojure;clojure;test.yml;test (ubuntu-latest, 11, corretto, test-direct);1;1
-apache;zeppelin;core.yml;interpreter-test-non-core (11);12;12
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Standalone, PostgreSQL, db_tbl_sql_federation, );0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Cluster, openGauss, shadow, );0;0
-apache;shenyu;integrated-test.yml;build (shenyu-integrated-test-apache-dubbo);2;2
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (jdbc, Standalone, PostgreSQL, mask_sharding, );0;0
-immutables;immutables;ci.yml;build (21, javac, errorprone);11;11
-apache;nifi;integration-tests.yml;build_and_test;0;0
-aragozin;jvm-tools;maven.yml;build21;4;4
-apache;shardingsphere;e2e-sql.yml;e2e-sql (proxy, Standalone, MySQL, mask_encrypt, );0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Standalone, PostgreSQL, encrypt, );0;0
-apache;shardingsphere;required-check.yml;check-checkstyle;0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Cluster, PostgreSQL, db_tbl_sql_federation, );0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Cluster, openGauss, mask_sharding, );4;0
-apache;shardingsphere;e2e-sql.yml;e2e-sql (proxy, Standalone, PostgreSQL, mask_encrypt_sharding, );0;0
-flowable;flowable-engine;main.yml;test_jdk (21);69;69
-Atmosphere;atmosphere;maven.yml;build (21);0;0
-fabric8io;kubernetes-client;build.yml;build (21);125;125
-clojure;clojure;test.yml;test (ubuntu-latest, 8, temurin, test-direct);1;1
-immutables;immutables;ci.yml;build (17, ecj, errorprone);16;16
-apache;shardingsphere;e2e-sql.yml;e2e-sql (jdbc, Standalone, MySQL, sharding_encrypt_shadow, );0;0
-socketio;socket.io-client-java;ci.yml;verify (7);1;1
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (jdbc, Standalone, openGauss, mask_encrypt, );0;0
-redis;jedis;doctests.yml;doctests;1;1
-fabric8io;kubernetes-client;build.yml;build (8);113;113
-apache;skywalking;codeql.yaml;analyze (java);0;0
-apache;shardingsphere;e2e-operation.yml;detect-changed-files;15;0
-apache;incubator-seata;test-ubuntu.yml;test-arm64 (2.4.13         -Dspring-framework.version=5.3.13);169;169
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (jdbc, Standalone, PostgreSQL, shadow, );0;0
-apache;shardingsphere;e2e-sql.yml;e2e-sql (jdbc, Standalone, MySQL, distsql_rdl, );0;0
-mybatis;mybatis-3;ci.yaml;test (maven, temurin, 24-ea, ubuntu-latest);0;0
-apache;shardingsphere;required-check.yml;check-license;0;0
-spring-cloud;spring-cloud-netflix;maven.yml;build (17);4;4
-apache;zeppelin;core.yml;flink-test-and-flink-integration-test (3.9, 117);3;3
-redisson;redisson;maven.yml;build;4;4
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Cluster, PostgreSQL, empty_rules, );0;0
-apache;shardingsphere;e2e-sql.yml;e2e-sql (proxy, Standalone, MySQL, shadow, );0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (jdbc, Standalone, MySQL, encrypt_and_readwrite_splitting, );0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (jdbc, Standalone, PostgreSQL, db_tbl_sql_federation, );0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Standalone, openGauss, readwrite_splitting_and_shadow, );0;0
-abel533;Mapper;test.yml;mvn_verify;14;14
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Standalone, MySQL, db, );0;0
-apache;incubator-seata;test-druid.yml;test-druid (1.2.15);1;1
-apache;incubator-seata;test-ubuntu.yml;test (21, ubuntu, 2.7.18         -D spring-framework.version=5.3.31);7;7
-flowable;flowable-engine;postgres.yml;test_postgres (13);63;63
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Cluster, PostgreSQL, mask_encrypt, );0;0
-apache;incubator-seata;test-druid.yml;test-druid (1.2.1);1;1
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Standalone, PostgreSQL, mask_sharding, );0;0
-apache;zeppelin;core.yml;spark-test (3.9, 11);7;7
-apache;shardingsphere;e2e-sql.yml;e2e-sql (proxy, Cluster, PostgreSQL, tbl, );0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (jdbc, Standalone, MySQL, mask_sharding, );0;0
-mybatis;mybatis-3;ci.yaml;test (maven, temurin, 22, ubuntu-latest);0;0
-apache;shardingsphere;e2e-sql.yml;e2e-sql (proxy, Cluster, PostgreSQL, empty_rules, );0;0
-apache;shardingsphere;e2e-sql.yml;e2e-sql (proxy, Cluster, MySQL, sharding_and_encrypt, );0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (jdbc, Standalone, openGauss, empty_storage_units, );0;0
-sofastack;sofa-jraft;build.yml;check_format;0;0
-javaparser;javaparser;maven_tests.yml;maven_test (ubuntu-latest, 14);9;9
-apache;zeppelin;core.yml;interpreter-test-jupyter-python-rlang (3.7, 8);7;7
-apache;incubator-seata;test-druid.yml;test-druid (1.2.20);23;23
-apache;shardingsphere;e2e-sql.yml;e2e-sql (jdbc, Standalone, PostgreSQL, dbtbl_with_readwrite_splitting_and_encrypt, );0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Cluster, MySQL, sharding_and_encrypt, );0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Cluster, MySQL, readwrite_splitting_and_shadow, );0;0
-apache;zookeeper;ci.yaml;typo-check;2;0
-apache;shardingsphere;e2e-sql.yml;e2e-sql (jdbc, Standalone, MySQL, mask_encrypt_sharding, );0;0
-google;gson;check-android-compatibility.yml;check-android-compatibility;0;0
-aragozin;jvm-tools;maven.yml;build15;5;5
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (jdbc, Standalone, openGauss, shadow, );0;0
-graphhopper;graphhopper;build.yml;build (21);2;2
-clojure;clojure;test.yml;test (ubuntu-latest, 11, temurin, test-no-direct);1;1
-apache;druid;codeql.yml;analyze (javascript);0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Cluster, openGauss, dbtbl_with_readwrite_splitting_and_encrypt, );0;0
-apache;shardingsphere;e2e-sql.yml;e2e-sql (proxy, Cluster, PostgreSQL, db_tbl_sql_federation, );0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Standalone, PostgreSQL, db, );0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Standalone, MySQL, mask_encrypt_sharding, );0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Cluster, MySQL, tbl, );0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (jdbc, Standalone, openGauss, tbl, );0;0
-immutables;immutables;ci.yml;build (11, javac, errorprone);13;13
-javaparser;javaparser;maven_tests.yml;maven_test (ubuntu-latest, 9);9;9
-apache;zeppelin;core.yml;default-build (11);135;135
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Cluster, PostgreSQL, mask_sharding, );0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (jdbc, Standalone, openGauss, sharding_encrypt_shadow, );0;0
-apache;shardingsphere;e2e-sql.yml;e2e-sql (proxy, Cluster, PostgreSQL, sharding_encrypt_shadow, );0;0
-apache;incubator-seata;test-druid.yml;test-druid (1.2.9);1;1
-mybatis;spring-boot-starter;support.yaml;test (ubuntu-latest, 17, zulu);0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Cluster, openGauss, encrypt_and_readwrite_splitting, );0;0
-apache;druid;codeql.yml;analyze (java);0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Standalone, openGauss, dbtbl_with_readwrite_splitting_and_encrypt, );0;0
-apache;nifi;system-tests.yml;build_and_test (ubuntu-latest, 21);141;141
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (jdbc, Standalone, MySQL, db_tbl_sql_federation, );0;0
-apache;shardingsphere;e2e-sql.yml;e2e-sql (proxy, Cluster, MySQL, encrypt_and_readwrite_splitting, );0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Cluster, PostgreSQL, encrypt_shadow, );0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (jdbc, Standalone, openGauss, mask_encrypt_sharding, );0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (jdbc, Standalone, PostgreSQL, empty_storage_units, );0;0
-apache;shardingsphere;e2e-sql.yml;e2e-sql (proxy, Cluster, PostgreSQL, encrypt, );0;0
-linlinjava;litemall;main.yml;Litemall-admin (14.x);6;0
-apache;shardingsphere;e2e-sql.yml;e2e-sql (jdbc, Standalone, PostgreSQL, encrypt_shadow, );0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (jdbc, Standalone, MySQL, encrypt, );0;0
-joelittlejohn;jsonschema2pojo;ci.yml;test (8);0;0
-jtablesaw;tablesaw;ci.yml;Tests (17, ubuntu-latest);7;7
-fabric8io;kubernetes-client;build.yml;build (11);108;108
-apache;shardingsphere;e2e-sql.yml;e2e-sql (proxy, Standalone, PostgreSQL, mask, );0;0
-apache;shardingsphere;e2e-sql.yml;e2e-sql (jdbc, Standalone, MySQL, dbtbl_with_readwrite_splitting_and_encrypt, );0;0
-apache;shardingsphere;e2e-sql.yml;e2e-sql (proxy, Cluster, PostgreSQL, sharding_and_shadow, );0;0
-alibaba;druid;ci.yaml;test (ubuntu-latest, 17);0;0
-flowable;flowable-engine;mysql.yml;test_mysql (5.7);61;61
-apache;shardingsphere;e2e-sql.yml;e2e-sql (jdbc, Standalone, MySQL, empty_rules, );0;0
-stleary;JSON-java;codeql-analysis.yml;analyze (java);0;0
-apache;dolphinscheduler;docs.yml;dead-link;0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Standalone, MySQL, sharding_and_shadow, );0;0
-sofastack;sofa-jraft;build.yml;test_rheakv_pd;1;1
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (jdbc, Standalone, MySQL, db, );0;0
-graphhopper;graphhopper;build.yml;build (22-ea);2;2
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Cluster, MySQL, mask_sharding, );0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Cluster, PostgreSQL, distsql_rdl, );0;0
-apache;shardingsphere;e2e-sql.yml;e2e-sql (jdbc, Standalone, PostgreSQL, empty_storage_units, );0;0
-openzipkin;zipkin;test_readme.yml;docker;0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Cluster, PostgreSQL, passthrough, );0;0
-apache;shardingsphere;e2e-sql.yml;e2e-sql (proxy, Cluster, MySQL, encrypt_shadow, );0;0
-apache;shardingsphere;e2e-sql.yml;e2e-sql (jdbc, Standalone, PostgreSQL, encrypt, );0;0
-clojure;clojure;test.yml;test (ubuntu-latest, 11, temurin, test-direct);1;1
-flowable;flowable-engine;postgres.yml;test_postgres (16);62;62
-immutables;immutables;ci.yml;build (8, javac, none);16;16
-mybatis;spring-boot-starter;ci.yaml;test (maven, temurin, 17, ubuntu-latest);1;1
-jitsi;jitsi;java.yml;java (17);1;1
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Standalone, openGauss, sharding_and_encrypt, );0;0
-alibaba;nacos;it.yml;test (ubuntu-latest, 8.0.192);0;0
-apache;incubator-seata;test-druid.yml;test-druid (1.2.10);1;1
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (jdbc, Standalone, openGauss, sharding_and_encrypt, );0;0
-apache;shardingsphere;e2e-sql.yml;e2e-sql (proxy, Cluster, PostgreSQL, passthrough, );0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Cluster, MySQL, readwrite_splitting, );0;0
-apache;shardingsphere;e2e-sql.yml;e2e-sql (proxy, Cluster, PostgreSQL, distsql_rdl, );0;0
-apache;shenyu;integrated-test.yml;build (shenyu-integrated-test-sofa);1;1
-linlinjava;litemall;main.yml;Litemall-vue (12.x);29;0
-apache;dolphinscheduler;e2e-k8s.yml;e2e-k8s;0;0
-jetty;jetty.project;codeql-analysis.yml;analyze (java);0;0
-Nepxion;Discovery;maven.yml;build;4;4
-apache;shardingsphere;e2e-sql.yml;e2e-sql (jdbc, Standalone, MySQL, readwrite_splitting, );0;0
-apache;zookeeper;e2e.yaml;compatibility (11, 3.7.0);3;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Cluster, openGauss, db_tbl_sql_federation, );0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Cluster, PostgreSQL, sharding_and_encrypt, );0;0
-apache;shardingsphere;e2e-sql.yml;e2e-sql (proxy, Cluster, MySQL, mask_encrypt_sharding, );0;0
-apache;incubator-seata;test-ubuntu.yml;test (8, ubuntu, 2.6.15         -D spring-framework.version=5.3.27);2;2
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Cluster, MySQL, db_tbl_sql_federation, );0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Standalone, openGauss, mask_encrypt_sharding, );0;0
-netty;netty;codeql-analysis.yml;analyze (cpp);5;5
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (jdbc, Standalone, openGauss, readwrite_splitting_and_shadow, );0;0
-javaparser;javaparser;maven_tests.yml;maven_test (ubuntu-latest, 11);7;7
-YunaiV;yudao-cloud;maven.yml;build (8);0;0
-clojure;clojure;test.yml;test (ubuntu-latest, 17, corretto, test-no-direct);1;1
-flowable;flowable-engine;main.yml;test_jdk (17);69;69
-fabric8io;kubernetes-client;build.yml;build (17);99;99
-quarkusio;quarkus;codeql-analysis.yml;analyze (java);1;1
-sofastack;sofa-jraft;build.yml;test_rpc_grpc_impl;1;1
-zxing;zxing;test_java_21.yml;build;0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Standalone, openGauss, encrypt, );0;0
-apache;shardingsphere;e2e-sql.yml;e2e-sql (proxy, Standalone, MySQL, encrypt, );0;0
-apache;shardingsphere;e2e-sql.yml;e2e-sql (proxy, Cluster, PostgreSQL, sharding_and_encrypt, );0;0
-apache;zookeeper;e2e.yaml;compatibility (8, 3.7.0);3;0
-apache;shardingsphere;e2e-sql.yml;e2e-sql (proxy, Cluster, PostgreSQL, mask_sharding, );0;0
-google;gson;check-api-compatibility.yml;check-api-compatibility;1;0
-apache;zeppelin;core.yml;spark-test (3.7, 8);7;7
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, , MySQL, passthrough, -Dmysql-connector-java.version=8.3.0);0;0
-google;gson;codeql-analysis.yml;analyze (java);0;0
-jboss-javassist;javassist;maven.yml;build (ubuntu-latest, 11);4;4
-pagehelper;Mybatis-PageHelper;pull-request.yml;mvn_verify;1;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Cluster, openGauss, empty_rules, );0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Cluster, MySQL, db, );0;0
-aragozin;jvm-tools;maven.yml;build11;5;5
-apache;pulsar;codeql.yaml;analyze (java-kotlin);0;0
-linlinjava;litemall;main.yml;Litemall-all (11.0.3);1;1
-immutables;immutables;ci.yml;build (11, javac, none);12;12
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Standalone, MySQL, sharding_and_encrypt, );0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Cluster, openGauss, db, );0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Standalone, openGauss, readwrite_splitting, );0;0
-clojure;clojure;test.yml;test (ubuntu-latest, 17, corretto, test-direct);1;1
-mybatis;mybatis-3;ci.yaml;test (maven, temurin, 17, ubuntu-latest);0;0
-Atmosphere;atmosphere;maven.yml;build (22);0;0
-apache;shardingsphere;e2e-sql.yml;e2e-sql (proxy, Cluster, MySQL, readwrite_splitting, );0;0
-mybatis;spring-boot-starter;ci.yaml;test (maven, temurin, 23-ea, ubuntu-latest);1;1
-netty;netty;codeql-analysis.yml;analyze (java);2;2
-apache;incubator-seata;test-ubuntu.yml;test (8, ubuntu, 2.2.13.RELEASE -D spring-framework.version=5.2.12.RELEASE);0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Cluster, openGauss, readwrite_splitting, );0;0
-apache;shardingsphere;e2e-sql.yml;e2e-sql (jdbc, Standalone, PostgreSQL, mask_encrypt_sharding, );0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (jdbc, Standalone, openGauss, encrypt_and_readwrite_splitting, );0;0
-immutables;immutables;ci.yml;build (11, ecj, none);15;15
-alibaba;arthas;test.yaml;ubuntu_build (8);536;536
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Cluster, PostgreSQL, sharding_and_shadow, );0;0
-Tencent;spring-cloud-tencent;junit_test17.yml;build (17, ubuntu-latest);1;1
-apache;dolphinscheduler;docs.yml;style;4;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (jdbc, Standalone, MySQL, mask_encrypt, );0;0
-apache;shardingsphere;e2e-sql.yml;e2e-sql (proxy, Cluster, MySQL, encrypt, );0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Standalone, PostgreSQL, dbtbl_with_readwrite_splitting_and_encrypt, );0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Cluster, openGauss, encrypt_shadow, );0;0
-apache;shardingsphere;e2e-sql.yml;e2e-sql (jdbc, Standalone, PostgreSQL, encrypt_and_readwrite_splitting, );0;0
-spring-cloud;spring-cloud-gateway;maven.yml;build;0;0
-javaparser;javaparser;maven_tests.yml;maven_test (ubuntu-latest, 17);9;9
-clojure;clojure;test.yml;test (ubuntu-latest, 8, corretto, test-no-direct);1;1
-apache;shardingsphere;e2e-sql.yml;e2e-sql (jdbc, Standalone, MySQL, mask, );0;0
-apache;zeppelin;core.yml;core-modules (8);261;261
-bastillion-io;Bastillion;github-build.yml;build;0;0
-immutables;immutables;ci.yml;build (8, ecj, errorprone);19;19
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Standalone, MySQL, shadow, );0;0
-apache;shardingsphere;required-check.yml;check-spotless;7;0
-apache;shenyu;integrated-test.yml;build (shenyu-integrated-test-grpc);1;1
-apache;incubator-seata;test-druid.yml;test-druid (1.2.2);0;0
-apache;shardingsphere;e2e-sql.yml;e2e-sql (proxy, Standalone, MySQL, mask, );0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Cluster, PostgreSQL, encrypt_and_readwrite_splitting, );0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (jdbc, Standalone, MySQL, mask, );0;0
-citerus;dddsample-core;pipeline.yml;build;1;1
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Standalone, PostgreSQL, readwrite_splitting_and_shadow, );0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (jdbc, Standalone, openGauss, readwrite_splitting, );0;0
-apache;shardingsphere;e2e-sql.yml;e2e-sql (proxy, Cluster, PostgreSQL, encrypt_shadow, );0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (jdbc, Standalone, openGauss, dbtbl_with_readwrite_splitting_and_encrypt, );0;0
-stleary;JSON-java;pipeline.yml;build-11 (11);0;0
-apache;shardingsphere;e2e-sql.yml;e2e-sql (proxy, Cluster, PostgreSQL, shadow, );0;0
-apache;incubator-seata;test-ubuntu.yml;test (17, ubuntu, 2.3.12.RELEASE -D spring-framework.version=5.2.15.RELEASE);24;24
-AsyncHttpClient;async-http-client;maven.yml;RunOnLinux;2;2
-apache;incubator-seata;test-ubuntu.yml;test (21, ubuntu, 2.4.13         -D spring-framework.version=5.3.13);4;4
-apache;shardingsphere;e2e-operation.yml;e2e-operation (showprocesslist, Object);25;25
-jitsi;jitsi;java.yml;java (11);0;0
-apache;shardingsphere;e2e-sql.yml;e2e-sql (jdbc, Standalone, PostgreSQL, tbl, );0;0
-apache;incubator-seata;test-druid.yml;test-druid (1.2.16);3;3
-apache;shardingsphere;e2e-sql.yml;e2e-sql (proxy, Standalone, MySQL, readwrite_splitting_and_shadow, );0;0
-swagger-api;swagger-core;maven-v1-pulls.yml;build (17);1;1
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Standalone, PostgreSQL, sharding_and_encrypt, );0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Standalone, openGauss, db_tbl_sql_federation, );0;0
-apache;shardingsphere;e2e-sql.yml;e2e-sql (proxy, Standalone, PostgreSQL, sharding_and_shadow, );0;0
-debezium;debezium;debezium-workflow-pr.yml;file_changes;13;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (jdbc, Standalone, openGauss, mask_sharding, );0;0
-apache;shardingsphere;e2e-sql.yml;e2e-sql (jdbc, Standalone, PostgreSQL, db, );0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (jdbc, Standalone, PostgreSQL, sharding_and_shadow, );0;0
-DTStack;chunjun;build.yml;spotless-check;0;0
-apache;shardingsphere;e2e-sql.yml;e2e-sql (proxy, Cluster, MySQL, db_tbl_sql_federation, );0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Standalone, PostgreSQL, sharding_and_shadow, );0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Cluster, MySQL, mask_encrypt_sharding, );0;0
-linlinjava;litemall;main.yml;Litemall-admin (12.x);9;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Standalone, MySQL, encrypt_and_readwrite_splitting, );0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Cluster, openGauss, mask_encrypt_sharding, );0;0
-javaparser;javaparser;maven_tests.yml;maven_test (ubuntu-latest, 8);9;9
-mybatis;mybatis-3;ci.yaml;test (maven, temurin, 21, ubuntu-latest);0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Standalone, PostgreSQL, tbl, );0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Standalone, openGauss, mask, );0;0
-immutables;immutables;ci.yml;build (17, javac, none);16;16
-linlinjava;litemall;main.yml;Litemall-all (8);0;0
-apache;shenyu;k8s-examples-http.yml;k8s-examples-http;1;1
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (jdbc, Standalone, MySQL, readwrite_splitting, );0;0
-apache;shardingsphere;e2e-sql.yml;e2e-sql (jdbc, Standalone, MySQL, readwrite_splitting_and_shadow, );0;0
-apache;incubator-seata;test-ubuntu.yml;test (11, ubuntu, 2.5.15         -D spring-framework.version=5.3.27);4;4
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Cluster, openGauss, mask_encrypt, );0;0
-apache;shardingsphere;e2e-operation.yml;e2e-operation (transaction, Object);28;28
-apache;incubator-seata;test-druid.yml;test-druid (1.2.8);1;1
-strimzi;strimzi-kafka-operator;codeql-analysis.yml;analyze (java);0;0
-apache;shardingsphere;e2e-sql.yml;e2e-sql (jdbc, Standalone, MySQL, sharding_and_encrypt, );0;0
-jhy;jsoup;build.yml;test (ubuntu-latest, 8);2;2
-apache;shardingsphere;e2e-sql.yml;e2e-sql (proxy, Standalone, PostgreSQL, dbtbl_with_readwrite_splitting_and_encrypt, );0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Standalone, MySQL, dbtbl_with_readwrite_splitting_and_encrypt, );0;0
-aragozin;jvm-tools;maven.yml;build17;3;3
-apache;shardingsphere;e2e-sql.yml;e2e-sql (jdbc, Standalone, PostgreSQL, shadow, );0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Cluster, openGauss, sharding_encrypt_shadow, );0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (jdbc, Standalone, MySQL, distsql_rdl, );0;0
-apache;dolphinscheduler;codeql.yaml;analyze;37;37
-apache;shenyu;integrated-test.yml;build (shenyu-integrated-test-spring-cloud);1;1
-immutables;immutables;ci.yml;build (21, ecj, errorprone);17;17
-fabric8io;kubernetes-client;javadocs.yml;javadoc;29;29
-dromara;hmily;main.yml;build;0;0
-apache;zeppelin;core.yml;interpreter-test-jupyter-python-rlang (3.9, 8);6;6
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Cluster, MySQL, encrypt_shadow, );0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (jdbc, Standalone, PostgreSQL, encrypt, );0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (jdbc, Standalone, PostgreSQL, readwrite_splitting_and_shadow, );0;0
-alibaba;transmittable-thread-local;ci.yaml;test (ubuntu-latest, 8);6;6
-apache;shardingsphere;e2e-sql.yml;e2e-sql (proxy, , MySQL, passthrough, -Dmysql-connector-java.version=8.3.0);0;0
-apache;shenyu;integrated-test.yml;build (shenyu-integrated-test-websocket);1;1
-apache;shardingsphere;e2e-agent.yml;build-e2e-image;1;1
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (jdbc, Standalone, MySQL, shadow, );0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (jdbc, Standalone, openGauss, encrypt, );0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Cluster, MySQL, dbtbl_with_readwrite_splitting_and_encrypt, );0;0
-apache;zookeeper;e2e.yaml;compatibility (8, 3.5.9);4;0
-jeremylong;DependencyCheck;codeql-analysis.yml;analyze (java);0;0
-apache;incubator-seata;test-druid.yml;test-druid (1.2.11);0;0
-swagger-api;swagger-core;maven-pulls.yml;build (11);3;3
-apache;shenyu;integrated-test.yml;build (shenyu-integrated-test-http);1;1
-apache;shardingsphere;e2e-sql.yml;e2e-sql (jdbc, Standalone, MySQL, db, );0;0
-linlinjava;litemall;main.yml;Litemall-vue (14.x);14;0
-apache;zookeeper;e2e.yaml;compatibility (8, 3.6.3);4;0
-apache;shenyu;integrated-test.yml;build (shenyu-integrated-test-sdk-apache-dubbo);1;1
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (jdbc, Standalone, PostgreSQL, mask_encrypt, );0;0
-apache;zeppelin;core.yml;livy-0-8-with-spark-2-4-under-python37;1;1
-apache;shardingsphere;e2e-sql.yml;e2e-sql (jdbc, Standalone, PostgreSQL, sharding_and_encrypt, );0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Standalone, MySQL, mask, );0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (jdbc, Standalone, PostgreSQL, sharding_and_encrypt, );0;0
-apache;shenyu;integrated-test.yml;build (shenyu-integrated-test-https);1;1
-apache;incubator-seata;test-druid.yml;test-druid (1.2.5);23;23
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (jdbc, Standalone, PostgreSQL, encrypt_shadow, );0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (jdbc, Standalone, openGauss, db_tbl_sql_federation, );0;0
-apache;shenyu;integrated-test.yml;build (shenyu-integrated-test-rewrite);1;1
-apache;shardingsphere;e2e-sql.yml;e2e-sql (proxy, Standalone, PostgreSQL, readwrite_splitting_and_shadow, );0;0
-JanusGraph;janusgraph;ci-backend-scylla-dummy.yml;build-all;23;23
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Standalone, openGauss, encrypt_and_readwrite_splitting, );0;0
-apache;incubator-seata;test-ubuntu.yml;test (21, ubuntu, 2.6.15         -D spring-framework.version=5.3.27);4;4
-flowable;flowable-engine;java-ea.yml;test_jdkea;21;21
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Standalone, MySQL, mask_sharding, );0;0
-apache;shardingsphere;e2e-sql.yml;e2e-sql (jdbc, Standalone, PostgreSQL, sharding_and_shadow, );0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Standalone, MySQL, readwrite_splitting_and_shadow, );0;0
-apache;incubator-seata;test-ubuntu.yml;test (17, ubuntu, 2.4.13         -D spring-framework.version=5.3.13);4;4
-apache;dolphinscheduler;e2e-k8s.yml;result;0;0
-mybatis;mybatis-3;ci.yaml;test (maven, temurin, 23-ea, ubuntu-latest);0;0
-javaparser;javaparser;maven_tests.yml;maven_test (ubuntu-latest, 10);6;6
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (jdbc, Standalone, MySQL, mask_encrypt_sharding, );0;0
-apache;shardingsphere;e2e-sql.yml;e2e-sql (proxy, Cluster, PostgreSQL, mask, );0;0
-immutables;immutables;ci.yml;build (21, javac, none);21;21
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Cluster, MySQL, encrypt, );0;0
-apache;zeppelin;core.yml;flink-test-and-flink-integration-test (3.8, 115);1;1
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (jdbc, Standalone, PostgreSQL, empty_rules, );0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (jdbc, Standalone, PostgreSQL, encrypt_and_readwrite_splitting, );0;0
-apache;shardingsphere;e2e-sql.yml;e2e-sql (proxy, Standalone, MySQL, mask_sharding, );0;0
-apache;shardingsphere;e2e-sql.yml;e2e-sql (proxy, Cluster, PostgreSQL, dbtbl_with_readwrite_splitting_and_encrypt, );0;0
-YunaiV;yudao-cloud;maven.yml;build (17);1;1
-apache;linkis;check-code-format.yml;spotless-check;5;0
-joelittlejohn;jsonschema2pojo;android-ci.yml;buildTest (8);4;4
-apache;shardingsphere;e2e-sql.yml;e2e-sql (proxy, Standalone, PostgreSQL, encrypt_and_readwrite_splitting, );0;0
-knowm;XChange;maven_on_pull_request.yml;build;113;113
-apache;shardingsphere;e2e-sql.yml;e2e-sql (proxy, Cluster, MySQL, sharding_encrypt_shadow, );0;0
-apache;incubator-seata;test-ubuntu.yml;test-arm64 (2.2.13.RELEASE -Dspring-framework.version=5.2.12.RELEASE);168;168
-clojure;clojure;test.yml;test (ubuntu-latest, 11, corretto, test-no-direct);1;1
-clojure;clojure;test.yml;test (ubuntu-latest, 17, temurin, test-direct);1;1
-apache;zeppelin;core.yml;interpreter-test-jupyter-python-rlang (3.8, 8);8;8
-jhy;jsoup;build.yml;test (ubuntu-latest, 21);2;2
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Cluster, MySQL, encrypt_and_readwrite_splitting, );0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Cluster, openGauss, sharding_and_encrypt, );0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Cluster, PostgreSQL, readwrite_splitting_and_shadow, );0;0
-apache;incubator-seata;test-ubuntu.yml;test (8, ubuntu, 2.3.12.RELEASE -D spring-framework.version=5.2.15.RELEASE);7;7
-codecentric;spring-boot-admin;build-feature.yml;build (ubuntu-latest);178;178
-alibaba;arthas;test.yaml;ubuntu_build (19);528;528
-apache;shardingsphere;e2e-sql.yml;e2e-sql (proxy, Standalone, MySQL, readwrite_splitting, );0;0
-swagger-api;swagger-core;maven-v1-pulls.yml;build (11);0;0
-socketio;socket.io-client-java;ci.yml;verify (11);1;1
-apache;zeppelin;frontend.yml;test-selenium-with-spark-module-for-spark-3-4;157;157
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (jdbc, Standalone, openGauss, mask, );0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (jdbc, Standalone, PostgreSQL, tbl, );0;0
-apache;shardingsphere;e2e-sql.yml;e2e-sql (jdbc, Standalone, MySQL, mask_encrypt, );0;0
-apache;zookeeper;e2e.yaml;compatibility (11, 3.6.3);4;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (jdbc, Standalone, openGauss, empty_rules, );0;0
-immutables;immutables;ci.yml;build (17, javac, errorprone);15;15
-apache;zookeeper;e2e.yaml;compatibility (11, 3.5.9);4;0
-apache;shardingsphere;e2e-sql.yml;e2e-sql (jdbc, Standalone, PostgreSQL, mask_encrypt, );0;0
-apache;incubator-seata;test-ubuntu.yml;test (11, ubuntu, 2.7.18         -D spring-framework.version=5.3.31);5;5
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Standalone, MySQL, encrypt, );0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Cluster, openGauss, encrypt, );0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Cluster, openGauss, readwrite_splitting_and_shadow, );0;0
-vert-x3;vertx-examples;ci.yml;Test (ubuntu-latest, 21);3;0
-vert-x3;vertx-examples;ci.yml;Test (ubuntu-latest, 8);11;0
-socketio;socket.io-client-java;ci.yml;verify (8);1;1
-alibaba;nacos;it.yml;test (ubuntu-latest, 11);0;0
-javaparser;javaparser;maven_tests.yml;maven_test (ubuntu-latest, 16);8;8
-apache;shardingsphere;e2e-sql.yml;e2e-sql (jdbc, Standalone, PostgreSQL, db_tbl_sql_federation, );0;0
-javaparser;javaparser;formatting_check.yml;checkstyle_check;0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Cluster, MySQL, distsql_rdl, );0;0
-immutables;immutables;ci.yml;build (8, javac, errorprone);14;14
-apache;shardingsphere;e2e-sql.yml;e2e-sql (proxy, Cluster, MySQL, dbtbl_with_readwrite_splitting_and_encrypt, );0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Cluster, MySQL, passthrough, );0;0
-YunaiV;yudao-cloud;maven.yml;build (11);2;2
-apache;zeppelin;core.yml;zeppelin-integration-test (11);125;125
-clojure;clojure;test.yml;test (ubuntu-latest, 21, temurin, test-direct);1;1
-apache;zeppelin;core.yml;interpreter-test-non-core (8);13;13
-sofastack;sofa-rpc;maven.yml;build;0;0
-apache;shardingsphere;e2e-sql.yml;e2e-sql (proxy, Cluster, MySQL, mask_encrypt, );0;0
-alibaba;transmittable-thread-local;ci.yaml;test (ubuntu-latest, 21);8;8
-torakiki;pdfsam;build.yml;build (21);29;29
-xuxueli;xxl-job;maven.yml;build;0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Standalone, PostgreSQL, encrypt_and_readwrite_splitting, );0;0
-TheAlgorithms;Java;codeql.yml;analyze;0;0
-apache;shardingsphere;e2e-sql.yml;e2e-sql (jdbc, Standalone, PostgreSQL, empty_rules, );0;0
-apache;shardingsphere;e2e-sql.yml;e2e-sql (proxy, Cluster, MySQL, empty_rules, );0;0
-apache;incubator-seata;test-ubuntu.yml;test (17, ubuntu, 2.2.13.RELEASE -D spring-framework.version=5.2.12.RELEASE);18;18
-apache;shardingsphere;e2e-sql.yml;e2e-sql (proxy, Standalone, PostgreSQL, encrypt_shadow, );0;0
-mybatis;spring-boot-starter;ci.yaml;test (maven, temurin, 21, ubuntu-latest);1;1
-swagger-api;swagger-core;maven-pulls.yml;build (17);2;2
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (jdbc, Standalone, MySQL, encrypt_shadow, );0;0
-apache;incubator-seata;test-ubuntu.yml;test (8, ubuntu, 2.4.13         -D spring-framework.version=5.3.13);1;1
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Cluster, openGauss, mask, );0;0
-apache;shardingsphere;nightly-e2e-sql.yml;e2e-sql (proxy, Cluster, PostgreSQL, tbl, );0;0
-OpenRefine;OpenRefine;pull_request_server.yml;finish;0;0
-apache;shardingsphere;e2e-sql.yml;e2e-sql (jdbc, Standalone, MySQL, encrypt_shadow, );0;0
-apache;incubator-seata;test-druid.yml;test-druid (1.2.3);1;1
-alibaba;easyexcel;ci.yml;test (11, adopt);1;1
-flowable;flowable-engine;postgres.yml;test_postgres (11);33;2
-apache;shardingsphere;e2e-sql.yml;e2e-sql (jdbc, Standalone, PostgreSQL, mask, );0;0
-karatelabs;karate;jdk-compat.yml;build;6;6
+owner,repo,yaml_filename,job,all_unused,maven_unused
+apache,zeppelin,frontend.yml,run-e2e-tests-in-zeppelin-web,107,107
+apache,incubator-seata,test-ubuntu.yml,test (8, ubuntu, 2.5.15         -D spring-framework.version=5.3.27),1,1
+jboss-javassist,javassist,maven.yml,build (ubuntu-latest, 11.0.3),4,4
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Cluster, PostgreSQL, sharding_encrypt_shadow, ),0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Standalone, MySQL, readwrite_splitting, ),0,0
+rest-assured,rest-assured,ci.yml,test (ubuntu-latest, 8),10,10
+alibaba,nacos,pr-ci.yml,dist-tar,0,0
+linlinjava,litemall,main.yml,Litemall-all (11),0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (jdbc, Standalone, MySQL, empty_storage_units, ),0,0
+linlinjava,litemall,main.yml,Litemall-admin (10.x),1,0
+apache,shardingsphere,e2e-sql.yml,e2e-sql (proxy, Cluster, PostgreSQL, readwrite_splitting, ),0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Standalone, openGauss, tbl, ),0,0
+apache,zeppelin,frontend.yml,run-tests-in-zeppelin-web-angular,138,138
+apache,shenyu,integrated-test.yml,build (shenyu-integrated-test-combination),1,1
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (jdbc, Standalone, PostgreSQL, db, ),0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Standalone, PostgreSQL, shadow, ),0,0
+apache,shardingsphere,e2e-sql.yml,e2e-sql (proxy, Cluster, MySQL, mask, ),0,0
+apache,shardingsphere,e2e-sql.yml,e2e-sql (proxy, Cluster, PostgreSQL, encrypt_and_readwrite_splitting, ),0,0
+flowable,flowable-engine,mysql.yml,test_mysql (8),67,67
+apache,incubator-seata,test-ubuntu.yml,test (21, ubuntu, 2.3.12.RELEASE -D spring-framework.version=5.2.15.RELEASE),6,6
+apache,shardingsphere,e2e-sql.yml,e2e-sql (proxy, Standalone, MySQL, sharding_and_encrypt, ),0,0
+apache,shardingsphere,e2e-sql.yml,e2e-sql (jdbc, Standalone, MySQL, mask_sharding, ),0,0
+TheAlgorithms,Java,infer.yml,run_infer,6,1
+apache,zeppelin,core.yml,spark-integration-test (11),180,180
+mybatis,spring-boot-starter,support.yaml,test (ubuntu-latest, 21, zulu),0,0
+linlinjava,litemall,main.yml,Litemall-all (8.0.192),0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (jdbc, Standalone, openGauss, distsql_rdl, ),0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (jdbc, Standalone, PostgreSQL, mask, ),0,0
+apache,incubator-seata,test-ubuntu.yml,test (11, ubuntu, 2.2.13.RELEASE -D spring-framework.version=5.2.12.RELEASE),4,4
+apache,druid,codeql.yml,analyze (python),0,0
+clojure,clojure,test.yml,test (ubuntu-latest, 8, corretto, test-direct),1,1
+immutables,immutables,ci.yml,build (21, ecj, none),17,17
+apache,zeppelin,core.yml,spark-test (3.9, 8),7,7
+apache,shardingsphere,e2e-sql.yml,e2e-sql (proxy, Cluster, MySQL, db, ),0,0
+apache,incubator-kie-drools,pr-drools-docs.yml,drools-build (ubuntu-latest, 17, 3.9.6),68,68
+apache,shardingsphere,e2e-sql.yml,e2e-sql (jdbc, Standalone, MySQL, sharding_and_shadow, ),0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Cluster, MySQL, empty_rules, ),0,0
+apache,shardingsphere,e2e-sql.yml,e2e-sql (proxy, Cluster, PostgreSQL, mask_encrypt, ),0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Standalone, PostgreSQL, encrypt_shadow, ),0,0
+alibaba,nacos,it.yml,test (ubuntu-latest, 11.0.3),0,0
+apache,shardingsphere,e2e-sql.yml,e2e-sql (jdbc, Standalone, MySQL, tbl, ),0,0
+javaparser,javaparser,maven_tests.yml,maven_test (ubuntu-latest, 13),9,9
+apache,shardingsphere,e2e-sql.yml,e2e-sql (jdbc, Standalone, MySQL, encrypt_and_readwrite_splitting, ),0,0
+apache,incubator-seata,test-ubuntu.yml,test (17, ubuntu, 2.7.18         -D spring-framework.version=5.3.31),5,5
+stleary,JSON-java,pipeline.yml,build-8 (8),0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Standalone, MySQL, mask_encrypt, ),0,0
+clojure,clojure,test.yml,test (ubuntu-latest, 21, corretto, test-direct),1,1
+metersphere,metersphere,frontend-build.yml,generic_handler,0,0
+apache,dolphinscheduler,docs.yml,paths-filter,20,0
+apache,shardingsphere,e2e-sql.yml,e2e-sql (proxy, Standalone, PostgreSQL, encrypt, ),0,0
+flowable,flowable-engine,postgres.yml,test_postgres (14),58,58
+apache,shardingsphere,e2e-sql.yml,e2e-sql (jdbc, Standalone, PostgreSQL, distsql_rdl, ),0,0
+apache,shardingsphere,e2e-sql.yml,e2e-sql (proxy, Cluster, MySQL, distsql_rdl, ),0,0
+alibaba,transmittable-thread-local,ci.yaml,test (ubuntu-latest, 11),9,9
+apache,shardingsphere,e2e-sql.yml,e2e-sql (proxy, Cluster, MySQL, passthrough, ),0,0
+apache,incubator-seata,test-druid.yml,test-druid (1.2.6),1,1
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Cluster, PostgreSQL, mask, ),0,0
+apache,incubator-seata,test-druid.yml,test-druid (1.2.12),0,0
+apache,shardingsphere,e2e-sql.yml,e2e-sql (proxy, Standalone, MySQL, db_tbl_sql_federation, ),0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Cluster, MySQL, sharding_and_shadow, ),0,0
+stleary,JSON-java,pipeline.yml,build-21 (21),0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Standalone, openGauss, shadow, ),0,0
+crate,crate,main.yml,checkstyle,21,21
+alibaba,arthas,test.yaml,ubuntu_build (11),110,110
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (jdbc, Standalone, MySQL, dbtbl_with_readwrite_splitting_and_encrypt, ),0,0
+apache,shenyu,integrated-test.yml,build (shenyu-integrated-test-sdk-http),1,1
+apache,shardingsphere,e2e-sql.yml,e2e-sql (proxy, Cluster, PostgreSQL, mask_encrypt_sharding, ),0,0
+apache,incubator-seata,test-ubuntu.yml,test (17, ubuntu, 2.5.15         -D spring-framework.version=5.3.27),5,5
+jhy,jsoup,build.yml,test (ubuntu-latest, 17),2,2
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Standalone, MySQL, db_tbl_sql_federation, ),0,0
+apache,shardingsphere,e2e-sql.yml,e2e-sql (proxy, Cluster, MySQL, sharding_and_shadow, ),0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Standalone, openGauss, mask_encrypt, ),0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Standalone, openGauss, db, ),0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Standalone, openGauss, sharding_and_shadow, ),0,0
+jetlinks,jetlinks-community,pull_request.yml,build,0,0
+apache,nifi,docker-tests.yml,build_and_test,13,0
+apache,dolphinscheduler,docs.yml,helm-doc,0,0
+apache,shardingsphere,e2e-sql.yml,e2e-sql (jdbc, Standalone, MySQL, db_tbl_sql_federation, ),0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (jdbc, Standalone, MySQL, sharding_and_encrypt, ),0,0
+zxing,zxing,test_java_17.yml,build,0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Cluster, openGauss, sharding_and_shadow, ),0,0
+apache,incubator-seata,test-druid.yml,test-druid (1.2.19),1,1
+LibrePDF,OpenPDF,maven.yml,build,6,6
+apache,shardingsphere,e2e-sql.yml,e2e-sql (proxy, Standalone, PostgreSQL, mask_sharding, ),0,0
+apache,shardingsphere,e2e-sql.yml,e2e-sql (proxy, Standalone, MySQL, encrypt_shadow, ),0,0
+spring-io,initializr,build-pull-request.yml,build,10,10
+apache,shardingsphere-elasticjob,required-check.yml,check-spotless,5,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Cluster, openGauss, tbl, ),0,0
+flyway,flyway,build-release.yml,build (ubuntu-latest, 17),0,0
+apache,shardingsphere,e2e-sql.yml,e2e-sql (proxy, Standalone, PostgreSQL, tbl, ),0,0
+clojure,clojure,test.yml,test (ubuntu-latest, 21, corretto, test-no-direct),1,1
+apache,shardingsphere,e2e-sql.yml,e2e-sql (proxy, Standalone, MySQL, encrypt_and_readwrite_splitting, ),0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (jdbc, Standalone, MySQL, empty_rules, ),0,0
+apache,shardingsphere,e2e-sql.yml,e2e-sql (proxy, Standalone, PostgreSQL, db, ),0,0
+apache,zeppelin,core.yml,flink-test-and-flink-integration-test (3.9, 116),5,5
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (jdbc, Standalone, PostgreSQL, mask_encrypt_sharding, ),0,0
+apache,zeppelin,core.yml,interpreter-test-jupyter-python-rlang (3.9, 11),7,7
+javaparser,javaparser,maven_tests.yml,maven_test (ubuntu-latest, 18),9,9
+apache,shardingsphere,e2e-operation.yml,e2e-operation (pipeline, Object),41,41
+apache,dolphinscheduler,e2e-k8s.yml,paths-filter,24,0
+flowable,flowable-engine,postgres.yml,test_postgres (12),67,67
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Standalone, PostgreSQL, sharding_encrypt_shadow, ),0,0
+apache,shardingsphere,e2e-sql.yml,e2e-sql (proxy, Cluster, MySQL, shadow, ),0,0
+apache,shardingsphere,e2e-sql.yml,e2e-sql (proxy, Standalone, MySQL, dbtbl_with_readwrite_splitting_and_encrypt, ),0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (jdbc, Standalone, openGauss, sharding_and_shadow, ),0,0
+apache,incubator-seata,test-druid.yml,test-druid (1.2.0),0,0
+questdb,questdb,pgwire_stable.yml,build,0,0
+kubernetes-client,java,codeql-analysis.yml,analyze (java),0,0
+alibaba,transmittable-thread-local,ci.yaml,test (ubuntu-latest, 17),8,8
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (jdbc, Standalone, MySQL, readwrite_splitting_and_shadow, ),0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Cluster, MySQL, mask_encrypt, ),0,0
+apache,shardingsphere,e2e-sql.yml,e2e-sql (proxy, Cluster, MySQL, tbl, ),0,0
+apache,rocketmq,pr-ci.yml,dist-tar,1,1
+zxing,zxing,test_java_8.yml,build,0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (jdbc, Standalone, PostgreSQL, dbtbl_with_readwrite_splitting_and_encrypt, ),0,0
+alibaba,arthas,test.yaml,ubuntu_build (17),113,113
+apache,shardingsphere,e2e-sql.yml,e2e-sql (proxy, Cluster, MySQL, mask_sharding, ),0,0
+apache,incubator-seata,test-ubuntu.yml,test (8, ubuntu, 2.7.18         -D spring-framework.version=5.3.31),2,2
+apache,incubator-seata,test-druid.yml,test-druid (1.2.14),1,1
+swagger-api,swagger-core,maven-pulls.yml,build (14),2,2
+Atmosphere,atmosphere,maven.yml,build (18),0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Cluster, PostgreSQL, mask_encrypt_sharding, ),0,0
+apache,zeppelin,core.yml,spark-test (3.8, 8),6,6
+apache,zeppelin,core.yml,zeppelin-integration-test (8),144,144
+apache,shardingsphere,e2e-sql.yml,e2e-sql (proxy, Standalone, PostgreSQL, db_tbl_sql_federation, ),0,0
+apache,incubator-seata,test-ubuntu.yml,test-arm64 (2.3.12.RELEASE -Dspring-framework.version=5.2.15.RELEASE),163,163
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Cluster, PostgreSQL, readwrite_splitting, ),0,0
+alibaba,transmittable-thread-local,ci.yaml,test (ubuntu-latest, 22),8,8
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (jdbc, Standalone, MySQL, tbl, ),0,0
+javaparser,javaparser,maven_tests.yml,maven_test (ubuntu-latest, 15),6,6
+apache,shardingsphere,e2e-sql.yml,e2e-sql (proxy, Cluster, PostgreSQL, db, ),0,0
+checkstyle,checkstyle,error-prone.yml,error-prone,0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Cluster, MySQL, shadow, ),0,0
+apache,incubator-seata,test-ubuntu.yml,test (11, ubuntu, 2.4.13         -D spring-framework.version=5.3.13),7,7
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Standalone, PostgreSQL, mask_encrypt_sharding, ),0,0
+sofastack,sofa-jraft,build.yml,test_storage_java_impl,0,0
+OpenRefine,OpenRefine,pull_request_server.yml,linux_server_tests (21),7,7
+immutables,immutables,ci.yml,build (11, ecj, errorprone),14,14
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (jdbc, Standalone, PostgreSQL, distsql_rdl, ),0,0
+TooTallNate,Java-WebSocket,checkstyle.yml,build,2,0
+thingsboard,thingsboard,license-header-format.yml,license-format,0,0
+apache,incubator-streampark,codeql-analysis.yml,analyze (java),0,0
+apache,zeppelin,core.yml,default-build (8),289,289
+stleary,JSON-java,pipeline.yml,build-17 (17),0,0
+clojure,clojure,test.yml,test (ubuntu-latest, 17, temurin, test-no-direct),2,2
+apache,shardingsphere,e2e-sql.yml,e2e-sql (proxy, Standalone, PostgreSQL, sharding_and_encrypt, ),0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Cluster, MySQL, sharding_encrypt_shadow, ),0,0
+apache,shardingsphere,e2e-sql.yml,e2e-sql (proxy, Standalone, MySQL, mask_encrypt_sharding, ),0,0
+apache,incubator-seata,test-ubuntu.yml,test (21, ubuntu, 2.5.15         -D spring-framework.version=5.3.27),7,7
+apache,shardingsphere,e2e-sql.yml,e2e-sql (proxy, Standalone, MySQL, tbl, ),0,0
+apache,shenyu,integrated-test.yml,build (shenyu-integrated-test-motan),1,1
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Standalone, openGauss, encrypt_shadow, ),0,0
+OpenAPITools,openapi-generator,docker.yaml,build,8,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Standalone, MySQL, sharding_encrypt_shadow, ),0,0
+apache,shardingsphere,e2e-sql.yml,e2e-sql (jdbc, Standalone, MySQL, shadow, ),0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Cluster, openGauss, passthrough, ),0,0
+crate,crate,main.yml,forbiddenApis,20,20
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Cluster, openGauss, distsql_rdl, ),0,0
+apache,zookeeper,ci.yaml,mvn (Object),0,0
+Konloch,bytecode-viewer,maven.yml,build (8),1,1
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Standalone, MySQL, encrypt_shadow, ),0,0
+mybatis,spring-boot-starter,ci.yaml,test (maven, temurin, 22, ubuntu-latest),1,1
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Standalone, PostgreSQL, readwrite_splitting, ),0,0
+kekingcn,kkFileView,maven.yml,build,0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Standalone, MySQL, tbl, ),0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Standalone, openGauss, mask_sharding, ),0,0
+alibaba,druid,ci.yaml,test (ubuntu-latest, 21),0,0
+apache,shardingsphere,e2e-sql.yml,e2e-sql (proxy, Standalone, PostgreSQL, readwrite_splitting, ),0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (jdbc, Standalone, PostgreSQL, readwrite_splitting, ),0,0
+apache,shardingsphere,e2e-sql.yml,e2e-sql (jdbc, Standalone, PostgreSQL, sharding_encrypt_shadow, ),0,0
+AsyncHttpClient,async-http-client,builds.yml,RunOnLinux,1,1
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (jdbc, Standalone, MySQL, sharding_and_shadow, ),0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Cluster, PostgreSQL, dbtbl_with_readwrite_splitting_and_encrypt, ),0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Cluster, PostgreSQL, encrypt, ),0,0
+apache,incubator-seata,test-ubuntu.yml,test (21, ubuntu, 2.2.13.RELEASE -D spring-framework.version=5.2.12.RELEASE),5,5
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Standalone, PostgreSQL, mask, ),0,0
+apache,incubator-seata,codeql-analysis.yml,analyze (java),0,0
+apache,shardingsphere,e2e-sql.yml,e2e-sql (jdbc, Standalone, MySQL, encrypt, ),0,0
+apache,shardingsphere,e2e-sql.yml,e2e-sql (proxy, Cluster, PostgreSQL, readwrite_splitting_and_shadow, ),0,0
+DTStack,chunjun,build.yml,build,1,1
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (jdbc, Standalone, openGauss, encrypt_shadow, ),0,0
+apache,shardingsphere,e2e-sql.yml,e2e-sql (proxy, Standalone, PostgreSQL, sharding_encrypt_shadow, ),0,0
+apache,zeppelin,core.yml,spark-integration-test (8),266,266
+javaparser,javaparser,maven_tests.yml,maven_test (ubuntu-latest, 12),8,8
+clojure,clojure,test.yml,test (ubuntu-latest, 8, temurin, test-no-direct),1,1
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Cluster, PostgreSQL, shadow, ),0,0
+immutables,immutables,ci.yml,build (8, ecj, none),16,16
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Cluster, PostgreSQL, db, ),0,0
+apache,shardingsphere,e2e-sql.yml,e2e-sql (jdbc, Standalone, PostgreSQL, readwrite_splitting, ),0,0
+apache,incubator-seata,test-ubuntu.yml,test (11, ubuntu, 2.3.12.RELEASE -D spring-framework.version=5.2.15.RELEASE),3,3
+alibaba,nacos,it.yml,test (ubuntu-latest, 8),0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Cluster, MySQL, mask, ),0,0
+apache,rocketmq,integration-test.yml,it-test (ubuntu-latest, 8),0,0
+aragozin,jvm-tools,maven.yml,build8,4,4
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (jdbc, Standalone, PostgreSQL, sharding_encrypt_shadow, ),0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (jdbc, Standalone, MySQL, sharding_encrypt_shadow, ),0,0
+sofastack,sofa-jraft,build.yml,test_jraft_core,1,1
+apache,incubator-seata,test-druid.yml,test-druid (1.2.13),1,1
+cryptomator,cryptomator,pullrequest.yml,test,3,3
+apache,shardingsphere-elasticjob,required-check.yml,check-checkstyle,5,0
+apache,shardingsphere-elasticjob,required-check.yml,check-license,0,0
+apache,shardingsphere,e2e-sql.yml,e2e-sql (jdbc, Standalone, PostgreSQL, readwrite_splitting_and_shadow, ),0,0
+apache,shardingsphere,e2e-sql.yml,e2e-sql (proxy, Standalone, MySQL, db, ),0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Standalone, openGauss, sharding_encrypt_shadow, ),0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Standalone, PostgreSQL, mask_encrypt, ),0,0
+apache,rocketmq,coverage.yml,calculate-coverage,0,0
+apache,shardingsphere,e2e-sql.yml,e2e-sql (proxy, Standalone, PostgreSQL, shadow, ),0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (jdbc, Standalone, openGauss, db, ),0,0
+apache,shardingsphere,e2e-sql.yml,e2e-sql (jdbc, Standalone, MySQL, empty_storage_units, ),0,0
+apache,incubator-seata,test-ubuntu.yml,test (11, ubuntu, 2.6.15         -D spring-framework.version=5.3.27),7,7
+apache,shardingsphere,e2e-sql.yml,e2e-sql (proxy, Standalone, PostgreSQL, mask_encrypt, ),0,0
+crate,crate,main.yml,test (ubuntu-latest),17,17
+immutables,immutables,ci.yml,build (17, ecj, none),14,14
+apache,zeppelin,core.yml,core-modules (11),266,266
+apache,shardingsphere,e2e-sql.yml,e2e-sql (proxy, Standalone, MySQL, sharding_encrypt_shadow, ),0,0
+flowable,flowable-engine,postgres.yml,test_postgres (15),65,65
+linlinjava,litemall,main.yml,Litemall-vue (10.x),10,0
+clojure,clojure,test.yml,test (ubuntu-latest, 21, temurin, test-no-direct),1,1
+jtablesaw,tablesaw,ci.yml,Tests (11, ubuntu-latest),7,7
+stleary,JSON-java,pipeline.yml,build-1_6,0,0
+apache,incubator-seata,test-druid.yml,test-druid (1.2.7),1,1
+apache,linkis,check-license.yml,apache-rat-check,0,0
+apache,shardingsphere,e2e-sql.yml,e2e-sql (proxy, Standalone, MySQL, sharding_and_shadow, ),0,0
+apache,shardingsphere,e2e-sql.yml,e2e-sql (jdbc, Standalone, PostgreSQL, mask_sharding, ),0,0
+apache,shardingsphere,e2e-sql.yml,e2e-sql (proxy, Cluster, MySQL, readwrite_splitting_and_shadow, ),0,0
+sofastack,sofa-jraft,build.yml,test_rheakv_core,1,1
+clojure,clojure,test.yml,test (ubuntu-latest, 11, corretto, test-direct),1,1
+apache,zeppelin,core.yml,interpreter-test-non-core (11),12,12
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Standalone, PostgreSQL, db_tbl_sql_federation, ),0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Cluster, openGauss, shadow, ),0,0
+apache,shenyu,integrated-test.yml,build (shenyu-integrated-test-apache-dubbo),2,2
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (jdbc, Standalone, PostgreSQL, mask_sharding, ),0,0
+immutables,immutables,ci.yml,build (21, javac, errorprone),11,11
+apache,nifi,integration-tests.yml,build_and_test,0,0
+aragozin,jvm-tools,maven.yml,build21,4,4
+apache,shardingsphere,e2e-sql.yml,e2e-sql (proxy, Standalone, MySQL, mask_encrypt, ),0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Standalone, PostgreSQL, encrypt, ),0,0
+apache,shardingsphere,required-check.yml,check-checkstyle,0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Cluster, PostgreSQL, db_tbl_sql_federation, ),0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Cluster, openGauss, mask_sharding, ),4,0
+apache,shardingsphere,e2e-sql.yml,e2e-sql (proxy, Standalone, PostgreSQL, mask_encrypt_sharding, ),0,0
+flowable,flowable-engine,main.yml,test_jdk (21),69,69
+Atmosphere,atmosphere,maven.yml,build (21),0,0
+fabric8io,kubernetes-client,build.yml,build (21),125,125
+clojure,clojure,test.yml,test (ubuntu-latest, 8, temurin, test-direct),1,1
+immutables,immutables,ci.yml,build (17, ecj, errorprone),16,16
+apache,shardingsphere,e2e-sql.yml,e2e-sql (jdbc, Standalone, MySQL, sharding_encrypt_shadow, ),0,0
+socketio,socket.io-client-java,ci.yml,verify (7),1,1
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (jdbc, Standalone, openGauss, mask_encrypt, ),0,0
+redis,jedis,doctests.yml,doctests,1,1
+fabric8io,kubernetes-client,build.yml,build (8),113,113
+apache,skywalking,codeql.yaml,analyze (java),0,0
+apache,shardingsphere,e2e-operation.yml,detect-changed-files,15,0
+apache,incubator-seata,test-ubuntu.yml,test-arm64 (2.4.13         -Dspring-framework.version=5.3.13),169,169
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (jdbc, Standalone, PostgreSQL, shadow, ),0,0
+apache,shardingsphere,e2e-sql.yml,e2e-sql (jdbc, Standalone, MySQL, distsql_rdl, ),0,0
+mybatis,mybatis-3,ci.yaml,test (maven, temurin, 24-ea, ubuntu-latest),0,0
+apache,shardingsphere,required-check.yml,check-license,0,0
+spring-cloud,spring-cloud-netflix,maven.yml,build (17),4,4
+apache,zeppelin,core.yml,flink-test-and-flink-integration-test (3.9, 117),3,3
+redisson,redisson,maven.yml,build,4,4
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Cluster, PostgreSQL, empty_rules, ),0,0
+apache,shardingsphere,e2e-sql.yml,e2e-sql (proxy, Standalone, MySQL, shadow, ),0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (jdbc, Standalone, MySQL, encrypt_and_readwrite_splitting, ),0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (jdbc, Standalone, PostgreSQL, db_tbl_sql_federation, ),0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Standalone, openGauss, readwrite_splitting_and_shadow, ),0,0
+abel533,Mapper,test.yml,mvn_verify,14,14
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Standalone, MySQL, db, ),0,0
+apache,incubator-seata,test-druid.yml,test-druid (1.2.15),1,1
+apache,incubator-seata,test-ubuntu.yml,test (21, ubuntu, 2.7.18         -D spring-framework.version=5.3.31),7,7
+flowable,flowable-engine,postgres.yml,test_postgres (13),63,63
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Cluster, PostgreSQL, mask_encrypt, ),0,0
+apache,incubator-seata,test-druid.yml,test-druid (1.2.1),1,1
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Standalone, PostgreSQL, mask_sharding, ),0,0
+apache,zeppelin,core.yml,spark-test (3.9, 11),7,7
+apache,shardingsphere,e2e-sql.yml,e2e-sql (proxy, Cluster, PostgreSQL, tbl, ),0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (jdbc, Standalone, MySQL, mask_sharding, ),0,0
+mybatis,mybatis-3,ci.yaml,test (maven, temurin, 22, ubuntu-latest),0,0
+apache,shardingsphere,e2e-sql.yml,e2e-sql (proxy, Cluster, PostgreSQL, empty_rules, ),0,0
+apache,shardingsphere,e2e-sql.yml,e2e-sql (proxy, Cluster, MySQL, sharding_and_encrypt, ),0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (jdbc, Standalone, openGauss, empty_storage_units, ),0,0
+sofastack,sofa-jraft,build.yml,check_format,0,0
+javaparser,javaparser,maven_tests.yml,maven_test (ubuntu-latest, 14),9,9
+apache,zeppelin,core.yml,interpreter-test-jupyter-python-rlang (3.7, 8),7,7
+apache,incubator-seata,test-druid.yml,test-druid (1.2.20),23,23
+apache,shardingsphere,e2e-sql.yml,e2e-sql (jdbc, Standalone, PostgreSQL, dbtbl_with_readwrite_splitting_and_encrypt, ),0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Cluster, MySQL, sharding_and_encrypt, ),0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Cluster, MySQL, readwrite_splitting_and_shadow, ),0,0
+apache,zookeeper,ci.yaml,typo-check,2,0
+apache,shardingsphere,e2e-sql.yml,e2e-sql (jdbc, Standalone, MySQL, mask_encrypt_sharding, ),0,0
+google,gson,check-android-compatibility.yml,check-android-compatibility,0,0
+aragozin,jvm-tools,maven.yml,build15,5,5
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (jdbc, Standalone, openGauss, shadow, ),0,0
+graphhopper,graphhopper,build.yml,build (21),2,2
+clojure,clojure,test.yml,test (ubuntu-latest, 11, temurin, test-no-direct),1,1
+apache,druid,codeql.yml,analyze (javascript),0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Cluster, openGauss, dbtbl_with_readwrite_splitting_and_encrypt, ),0,0
+apache,shardingsphere,e2e-sql.yml,e2e-sql (proxy, Cluster, PostgreSQL, db_tbl_sql_federation, ),0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Standalone, PostgreSQL, db, ),0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Standalone, MySQL, mask_encrypt_sharding, ),0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Cluster, MySQL, tbl, ),0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (jdbc, Standalone, openGauss, tbl, ),0,0
+immutables,immutables,ci.yml,build (11, javac, errorprone),13,13
+javaparser,javaparser,maven_tests.yml,maven_test (ubuntu-latest, 9),9,9
+apache,zeppelin,core.yml,default-build (11),135,135
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Cluster, PostgreSQL, mask_sharding, ),0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (jdbc, Standalone, openGauss, sharding_encrypt_shadow, ),0,0
+apache,shardingsphere,e2e-sql.yml,e2e-sql (proxy, Cluster, PostgreSQL, sharding_encrypt_shadow, ),0,0
+apache,incubator-seata,test-druid.yml,test-druid (1.2.9),1,1
+mybatis,spring-boot-starter,support.yaml,test (ubuntu-latest, 17, zulu),0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Cluster, openGauss, encrypt_and_readwrite_splitting, ),0,0
+apache,druid,codeql.yml,analyze (java),0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Standalone, openGauss, dbtbl_with_readwrite_splitting_and_encrypt, ),0,0
+apache,nifi,system-tests.yml,build_and_test (ubuntu-latest, 21),141,141
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (jdbc, Standalone, MySQL, db_tbl_sql_federation, ),0,0
+apache,shardingsphere,e2e-sql.yml,e2e-sql (proxy, Cluster, MySQL, encrypt_and_readwrite_splitting, ),0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Cluster, PostgreSQL, encrypt_shadow, ),0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (jdbc, Standalone, openGauss, mask_encrypt_sharding, ),0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (jdbc, Standalone, PostgreSQL, empty_storage_units, ),0,0
+apache,shardingsphere,e2e-sql.yml,e2e-sql (proxy, Cluster, PostgreSQL, encrypt, ),0,0
+linlinjava,litemall,main.yml,Litemall-admin (14.x),6,0
+apache,shardingsphere,e2e-sql.yml,e2e-sql (jdbc, Standalone, PostgreSQL, encrypt_shadow, ),0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (jdbc, Standalone, MySQL, encrypt, ),0,0
+joelittlejohn,jsonschema2pojo,ci.yml,test (8),0,0
+jtablesaw,tablesaw,ci.yml,Tests (17, ubuntu-latest),7,7
+fabric8io,kubernetes-client,build.yml,build (11),108,108
+apache,shardingsphere,e2e-sql.yml,e2e-sql (proxy, Standalone, PostgreSQL, mask, ),0,0
+apache,shardingsphere,e2e-sql.yml,e2e-sql (jdbc, Standalone, MySQL, dbtbl_with_readwrite_splitting_and_encrypt, ),0,0
+apache,shardingsphere,e2e-sql.yml,e2e-sql (proxy, Cluster, PostgreSQL, sharding_and_shadow, ),0,0
+alibaba,druid,ci.yaml,test (ubuntu-latest, 17),0,0
+flowable,flowable-engine,mysql.yml,test_mysql (5.7),61,61
+apache,shardingsphere,e2e-sql.yml,e2e-sql (jdbc, Standalone, MySQL, empty_rules, ),0,0
+stleary,JSON-java,codeql-analysis.yml,analyze (java),0,0
+apache,dolphinscheduler,docs.yml,dead-link,0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Standalone, MySQL, sharding_and_shadow, ),0,0
+sofastack,sofa-jraft,build.yml,test_rheakv_pd,1,1
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (jdbc, Standalone, MySQL, db, ),0,0
+graphhopper,graphhopper,build.yml,build (22-ea),2,2
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Cluster, MySQL, mask_sharding, ),0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Cluster, PostgreSQL, distsql_rdl, ),0,0
+apache,shardingsphere,e2e-sql.yml,e2e-sql (jdbc, Standalone, PostgreSQL, empty_storage_units, ),0,0
+openzipkin,zipkin,test_readme.yml,docker,0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Cluster, PostgreSQL, passthrough, ),0,0
+apache,shardingsphere,e2e-sql.yml,e2e-sql (proxy, Cluster, MySQL, encrypt_shadow, ),0,0
+apache,shardingsphere,e2e-sql.yml,e2e-sql (jdbc, Standalone, PostgreSQL, encrypt, ),0,0
+clojure,clojure,test.yml,test (ubuntu-latest, 11, temurin, test-direct),1,1
+flowable,flowable-engine,postgres.yml,test_postgres (16),62,62
+immutables,immutables,ci.yml,build (8, javac, none),16,16
+mybatis,spring-boot-starter,ci.yaml,test (maven, temurin, 17, ubuntu-latest),1,1
+jitsi,jitsi,java.yml,java (17),1,1
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Standalone, openGauss, sharding_and_encrypt, ),0,0
+alibaba,nacos,it.yml,test (ubuntu-latest, 8.0.192),0,0
+apache,incubator-seata,test-druid.yml,test-druid (1.2.10),1,1
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (jdbc, Standalone, openGauss, sharding_and_encrypt, ),0,0
+apache,shardingsphere,e2e-sql.yml,e2e-sql (proxy, Cluster, PostgreSQL, passthrough, ),0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Cluster, MySQL, readwrite_splitting, ),0,0
+apache,shardingsphere,e2e-sql.yml,e2e-sql (proxy, Cluster, PostgreSQL, distsql_rdl, ),0,0
+apache,shenyu,integrated-test.yml,build (shenyu-integrated-test-sofa),1,1
+linlinjava,litemall,main.yml,Litemall-vue (12.x),29,0
+apache,dolphinscheduler,e2e-k8s.yml,e2e-k8s,0,0
+jetty,jetty.project,codeql-analysis.yml,analyze (java),0,0
+Nepxion,Discovery,maven.yml,build,4,4
+apache,shardingsphere,e2e-sql.yml,e2e-sql (jdbc, Standalone, MySQL, readwrite_splitting, ),0,0
+apache,zookeeper,e2e.yaml,compatibility (11, 3.7.0),3,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Cluster, openGauss, db_tbl_sql_federation, ),0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Cluster, PostgreSQL, sharding_and_encrypt, ),0,0
+apache,shardingsphere,e2e-sql.yml,e2e-sql (proxy, Cluster, MySQL, mask_encrypt_sharding, ),0,0
+apache,incubator-seata,test-ubuntu.yml,test (8, ubuntu, 2.6.15         -D spring-framework.version=5.3.27),2,2
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Cluster, MySQL, db_tbl_sql_federation, ),0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Standalone, openGauss, mask_encrypt_sharding, ),0,0
+netty,netty,codeql-analysis.yml,analyze (cpp),5,5
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (jdbc, Standalone, openGauss, readwrite_splitting_and_shadow, ),0,0
+javaparser,javaparser,maven_tests.yml,maven_test (ubuntu-latest, 11),7,7
+YunaiV,yudao-cloud,maven.yml,build (8),0,0
+clojure,clojure,test.yml,test (ubuntu-latest, 17, corretto, test-no-direct),1,1
+flowable,flowable-engine,main.yml,test_jdk (17),69,69
+fabric8io,kubernetes-client,build.yml,build (17),99,99
+quarkusio,quarkus,codeql-analysis.yml,analyze (java),1,1
+sofastack,sofa-jraft,build.yml,test_rpc_grpc_impl,1,1
+zxing,zxing,test_java_21.yml,build,0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Standalone, openGauss, encrypt, ),0,0
+apache,shardingsphere,e2e-sql.yml,e2e-sql (proxy, Standalone, MySQL, encrypt, ),0,0
+apache,shardingsphere,e2e-sql.yml,e2e-sql (proxy, Cluster, PostgreSQL, sharding_and_encrypt, ),0,0
+apache,zookeeper,e2e.yaml,compatibility (8, 3.7.0),3,0
+apache,shardingsphere,e2e-sql.yml,e2e-sql (proxy, Cluster, PostgreSQL, mask_sharding, ),0,0
+google,gson,check-api-compatibility.yml,check-api-compatibility,1,0
+apache,zeppelin,core.yml,spark-test (3.7, 8),7,7
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, , MySQL, passthrough, -Dmysql-connector-java.version=8.3.0),0,0
+google,gson,codeql-analysis.yml,analyze (java),0,0
+jboss-javassist,javassist,maven.yml,build (ubuntu-latest, 11),4,4
+pagehelper,Mybatis-PageHelper,pull-request.yml,mvn_verify,1,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Cluster, openGauss, empty_rules, ),0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Cluster, MySQL, db, ),0,0
+aragozin,jvm-tools,maven.yml,build11,5,5
+apache,pulsar,codeql.yaml,analyze (java-kotlin),0,0
+linlinjava,litemall,main.yml,Litemall-all (11.0.3),1,1
+immutables,immutables,ci.yml,build (11, javac, none),12,12
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Standalone, MySQL, sharding_and_encrypt, ),0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Cluster, openGauss, db, ),0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Standalone, openGauss, readwrite_splitting, ),0,0
+clojure,clojure,test.yml,test (ubuntu-latest, 17, corretto, test-direct),1,1
+mybatis,mybatis-3,ci.yaml,test (maven, temurin, 17, ubuntu-latest),0,0
+Atmosphere,atmosphere,maven.yml,build (22),0,0
+apache,shardingsphere,e2e-sql.yml,e2e-sql (proxy, Cluster, MySQL, readwrite_splitting, ),0,0
+mybatis,spring-boot-starter,ci.yaml,test (maven, temurin, 23-ea, ubuntu-latest),1,1
+netty,netty,codeql-analysis.yml,analyze (java),2,2
+apache,incubator-seata,test-ubuntu.yml,test (8, ubuntu, 2.2.13.RELEASE -D spring-framework.version=5.2.12.RELEASE),0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Cluster, openGauss, readwrite_splitting, ),0,0
+apache,shardingsphere,e2e-sql.yml,e2e-sql (jdbc, Standalone, PostgreSQL, mask_encrypt_sharding, ),0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (jdbc, Standalone, openGauss, encrypt_and_readwrite_splitting, ),0,0
+immutables,immutables,ci.yml,build (11, ecj, none),15,15
+alibaba,arthas,test.yaml,ubuntu_build (8),536,536
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Cluster, PostgreSQL, sharding_and_shadow, ),0,0
+Tencent,spring-cloud-tencent,junit_test17.yml,build (17, ubuntu-latest),1,1
+apache,dolphinscheduler,docs.yml,style,4,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (jdbc, Standalone, MySQL, mask_encrypt, ),0,0
+apache,shardingsphere,e2e-sql.yml,e2e-sql (proxy, Cluster, MySQL, encrypt, ),0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Standalone, PostgreSQL, dbtbl_with_readwrite_splitting_and_encrypt, ),0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Cluster, openGauss, encrypt_shadow, ),0,0
+apache,shardingsphere,e2e-sql.yml,e2e-sql (jdbc, Standalone, PostgreSQL, encrypt_and_readwrite_splitting, ),0,0
+spring-cloud,spring-cloud-gateway,maven.yml,build,0,0
+javaparser,javaparser,maven_tests.yml,maven_test (ubuntu-latest, 17),9,9
+clojure,clojure,test.yml,test (ubuntu-latest, 8, corretto, test-no-direct),1,1
+apache,shardingsphere,e2e-sql.yml,e2e-sql (jdbc, Standalone, MySQL, mask, ),0,0
+apache,zeppelin,core.yml,core-modules (8),261,261
+bastillion-io,Bastillion,github-build.yml,build,0,0
+immutables,immutables,ci.yml,build (8, ecj, errorprone),19,19
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Standalone, MySQL, shadow, ),0,0
+apache,shardingsphere,required-check.yml,check-spotless,7,0
+apache,shenyu,integrated-test.yml,build (shenyu-integrated-test-grpc),1,1
+apache,incubator-seata,test-druid.yml,test-druid (1.2.2),0,0
+apache,shardingsphere,e2e-sql.yml,e2e-sql (proxy, Standalone, MySQL, mask, ),0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Cluster, PostgreSQL, encrypt_and_readwrite_splitting, ),0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (jdbc, Standalone, MySQL, mask, ),0,0
+citerus,dddsample-core,pipeline.yml,build,1,1
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Standalone, PostgreSQL, readwrite_splitting_and_shadow, ),0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (jdbc, Standalone, openGauss, readwrite_splitting, ),0,0
+apache,shardingsphere,e2e-sql.yml,e2e-sql (proxy, Cluster, PostgreSQL, encrypt_shadow, ),0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (jdbc, Standalone, openGauss, dbtbl_with_readwrite_splitting_and_encrypt, ),0,0
+stleary,JSON-java,pipeline.yml,build-11 (11),0,0
+apache,shardingsphere,e2e-sql.yml,e2e-sql (proxy, Cluster, PostgreSQL, shadow, ),0,0
+apache,incubator-seata,test-ubuntu.yml,test (17, ubuntu, 2.3.12.RELEASE -D spring-framework.version=5.2.15.RELEASE),24,24
+AsyncHttpClient,async-http-client,maven.yml,RunOnLinux,2,2
+apache,incubator-seata,test-ubuntu.yml,test (21, ubuntu, 2.4.13         -D spring-framework.version=5.3.13),4,4
+apache,shardingsphere,e2e-operation.yml,e2e-operation (showprocesslist, Object),25,25
+jitsi,jitsi,java.yml,java (11),0,0
+apache,shardingsphere,e2e-sql.yml,e2e-sql (jdbc, Standalone, PostgreSQL, tbl, ),0,0
+apache,incubator-seata,test-druid.yml,test-druid (1.2.16),3,3
+apache,shardingsphere,e2e-sql.yml,e2e-sql (proxy, Standalone, MySQL, readwrite_splitting_and_shadow, ),0,0
+swagger-api,swagger-core,maven-v1-pulls.yml,build (17),1,1
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Standalone, PostgreSQL, sharding_and_encrypt, ),0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Standalone, openGauss, db_tbl_sql_federation, ),0,0
+apache,shardingsphere,e2e-sql.yml,e2e-sql (proxy, Standalone, PostgreSQL, sharding_and_shadow, ),0,0
+debezium,debezium,debezium-workflow-pr.yml,file_changes,13,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (jdbc, Standalone, openGauss, mask_sharding, ),0,0
+apache,shardingsphere,e2e-sql.yml,e2e-sql (jdbc, Standalone, PostgreSQL, db, ),0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (jdbc, Standalone, PostgreSQL, sharding_and_shadow, ),0,0
+DTStack,chunjun,build.yml,spotless-check,0,0
+apache,shardingsphere,e2e-sql.yml,e2e-sql (proxy, Cluster, MySQL, db_tbl_sql_federation, ),0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Standalone, PostgreSQL, sharding_and_shadow, ),0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Cluster, MySQL, mask_encrypt_sharding, ),0,0
+linlinjava,litemall,main.yml,Litemall-admin (12.x),9,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Standalone, MySQL, encrypt_and_readwrite_splitting, ),0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Cluster, openGauss, mask_encrypt_sharding, ),0,0
+javaparser,javaparser,maven_tests.yml,maven_test (ubuntu-latest, 8),9,9
+mybatis,mybatis-3,ci.yaml,test (maven, temurin, 21, ubuntu-latest),0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Standalone, PostgreSQL, tbl, ),0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Standalone, openGauss, mask, ),0,0
+immutables,immutables,ci.yml,build (17, javac, none),16,16
+linlinjava,litemall,main.yml,Litemall-all (8),0,0
+apache,shenyu,k8s-examples-http.yml,k8s-examples-http,1,1
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (jdbc, Standalone, MySQL, readwrite_splitting, ),0,0
+apache,shardingsphere,e2e-sql.yml,e2e-sql (jdbc, Standalone, MySQL, readwrite_splitting_and_shadow, ),0,0
+apache,incubator-seata,test-ubuntu.yml,test (11, ubuntu, 2.5.15         -D spring-framework.version=5.3.27),4,4
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Cluster, openGauss, mask_encrypt, ),0,0
+apache,shardingsphere,e2e-operation.yml,e2e-operation (transaction, Object),28,28
+apache,incubator-seata,test-druid.yml,test-druid (1.2.8),1,1
+strimzi,strimzi-kafka-operator,codeql-analysis.yml,analyze (java),0,0
+apache,shardingsphere,e2e-sql.yml,e2e-sql (jdbc, Standalone, MySQL, sharding_and_encrypt, ),0,0
+jhy,jsoup,build.yml,test (ubuntu-latest, 8),2,2
+apache,shardingsphere,e2e-sql.yml,e2e-sql (proxy, Standalone, PostgreSQL, dbtbl_with_readwrite_splitting_and_encrypt, ),0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Standalone, MySQL, dbtbl_with_readwrite_splitting_and_encrypt, ),0,0
+aragozin,jvm-tools,maven.yml,build17,3,3
+apache,shardingsphere,e2e-sql.yml,e2e-sql (jdbc, Standalone, PostgreSQL, shadow, ),0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Cluster, openGauss, sharding_encrypt_shadow, ),0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (jdbc, Standalone, MySQL, distsql_rdl, ),0,0
+apache,dolphinscheduler,codeql.yaml,analyze,37,37
+apache,shenyu,integrated-test.yml,build (shenyu-integrated-test-spring-cloud),1,1
+immutables,immutables,ci.yml,build (21, ecj, errorprone),17,17
+fabric8io,kubernetes-client,javadocs.yml,javadoc,29,29
+dromara,hmily,main.yml,build,0,0
+apache,zeppelin,core.yml,interpreter-test-jupyter-python-rlang (3.9, 8),6,6
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Cluster, MySQL, encrypt_shadow, ),0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (jdbc, Standalone, PostgreSQL, encrypt, ),0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (jdbc, Standalone, PostgreSQL, readwrite_splitting_and_shadow, ),0,0
+alibaba,transmittable-thread-local,ci.yaml,test (ubuntu-latest, 8),6,6
+apache,shardingsphere,e2e-sql.yml,e2e-sql (proxy, , MySQL, passthrough, -Dmysql-connector-java.version=8.3.0),0,0
+apache,shenyu,integrated-test.yml,build (shenyu-integrated-test-websocket),1,1
+apache,shardingsphere,e2e-agent.yml,build-e2e-image,1,1
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (jdbc, Standalone, MySQL, shadow, ),0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (jdbc, Standalone, openGauss, encrypt, ),0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Cluster, MySQL, dbtbl_with_readwrite_splitting_and_encrypt, ),0,0
+apache,zookeeper,e2e.yaml,compatibility (8, 3.5.9),4,0
+jeremylong,DependencyCheck,codeql-analysis.yml,analyze (java),0,0
+apache,incubator-seata,test-druid.yml,test-druid (1.2.11),0,0
+swagger-api,swagger-core,maven-pulls.yml,build (11),3,3
+apache,shenyu,integrated-test.yml,build (shenyu-integrated-test-http),1,1
+apache,shardingsphere,e2e-sql.yml,e2e-sql (jdbc, Standalone, MySQL, db, ),0,0
+linlinjava,litemall,main.yml,Litemall-vue (14.x),14,0
+apache,zookeeper,e2e.yaml,compatibility (8, 3.6.3),4,0
+apache,shenyu,integrated-test.yml,build (shenyu-integrated-test-sdk-apache-dubbo),1,1
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (jdbc, Standalone, PostgreSQL, mask_encrypt, ),0,0
+apache,zeppelin,core.yml,livy-0-8-with-spark-2-4-under-python37,1,1
+apache,shardingsphere,e2e-sql.yml,e2e-sql (jdbc, Standalone, PostgreSQL, sharding_and_encrypt, ),0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Standalone, MySQL, mask, ),0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (jdbc, Standalone, PostgreSQL, sharding_and_encrypt, ),0,0
+apache,shenyu,integrated-test.yml,build (shenyu-integrated-test-https),1,1
+apache,incubator-seata,test-druid.yml,test-druid (1.2.5),23,23
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (jdbc, Standalone, PostgreSQL, encrypt_shadow, ),0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (jdbc, Standalone, openGauss, db_tbl_sql_federation, ),0,0
+apache,shenyu,integrated-test.yml,build (shenyu-integrated-test-rewrite),1,1
+apache,shardingsphere,e2e-sql.yml,e2e-sql (proxy, Standalone, PostgreSQL, readwrite_splitting_and_shadow, ),0,0
+JanusGraph,janusgraph,ci-backend-scylla-dummy.yml,build-all,23,23
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Standalone, openGauss, encrypt_and_readwrite_splitting, ),0,0
+apache,incubator-seata,test-ubuntu.yml,test (21, ubuntu, 2.6.15         -D spring-framework.version=5.3.27),4,4
+flowable,flowable-engine,java-ea.yml,test_jdkea,21,21
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Standalone, MySQL, mask_sharding, ),0,0
+apache,shardingsphere,e2e-sql.yml,e2e-sql (jdbc, Standalone, PostgreSQL, sharding_and_shadow, ),0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Standalone, MySQL, readwrite_splitting_and_shadow, ),0,0
+apache,incubator-seata,test-ubuntu.yml,test (17, ubuntu, 2.4.13         -D spring-framework.version=5.3.13),4,4
+apache,dolphinscheduler,e2e-k8s.yml,result,0,0
+mybatis,mybatis-3,ci.yaml,test (maven, temurin, 23-ea, ubuntu-latest),0,0
+javaparser,javaparser,maven_tests.yml,maven_test (ubuntu-latest, 10),6,6
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (jdbc, Standalone, MySQL, mask_encrypt_sharding, ),0,0
+apache,shardingsphere,e2e-sql.yml,e2e-sql (proxy, Cluster, PostgreSQL, mask, ),0,0
+immutables,immutables,ci.yml,build (21, javac, none),21,21
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Cluster, MySQL, encrypt, ),0,0
+apache,zeppelin,core.yml,flink-test-and-flink-integration-test (3.8, 115),1,1
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (jdbc, Standalone, PostgreSQL, empty_rules, ),0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (jdbc, Standalone, PostgreSQL, encrypt_and_readwrite_splitting, ),0,0
+apache,shardingsphere,e2e-sql.yml,e2e-sql (proxy, Standalone, MySQL, mask_sharding, ),0,0
+apache,shardingsphere,e2e-sql.yml,e2e-sql (proxy, Cluster, PostgreSQL, dbtbl_with_readwrite_splitting_and_encrypt, ),0,0
+YunaiV,yudao-cloud,maven.yml,build (17),1,1
+apache,linkis,check-code-format.yml,spotless-check,5,0
+joelittlejohn,jsonschema2pojo,android-ci.yml,buildTest (8),4,4
+apache,shardingsphere,e2e-sql.yml,e2e-sql (proxy, Standalone, PostgreSQL, encrypt_and_readwrite_splitting, ),0,0
+knowm,XChange,maven_on_pull_request.yml,build,113,113
+apache,shardingsphere,e2e-sql.yml,e2e-sql (proxy, Cluster, MySQL, sharding_encrypt_shadow, ),0,0
+apache,incubator-seata,test-ubuntu.yml,test-arm64 (2.2.13.RELEASE -Dspring-framework.version=5.2.12.RELEASE),168,168
+clojure,clojure,test.yml,test (ubuntu-latest, 11, corretto, test-no-direct),1,1
+clojure,clojure,test.yml,test (ubuntu-latest, 17, temurin, test-direct),1,1
+apache,zeppelin,core.yml,interpreter-test-jupyter-python-rlang (3.8, 8),8,8
+jhy,jsoup,build.yml,test (ubuntu-latest, 21),2,2
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Cluster, MySQL, encrypt_and_readwrite_splitting, ),0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Cluster, openGauss, sharding_and_encrypt, ),0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Cluster, PostgreSQL, readwrite_splitting_and_shadow, ),0,0
+apache,incubator-seata,test-ubuntu.yml,test (8, ubuntu, 2.3.12.RELEASE -D spring-framework.version=5.2.15.RELEASE),7,7
+codecentric,spring-boot-admin,build-feature.yml,build (ubuntu-latest),178,178
+alibaba,arthas,test.yaml,ubuntu_build (19),528,528
+apache,shardingsphere,e2e-sql.yml,e2e-sql (proxy, Standalone, MySQL, readwrite_splitting, ),0,0
+swagger-api,swagger-core,maven-v1-pulls.yml,build (11),0,0
+socketio,socket.io-client-java,ci.yml,verify (11),1,1
+apache,zeppelin,frontend.yml,test-selenium-with-spark-module-for-spark-3-4,157,157
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (jdbc, Standalone, openGauss, mask, ),0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (jdbc, Standalone, PostgreSQL, tbl, ),0,0
+apache,shardingsphere,e2e-sql.yml,e2e-sql (jdbc, Standalone, MySQL, mask_encrypt, ),0,0
+apache,zookeeper,e2e.yaml,compatibility (11, 3.6.3),4,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (jdbc, Standalone, openGauss, empty_rules, ),0,0
+immutables,immutables,ci.yml,build (17, javac, errorprone),15,15
+apache,zookeeper,e2e.yaml,compatibility (11, 3.5.9),4,0
+apache,shardingsphere,e2e-sql.yml,e2e-sql (jdbc, Standalone, PostgreSQL, mask_encrypt, ),0,0
+apache,incubator-seata,test-ubuntu.yml,test (11, ubuntu, 2.7.18         -D spring-framework.version=5.3.31),5,5
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Standalone, MySQL, encrypt, ),0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Cluster, openGauss, encrypt, ),0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Cluster, openGauss, readwrite_splitting_and_shadow, ),0,0
+vert-x3,vertx-examples,ci.yml,Test (ubuntu-latest, 21),3,0
+vert-x3,vertx-examples,ci.yml,Test (ubuntu-latest, 8),11,0
+socketio,socket.io-client-java,ci.yml,verify (8),1,1
+alibaba,nacos,it.yml,test (ubuntu-latest, 11),0,0
+javaparser,javaparser,maven_tests.yml,maven_test (ubuntu-latest, 16),8,8
+apache,shardingsphere,e2e-sql.yml,e2e-sql (jdbc, Standalone, PostgreSQL, db_tbl_sql_federation, ),0,0
+javaparser,javaparser,formatting_check.yml,checkstyle_check,0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Cluster, MySQL, distsql_rdl, ),0,0
+immutables,immutables,ci.yml,build (8, javac, errorprone),14,14
+apache,shardingsphere,e2e-sql.yml,e2e-sql (proxy, Cluster, MySQL, dbtbl_with_readwrite_splitting_and_encrypt, ),0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Cluster, MySQL, passthrough, ),0,0
+YunaiV,yudao-cloud,maven.yml,build (11),2,2
+apache,zeppelin,core.yml,zeppelin-integration-test (11),125,125
+clojure,clojure,test.yml,test (ubuntu-latest, 21, temurin, test-direct),1,1
+apache,zeppelin,core.yml,interpreter-test-non-core (8),13,13
+sofastack,sofa-rpc,maven.yml,build,0,0
+apache,shardingsphere,e2e-sql.yml,e2e-sql (proxy, Cluster, MySQL, mask_encrypt, ),0,0
+alibaba,transmittable-thread-local,ci.yaml,test (ubuntu-latest, 21),8,8
+torakiki,pdfsam,build.yml,build (21),29,29
+xuxueli,xxl-job,maven.yml,build,0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Standalone, PostgreSQL, encrypt_and_readwrite_splitting, ),0,0
+TheAlgorithms,Java,codeql.yml,analyze,0,0
+apache,shardingsphere,e2e-sql.yml,e2e-sql (jdbc, Standalone, PostgreSQL, empty_rules, ),0,0
+apache,shardingsphere,e2e-sql.yml,e2e-sql (proxy, Cluster, MySQL, empty_rules, ),0,0
+apache,incubator-seata,test-ubuntu.yml,test (17, ubuntu, 2.2.13.RELEASE -D spring-framework.version=5.2.12.RELEASE),18,18
+apache,shardingsphere,e2e-sql.yml,e2e-sql (proxy, Standalone, PostgreSQL, encrypt_shadow, ),0,0
+mybatis,spring-boot-starter,ci.yaml,test (maven, temurin, 21, ubuntu-latest),1,1
+swagger-api,swagger-core,maven-pulls.yml,build (17),2,2
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (jdbc, Standalone, MySQL, encrypt_shadow, ),0,0
+apache,incubator-seata,test-ubuntu.yml,test (8, ubuntu, 2.4.13         -D spring-framework.version=5.3.13),1,1
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Cluster, openGauss, mask, ),0,0
+apache,shardingsphere,nightly-e2e-sql.yml,e2e-sql (proxy, Cluster, PostgreSQL, tbl, ),0,0
+OpenRefine,OpenRefine,pull_request_server.yml,finish,0,0
+apache,shardingsphere,e2e-sql.yml,e2e-sql (jdbc, Standalone, MySQL, encrypt_shadow, ),0,0
+apache,incubator-seata,test-druid.yml,test-druid (1.2.3),1,1
+alibaba,easyexcel,ci.yml,test (11, adopt),1,1
+flowable,flowable-engine,postgres.yml,test_postgres (11),33,2
+apache,shardingsphere,e2e-sql.yml,e2e-sql (jdbc, Standalone, PostgreSQL, mask, ),0,0
+karatelabs,karate,jdk-compat.yml,build,6,6
