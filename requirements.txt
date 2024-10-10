@@ -3,3 +3,5 @@ python-dateutil==2.9.0
 inotify==0.2.10
 pyyaml==6.0.2
 tabulate==0.9.0
+google-generativeai==0.8.3
+pandas==2.1.0
