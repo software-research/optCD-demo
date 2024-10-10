@@ -29,11 +29,7 @@ class GeminiAPI:
         # remove ``` from the response
         aio_response = aio_response.replace("```", "").replace("\n", "")
         return aio_response
-    
 
-csv_path="../job-based-results.csv"
-postfix = "maven_only"
-output_path = "fixer_results.csv"  # output file
 
 gemini = GeminiAPI()
 
