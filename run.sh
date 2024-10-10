@@ -1,7 +1,7 @@
 #!/bin/bash
 
-if [ "$#" -le 4 ]; then
-  echo "Usage: run.sh <input_yaml_filename> <output_yaml_filename> <owner> <repo> <github_api_token> [output_file]"
+if [ "$#" -le 3 ]; then
+  echo "Usage: run.sh <input_yaml_filename> <output_yaml_filename> <owner> <repo> [output_file]"
   exit 1
 fi
 
@@ -13,8 +13,7 @@ input_yaml_filename=$1
 output_yaml_filename=$2
 owner=$3
 repo=$4
-github_api_token=$5
-output_file=$6
+output_file=$5
 
 echo "[INFO] $(date +"%Y-%m-%d %H:%M:%S") | Started modifying the original YAML file."
 
@@ -46,7 +45,7 @@ while true; do
     run_id=$temp_run_id
     break
   fi
-  sleep 5
+  sleep 10
 done
 
 echo "$run_id" > "$repo"-"$workflow_file".txt
@@ -83,7 +82,7 @@ echo "[INFO] $(date +"%Y-%m-%d %H:%M:%S") | Finding unused directories and their
 while IFS=' ' read -r job_id name; do
   # fetch workflow run logs to "$repo"/workflow-run-log.txt
   curl -s -H "Accept: application/vnd.github+json" \
-       -H "Authorization: Bearer $github_api_token" \
+       -H "Authorization: Bearer $GITHUB_API_TOKEN" \
        -H "X-GitHub-Api-Version: 2022-11-28" \
        -L "https://api.github.com/repos/$owner/$repo/actions/jobs/$job_id/logs" \
        -o "$repo"/workflow-run-log-"$name"-"$workflow_file".txt
@@ -93,7 +92,12 @@ while IFS=' ' read -r job_id name; do
   else
     echo "Unused directories and their responsible plugins in $name:"
   fi
-  python find_plugins.py "$repo"-"$workflow_file"/inotifywait-"$name"/inotifywait-log-"$name".csv "$repo"/workflow-run-log-"$name"-"$workflow_file".txt "$output_file" "$input_yaml_filename" "$name" "$repo"
+  python find_plugins.py "$repo"-"$workflow_file"/inotifywait-"$name"/inotifywait-log-"$name".csv "$repo"/workflow-run-log-"$name"-"$workflow_file".txt "$output_file" "$input_yaml_filename" "$name"
+  ret_val=$?
+  if [ $ret_val -eq 1 ]; then
+    continue
+  fi
+  python fixer/run_gemini.py "$owner" "$repo" "$input_yaml_filename" "$name" "$output_file"
 done <<< "$job_ids"
 
 if [ "$output_file" != "" ]; then

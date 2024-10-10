@@ -8,7 +8,6 @@ def get_responsible_plugins(log: str, unused_dirs: list[str], timestamps: dict[s
     for file, timestamp in timestamps.items():
         if "optcd" in file:
             dummy_file_timestamps.append(parser.isoparse(timestamp))
-            # print(file, timestamp)
 
     run_commands_in_steps = []
     uses_in_steps = []
@@ -20,8 +19,6 @@ def get_responsible_plugins(log: str, unused_dirs: list[str], timestamps: dict[s
             run_commands_in_steps.append(step.get("run"))
             uses_in_steps.append(step.get("uses"))
             names_of_steps.append(step.get("name") or step.get("uses") or step.get("run"))
-    # print(run_commands_in_steps)
-    # print(uses_in_steps)
 
     in_maven = False
     tmp_plugin_timestamps = []
@@ -50,8 +47,6 @@ def get_responsible_plugins(log: str, unused_dirs: list[str], timestamps: dict[s
         tmp_plugin_timestamps.append(timestamp)
         tmp_plugin_names.append(name)
 
-    # print(plugin_timestamps)
-    # print(plugin_names)
     for unused_dir in unused_dirs:
         if unused_dir not in timestamps:
             continue
@@ -60,9 +55,6 @@ def get_responsible_plugins(log: str, unused_dirs: list[str], timestamps: dict[s
         for k in range(len(plugin_timestamps)):
             i = bisect_right(plugin_timestamps[k], timestamp)
             if 0 < i < len(plugin_timestamps[k]):
-                # print(unused_dir, "was created by step", j, ":", run_commands_in_steps[j] or uses_in_steps[j])
-                # print(i)
-                # print(plugin_names[k][i-1])
                 responsible_plugins.append((unused_dir, plugin_names[k][i - 1], run_commands_in_steps[j] or uses_in_steps[j], names_of_steps[j]))
                 break
         else:
