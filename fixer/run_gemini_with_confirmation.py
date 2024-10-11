@@ -11,6 +11,10 @@ import pandas as pd
 import os
 import subprocess
 import shutil
+import yaml
+from ruamel.yaml import YAML
+
+
 
 
 #TheAlgorithms_Java_infer_run_infer_maven_only.json                                                                                                                                                                    
@@ -33,19 +37,92 @@ class GeminiAPI:
         aio_response = aio_response.replace("```", "").replace("\n", "")
         return aio_response
     
-def run_proj_with_new_command(mvn_command_str, unused_dir, repo):
+def push_in_ci_and_run_new_command(mvn_command_str, unused_dir, repo):
     os.chdir("projects/"+repo)
+    current_directory = os.getcwd()
+    print("Current Directory:", current_directory)
+    file_path = f".github/workflows/build.yml"
+
     # Run the mvn command using subprocess
-    try:
+    '''try:
         # Run the command using shell=True to interpret the entire command string
         subprocess.run(mvn_command_str, shell=True, check=True)
         print(f"Successfully ran: {mvn_command_str}")
     except subprocess.CalledProcessError as e:
         print(f"Failed to run: {mvn_command_str}")
-        print(f"Error: {e}")
+        print(f"Error: {e}")'''
+     
+    try:
+        # 1. Add the file to the staging area
+        subprocess.run(['git', 'add', '-f', file_path], check=True)
+        print(f"File '{file_path}' added to the staging area.")
+        
+        # 2. Check the status to see if there are any changes to commit
+        result = subprocess.run(['git', 'status'], stdout=subprocess.PIPE, text=True)
+        print("Git status before committing:\n", result.stdout)
+        commit_message="command updated"
+        # 2. Commit the file with a message
+        subprocess.run(['git', 'commit', '-m', commit_message], check=True)
+        print(f"Committed the file '{file_path}' with commit")
+
+        # 3. Push the changes to the specified remote and branch
+        subprocess.run(['git', 'push'], check=True)
+        print(f"Successfully pushed.")
+
+    except subprocess.CalledProcessError as e:
+         print(f"An error occurred while running git command: {e}")
    
-    exit()  
-    
+    #exit()
+from ruamel.yaml.scalarstring import PlainScalarString
+
+def update_mvn_commands_in_yml(new_mvn_command, repo, old_command):
+    file_path = f"projects/{repo}/.github/workflows/build.yml"
+
+    # Initialize ruamel.yaml with indentation settings
+    yaml = YAML()
+    yaml.preserve_quotes = True  # Preserve quotes in the original YAML file
+    yaml.indent(mapping=2, sequence=4, offset=2)  # Set custom indentation levels
+
+    # Remove any leading or trailing spaces from the new command
+    new_mvn_command = new_mvn_command.strip()
+
+    # Read the YAML file
+    with open(file_path, 'r') as file:
+        yml_data = yaml.load(file)
+
+    # Debug: Check the initial structure of the YAML file
+    print("Initial YAML structure:")
+    print(yml_data)
+
+    # Function to update only the matching old mvn command
+    def update_mvn_command_in_steps(steps, old_cmd, new_cmd):
+        if isinstance(steps, list):
+            for step in steps:
+                if isinstance(step, dict) and 'run' in step:
+                    # Print the current command for debugging
+                    print(f"Current command: '{step['run']}' (repr: {repr(step['run'])})")
+
+                    # Check if the 'run' command matches the old_command exactly
+                    if step['run'].strip() == old_cmd.strip():
+                        print(f"Updating command: '{step['run']}' -> '{new_cmd}'")
+
+                        # Use PlainScalarString to ensure no quotes are added
+                        step['run'] = PlainScalarString(new_cmd)
+
+    # Traverse and update the specific 'run' command in the YAML data
+    for job in yml_data.get('jobs', {}).values():
+        steps = job.get('steps', [])
+        update_mvn_command_in_steps(steps, old_command, new_mvn_command)
+
+    # Debug: Check the modified structure of the YAML file
+    print("Modified YAML structure:")
+    print(yml_data)
+
+    # Write the updated content back to the YAML file with controlled formatting
+    with open(file_path, 'w') as file:
+        yaml.dump(yml_data, file)
+
+    print(f"The command '{old_command}' has been updated to: {new_mvn_command}")
 
 
 csv_path="../job-based-results.csv"
@@ -56,7 +133,7 @@ temp_csv = "temp.csv" # temporary file to save the results
 
 reader = pd.read_csv(csv_path, delimiter=';')
 out_df = pd.DataFrame(columns=['owner', 'repo', 'yaml_filename', 'job', 'all_unused', 'maven_unused', 'fix_suggestion', 'old_commands'])
-
+print(out_df)
 gemini = GeminiAPI()
 
 os.makedirs("projects", exist_ok=True)
@@ -69,7 +146,7 @@ for index, row in reader.iterrows():
     repo = row['repo']
 
     clone_directory = f"projects/{repo}"
-    repo_url = "https://github.com/"+owner+"/"+repo
+    repo_url = "https://github.com/butterfly-lab/"+repo
     if os.path.exists(clone_directory) and os.listdir(clone_directory):
         print(f"Directory '{clone_directory}' already exists and is not empty. Skipping clone.")
     else:
@@ -163,10 +240,10 @@ for index, row in reader.iterrows():
         for key in results:
             fix_suggestion_str += results[key]['fix_suggestion'] + "\n"
             
-            
+        print('Results=',results)    
         # old_commands = [key for key in results] \n separated, remive the last newline character
         old_commands = "\n".join([key for key in results])
-        old_commands = old_commands[:-1]
+        #old_commands = old_commands[:-1]
         
         # remove the lat newline character
         fix_suggestion_str = fix_suggestion_str[:-1]
@@ -187,7 +264,9 @@ for index, row in reader.iterrows():
         print(f"Fix suggestion: {fix_suggestion_str}")
         print("=====================================")
         print("\n\n")
-        run_proj_with_new_command(fix_suggestion_str, unused_dir, repo) 
+        update_mvn_commands_in_yml(fix_suggestion_str, repo, old_commands) 
+        push_in_ci_and_run_new_command(fix_suggestion_str, unused_dir, repo)
+        exit()
         # save the row to a csv file
         with open(temp_csv, 'a') as f:
             out_df.to_csv(f, sep=';', index=False)
