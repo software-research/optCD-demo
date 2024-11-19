@@ -34,7 +34,7 @@ git -C "$path_to_local_repo" commit -m "add modified YAML file"
 git -C "$path_to_local_repo" push --set-upstream origin "$branch"
 
 echo "[INFO] $(date +"%Y-%m-%d %H:%M:%S") | Pushed the modified YAML file to remote repository."
-echo "Running the command gh run list --repo $owner/$repo --workflow $path_to_yaml_file --limit 1 --json databaseId --jq '.[0].databaseId'"
+# echo "Running the command gh run list --repo $owner/$repo --workflow $path_to_yaml_file --limit 1 --json databaseId --jq '.[0].databaseId'"
 $filename=$(echo "$path_to_yaml_file" | rev | cut -d'/' -f1 | rev)
 run_id=$(gh run list --repo "$owner"/"$repo" --workflow "$filename" --limit 1 --json databaseId --jq '.[0].databaseId')
 echo "[INFO] got the run id for the original YAML workflow: $run_id"
@@ -51,8 +51,6 @@ while true; do
 done
 
 echo "$run_id" > "$repo"-"$workflow_file".txt
-
-# path_to_yaml_file=$(echo "$output_yaml_filename" | rev | cut -d'/' -f1-3 | rev)
 
 # wait until modified yaml workflow finishes
 while true; do
@@ -107,6 +105,7 @@ while IFS=' ' read -r job_id name; do
   echo "path to workflow run log is: $repo"/workflow-run-log-"$name"-"$workflow_file".txt"
 
   python find_plugins.py "$repo"-"$workflow_file"/inotifywait-"$name"/inotifywait-log-"$name".csv "$repo"/workflow-run-log-"$name"-"$workflow_file".txt "$output_file" "$input_yaml_filename" "$name"
+
   ret_val=$?
   if [ $ret_val -eq 1 ]; then
     continue
