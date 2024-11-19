@@ -34,14 +34,12 @@ git -C "$path_to_local_repo" commit -m "add modified YAML file"
 git -C "$path_to_local_repo" push --set-upstream origin "$branch"
 
 echo "[INFO] $(date +"%Y-%m-%d %H:%M:%S") | Pushed the modified YAML file to remote repository."
-# echo "Running the command gh run list --repo $owner/$repo --workflow $path_to_yaml_file --limit 1 --json databaseId --jq '.[0].databaseId'"
-$filename=$(echo "$path_to_yaml_file" | rev | cut -d'/' -f1 | rev)
-run_id=$(gh run list --repo "$owner"/"$repo" --workflow "$filename" --limit 1 --json databaseId --jq '.[0].databaseId')
+run_id=$(gh run list --repo "$owner"/"$repo" --workflow "$path_to_yaml_file" --limit 1 --json databaseId --jq '.[0].databaseId')
 echo "[INFO] got the run id for the original YAML workflow: $run_id"
 
 while true; do
   echo "[INFO] $(date +"%Y-%m-%d %H:%M:%S") | Waiting until modified YAML workflow starts."
-  temp_run_id=$(gh run list --repo "$owner"/"$repo" --workflow "$filename" --limit 1 --json databaseId --jq '.[0].databaseId')
+  temp_run_id=$(gh run list --repo "$owner"/"$repo" --workflow "$path_to_yaml_file" --limit 1 --json databaseId --jq '.[0].databaseId')
   if [ "$run_id" != "$temp_run_id" ]; then
     echo "[INFO] $(date +"%Y-%m-%d %H:%M:%S") | Modified YAML workflow started."
     run_id=$temp_run_id
