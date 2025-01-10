@@ -147,7 +147,7 @@ for index, row in reader.iterrows():
     repo = row['repo']
 
     clone_directory = f"../{repo}"
-    repo_url = "https://github.com/butterfly-lab/"+repo
+    repo_url = "https://github.com/"+owner+"/"+repo
     if os.path.exists(clone_directory) and os.listdir(clone_directory):
         print(f"Directory '{clone_directory}' already exists and is not empty. Skipping clone.")
     else:

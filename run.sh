@@ -27,7 +27,7 @@ process_yaml_workflow() {
     git -C "$path_to_local_repo" push --set-upstream origin "$branch"
     
     echo "[INFO] $(date +"%Y-%m-%d %H:%M:%S") | Pushed the modified YAML file to remote repository."
-    gh workflow list --repo butterfly-lab/jsoup
+    gh workflow list --repo "$owner"/"$repo"
     run_id=$(gh run list --repo "$owner"/"$repo" --workflow "$path_to_yaml_file" --limit 1 --json databaseId --jq '.[0].databaseId')
     echo "[INFO] got the run id for the original YAML workflow: $run_id"
     
@@ -44,6 +44,7 @@ process_yaml_workflow() {
       sleep 10
     done
     
+    rm $repo"-"$workflow_file".txt"
     echo "$run_id" > "$repo"-"$workflow_file".txt
     
     echo "**** run_id is saved $repo"-"$workflow_file.txt "
@@ -133,7 +134,7 @@ python modify_yaml.py "$input_yaml_filename" "$output_yaml_filename" "$repo"
 
 echo "[INFO] $(date +"%Y-%m-%d %H:%M:%S") | Finished modifying the original YAML file."
 process_yaml_workflow "$owner" "$repo" "$path_to_yaml_file" "$branch" $workflow_file $path_to_local_repo $initial_output_file $input_yaml_filename
-rm -rf jsoup-build
+rm -rf $repo"-"$workflow_file
 #exit
 python3 fixer/run_gemini_with_confirmation.py
 #python3 fixer/run_gemini_with_confirmation_from_my_another_dir.py
