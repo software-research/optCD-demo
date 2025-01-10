@@ -37,11 +37,11 @@ class GeminiAPI:
         aio_response = aio_response.replace("```", "").replace("\n", "")
         return aio_response
     
-def push_in_ci_and_run_new_command(mvn_command_str, unused_dir, repo):
-    os.chdir("projects/"+repo)
+def push_in_ci_and_run_new_command(mvn_command_str, unused_dir, repo, clone_directory):
+    os.chdir(clone_directory)
     current_directory = os.getcwd()
-    print("Current Directory:", current_directory)
-    file_path = f".github/workflows/build.yml"
+    #print("Current Directory:", current_directory)
+    file_path = f".github/workflows/modified-build_1.yml"
 
     # Run the mvn command using subprocess
     '''try:
@@ -55,15 +55,15 @@ def push_in_ci_and_run_new_command(mvn_command_str, unused_dir, repo):
     try:
         # 1. Add the file to the staging area
         subprocess.run(['git', 'add', '-f', file_path], check=True)
-        print(f"File '{file_path}' added to the staging area.")
+        #print(f"File '{file_path}' added to the staging area.")
         
         # 2. Check the status to see if there are any changes to commit
         result = subprocess.run(['git', 'status'], stdout=subprocess.PIPE, text=True)
-        print("Git status before committing:\n", result.stdout)
+        #print("Git status before committing:\n", result.stdout)
         commit_message="command updated"
         # 2. Commit the file with a message
         subprocess.run(['git', 'commit', '-m', commit_message], check=True)
-        print(f"Committed the file '{file_path}' with commit")
+        #print(f"Committed the file '{file_path}' with commit")
 
         # 3. Push the changes to the specified remote and branch
         subprocess.run(['git', 'push'], check=True)
@@ -75,8 +75,9 @@ def push_in_ci_and_run_new_command(mvn_command_str, unused_dir, repo):
     #exit()
 from ruamel.yaml.scalarstring import PlainScalarString
 
-def update_mvn_commands_in_yml(new_mvn_command, repo, old_command):
-    file_path = f"projects/{repo}/.github/workflows/build.yml"
+def update_mvn_commands_in_yml(new_mvn_command, repo, old_command, clone_directory):
+    file_path = f"{clone_directory}/.github/workflows/modified-build.yml"
+    modified_yml_file_path = f"{clone_directory}/.github/workflows/modified-build.yml"
 
     # Initialize ruamel.yaml with indentation settings
     yaml = YAML()
@@ -91,8 +92,8 @@ def update_mvn_commands_in_yml(new_mvn_command, repo, old_command):
         yml_data = yaml.load(file)
 
     # Debug: Check the initial structure of the YAML file
-    print("Initial YAML structure:")
-    print(yml_data)
+    #print("Initial YAML structure:")
+    #print(yml_data)
 
     # Function to update only the matching old mvn command
     def update_mvn_command_in_steps(steps, old_cmd, new_cmd):
@@ -100,11 +101,11 @@ def update_mvn_commands_in_yml(new_mvn_command, repo, old_command):
             for step in steps:
                 if isinstance(step, dict) and 'run' in step:
                     # Print the current command for debugging
-                    print(f"Current command: '{step['run']}' (repr: {repr(step['run'])})")
+                    #print(f"Current command: '{step['run']}' (repr: {repr(step['run'])})")
 
                     # Check if the 'run' command matches the old_command exactly
                     if step['run'].strip() == old_cmd.strip():
-                        print(f"Updating command: '{step['run']}' -> '{new_cmd}'")
+                        #print(f"Updating command: '{step['run']}' -> '{new_cmd}'")
 
                         # Use PlainScalarString to ensure no quotes are added
                         step['run'] = PlainScalarString(new_cmd)
@@ -113,30 +114,30 @@ def update_mvn_commands_in_yml(new_mvn_command, repo, old_command):
     for job in yml_data.get('jobs', {}).values():
         steps = job.get('steps', [])
         update_mvn_command_in_steps(steps, old_command, new_mvn_command)
-
+    
     # Debug: Check the modified structure of the YAML file
     print("Modified YAML structure:")
-    print(yml_data)
+    #print(yml_data)
 
     # Write the updated content back to the YAML file with controlled formatting
-    with open(file_path, 'w') as file:
+    with open(modified_yml_file_path, 'w') as file:
         yaml.dump(yml_data, file)
 
     print(f"The command '{old_command}' has been updated to: {new_mvn_command}")
 
 
-csv_path="../job-based-results.csv"
-json_path_base = "../maven_only_results"
+csv_path="job-based-results.csv"
+json_path_base = "maven_only_results"
 postfix = "maven_only"
 output_path = "fixer_results_shanto.csv" # output file
 temp_csv = "temp.csv" # temporary file to save the results
 
 reader = pd.read_csv(csv_path, delimiter=';')
 out_df = pd.DataFrame(columns=['owner', 'repo', 'yaml_filename', 'job', 'all_unused', 'maven_unused', 'fix_suggestion', 'old_commands'])
-print(out_df)
+#print(out_df)
 gemini = GeminiAPI()
 
-os.makedirs("projects", exist_ok=True)
+#os.makedirs("projects", exist_ok=True)
 # iterate over the rows
 for index, row in reader.iterrows():
     # header owner;repo;yaml_filename;job;all_unused;maven_unused
@@ -145,13 +146,13 @@ for index, row in reader.iterrows():
     owner = row['owner']
     repo = row['repo']
 
-    clone_directory = f"projects/{repo}"
+    clone_directory = f"../{repo}"
     repo_url = "https://github.com/butterfly-lab/"+repo
     if os.path.exists(clone_directory) and os.listdir(clone_directory):
         print(f"Directory '{clone_directory}' already exists and is not empty. Skipping clone.")
     else:
         try:
-            subprocess.run(['git', 'clone', repo_url , "projects/"+repo], check=True)
+            subprocess.run(['git', 'clone', repo_url , "../../"+repo], check=True)
         except subprocess.CalledProcessError as e:
             print(f"Failed to clone the repository: {e}")
 
@@ -182,7 +183,7 @@ for index, row in reader.iterrows():
     full_json_path = os.path.join(json_path_base, json_filename)
     
     if not os.path.exists(full_json_path):
-        print(f"File {full_json_path} does not exist")
+        #print(f"File {full_json_path} does not exist")
         continue
     
     # read the json file
@@ -223,7 +224,9 @@ for index, row in reader.iterrows():
             #f"\nThese were generated in CI step `{step_name}`. "
             f"Please suggest an updated command to avoid unnecessary directory. Provide only the new command.\n"
         )
+        print("***Prompt***")
         print(prompt)
+        print("***")
         #print()
         #exit()
         # Call the Gemini API to get the fix suggestion
@@ -240,7 +243,7 @@ for index, row in reader.iterrows():
         for key in results:
             fix_suggestion_str += results[key]['fix_suggestion'] + "\n"
             
-        print('Results=',results)    
+        #print('Results=',results)    
         # old_commands = [key for key in results] \n separated, remive the last newline character
         old_commands = "\n".join([key for key in results])
         #old_commands = old_commands[:-1]
@@ -264,11 +267,12 @@ for index, row in reader.iterrows():
         print(f"Fix suggestion: {fix_suggestion_str}")
         print("=====================================")
         print("\n\n")
-        update_mvn_commands_in_yml(fix_suggestion_str, repo, old_commands) 
-        push_in_ci_and_run_new_command(fix_suggestion_str, unused_dir, repo)
-        exit()
+        update_mvn_commands_in_yml(fix_suggestion_str, repo, old_commands, clone_directory) 
+        push_in_ci_and_run_new_command(fix_suggestion_str, unused_dir, repo, clone_directory)
         # save the row to a csv file
         with open(temp_csv, 'a') as f:
             out_df.to_csv(f, sep=';', index=False)
+
+        exit()
     
 out_df.to_csv(output_path, sep=';', index=False)  
