@@ -41,7 +41,7 @@ def push_in_ci_and_run_new_command(mvn_command_str, unused_dir, repo, clone_dire
     os.chdir(clone_directory)
     current_directory = os.getcwd()
     #print("Current Directory:", current_directory)
-    file_path = f".github/workflows/modified-build.yml"
+    file_path = f".github/workflows/modified-build_1.yml"
 
     # Run the mvn command using subprocess
     '''try:
@@ -270,7 +270,9 @@ for index, row in reader.iterrows():
         update_mvn_commands_in_yml(fix_suggestion_str, repo, old_commands, clone_directory) 
         push_in_ci_and_run_new_command(fix_suggestion_str, unused_dir, repo, clone_directory)
         # save the row to a csv file
-        with open(temp_csv, 'a') as f:
-            out_df.to_csv(f, sep=';', index=False)
+        #with open(temp_csv, 'a') as f:
+        #    out_df.to_csv(f, sep=';', index=False)
+
+        exit()
     
 out_df.to_csv(output_path, sep=';', index=False)  

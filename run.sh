@@ -10,6 +10,15 @@ source venv/bin/activate
 pip install -r requirements.txt
 
 process_yaml_workflow() {
+    local owner="$1"
+    local repo="$2"
+    local path_to_yaml_file="$3"
+    local branch="$4"
+    local workflow_file="$5"
+    local path_to_local_repo="$6"
+    local output_file="$7"
+    local input_yaml_filename="$8"
+
     git -C "$path_to_local_repo" fetch
     git -C "$path_to_local_repo" rebase origin/"$branch"
     git -C "$path_to_local_repo" push origin "$branch"
@@ -109,7 +118,8 @@ input_yaml_filename=$1
 output_yaml_filename=$2
 owner=$3
 repo=$4
-output_file=$5
+initial_output_file=$5
+fixed_output_file=$6
 
 path_to_yaml_file=$(echo "$output_yaml_filename" | rev | cut -d'/' -f1-3 | rev)
 path_to_local_repo=$(echo "$output_yaml_filename" | rev | cut -d'/' -f4- | rev)
@@ -122,11 +132,12 @@ echo "[INFO] $(date +"%Y-%m-%d %H:%M:%S") | Started modifying the original YAML 
 python modify_yaml.py "$input_yaml_filename" "$output_yaml_filename" "$repo"
 
 echo "[INFO] $(date +"%Y-%m-%d %H:%M:%S") | Finished modifying the original YAML file."
-process_yaml_workflow "$owner" "$repo" "$path_to_yaml_file" "$branch" $workflow_file $path_to_local_repo $output_file $input_yaml_filename
+process_yaml_workflow "$owner" "$repo" "$path_to_yaml_file" "$branch" $workflow_file $path_to_local_repo $initial_output_file $input_yaml_filename
 rm -rf jsoup-build
 #exit
-python3 fixer/run_gemini_with_confirmation_from_my_another_dir.py
-process_yaml_workflow "$owner" "$repo" "$path_to_yaml_file" "$branch" $workflow_file $path_to_local_repo $output_file $input_yaml_filename
+python3 fixer/run_gemini_with_confirmation.py
+#python3 fixer/run_gemini_with_confirmation_from_my_another_dir.py
+process_yaml_workflow "$owner" "$repo" "$path_to_yaml_file" "$branch" $workflow_file $path_to_local_repo $fixed_output_file $input_yaml_filename
 #path_to_yaml_file=".github/workflows/modified-build_1.yml"
 #echo "bash x.sh "$owner" "$repo" "$path_to_yaml_file" "$branch" $workflow_file $path_to_local_repo $output_file $input_yaml_filename"
 #bash x.sh "$owner" "$repo" "$path_to_yaml_file" "$branch" $workflow_file $path_to_local_repo $output_file $input_yaml_filename
