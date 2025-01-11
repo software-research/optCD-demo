@@ -267,12 +267,15 @@ for index, row in reader.iterrows():
         print(f"Fix suggestion: {fix_suggestion_str}")
         print("=====================================")
         print("\n\n")
-        update_mvn_commands_in_yml(fix_suggestion_str, repo, old_commands, clone_directory) 
-        push_in_ci_and_run_new_command(fix_suggestion_str, unused_dir, repo, clone_directory)
-        # save the row to a csv file
-        #with open(temp_csv, 'a') as f:
-        #    out_df.to_csv(f, sep=';', index=False)
+        if fix_suggestion_str == "" or fix_suggestion_str == old_commands:
+            print('There is no fix suggestions found')
+        else:
+            update_mvn_commands_in_yml(fix_suggestion_str, repo, old_commands, clone_directory) 
+            push_in_ci_and_run_new_command(fix_suggestion_str, unused_dir, repo, clone_directory)
+            # save the row to a csv file
+            #with open(temp_csv, 'a') as f:
+            #    out_df.to_csv(f, sep=';', index=False)
 
-        exit()
+        #exit()
     
 out_df.to_csv(output_path, sep=';', index=False)  
