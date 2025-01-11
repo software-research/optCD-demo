@@ -40,8 +40,10 @@ class GeminiAPI:
 def push_in_ci_and_run_new_command(mvn_command_str, unused_dir, repo, clone_directory):
     os.chdir(clone_directory)
     current_directory = os.getcwd()
-    #print("Current Directory:", current_directory)
-    file_path = f".github/workflows/modified-build_1.yml"
+    print("Current Directory:", current_directory)
+    file_path = os.path.abspath(f".github/workflows/modified-build.yml")  # Use absolute path
+
+    #file_path = f"{clone_directory}/.github/workflows/modified-build.yml"
 
     # Run the mvn command using subprocess
     '''try:
@@ -210,10 +212,6 @@ for index, row in reader.iterrows():
         prompts = []
         results = {}
         
-    #for command, unused_dirs in command_to_unused_dirs.items():
-        #plugins = command_to_plugins[command]
-        #step_name = command_to_step_names[command]
-
         # Generate prompt
         prompt = (
             #f"I am trying to optimize the command I use in my CI pipeline. And I am asking you for help on finding a fix.\n"
@@ -227,8 +225,6 @@ for index, row in reader.iterrows():
         print("***Prompt***")
         print(prompt)
         print("***")
-        #print()
-        #exit()
         # Call the Gemini API to get the fix suggestion
         fix_suggestion = gemini.ask_prompt(prompt)
         results[responsible_command] = {
@@ -236,14 +232,11 @@ for index, row in reader.iterrows():
         }
         
         time.sleep(6)
-    #time.sleep(6)
-    #exit()  
     # create a string of fix, concat all the fixes with a newline. Basically I wanted to put all the fixes in one string
         fix_suggestion_str = ""
         for key in results:
             fix_suggestion_str += results[key]['fix_suggestion'] + "\n"
             
-        #print('Results=',results)    
         # old_commands = [key for key in results] \n separated, remive the last newline character
         old_commands = "\n".join([key for key in results])
         #old_commands = old_commands[:-1]
@@ -278,4 +271,4 @@ for index, row in reader.iterrows():
 
         #exit()
     
-out_df.to_csv(output_path, sep=';', index=False)  
+#out_df.to_csv(output_path, sep=';', index=False)  
