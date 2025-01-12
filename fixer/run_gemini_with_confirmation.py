@@ -13,6 +13,7 @@ import subprocess
 import shutil
 import yaml
 from ruamel.yaml import YAML
+#from push_and_download_file import process_yaml_workflow
 
 
 
@@ -127,12 +128,22 @@ def update_mvn_commands_in_yml(new_mvn_command, repo, old_command, clone_directo
 
     print(f"The command '{old_command}' has been updated to: {new_mvn_command}")
 
-
 csv_path="job-based-results.csv"
 json_path_base = "maven_only_results"
 postfix = "maven_only"
 output_path = "fixer_results_shanto.csv" # output file
 temp_csv = "temp.csv" # temporary file to save the results
+
+owner = sys.argv[1]
+repo = sys.argv[2]
+path_to_yaml_file=sys.argv[3]
+branch = sys.argv[4]
+
+workflow_file=sys.argv[5]
+path_to_local_repo = sys.argv[6]
+
+output_file = sys.argv[7]
+input_yaml_filename = sys.argv[8]
 
 reader = pd.read_csv(csv_path, delimiter=';')
 out_df = pd.DataFrame(columns=['owner', 'repo', 'yaml_filename', 'job', 'all_unused', 'maven_unused', 'fix_suggestion', 'old_commands'])
@@ -145,8 +156,8 @@ for index, row in reader.iterrows():
     # header owner;repo;yaml_filename;job;all_unused;maven_unused
     # call the gemini_wrapper.py script with the following arguments 
     # pattern =owner_repo_yaml_filename_job.json
-    owner = row['owner']
-    repo = row['repo']
+    #owner = row['owner']
+    #repo = row['repo']
 
     clone_directory = f"../{repo}"
     repo_url = "https://github.com/"+owner+"/"+repo
@@ -191,7 +202,8 @@ for index, row in reader.iterrows():
     # read the json file
     with open(full_json_path) as json_file:
         data = json.load(json_file)
-        
+    print("data=", data)    
+
     command_to_unused_dirs = defaultdict(list)
     command_to_step_names = defaultdict(list)
     command_to_plugins = defaultdict(list)
@@ -238,7 +250,8 @@ for index, row in reader.iterrows():
             fix_suggestion_str += results[key]['fix_suggestion'] + "\n"
             
         # old_commands = [key for key in results] \n separated, remive the last newline character
-        old_commands = "\n".join([key for key in results])
+        if old_commands == "":
+            old_commands = "\n".join([key for key in results])
         #old_commands = old_commands[:-1]
         
         # remove the lat newline character
@@ -263,12 +276,29 @@ for index, row in reader.iterrows():
         if fix_suggestion_str == "" or fix_suggestion_str == old_commands:
             print('There is no fix suggestions found')
         else:
-            update_mvn_commands_in_yml(fix_suggestion_str, repo, old_commands, clone_directory) 
-            push_in_ci_and_run_new_command(fix_suggestion_str, unused_dir, repo, clone_directory)
+            update_mvn_commands_in_yml(fix_suggestion_str, repo, old_commands, clone_directory)
+            print('End of update in mvn command=======')
+            #os.chdir(clone_directory)
+            #push_in_ci_and_run_new_command(fix_suggestion_str, unused_dir, repo, clone_directory)
+            script_path = '/Users/shantorahman/Documents/Research/optcd/optCD-demo/utils.sh'
+            print(script_path, owner, repo, path_to_yaml_file, branch, workflow_file, 
+            path_to_local_repo, output_file+unused_dir, input_yaml_filename)
+
+
+            # Call the Bash script with the variables as arguments
+            subprocess.run([script_path, owner, repo, path_to_yaml_file, branch,
+                         workflow_file, path_to_local_repo, output_file+unused_dir, input_yaml_filename]
+                        )
+            
+            # Execute the command
+            #result = subprocess.run(command, capture_output=True, text=True, shell=True, executable='/bin/bash')
+            
+            # Print the output
+            #print("Output:", result.stdout)
             # save the row to a csv file
             #with open(temp_csv, 'a') as f:
             #    out_df.to_csv(f, sep=';', index=False)
-
+            old_commands = fix_suggestion_str
         #exit()
     
 #out_df.to_csv(output_path, sep=';', index=False)  
