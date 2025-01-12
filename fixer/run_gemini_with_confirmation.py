@@ -284,10 +284,11 @@ for index, row in reader.iterrows():
             print(script_path, owner, repo, path_to_yaml_file, branch, workflow_file, 
             path_to_local_repo, output_file+unused_dir, input_yaml_filename)
 
+            unused_dir_only = os.path.basename(unused_dir.strip('/'))  # Strip trailing slash if present
 
             # Call the Bash script with the variables as arguments
             subprocess.run([script_path, owner, repo, path_to_yaml_file, branch,
-                         workflow_file, path_to_local_repo, output_file+unused_dir, input_yaml_filename]
+                         workflow_file, path_to_local_repo, output_file+unused_dir_only+".txt", input_yaml_filename]
                         )
             
             # Execute the command
