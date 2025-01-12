@@ -281,6 +281,7 @@ for index, row in reader.iterrows():
             #os.chdir(clone_directory)
             #push_in_ci_and_run_new_command(fix_suggestion_str, unused_dir, repo, clone_directory)
             script_path = '/Users/shantorahman/Documents/Research/optcd/optCD-demo/utils.sh'
+            #script_path = '../utils.sh'
             print(script_path, owner, repo, path_to_yaml_file, branch, workflow_file, 
             path_to_local_repo, output_file+unused_dir, input_yaml_filename)
 
@@ -300,6 +301,9 @@ for index, row in reader.iterrows():
             #with open(temp_csv, 'a') as f:
             #    out_df.to_csv(f, sep=';', index=False)
             old_commands = fix_suggestion_str
-        #exit()
-    
+
+        directory_path = f"{repo}-{workflow_file}"
+        shutil.rmtree(directory_path)
+
+    exit()
 #out_df.to_csv(output_path, sep=';', index=False)  
