@@ -9,6 +9,7 @@ python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 
+currentDir=$(pwd)
 input_yaml_filename=$1
 output_yaml_filename=$2
 owner=$3
@@ -27,7 +28,10 @@ echo "[INFO] $(date +"%Y-%m-%d %H:%M:%S") | Started modifying the original YAML 
 python modify_yaml.py "$input_yaml_filename" "$output_yaml_filename" "$repo"
 
 echo "[INFO] $(date +"%Y-%m-%d %H:%M:%S") | Finished modifying the original YAML file."
-#echo "utils.sh "$owner" "$repo" "$path_to_yaml_file" "$branch" $workflow_file $path_to_local_repo $initial_output_file $input_yaml_filename"
+#echo "$path_to_yaml_file"
+output_workflow_name=$(echo $output_yaml_filename | rev | cut -d'/' -f1 | rev)
+echo $output_filename
+echo "utils.sh "$owner" "$repo" "$path_to_yaml_file" "$branch" $workflow_file $path_to_local_repo $initial_output_file $input_yaml_filename"
 #exit
 bash utils.sh "$owner" "$repo" "$path_to_yaml_file" "$branch" $workflow_file $path_to_local_repo $initial_output_file $input_yaml_filename
 rm -rf $repo"-"$workflow_file
@@ -65,8 +69,8 @@ rm -rf $repo"-"$workflow_file
 #done <$csv_path
 
 #bash utils.sh "$owner" "$repo" "$path_to_yaml_file" "$branch" $workflow_file $path_to_local_repo $initial_output_file $input_yaml_filename
-echo "python3 fixer/run_gemini_with_confirmation.py "$owner" "$repo" "$path_to_yaml_file" "$branch" $workflow_file $path_to_local_repo $fixed_output_file $input_yaml_filename"
-python3 fixer/run_gemini_with_confirmation.py "$owner" "$repo" "$path_to_yaml_file" "$branch" $workflow_file $path_to_local_repo $fixed_output_file $input_yaml_filename
+echo "python3 fixer/run_gemini_with_confirmation.py "$owner" "$repo" "$path_to_yaml_file" "$branch" $workflow_file $path_to_local_repo $fixed_output_file $input_yaml_filename $output_workflow_name $currentDir" 
+python3 fixer/run_gemini_with_confirmation.py "$owner" "$repo" "$path_to_yaml_file" "$branch" $workflow_file $path_to_local_repo $fixed_output_file $input_yaml_filename $output_workflow_name $currentDir
 #/Users/shantorahman/Documents/Research/optcd/optCD-demo/utils.sh butterfly-lab jsoup .github/workflows/modified-build.yml master build build ../jsoup Output-with-fixer.txt
 #python3 fixer/run_gemini_with_confirmation_from_my_another_dir.py
 #process_yaml_workflow "$owner" "$repo" "$path_to_yaml_file" "$branch" $workflow_file $path_to_local_repo $fixed_output_file $input_yaml_filename

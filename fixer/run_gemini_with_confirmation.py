@@ -22,7 +22,7 @@ from ruamel.yaml import YAML
 
 class GeminiAPI:
     def __init__(self):
-        api_key = os.environ["API_KEY"]
+        api_key = os.environ["GEMINI_API_KEY"]
         genai.configure(api_key=api_key)
         self.model = genai.GenerativeModel("gemini-1.5-flash")
 
@@ -38,49 +38,49 @@ class GeminiAPI:
         aio_response = aio_response.replace("```", "").replace("\n", "")
         return aio_response
     
-def push_in_ci_and_run_new_command(mvn_command_str, unused_dir, repo, clone_directory):
-    os.chdir(clone_directory)
-    current_directory = os.getcwd()
-    print("Current Directory:", current_directory)
-    file_path = os.path.abspath(f".github/workflows/modified-build.yml")  # Use absolute path
-
-    #file_path = f"{clone_directory}/.github/workflows/modified-build.yml"
-
-    # Run the mvn command using subprocess
-    '''try:
-        # Run the command using shell=True to interpret the entire command string
-        subprocess.run(mvn_command_str, shell=True, check=True)
-        print(f"Successfully ran: {mvn_command_str}")
-    except subprocess.CalledProcessError as e:
-        print(f"Failed to run: {mvn_command_str}")
-        print(f"Error: {e}")'''
-     
-    try:
-        # 1. Add the file to the staging area
-        subprocess.run(['git', 'add', '-f', file_path], check=True)
-        #print(f"File '{file_path}' added to the staging area.")
-        
-        # 2. Check the status to see if there are any changes to commit
-        result = subprocess.run(['git', 'status'], stdout=subprocess.PIPE, text=True)
-        #print("Git status before committing:\n", result.stdout)
-        commit_message="command updated"
-        # 2. Commit the file with a message
-        subprocess.run(['git', 'commit', '-m', commit_message], check=True)
-        #print(f"Committed the file '{file_path}' with commit")
-
-        # 3. Push the changes to the specified remote and branch
-        subprocess.run(['git', 'push'], check=True)
-        print(f"Successfully pushed.")
-
-    except subprocess.CalledProcessError as e:
-         print(f"An error occurred while running git command: {e}")
+#def push_in_ci_and_run_new_command(mvn_command_str, unused_dir, repo, clone_directory):
+#    os.chdir(clone_directory)
+#    current_directory = os.getcwd()
+#    print("Current Directory:", current_directory)
+#    file_path = os.path.abspath(f".github/workflows/modified-build.yml")  # Use absolute path
+#
+#    #file_path = f"{clone_directory}/.github/workflows/modified-build.yml"
+#
+#    # Run the mvn command using subprocess
+#    '''try:
+#        # Run the command using shell=True to interpret the entire command string
+#        subprocess.run(mvn_command_str, shell=True, check=True)
+#        print(f"Successfully ran: {mvn_command_str}")
+#    except subprocess.CalledProcessError as e:
+#        print(f"Failed to run: {mvn_command_str}")
+#        print(f"Error: {e}")'''
+#     
+#    try:
+#        # 1. Add the file to the staging area
+#        subprocess.run(['git', 'add', '-f', file_path], check=True)
+#        #print(f"File '{file_path}' added to the staging area.")
+#        
+#        # 2. Check the status to see if there are any changes to commit
+#        result = subprocess.run(['git', 'status'], stdout=subprocess.PIPE, text=True)
+#        #print("Git status before committing:\n", result.stdout)
+#        commit_message="command updated"
+#        # 2. Commit the file with a message
+#        subprocess.run(['git', 'commit', '-m', commit_message], check=True)
+#        #print(f"Committed the file '{file_path}' with commit")
+#
+#        # 3. Push the changes to the specified remote and branch
+#        subprocess.run(['git', 'push'], check=True)
+#        print(f"Successfully pushed.")
+#
+#    except subprocess.CalledProcessError as e:
+#         print(f"An error occurred while running git command: {e}")
    
     #exit()
 from ruamel.yaml.scalarstring import PlainScalarString
 
 def update_mvn_commands_in_yml(new_mvn_command, repo, old_command, clone_directory):
-    file_path = f"{clone_directory}/.github/workflows/modified-build.yml"
-    modified_yml_file_path = f"{clone_directory}/.github/workflows/modified-build.yml"
+    file_path = f"{clone_directory}/.github/workflows/{output_workflow_name}"
+    modified_yml_file_path = f"{clone_directory}/.github/workflows/{output_workflow_name}"
 
     # Initialize ruamel.yaml with indentation settings
     yaml = YAML()
@@ -144,6 +144,8 @@ path_to_local_repo = sys.argv[6]
 
 output_file = sys.argv[7]
 input_yaml_filename = sys.argv[8]
+output_workflow_name = sys.argv[9]
+currentDir = sys.argv[10]
 
 reader = pd.read_csv(csv_path, delimiter=';')
 out_df = pd.DataFrame(columns=['owner', 'repo', 'yaml_filename', 'job', 'all_unused', 'maven_unused', 'fix_suggestion', 'old_commands'])
@@ -160,14 +162,14 @@ for index, row in reader.iterrows():
     #repo = row['repo']
 
     clone_directory = f"../{repo}"
-    repo_url = "https://github.com/"+owner+"/"+repo
-    if os.path.exists(clone_directory) and os.listdir(clone_directory):
-        print(f"Directory '{clone_directory}' already exists and is not empty. Skipping clone.")
-    else:
-        try:
-            subprocess.run(['git', 'clone', repo_url , "../../"+repo], check=True)
-        except subprocess.CalledProcessError as e:
-            print(f"Failed to clone the repository: {e}")
+    #repo_url = "https://github.com/"+owner+"/"+repo
+    #if os.path.exists(clone_directory) and os.listdir(clone_directory):
+    #    print(f"Directory '{clone_directory}' already exists and is not empty. Skipping clone.")
+    #else:
+    #    try:
+    #        subprocess.run(['git', 'clone', repo_url , "../../"+repo], check=True)
+    #    except subprocess.CalledProcessError as e:
+    #        print(f"Failed to clone the repository: {e}")
 
     yaml_filename = row['yaml_filename']
     job = row['job']
@@ -280,7 +282,7 @@ for index, row in reader.iterrows():
             print('End of update in mvn command=======')
             #os.chdir(clone_directory)
             #push_in_ci_and_run_new_command(fix_suggestion_str, unused_dir, repo, clone_directory)
-            script_path = '/Users/shantorahman/Documents/Research/optcd/optCD-demo/utils.sh'
+            script_path = f"{currentDir}/utils.sh"
             #script_path = '../utils.sh'
             print(script_path, owner, repo, path_to_yaml_file, branch, workflow_file, 
             path_to_local_repo, output_file+unused_dir, input_yaml_filename)
@@ -304,6 +306,7 @@ for index, row in reader.iterrows():
 
         directory_path = f"{repo}-{workflow_file}"
         shutil.rmtree(directory_path)
+        exit()
 
-    exit()
+    #exit()
 #out_df.to_csv(output_path, sep=';', index=False)  
