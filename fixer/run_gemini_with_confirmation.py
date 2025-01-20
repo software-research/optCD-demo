@@ -110,6 +110,9 @@ with open(full_json_path) as json_file:
 data = filter_duplicate_instance_in_json(data)
 command_set = set()
 
+commands_to_fix = {}
+
+# we extract the unique command and the unused directory from the json file
 for instance in data:
     print("instance=", instance)
     # Loop through each detection result in the JSON
@@ -117,61 +120,40 @@ for instance in data:
     responsible_command = instance["Responsible command"]
     responsible_plugin = instance["Responsible plugin"]
     step_name = instance["Name of the step"]
-        
-    prompts = []
-    results = {}
-    
-    # Generate prompt
+    command_set.add(responsible_command)
+
+    if responsible_command not in command_set:
+        commands_to_fix[responsible_command] = {}
+        commands_to_fix[responsible_command]["unused_dirs_responsible_plugin"] = []
+        commands_to_fix[responsible_command]["Name of the step"] = []
+        command_set.add(responsible_command)
+    commands_to_fix[responsible_command]["unused_dirs_responsible_plugin"].append((unused_dir, responsible_plugin))
+    commands_to_fix[responsible_command]["Name of the step"].append(step_name)
+
+# Now we create prompt for the unused directory and responsible command, and the responsible plugin. We thus get a fixed command for each unique command
+for responsible_command in commands_to_fix:
+    unused_dirs_responsible_plugin = commands_to_fix[responsible_command]["unused_dirs_responsible_plugin"]
+    step_names = commands_to_fix[responsible_command]["Name of the step"]
+
+    # Create a prompt for each unique command
     prompt = (
-        f"The command `{responsible_command}` creates the following unused directory:\n"
-        f"{unused_dir}\n"
-        f"Please suggest an updated command to avoid unnecessary directory. Provide only the new command.\n"
+        f"The command `{responsible_command}` creates the following unused directories while running the following plugins given as (unused directory, responsible plugin):\n"
+        f"{unused_dirs_responsible_plugin}\n"
+        f"Please suggest an updated command to avoid unnecessary directories. Provide only the new command.\n"
     )
-    print("prompt=",prompt)
-    # Call the Gemini API to get the fix suggestion
+
+    print("prompt is as follows: \n",prompt)
     fix_suggestion = gemini.ask_prompt(prompt)
-    print("fix_suggestion=",fix_suggestion )
-    results[responsible_command] = {
-        "fix_suggestion": fix_suggestion
-    }
-    
-    time.sleep(6)
-    # create a string of fix, concat all the fixes with a newline. Basically I wanted to put all the fixes in one string
-    fix_suggestion_str = ""
-    for key in results:
-        fix_suggestion_str += results[key]['fix_suggestion'] + "\n"
-        
-    # old_commands = [key for key in results] \n separated, remive the last newline character
-    if old_commands == "":
-        old_commands = "\n".join([key for key in results])
-    
-    # remove the lat newline character
-    fix_suggestion_str = fix_suggestion_str[:-1]
-    
-    print("=====================================")
-    print(f"Owner: {owner}")
-    print(f"Repo: {repo}")
-    print(f"Old commands: {old_commands}")
-    print(f"Fix suggestion: {fix_suggestion_str}")
-    print("=====================================")
-    print("\n\n")
-    if fix_suggestion_str == "" or fix_suggestion_str == old_commands:
+    print("suggested fix for the old command is as follows: \n ",fix_suggestion)
+
+    if str(fix_suggestion) == "" or str(fix_suggestion) == responsible_command:
         print('There is no fix suggestions found')
     else:
-        update_mvn_commands_in_yml(fix_suggestion_str, repo, old_commands, path_to_local_repo)
-        print('End of update in mvn command=======')
+        update_mvn_commands_in_yml(fix_suggestion, repo, responsible_command, path_to_local_repo)
         script_path = f"{currentDir}/utils.sh"
-        print(script_path, owner, repo, path_to_yaml_file, branch, workflow_file, 
-        path_to_local_repo, output_file+unused_dir, input_yaml_filename)
-
         unused_dir_only = os.path.basename(unused_dir.strip('/'))  # Strip trailing slash if present
 
         # Call the Bash script with the variables as arguments
         subprocess.run([script_path, owner, repo, path_to_yaml_file, branch,
                      workflow_file, path_to_local_repo, output_file+unused_dir_only+".txt", input_yaml_filename, "False"]
                     )
-
-        old_commands = fix_suggestion_str
-
-    directory_path = f"{repo}-{workflow_file}"
-    shutil.rmtree(directory_path)
