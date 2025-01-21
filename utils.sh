@@ -77,7 +77,7 @@ while IFS=' ' read -r job_id name; do
   rm -rf "$repo"/inotifywait-"$name"
 done <<< "$job_ids"
 
-rm -rf "$output_file"
+# rm -rf "$output_file"
 
 mkdir -p "$repo"-"$workflow_file"
 mkdir -p "$repo"

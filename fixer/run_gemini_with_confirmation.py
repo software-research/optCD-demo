@@ -68,16 +68,21 @@ def extract_unique_commands(data):
         command = instance["Responsible command"]
         unused_dir = instance["Unused directory"]
         responsible_plugin = instance["Responsible plugin"]
-        step_name = instance["Name of the step"]
 
         if command not in unique_commands:
             unique_commands[command] = {
-                "unused_dirs_responsible_plugin": [],
-                "step_names": []
+                "command": command,
+                "unused_dirs": [],
+                "responsible_plugin": [],
+                "fixes": [],
             }
-        unique_commands[command]["unused_dirs_responsible_plugin"].append((unused_dir, responsible_plugin))
-        unique_commands[command]["step_names"].append(step_name)
+
+        if unused_dir not in unique_commands[command]["unused_dirs"]:
+            unique_commands[command]["unused_dirs"].append(unused_dir)
+        if responsible_plugin not in unique_commands[command]["responsible_plugin"]:
+            unique_commands[command]["responsible_plugin"].append(responsible_plugin)
     return unique_commands
+
 
 
 owner = sys.argv[1]
@@ -105,70 +110,68 @@ if not os.path.exists(full_json_path):
 # read the json file
 with open(full_json_path) as json_file:
     data = json.load(json_file)
-commands_to_fix = extract_unique_commands(data)
-commands_to_update = []
-unique_unused_dirs = set()
 
-# Create a prompt for each unique command and get the fix suggestion from Gemini
-for responsible_command, details in commands_to_fix.items():
-    unused_dirs_responsible_plugin = details["unused_dirs_responsible_plugin"]
-    step_names = details["step_names"]
-    unused_dirs = [item[0] for item in unused_dirs_responsible_plugin]
-    plugins = [item[1] for item in unused_dirs_responsible_plugin]
-    unique_unused_dirs.update(unused_dirs)
+unique_commands = extract_unique_commands(data)
 
+for instance in unique_commands:
+    original_command = unique_commands[instance]["command"]
+    unused_dirs = unique_commands[instance]["unused_dirs"]
+    responsible_plugins = unique_commands[instance]["responsible_plugin"]
+    fixes = unique_commands[instance]["fixes"]
+    command_with_fix_tmp = original_command
 
-    # Create a prompt for each unique command
-    prompt = (
-        f"The command `{responsible_command}` creates the following unused directories:\n"
-        f"{', '.join(unused_dirs)}\n"
-        f"Unused directories are the directories that are created by the execution of the plugins as part of the command, but are not accessed. We can prevent the creation of any of these unused directories and still execute the command successfully.\n"
-        f"In most cases adding a standard plugin option to the command can prevent the creation of the unused directories.\n"
-        f"Please suggest an updated command with an argument that avoids the creation of the unnecessary directories. Provide only the new command without additional explanation, code formatting, or backticks.\n"
-        f"IMPORTANT: If the fix involves Maven options such as `-Dproperty=value`, ensure that each `-Dproperty=value` argument is individually wrapped in double quotes, e.g., \"-Dproperty=value\". This quoting requirement applies to every `-D` argument in the command.\n"
-    )
+    for unused_dir in unused_dirs:
+        prompt = (
+            f"The command `{command_with_fix_tmp}` creates the following unused directory while running the plugin `{responsible_plugins}`:\n"
+            f"{unused_dir}\n"
+            f"Please suggest an updated command to avoid creating this unnecessary directory. Provide only the new command without additional explanation, code formatting, or backticks.\n"
+        )
 
-    fix_suggestion = gemini.ask_prompt(prompt)
-    if str(fix_suggestion) == "" or str(fix_suggestion) == responsible_command:
-        print('There is no fix suggestions found')
-    else:
-        commands_to_update.append((fix_suggestion, responsible_command))
+        fix_suggestion = gemini.ask_prompt(prompt)
+        if str(fix_suggestion) == "" or str(fix_suggestion) == command_with_fix_tmp:
+            print(f'There is no fix suggestion found for the unused directory: {unused_dir}')
+            fixes.append("Gemini did not provide a fix")
+        else:
+            # find the difference between the original command and the fix suggestion
+            difference = [x for x in fix_suggestion.split() if x not in command_with_fix_tmp.split()]
+            fixes.append(difference)
+            command_with_fix_tmp = fix_suggestion
 
-# Apply all the fixes to the YAML files
+    # Flatten the fixes list
+    flattened_fixes = [item for sublist in fixes for item in sublist if isinstance(sublist, list)]
+    fix_suggestion_str = original_command + ' ' + ' '.join([f'"{fix}"' for fix in flattened_fixes])
 
-# if commands_to_update is not empty, update the commands in the YAML file
-if len(commands_to_update) == 0:
-    print("No fixes found for the commands in the YAML file.")
-    sys.exit(0)
+    update_mvn_commands_in_yml(fix_suggestion_str, repo, original_command, path_to_local_repo)
 
-for fix_suggestion, responsible_command in commands_to_update:
-    update_mvn_commands_in_yml(fix_suggestion, repo, responsible_command, path_to_local_repo)
+    os.remove(full_json_path)
+    script_path = f"{currentDir}/utils.sh"
+    subprocess.run([script_path, owner, repo, path_to_yaml_file, branch,
+                    workflow_file, path_to_local_repo, output_file, input_yaml_filename]
+                )
 
-# remove the responsible_plugins.json file
-os.remove(full_json_path)
+    with open(full_json_path) as json_file:
+        new_data = json.load(json_file)
+    
+    all_unused_old = []
+    all_unused_new = []
+    for instance in new_data:
+        if instance["Responsible command"] == original_command:
+            if instance["Unused directory"] not in all_unused_old:
+                all_unused_old.append(instance["Unused directory"])
+    
+    for instance in new_data:
+        if instance["Responsible command"] == fix_suggestion_str:
+            if instance["Unused directory"] not in all_unused_new:
+                all_unused_new.append(instance["Unused directory"])
 
-# Call the Bash script with the variables as arguments after applying all fixes
-script_path = f"{currentDir}/utils.sh"
-subprocess.run([script_path, owner, repo, path_to_yaml_file, branch,
-                workflow_file, path_to_local_repo, output_file, input_yaml_filename]
-              )
+    diff_only_in_old = [x for x in all_unused_old if x not in all_unused_new]
 
-print("Fixes have been applied and tested successfully.")
-print("summary of the fixes applied: ")
-# read the responsible_plugins.json file and find the new set of unique unused directories
-with open(full_json_path) as json_file:
-    new_data = json.load(json_file)
-new_unique_unused_dirs = set()
-for instance in new_data:
-    new_unique_unused_dirs.add(instance["Unused directory"])
-
-for fix_suggestion, responsible_command in commands_to_update:
-    print(f"Old command: {responsible_command}")
-    print(f"New command: {fix_suggestion}")
-    print("----------------------------------------------------")
-
-print("Unused directories before the fix: ")
-print(unique_unused_dirs)
-print("Unused directories after the fix: ")
-print(new_unique_unused_dirs)
-   
+    print("Summary of the fixes applied:")
+    print("-"*10)
+    for i in range(len(flattened_fixes)):
+        print("directory:", unused_dirs[i])
+        print("fix:", flattened_fixes[i])
+        print("-"*10)
+    
+    print("The command with all the fixes is:\n", fix_suggestion_str)
+    print("The directories that were fixed are:\n", all_unused_old)

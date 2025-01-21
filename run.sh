@@ -17,6 +17,9 @@ repo=$4
 initial_output_file=$5
 fixed_output_file=$6
 
+rm $initial_output_file
+rm $fixed_output_file
+
 path_to_yaml_file=$(echo "$output_yaml_filename" | rev | cut -d'/' -f1-3 | rev)
 path_to_local_repo=$(echo "$output_yaml_filename" | rev | cut -d'/' -f4- | rev)
 workflow_file=$(echo "$input_yaml_filename" | rev | cut -d'/' -f1 | rev | cut -d'.' -f1)
