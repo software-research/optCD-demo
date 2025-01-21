@@ -39,14 +39,14 @@ git -C "$path_to_local_repo" add "$path_to_yaml_file" > /dev/null 2>&1
 git -C "$path_to_local_repo" commit -m "add modified YAML file" > /dev/null 2>&1
 git -C "$path_to_local_repo" push --set-upstream origin "$branch" > /dev/null 2>&1
 
-echo "[INFO] Pushed the modified YAML file to remote repository."
+echo "Pushed the modified YAML file to remote repository."
 run_id=$(gh run list --repo "$owner"/"$repo" --workflow "$path_to_yaml_file" --limit 1 --json databaseId --jq '.[0].databaseId')
 
-echo "[INFO] Waiting until modified YAML workflow starts."
+echo "Waiting until modified YAML workflow starts."
 while true; do
   temp_run_id=$(gh run list --repo "$owner"/"$repo" --workflow "$path_to_yaml_file" --limit 1 --json databaseId --jq '.[0].databaseId')
   if [ "$run_id" != "$temp_run_id" ]; then
-    echo "[INFO] Modified YAML workflow started with run_id: $temp_run_id"
+    echo "Modified YAML workflow started with run_id: $temp_run_id"
     run_id=$temp_run_id
     break
   fi
@@ -56,15 +56,15 @@ done
 cancel_runs "$owner" "$repo" "$run_id"
 
 echo "$run_id" > "$repo"-"$workflow_file".txt
-echo "[INFO] Waiting until modified YAML workflow is completed."
+echo "Waiting until modified YAML workflow is completed."
 while true; do
   run_status=$(gh run view "$run_id" --repo "$owner"/"$repo" --json status -q '.status')
   if [ "$run_status" = "completed" ]; then
-    echo "[INFO] Modified YAML workflow completed."
+    echo "Modified YAML workflow completed."
     break
   fi
   if [ "$last_run_status" != "$run_status" ]; then
-    echo "[INFO] Run status of modified workflow (run_id: $run_id) is: $run_status"
+    echo "Run status of modified workflow (run_id: $run_id) is: $run_status"
   fi
   last_run_status=$run_status
   sleep 10
@@ -83,7 +83,7 @@ mkdir -p "$repo"-"$workflow_file"
 mkdir -p "$repo"
 gh run download "$run_id" --repo "$owner"/"$repo" -D "$repo"-"$workflow_file"
 
-echo "[INFO] Finding unused directories and their responsible plugins."
+echo "Finding unused directories and their responsible plugins."
 
 while IFS=' ' read -r job_id name; do
   curl -s -H "Accept: application/vnd.github+json" \

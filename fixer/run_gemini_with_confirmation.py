@@ -84,7 +84,6 @@ def extract_unique_commands(data):
     return unique_commands
 
 
-
 owner = sys.argv[1]
 repo = sys.argv[2]
 path_to_yaml_file=sys.argv[3]
@@ -124,6 +123,7 @@ for instance in unique_commands:
         prompt = (
             f"The command `{command_with_fix_tmp}` creates the following unused directory while running the plugin `{responsible_plugins}`:\n"
             f"{unused_dir}\n"
+            f"We can skip creating any files that are being created in this directory by updating the command.\n"
             f"Please suggest an updated command to avoid creating this unnecessary directory. Provide only the new command without additional explanation, code formatting, or backticks.\n"
         )
 
@@ -152,26 +152,23 @@ for instance in unique_commands:
     with open(full_json_path) as json_file:
         new_data = json.load(json_file)
     
-    all_unused_old = []
-    all_unused_new = []
-    for instance in new_data:
+    all_unused_old = set()
+    all_unused_new = set()
+    for instance in data:
         if instance["Responsible command"] == original_command:
-            if instance["Unused directory"] not in all_unused_old:
-                all_unused_old.append(instance["Unused directory"])
+            all_unused_old.add(os.path.normpath(instance["Unused directory"]).rstrip('/'))
     
     for instance in new_data:
-        if instance["Responsible command"] == fix_suggestion_str:
-            if instance["Unused directory"] not in all_unused_new:
-                all_unused_new.append(instance["Unused directory"])
+        all_unused_new.add(os.path.normpath(instance["Unused directory"]).rstrip('/'))
 
-    diff_only_in_old = [x for x in all_unused_old if x not in all_unused_new]
+    diff_only_in_old = all_unused_old - all_unused_new
 
     print("Summary of the fixes applied:")
     print("-"*10)
     for i in range(len(flattened_fixes)):
         print("directory:", unused_dirs[i])
-        print("fix:", flattened_fixes[i])
+        print("Suggested fix:", flattened_fixes[i])
         print("-"*10)
     
     print("The command with all the fixes is:\n", fix_suggestion_str)
-    print("The directories that were fixed are:\n", all_unused_old)
+    print("The directories that were fixed are:\n", list(diff_only_in_old))
