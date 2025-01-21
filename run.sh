@@ -5,9 +5,9 @@ if [ "$#" -le 3 ]; then
   exit 1
 fi
 
-python3 -m venv venv
+python3 -m venv venv > /dev/null 2>&1
 source venv/bin/activate
-pip install -r requirements.txt
+pip install -r requirements.txt > /dev/null 2>&1
 
 currentDir=$(pwd)
 input_yaml_filename=$1
@@ -28,8 +28,7 @@ echo "[INFO] Finished modifying the original YAML file to find unused directorie
 output_workflow_name=$(echo $output_yaml_filename | rev | cut -d'/' -f1 | rev)
 bash utils.sh "$owner" "$repo" "$path_to_yaml_file" "$branch" $workflow_file $path_to_local_repo $initial_output_file $input_yaml_filename
 
-echo "python3 fixer/run_gemini_with_confirmation.py "$owner" "$repo" "$path_to_yaml_file" "$branch" $workflow_file $path_to_local_repo $fixed_output_file $input_yaml_filename $output_workflow_name $currentDir" 
-python3 fixer/run_gemini_with_confirmation.py "$owner" "$repo" "$path_to_yaml_file" "$branch" "$workflow_file" "$path_to_local_repo" "$fixed_output_file" "$input_yaml_filename" "$output_workflow_name" "$currentDir"
+python3 fixer/run_gemini_with_confirmation.py "$owner" "$repo" "$path_to_yaml_file" "$branch" "$workflow_file" "$path_to_local_repo" "$fixed_output_file" "$input_yaml_filename" "$output_workflow_name" "$currentDir" "$initial_output_file"
 
 if [ "$output_file" != "" ]; then
   echo "[INFO] The output is written to $output_file."
