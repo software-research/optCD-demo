@@ -6,7 +6,6 @@ import mapper.utils
 from tabulate import tabulate
 import json
 
-
 def main():
     if len(sys.argv) != 6:
         print("Usage: find_plugins.py <inotify_log_filename> <workflow_log_filename> <output_file> <input_yaml_filename> <job_name>")
@@ -17,16 +16,8 @@ def main():
     output_file = sys.argv[3]
     input_yaml_filename = sys.argv[4]
     job_name = sys.argv[5]
-    create_responsible_plugins = bool(sys.argv[6]) if len(sys.argv) == 7 else True # if True, create responsible_plugins.json file, if nothing or False, do not create responsible_plugins.json file
-
-    # print the value of create_responsible_plugins
-    print(f"create_responsible_plugins is set to: {create_responsible_plugins}")
 
     if not os.path.isfile(inotify_log_filename):
-        # print("Inotify log does not exist.")
-        if output_file != "":
-            with open(output_file, "a") as output:
-                output.write("Inotify log does not exist.\n")
         sys.exit(1)
 
     with open(inotify_log_filename, "r") as f:
@@ -54,28 +45,24 @@ def main():
                         "Name of the step": step_name
                     })
 
-            if create_responsible_plugins:
-                print("Creating responsible_plugins.json file....")
-                # if responsible_plugins_maven is empty, do not write to file
-                if len(responsible_plugins_maven) != 0:
-                    # if responsible_plugins.json does not exist, create it with empty list
-                    if not os.path.exists("responsible_plugins.json"):
-                        with open("responsible_plugins.json", "w") as output:
-                            json.dump([], output, indent=2)
-
-                    with open("responsible_plugins.json", "r") as output:
-                        data = json.load(output)
-                        data.extend(responsible_plugins_maven)
-                        
+            if len(responsible_plugins_maven) != 0:
+                # if responsible_plugins.json does not exist, create it with empty list
+                if not os.path.exists("responsible_plugins.json"):
                     with open("responsible_plugins.json", "w") as output:
-                        json.dump(data, output, indent=2)
+                        json.dump([], output, indent=2)
+
+                with open("responsible_plugins.json", "r") as output:
+                    data = json.load(output)
+                    data.extend(responsible_plugins_maven)
+                    
+                with open("responsible_plugins.json", "w") as output:
+                    json.dump(data, output, indent=2)
 
             if output_file != "":
                 with open(output_file, "a") as output:
                     output.write(tbl)
             else:
                 print(tbl)
-
 
 if __name__ == '__main__':
     main()

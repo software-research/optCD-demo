@@ -27,7 +27,7 @@ def main():
                 comments.append(line)
 
         modified_file = logger.utils.modify_file_content(repo, loaded_yaml)
-        print(modified_file)
+        # print(modified_file)
 
         with open(output_yaml_filename, "w") as output:
             for comment in comments:

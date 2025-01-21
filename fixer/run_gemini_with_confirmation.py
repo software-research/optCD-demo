@@ -112,28 +112,28 @@ command_set = set()
 
 commands_to_fix = {}
 
-# we extract the unique command and the unused directory from the json file
+# Extract the unique command and the unused directory from the JSON file
 for instance in data:
-    print("instance=", instance)
-    # Loop through each detection result in the JSON
     unused_dir = instance["Unused directory"]
     responsible_command = instance["Responsible command"]
     responsible_plugin = instance["Responsible plugin"]
     step_name = instance["Name of the step"]
-    command_set.add(responsible_command)
 
-    if responsible_command not in command_set:
-        commands_to_fix[responsible_command] = {}
-        commands_to_fix[responsible_command]["unused_dirs_responsible_plugin"] = []
-        commands_to_fix[responsible_command]["Name of the step"] = []
-        command_set.add(responsible_command)
+    if responsible_command not in commands_to_fix:
+        commands_to_fix[responsible_command] = {
+            "unused_dirs_responsible_plugin": [],
+            "step_names": []
+        }
     commands_to_fix[responsible_command]["unused_dirs_responsible_plugin"].append((unused_dir, responsible_plugin))
-    commands_to_fix[responsible_command]["Name of the step"].append(step_name)
+    commands_to_fix[responsible_command]["step_names"].append(step_name)
 
-# Now we create prompt for the unused directory and responsible command, and the responsible plugin. We thus get a fixed command for each unique command
-for responsible_command in commands_to_fix:
-    unused_dirs_responsible_plugin = commands_to_fix[responsible_command]["unused_dirs_responsible_plugin"]
-    step_names = commands_to_fix[responsible_command]["Name of the step"]
+# Create a list to store the commands that need to be fixed
+commands_to_update = []
+
+# Create a prompt for each unique command and get the fix suggestion from Gemini
+for responsible_command, details in commands_to_fix.items():
+    unused_dirs_responsible_plugin = details["unused_dirs_responsible_plugin"]
+    step_names = details["step_names"]
 
     # Create a prompt for each unique command
     prompt = (
@@ -142,18 +142,40 @@ for responsible_command in commands_to_fix:
         f"Please suggest an updated command to avoid unnecessary directories. Provide only the new command.\n"
     )
 
-    print("prompt is as follows: \n",prompt)
+    print("prompt is as follows: \n", prompt)
     fix_suggestion = gemini.ask_prompt(prompt)
-    print("suggested fix for the old command is as follows: \n ",fix_suggestion)
+    print("suggested fix for the old command is as follows: \n ", fix_suggestion)
+
+    # Ask gemini to make the fixed command compilable, if not compilable, then ask for the compilable version.
+    # pass the old command saying that it was compilable, And here is the new command with some fix, ask gemini to make it compilable if not.
+    # If the command is compilable, then return the same command.
+    # create another prompt for this.
+    ask_compilable_prompt = (
+        f"The command `{responsible_command}` is compilable. The command `{fix_suggestion}` is a new command with some fix to prevent generation of unnecessary directories."
+        f"Please make the command `{fix_suggestion}` compilable. If it is already compilable, please return the same command."
+        f"Please give me only the command that is compilable."
+    )
+
+    compilable_fix_suggestion = gemini.ask_prompt(ask_compilable_prompt)
+    print("compilable_fix_suggestion is as follows: \n", compilable_fix_suggestion)
+
+    if compilable_fix_suggestion != fix_suggestion:
+        print("The compilable fix suggestion is different from the original fix suggestion.")
+        print("Original fix suggestion: ", fix_suggestion)
+        print("Compilable fix suggestion: ", compilable_fix_suggestion)
+        fix_suggestion = compilable_fix_suggestion
 
     if str(fix_suggestion) == "" or str(fix_suggestion) == responsible_command:
         print('There is no fix suggestions found')
     else:
-        update_mvn_commands_in_yml(fix_suggestion, repo, responsible_command, path_to_local_repo)
-        script_path = f"{currentDir}/utils.sh"
-        unused_dir_only = os.path.basename(unused_dir.strip('/'))  # Strip trailing slash if present
+        commands_to_update.append((fix_suggestion, responsible_command))
 
-        # Call the Bash script with the variables as arguments
-        subprocess.run([script_path, owner, repo, path_to_yaml_file, branch,
-                     workflow_file, path_to_local_repo, output_file+unused_dir_only+".txt", input_yaml_filename, "False"]
-                    )
+# Apply all the fixes to the YAML files
+for fix_suggestion, responsible_command in commands_to_update:
+    update_mvn_commands_in_yml(fix_suggestion, repo, responsible_command, path_to_local_repo)
+
+# Call the Bash script with the variables as arguments after applying all fixes
+script_path = f"{currentDir}/utils.sh"
+subprocess.run([script_path, owner, repo, path_to_yaml_file, branch,
+                workflow_file, path_to_local_repo, output_file, input_yaml_filename]
+              )
