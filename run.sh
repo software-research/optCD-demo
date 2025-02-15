@@ -15,7 +15,7 @@ output_yaml_filename=$2
 owner=$3
 repo=$4
 initial_output_file=$5
-fixed_output_file=$6
+fixed_output_file="temp_out.txt"
 
 rm $initial_output_file > /dev/null 2>&1
 rm $fixed_output_file > /dev/null 2>&1
@@ -29,10 +29,11 @@ python modify_yaml.py "$input_yaml_filename" "$output_yaml_filename" "$repo"
 
 echo "Finished modifying the original YAML file to find unused directories."
 output_workflow_name=$(echo $output_yaml_filename | rev | cut -d'/' -f1 | rev)
-bash utils.sh "$owner" "$repo" "$path_to_yaml_file" "$branch" $workflow_file $path_to_local_repo $initial_output_file $input_yaml_filename
+bash utils.sh "$owner" "$repo" "$path_to_yaml_file" "$branch" "$workflow_file" "$path_to_local_repo" "$initial_output_file" "$input_yaml_filename"
 echo "Finding and testing fixes for unused directories."
 python3 fixer/run_gemini_with_confirmation.py "$owner" "$repo" "$path_to_yaml_file" "$branch" "$workflow_file" "$path_to_local_repo" "$fixed_output_file" "$input_yaml_filename" "$output_workflow_name" "$currentDir" "$initial_output_file"
 
-# if [ "$output_file" != "" ]; then
-#   echo "The output is written to $output_file."
-# fi
+if [ "$initial_output_file" != "" ]; then
+  # copy the content of the $fixed_output_file to $initial_output_file , just append at the end of the $initial_output_file
+  echo "The output is written to $initial_output_file."
+fi
