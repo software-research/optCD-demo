@@ -33,6 +33,8 @@ def cluster_files(unused_files: list[str], used_files: list[str]) -> list[str]:
     paths = []
     unused_dirs = []
 
+    does_surefire_repost_has_xml_files = False
+
     if len(unused_files) == 1 and is_file(unused_files[0]):
         last_sep_index = unused_files[0].rfind(os.sep)
         paths.append(unused_files[0][:last_sep_index + 1])
@@ -52,5 +54,16 @@ def cluster_files(unused_files: list[str], used_files: list[str]) -> list[str]:
                     continue
                 if new_path not in paths and new_path not in unused_dirs:
                     paths.append(new_path)
+
+    # if unused_dirs's normalized path ends with "target/surefire-reports", then we need to check if there are any xml files as unused_file in the directory. If not then we want to remove the dir from unused dirs
+    for unused_dir in unused_dirs:
+        normalized_path = os.path.normpath(unused_dir)
+        if normalized_path.endswith("target/surefire-reports"):
+            for unused_file in unused_files:
+                if unused_file.endswith(".xml") and unused_file.startswith(unused_dir):
+                    does_surefire_repost_has_xml_files = True
+                    break
+            if not does_surefire_repost_has_xml_files:
+                unused_dirs.remove(unused_dir)
 
     return unused_dirs

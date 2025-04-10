@@ -92,6 +92,9 @@ while IFS=' ' read -r job_id name; do
         -L "https://api.github.com/repos/$owner/$repo/actions/jobs/$job_id/logs" \
         -o "$repo"/workflow-run-log-"$name"-"$workflow_file".txt
 
+  # echo name of job into the output_file
+  echo "Result for job $name" >> "$output_file"
+
   python find_plugins.py "$repo"-"$workflow_file"/inotifywait-"$name"/inotifywait-log-"$name".csv "$repo"/workflow-run-log-"$name"-"$workflow_file".txt "$output_file" "$input_yaml_filename" "$name"
 
   ret_val=$?

@@ -123,6 +123,8 @@ with open(full_json_path) as json_file:
 
 unique_commands = extract_unique_commands(data)
 
+all_solutions = []
+
 for instance in unique_commands:
     original_command = unique_commands[instance]["command"]
     unused_dirs = unique_commands[instance]["unused_dirs"]
@@ -153,7 +155,7 @@ for instance in unique_commands:
             f"The command `{original_command}` creates the following unused directory:"
             f"{unused_dir}\n"
             f"while running the plugin `{responsible_plugin_for_dir}`:\n"
-            f"We can skip creating any files that are being created in this directory by updating the command.\n"
+            f"We can skip creating any files that are being created in this directory by updating the command. The fix normally include skipping the execution of the plugin responsible.\n"
             f"Please suggest an updated command to avoid creating this unnecessary directory. Note that your command should not stop the test runs. For example, using -DskipTests would prevent Maven tests from running, which is not acceptable. Therefore, your solution should not include such options.\n"
             f"A valid fix would disable the generation of the unused directory without affecting the test runs.For example `-DdisableXmlReport=true` would disable generation of surefire reports directory without affecting test runs and is considered a valid fix if unused directory is surefire-reports.\n"
             f"Provide only the new command without additional explanation, code formatting, or backticks."
