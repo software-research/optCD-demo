@@ -69,7 +69,7 @@ while true; do
   last_run_status=$run_status
   sleep 10
 done
-# run_id=12878741482
+
 # get job ids inside of modified yaml workflow run
 job_ids=$(gh run view "$run_id" --repo "$owner"/"$repo" --json jobs --jq '.jobs.[] | (.databaseId | tostring) + " " + .name')
 
@@ -78,6 +78,8 @@ while IFS=' ' read -r job_id name; do
 done <<< "$job_ids"
 
 # rm -rf "$output_file"
+
+echo "[]" > "responsible_plugins.json"
 
 mkdir -p "$repo"-"$workflow_file"
 mkdir -p "$repo"

@@ -182,7 +182,7 @@ for instance in unique_commands:
     fix_suggestion_str = original_command + ' ' + ' '.join(sorted(fix_args))
 
     print(f"Fix suggestion for the command '{original_command}'")
-    print(f"is:\n {fix_suggestion_str}")
+    print(f"is: '{fix_suggestion_str}'")
 
     update_mvn_commands_in_yml(fix_suggestion_str, repo, original_command, path_to_local_repo)
 
@@ -192,34 +192,47 @@ for instance in unique_commands:
                     workflow_file, path_to_local_repo, output_file, input_yaml_filename]
                 )
 
-    with open(full_json_path) as json_file:
-        new_data = json.load(json_file)
-    
     all_unused_old = set()
     all_unused_new = set()
     for instance in data:
         if instance["Responsible command"] == original_command:
             all_unused_old.add(os.path.normpath(instance["Unused directory"]).rstrip('/'))
-    
-    for instance in new_data:
-        all_unused_new.add(os.path.normpath(instance["Unused directory"]).rstrip('/'))
 
-    diff_only_in_old = all_unused_old - all_unused_new
+    try:
+        with open(full_json_path) as json_file:
+            new_data = json.load(json_file)
 
-    # remove duplicates from the list diff_only_in_old
-    diff_only_in_old = list(dict.fromkeys(diff_only_in_old))
+        for instance in new_data:
+            all_unused_new.add(os.path.normpath(instance["Unused directory"]).rstrip('/'))
 
-    # if any content in the diff_only_in_old list contains "maven-status" then remove it
-    diff_only_in_old = [x for x in diff_only_in_old if "maven-status" not in x]
+        diff_only_in_old = all_unused_old - all_unused_new
+
+        # remove duplicates from the list diff_only_in_old
+        diff_only_in_old = list(dict.fromkeys(diff_only_in_old))
+
+        # if any content in the diff_only_in_old list contains "maven-status" then remove it
+        diff_only_in_old = [x for x in diff_only_in_old if "maven-status" not in x]
 
 
-    with open(initial_output_file, 'a') as f:
-        f.write(f"Command: {original_command}\n")
-        f.write(f"Fixes: {fixes}\n")
-        f.write(f"following directories are fixed:\n")
-        for dir in diff_only_in_old:
-            f.write(f"{dir}\n")
-        f.write("-"*10 + "\n")
-        f.write("fixed command: " + fix_suggestion_str + "\n")
-        f.write("-"*10 + "\n")
-        f.write("\n")
+        with open(initial_output_file, 'a') as f:
+            f.write(f"Command: {original_command}\n")
+            f.write(f"Fixes: {fixes}\n")
+            f.write(f"following directories are fixed:\n")
+            for dir in diff_only_in_old:
+                f.write(f"{dir}\n")
+            f.write("-"*10 + "\n")
+            f.write("fixed command: " + fix_suggestion_str + "\n")
+            f.write("-"*10 + "\n")
+            f.write("\n")
+    except FileNotFoundError:
+        # in this case, the fixes successfully removed all the unused directories, therefore new json file is empty
+        with open(initial_output_file, 'a') as f:
+            f.write(f"Command: {original_command}\n")
+            f.write(f"Fixes: {fixes}\n")
+            f.write(f"following directories are fixed:\n")
+            for dir in all_unused_old:
+                f.write(f"{dir}\n")
+            f.write("-"*10 + "\n")
+            f.write("fixed command: " + fix_suggestion_str + "\n")
+            f.write("-"*10 + "\n")
+            f.write("\n")
