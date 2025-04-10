@@ -15,7 +15,6 @@ import time
 # warnings.simplefilter("ignore", NotOpenSSLWarning)
 warnings.filterwarnings("ignore")
 
-
 class GeminiAPI:
     def __init__(self):
         api_key = os.environ["GEMINI_API_KEY"]
@@ -134,46 +133,51 @@ for instance in unique_commands:
     fixed_dirs = set()
 
     for unused_dir in unused_dirs:
+        unused_dir = os.path.normpath(unused_dir)
 
         if os.path.basename(unused_dir) in fixed_dirs:
             continue
 
+        # Find the responsible plugin for the current unused directory
+        responsible_plugin_for_dir = None
+        for item in data:
+            if os.path.normpath(item["Unused directory"]) == unused_dir:
+                responsible_plugin_for_dir = item["Responsible plugin"]
+                break
+
+        if not responsible_plugin_for_dir:
+            print(f"No responsible plugin found for unused directory: {unused_dir}")
+            continue
+
         prompt = (
-                f"The command `{original_command}` creates the following unused directory:"
-                f"{unused_dir}\n"
-                f"while running the plugin `{responsible_plugins}`:\n"
-                f"We can skip creating any files that are being created in this directory by updating the command.\n"
-                f"Please suggest an updated command to avoid creating this unnecessary directory. Note that your command should not stop the test runs. For example, using -DskipTests would prevent Maven tests from running, which is not acceptable. Therefore, your solution should not include such options unless the command already contains -DskipTests\n"
-                f"A valid fix would disable the generation of the unused directory without affecting the test runs. For example `-DdisableXmlReport=true` would disable generation of surefire reports directory without affecting test runs and is considered a valid fix if unused directory is surefire-reports.\n"
-                f"Provide only the new command without additional explanation, code formatting, or backticks."
-            )
-            
+            f"The command `{original_command}` creates the following unused directory:"
+            f"{unused_dir}\n"
+            f"while running the plugin `{responsible_plugin_for_dir}`:\n"
+            f"We can skip creating any files that are being created in this directory by updating the command.\n"
+            f"Please suggest an updated command to avoid creating this unnecessary directory. Note that your command should not stop the test runs. For example, using -DskipTests would prevent Maven tests from running, which is not acceptable. Therefore, your solution should not include such options.\n"
+            f"A valid fix would disable the generation of the unused directory without affecting the test runs.For example `-DdisableXmlReport=true` would disable generation of surefire reports directory without affecting test runs and is considered a valid fix if unused directory is surefire-reports.\n"
+            f"Provide only the new command without additional explanation, code formatting, or backticks."
+        )
+
         fix_suggestion = gemini.ask_prompt(prompt)
-        # sleep for 10 seconds to avoid rate limiting
-        time.sleep(10)
+        print(f"Fix suggestion for the command '{original_command} ' is:\n {fix_suggestion}")
+        
+        time.sleep(12)  # Avoid rate limiting
 
         unused_dir_name = os.path.basename(unused_dir)
         fixed_dirs.add(unused_dir_name)
 
-        if str(fix_suggestion) == "" or str(fix_suggestion) == command_with_fix_tmp:
-            print(f'There is no fix suggestion found for the unused directory: {unused_dir}')
-            fixes.append("Gemini did not provide a fix")
+        if str(fix_suggestion) == "" or str(fix_suggestion) == original_command:
+            with open(initial_output_file, 'a') as f:
+                f.write(f"[FIXER ERROR] There is no fix suggestion found for the unused directory: {unused_dir}\n")
         else:
-            # find the difference between the original command and the fix suggestion
-            difference = [x for x in fix_suggestion.split() if x not in original_command.split()]
-            fixes.append(difference)
-            fix_args.add(fix_suggestion)
-            # command_with_fix_tmp = fix_suggestion
+            # Extract only the new arguments from the fix suggestion
+            new_args = [x for x in fix_suggestion.split() if x not in original_command.split()]
+            fixes.extend(new_args)  # Add the new arguments to the fixes list
+            fix_args.update(new_args)  # Add the new arguments to the fix_args set
 
-    # Flatten the fixes list
-    flattened_fixes_list = [item for sublist in fixes for item in sublist if isinstance(sublist, list)]
-    # fix_suggestion_str = original_command + ' ' + ' '.join([f'"{fix}"' for fix in flattened_fixes])
-
-    # flatten the fix arguments, and join them with the original command
-    # Extract only the new arguments from the fix suggestions
-    flattened_fixes = {arg for fix in fix_args for arg in fix.split() if arg not in original_command.split()}
-    fix_suggestion_str = original_command + ' ' + ' '.join(flattened_fixes)
-
+    # Combine all unique fixes into the final fixed command
+    fix_suggestion_str = original_command + ' ' + ' '.join(sorted(fix_args))
 
     print(f"Fix suggestion for the command '{original_command}'")
     print(f"is:\n {fix_suggestion_str}")
@@ -209,13 +213,11 @@ for instance in unique_commands:
 
     with open(initial_output_file, 'a') as f:
         f.write(f"Command: {original_command}\n")
-        f.write(f"Fixes: {flattened_fixes_list}\n")
+        f.write(f"Fixes: {fixes}\n")
         f.write(f"following directories are fixed:\n")
-        # f.write(f"Fixed directories: {list(diff_only_in_old)}\n") print 1 directory per line. not as a list. each entry in a new line
         for dir in diff_only_in_old:
             f.write(f"{dir}\n")
         f.write("-"*10 + "\n")
         f.write("fixed command: " + fix_suggestion_str + "\n")
         f.write("-"*10 + "\n")
         f.write("\n")
-    f.close()
