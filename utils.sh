@@ -95,7 +95,12 @@ while IFS=' ' read -r job_id name; do
         -o "$repo"/workflow-run-log-"$name"-"$workflow_file".txt
 
   # echo name of job into the output_file
-  echo "Result for job $name" >> "$output_file"
+  # echo "Result for job $name" >> "$output_file" if name does not has windows or mac in it, then write it
+  if [[ "$name" == *"windows"* || "$name" == *"mac"* ]]; then
+    # echo "Skipped job $name" >> "$output_file"
+  else
+    echo "Result for job $name" >> "$output_file"
+  fi
 
   python find_plugins.py "$repo"-"$workflow_file"/inotifywait-"$name"/inotifywait-log-"$name".csv "$repo"/workflow-run-log-"$name"-"$workflow_file".txt "$output_file" "$input_yaml_filename" "$name"
 
