@@ -46,6 +46,20 @@ def _plugin_words(name: str) -> list[str]:
     return [w for w in words if w not in _STOPWORDS]
 
 
+def _maven_part(rel: str) -> str:
+    """The part of the path that Maven names: after target/, and before
+    classes/ or test-classes/, below which come Java package names. Module
+    and package names say nothing about the plugin, and can match execution
+    ids by accident (checkstyle's package 'checkstyle' matched the execution
+    'run-checkstyle-files-generator'). The module is handled separately."""
+    full = "/" + rel
+    part = "/" + (full.split("/target/", 1)[1] if "/target/" in full else rel)
+    for cut in ("/classes/", "/test-classes/"):
+        if cut in part:
+            part = part.split(cut, 1)[0] + cut
+    return part
+
+
 def _module_of(name: str) -> str:
     return name.split(" @ ")[-1].strip().lower() if " @ " in name else ""
 
@@ -106,7 +120,7 @@ def pick_plugin(started_names: list[str], unused_dir: str, strategy: str = DEFAU
     if same:
         candidates = same
 
-    query = [w for w in _words(rel) if w not in _STOPWORDS]
+    query = [w for w in _words(_maven_part(rel)) if w not in _STOPWORDS]
     query += [plugin for dirname, plugin in _KNOWN_DIRS.items() if f"/{dirname}" in "/" + rel]
     scores = _tfidf_scores(query, [_plugin_words(c) for c in candidates])
     best = max(scores) if scores else 0.0
