@@ -121,6 +121,27 @@ if not os.path.exists(full_json_path):
 with open(full_json_path) as json_file:
     data = json.load(json_file)
 
+# Directories that are always generated and cannot be switched off without
+# disabling a step the build needs. The OptCD paper (ASE 2023, Sec. III-D and
+# V-A) excludes maven-status/ for this reason. Previously it was only dropped
+# from the "fixed" list after Gemini had been asked, the workflow rewritten
+# and the build re-run (see the filter further below).
+UNREMOVABLE_DIRS = ("maven-status",)
+
+
+def is_unremovable(unused_dir):
+    parts = os.path.normpath(unused_dir).replace("\\", "/").split("/")
+    return any(name in parts for name in UNREMOVABLE_DIRS)
+
+
+for item in data:
+    if is_unremovable(item["Unused directory"]):
+        print(f"Skipping unremovable directory (not sent to Gemini): {item['Unused directory']}")
+data = [item for item in data if not is_unremovable(item["Unused directory"])]
+if not data:
+    print("Only unremovable directories found; nothing to fix.")
+    sys.exit(0)
+
 unique_commands = extract_unique_commands(data)
 
 all_solutions = []
@@ -211,7 +232,7 @@ for instance in unique_commands:
         diff_only_in_old = list(dict.fromkeys(diff_only_in_old))
 
         # if any content in the diff_only_in_old list contains "maven-status" then remove it
-        diff_only_in_old = [x for x in diff_only_in_old if "maven-status" not in x]
+        diff_only_in_old = [x for x in diff_only_in_old if not is_unremovable(x)]
 
 
         with open(initial_output_file, 'a') as f:
